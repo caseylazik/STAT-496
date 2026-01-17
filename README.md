@@ -1,1 +1,2 @@
-"# STAT-496" 
+STAT 496 Project
+
