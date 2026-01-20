@@ -3,23 +3,23 @@ Ideas for STAT 496 Project with (1) Being Most Considered to do and (4) Least Li
 
 (1) Writing at different grade levels - Prompt the LLM to rewrite the same reading passage for multiple different grade levels (accross multiple runs).
 
-I could then analyze the style, vocabulary, and other metrics for writing, where I might compare it to actual students of those grades while changing
+We could then analyze the style, vocabulary, and other metrics for writing, where we might compare it to actual students of those grades while changing
 
 the topics, as well see if A.I. differs on any in specific.
 
 
-(2) Movie Earnings - Ask the LLM to predict the average movie earnings for a move given its features (like cast, budget, genre, etc.). I would do repeated 
+(2) Movie Earnings - Ask the LLM to predict the average movie earnings for a move given its features (like cast, budget, genre, etc.). We would do repeated 
 
 trials and see how changing each variable changes the output, as well as compare to the real movie earning data, potentially making this time dependent
 
 (how much will a movie earn by day x, y, z... based on its variables).
 
 
-(3) Epidemic - I could ask the LLM to predict a disease's spread and infections over a period of time, given its rate of transmission, vaccine rates,
+(3) Epidemic - We could ask the LLM to predict a disease's spread and infections over a period of time, given its rate of transmission, vaccine rates,
 
 social distancing, etc.
 
 
-(4) Sports team performance - Ask the LLM to project a sport team's (say in football) performance throughout the season given all the factors including
+(4) Sports team performance - Ask the LLM to project a sport team's (say soccer or American football) performance throughout the season given all the factors including
 
 the teams they would have to face. Could make this into time series by looking throughout the season for changes.
