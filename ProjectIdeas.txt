@@ -23,3 +23,5 @@ social distancing, etc.
 (4) Sports team performance - Ask the LLM to project a sport team's (say soccer or American football) performance throughout the season given all the factors including
 
 the teams they would have to face. Could make this into time series by looking throughout the season for changes.
+
+(5) What affects resume evaluation? - Give the LLM many resumes varied in certain ways(our variables we are testing) and ask it to rate the strength of the resume or if it would recommend it or some way of evaluating it. Could vary job descriptions/industries as well
