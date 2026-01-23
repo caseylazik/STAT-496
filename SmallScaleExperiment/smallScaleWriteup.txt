@@ -1,0 +1,20 @@
+This is our brief writeup of the small scale experiment that we did.
+
+
+Project Idea:  What affects the resume evaluation of LLMs?
+
+
+Prompts that We Used:
+
+
+
+Responses Received from the LLM:
+
+
+How Might we Improve our Experiment:
+
+- Variables we intend to vary:
+- How we will expand on starting experiment:
+- How we will automate largescale data collection:
+
+

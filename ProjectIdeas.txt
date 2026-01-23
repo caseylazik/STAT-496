@@ -1,4 +1,4 @@
-Ideas for STAT 496 Project with (1) Being Most Considered to do and (4) Least Likely:
+Ideas for STAT 496 Project (tentatively choosing (5)):
 
 
 (1) Writing at different grade levels - Prompt the LLM to rewrite the same reading passage for multiple different grade levels (accross multiple runs).
@@ -23,5 +23,8 @@ social distancing, etc.
 (4) Sports team performance - Ask the LLM to project a sport team's (say soccer or American football) performance throughout the season given all the factors including
 
 the teams they would have to face. Could make this into time series by looking throughout the season for changes.
+
+
+I really like this idea because of current use cases in real life.
 
 (5) What affects resume evaluation? - Give the LLM many resumes varied in certain ways(our variables we are testing) and ask it to rate the strength of the resume or if it would recommend it or some way of evaluating it. Could vary job descriptions/industries as well
