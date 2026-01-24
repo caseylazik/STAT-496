@@ -3,6 +3,9 @@ This is our brief writeup of the small scale experiment that we did.
 
 Project Idea:  What affects the resume evaluation of LLMs?
 
+LLM we used:
+
+
 
 Prompts that We Used:
 
