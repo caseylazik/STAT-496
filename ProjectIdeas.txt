@@ -25,6 +25,6 @@ social distancing, etc.
 the teams they would have to face. Could make this into time series by looking throughout the season for changes.
 
 
-I really like this idea because of current use cases in real life.
+I really like this idea because of current use cases in real life. We should try to use json because that resembles resumes more than csv or txt.
 
 (5) What affects resume evaluation? - Give the LLM many resumes varied in certain ways(our variables we are testing) and ask it to rate the strength of the resume or if it would recommend it or some way of evaluating it. Could vary job descriptions/industries as well

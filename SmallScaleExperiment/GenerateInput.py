@@ -18,9 +18,11 @@ names = ["John Smith", "Emma Jones",  # White-American
          "Tyrone Brown", "Jasmine Davis",  # African-American
          "Carlos Rodriguez", "Maria Garcia",  # Hispanic
          "Wei Zhang", "Mei Chen"]  # Chinese
+
 experiences = ["None", "Internship at an insurance company"]
 education = ["High School", "Bachelor's", "Master's", "Phd"]
-skills = ["None", "Actuarial exam progress (e.g., ASA, FSA)", ""]
+skills = ["None", "Actuarial exam progress (e.g., ASA, FSA)",
+          "Proficient in R, SQL, and Python"]
 
 # Write to folder
 resume_num = 1
