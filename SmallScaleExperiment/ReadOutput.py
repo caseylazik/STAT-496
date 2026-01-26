@@ -29,7 +29,7 @@ for output_filename in os.listdir(OUTPUT_FOLDER):
     # Check if rec_text is None/null (getOuput failed on that output file)
     if not rec_text or rec_text.strip().lower() == "null":
         print(f"Warning: Output for {output_filename} is empty or null.")
-        print(f"Delete {output_file} and rerun GetOutput.py to regenerate it.")
+        print("Rerun GetOutput.py to regenerate it.")
         continue
 
     text_lines = rec_text.split("\n")
