@@ -37,7 +37,7 @@ Reason: <brief explanation, less than 2 sentences>
 Responses Received from the LLM: 
 
 The responses that we received from the LLM was whether or not the LLM would approve the candidate of the resume to go further into the application process of the job.
-We also got a brief reason for each decision. Our results weren't glaringly indicative name bias with our small amount of data. The LLM really seemed to hone in on the skills section
+We also got a brief reason for each decision. Our results weren't glaringly indicative of name bias with our small amount of data. The LLM really seemed to hone in on the skills section
 of resumes.
 
 
@@ -46,13 +46,13 @@ How Might we Improve our Experiment:
 - Variables we intend to vary:
 
   We intend on varying the variables: Name (grouped by ethnicity), Experience, Education, and Skills. We plan to improve our experiment by adding more options for each variable we change.
-  We would also consider adding other variables or making our current ones more detailed (e.g. major and name of School graduated from).
+  We would also consider adding other variables and making our current ones more detailed (e.g. major and name of School graduated from).
 
 - How we will expand on starting experiment:
 
   We will prompt the LLM to choose from a group of reasons for why a candidate was or was not selected to be moved forward in the hiring process. This would let us analyze the reasons systematically. We also plan on trying
   a different job to see any differences. Potentially incorporate LLM memory to see any differences with the results. We are also going to strengthen the prompt for our final
-  project, and also do a variant of it to see any differences.
+  project, and do a variant of it to see any differences. Statistical tests will be incorporated in our project as well.
 
 - How we will automate largescale data collection:
 
