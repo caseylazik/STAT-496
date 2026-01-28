@@ -54,4 +54,6 @@ summary2 = df.groupby("skills")["recommendation"].value_counts().unstack(fill_va
 
 print(summary)
 print()
+
+# Variety in output from skills
 print(summary2)
