@@ -73,4 +73,5 @@ for filename in os.listdir(INPUT_FOLDER):
             json.dump(evaluation, f, indent=2)
 
 
+
 print("All done")
