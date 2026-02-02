@@ -7,7 +7,7 @@ import json
 # Make sure to set this up correctly via google API kep webpage
 client = genai.Client()
 
-INPUT_FOLDER = "PromptInputs"
+INPUT_FOLDER = "../PromptInputs"
 OUTPUT_FOLDER = "PromptOutputs"
 
 
