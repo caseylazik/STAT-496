@@ -4,7 +4,6 @@ import json
 
 
 client = genai.Client()
-
 output_path = "InputtedResumes"
 
 
@@ -21,6 +20,8 @@ years_of_college = [0, 1, 2, 3, 4, 5, 6] # Instead of degree earned
 
 experience = ["No prior experience in relevant field", "A single Internship in the field", 
               "Multiple Internships in relevant field", "Prior Job experience in the field", "Research done in relevant field"]
+
+
 
 
 
@@ -49,12 +50,7 @@ Return the resume in STRICT JSON format with the following fields:
 
 
 
-
-
-
-
-
-jobs = ["Actuary", "Software Engineer", "Retail Salesperson", "Nurse", "High School Teacher"]
+jobs = ["Actuary", "Software Engineer", "Retail Salesperson", "Marketing", "High School Teacher"]
 
 
 
@@ -68,12 +64,18 @@ software_engineer_skills = []
 
 retail_salesperson_skills = []
 
-nurse_skills = []
+marketing_skills = []
 
 high_school_teacher_skills = []
 
 
-all_skills =[actuarial_skills, software_engineer_skills, retail_salesperson_skills, nurse_skills, high_school_teacher_skills]
+all_skills =[actuarial_skills, software_engineer_skills, retail_salesperson_skills, marketing_skills, high_school_teacher_skills]
+
+
+
+
+
+
 
 
 # How many resumes of the same prompt to the ai we generate
