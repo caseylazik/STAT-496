@@ -58,15 +58,18 @@ jobs = ["Actuary", "Software Engineer", "Retail Salesperson", "Marketing", "High
 
 
 
-actuarial_skills = []
+actuarial_skills = ["None", "Actuarial exam progress (e.g., ASA, FSA)",
+          "Proficient in R, SQL, and Python"]
 
-software_engineer_skills = []
+software_engineer_skills = ["None", "Proficient in Java and Python", "Proficient in C++", "Proficient in SQL", 
+                            "Machine Learning Certificate"]
 
-retail_salesperson_skills = []
+retail_salesperson_skills = ["None", "Product Knowledge", "Strong Social Skills", "Customer Service"]
 
-marketing_skills = []
+marketing_skills = ["None", "Website Management", "Microsoft Office Suite Profficiency", 
+                    "Social Media Management", "Data Analysis"]
 
-high_school_teacher_skills = []
+high_school_teacher_skills = ["None", "First Aid Certification", "Microsoft Office Suite Profficiency"]
 
 
 all_skills =[actuarial_skills, software_engineer_skills, retail_salesperson_skills, marketing_skills, high_school_teacher_skills]
