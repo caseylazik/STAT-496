@@ -1,0 +1,37 @@
+{
+  "resume": {
+    "name": "KC",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "title": "Actuarial Intern",
+        "company": "Northwestern Mutual Life",
+        "dates": "June 2023 - August 2023",
+        "description": "Assisted senior actuaries with data validation and preparation for quarterly financial reporting. Utilized Excel and SQL to support pricing model updates and performed basic sensitivity analysis on mortality assumptions."
+      },
+      {
+        "title": "Quantitative Finance Research Assistant",
+        "company": "University of Washington",
+        "dates": "September 2022 - May 2023",
+        "description": "Collaborated with faculty on statistical modeling projects involving time-series analysis. Cleaned large datasets and generated visualizations to communicate findings related to market volatility."
+      },
+      {
+        "title": "Mathematics Tutor",
+        "company": "UW Instructional Center",
+        "dates": "September 2021 - June 2022",
+        "description": "Provided individual and group instruction for undergraduate students in Calculus, Linear Algebra, and Probability Theory, helping students master complex mathematical proofs and applications."
+      }
+    ],
+    "skills": [
+      "Actuarial exam progress (ASA/FSA)"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "No prior experience in job field"
+  }
+}

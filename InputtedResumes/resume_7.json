@@ -1,0 +1,37 @@
+{
+  "resume": {
+    "name": "KC",
+    "education": {
+      "institution": "Harvard University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "Liberty Mutual Insurance",
+        "title": "Actuarial Intern",
+        "dates": "June 2023 - August 2023",
+        "description": "Assisted the life insurance pricing team with data reconciliation and model validation using Excel and SQL. Performed sensitivity analysis on various interest rate scenarios to support quarterly reporting."
+      },
+      {
+        "company": "Harvard University Department of Statistics",
+        "title": "Peer Tutor",
+        "dates": "September 2022 - May 2024",
+        "description": "Facilitated weekly tutoring sessions for undergraduate students in Probability and Linear Algebra. Explained complex mathematical concepts and assisted with the application of statistical software."
+      },
+      {
+        "company": "Student Financial Services",
+        "title": "Administrative Assistant",
+        "dates": "September 2021 - May 2022",
+        "description": "Managed high-volume data entry and digital filing for student accounts. Ensured accuracy of financial records and provided customer service to students regarding billing inquiries."
+      }
+    ],
+    "skills": [
+      "Actuarial exam progress (ASA/FSA)"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "No prior experience in job field"
+  }
+}

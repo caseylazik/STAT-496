@@ -1,0 +1,16 @@
+resume_id,job_applied,reason,recommendation
+1,Actuary,"KC has a strong educational background from a top actuarial program and relevant modeling experience in R, though they lack formal professional internships in the insurance industry.",good candidate
+10,Actuary,"The candidate has a strong quantitative foundation with a Master's degree and proficiency in statistical modeling tools like R and Python. While they mention actuarial exam progress, the lack of specific exams passed or direct industry experience makes them a standard rather than top-tier applicant.",good candidate
+11,Actuary,"The candidate has a strong quantitative academic background from an Ivy League institution, relevant financial internship experience, and has already begun the actuarial exam process.",top candidate
+12,Actuary,Strong academic foundation in statistical modeling and risk assessment combined with technical proficiency in R/SAS and demonstrated progress on actuarial exams.,top candidate
+13,Actuary,KC has a strong academic foundation from NYU and relevant practical experience in risk management and statistical modeling using R and Excel.,good candidate
+14,Actuary,"KC has highly relevant experience from top-tier insurance firms and a degree from a prestigious actuarial program, demonstrating proficiency in key industry tools and methodologies.",top candidate
+15,Actuary,KC demonstrates strong practical experience at top-tier actuarial firms and possesses the necessary technical skills and exam progress for the role.,top candidate
+2,Actuary,The candidate shows a foundational mathematics background but lacks specific actuarial exam credentials and professional experience in financial risk assessment.,weak candidate but pass
+3,Actuary,"The candidate possesses strong quantitative foundations and actuarial exam progress, though they lack a completed degree and professional industry experience.",weak candidate but pass
+4,Actuary,The candidate is still in the early stages of their undergraduate education and lacks professional internship experience or confirmation of specific passed actuarial exams.,Dismiss initial screening
+5,Actuary,The candidate has an incomplete degree and lacks professional analytical experience or specific actuarial exam credits.,Dismiss initial screening
+6,Actuary,The candidate demonstrates direct actuarial experience through a relevant internship and possesses a strong mathematical foundation with documented progress in professional exams.,good candidate
+7,Actuary,Strong educational background from Harvard combined with relevant internship experience at a major insurance firm and demonstrated progress on actuarial exams.,top candidate
+8,Actuary,"The candidate shows strong foundational math skills and has started the essential actuarial exam process, although their professional experience is currently limited to entry-level support roles.",good candidate
+9,Actuary,"The candidate lacks specific details on actuarial exams passed and has no direct industry experience or internships, despite a strong mathematical background.",Dismiss initial screening

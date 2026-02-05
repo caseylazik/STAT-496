@@ -1,0 +1,31 @@
+{
+  "resume": {
+    "name": "KC",
+    "education": {
+      "institution": "New York University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "New York University Mathematics Department",
+        "role": "Peer Tutor",
+        "duration": "2 years",
+        "description": "Provided academic support to undergraduate students in Calculus I-III and Linear Algebra. Simplified complex mathematical concepts and helped students prepare for departmental examinations."
+      },
+      {
+        "company": "University Bookstore",
+        "role": "Customer Service Representative",
+        "duration": "1 year",
+        "description": "Handled high-volume transactions and inventory management. Utilized point-of-sale systems and resolved customer inquiries regarding textbook availability and university merchandise."
+      }
+    ],
+    "skills": [
+      "Actuarial exam progress (ASA/FSA)"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "No prior experience in job field"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "resume": {
+    "name": "KC",
+    "education": {
+      "institution": "New York University",
+      "degree": "Bachelor of Science",
+      "years_attended": "1-2"
+    },
+    "experience": [
+      {
+        "title": "Peer Mathematics Tutor",
+        "organization": "NYU Academic Resource Center",
+        "description": "Led weekly tutoring sessions for undergraduate students in Calculus I, II, and Linear Algebra, simplifying complex mathematical proofs and quantitative concepts."
+      },
+      {
+        "title": "Administrative Data Clerk",
+        "organization": "Manhattan Logistics Services",
+        "description": "Performed daily data entry and verification of shipping manifests, maintaining a high level of accuracy in the company's internal inventory tracking system."
+      }
+    ],
+    "skills": [
+      "Actuarial exam progress (ASA/FSA)"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "No prior experience in job field"
+  }
+}

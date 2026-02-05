@@ -1,0 +1,34 @@
+{
+  "resume": {
+    "name": "KC",
+    "education": {
+      "institution": "University of Waterloo",
+      "degree": "Bachelor of Mathematics in Actuarial Science",
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "company": "University Mathematics Department",
+        "role": "Peer Tutor",
+        "description": "Provided academic support to undergraduate students in multivariable calculus, linear algebra, and introductory probability theory."
+      },
+      {
+        "company": "City Community Center",
+        "role": "Administrative Assistant",
+        "description": "Managed membership databases using Excel, ensuring data integrity and generating weekly participation reports for management."
+      },
+      {
+        "company": "Academic Capstone Project",
+        "role": "Lead Researcher",
+        "description": "Developed a stochastic model to simulate interest rate fluctuations using R, presenting findings on potential impact to annuity valuations."
+      }
+    ],
+    "skills": [
+      "Actuarial exam progress (ASA/FSA)"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "No prior experience in job field"
+  }
+}

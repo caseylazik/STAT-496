@@ -1,0 +1,31 @@
+{
+  "resume": {
+    "name": "KC",
+    "education": {
+      "institution": "University of Central Florida",
+      "degree": "Bachelor of Science",
+      "years_attended": "1-2"
+    },
+    "experience": [
+      {
+        "company": "University of Central Florida - Mathematics Department",
+        "role": "Peer Tutor",
+        "dates": "2022-2023",
+        "description": "Provided academic support for students in Calculus III and Statistics courses, explaining complex mathematical concepts and assisting with probability theory problems."
+      },
+      {
+        "company": "UCF Actuarial Science Club",
+        "role": "Research Project Assistant",
+        "dates": "2022",
+        "description": "Collaborated on a data analysis project using Excel to model hypothetical life expectancy tables based on CDC demographic data. Assisted in presenting findings on mortality risk factors to club members."
+      }
+    ],
+    "skills": [
+      "Actuarial exam progress (ASA/FSA)"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "No prior experience in job field"
+  }
+}

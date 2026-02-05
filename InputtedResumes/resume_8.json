@@ -1,0 +1,39 @@
+{
+  "resume": {
+    "name": "KC",
+    "education": {
+      "institution": "University of Central Florida",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "role": "Mathematics Tutor",
+        "organization": "University of Central Florida Math Lab",
+        "duration": "2 years",
+        "responsibilities": [
+          "Clarified complex calculus, probability, and statistics concepts for undergraduate students.",
+          "Facilitated group study sessions focusing on problem-solving techniques and quantitative logic.",
+          "Maintained high student satisfaction ratings through clear communication and personalized instruction."
+        ]
+      },
+      {
+        "role": "Data Entry Clerk",
+        "organization": "Regional Insurance Solutions",
+        "duration": "3 months",
+        "responsibilities": [
+          "Transferred policyholder information into central databases with a high level of accuracy.",
+          "Utilized Excel to organize and clean large datasets for senior underwriting staff.",
+          "Assisted in the preparation of monthly documentation for internal audits."
+        ]
+      }
+    ],
+    "skills": [
+      "Actuarial exam progress (ASA/FSA)"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "No prior experience in job field"
+  }
+}

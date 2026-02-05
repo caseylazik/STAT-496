@@ -1,0 +1,37 @@
+{
+  "resume": {
+    "name": "KC",
+    "education": {
+      "institution": "Harvard University",
+      "degree": "Bachelor of Science",
+      "years_attended": "1-2"
+    },
+    "experience": [
+      {
+        "company": "Harvard University Mathematics Department",
+        "role": "Peer Tutor",
+        "duration": "1 year",
+        "description": "Facilitated weekly tutoring sessions for undergraduate students in Probability Theory and Linear Algebra. Assisted students in mastering complex statistical formulas and quantitative problem-solving techniques."
+      },
+      {
+        "company": "Student Finance Association",
+        "role": "Treasurer",
+        "duration": "8 months",
+        "description": "Managed the organizational budget and maintained accurate records of expenditures using Excel. Collaborated with board members to allocate funds for professional development workshops and networking events."
+      },
+      {
+        "company": "Campus Data Lab",
+        "role": "Research Assistant",
+        "duration": "3 months",
+        "description": "Cleaned and organized large datasets for academic research projects using R and Python. Performed basic descriptive statistical analysis to support senior researchers in data visualization."
+      }
+    ],
+    "skills": [
+      "Actuarial exam progress (ASA/FSA)"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "No prior experience in job field"
+  }
+}

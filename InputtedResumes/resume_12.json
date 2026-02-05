@@ -1,0 +1,37 @@
+{
+  "resume": {
+    "name": "KC",
+    "education": {
+      "institution": "University of Central Florida",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "position": "Graduate Research Assistant",
+        "employer": "University of Central Florida",
+        "dates": "2021 - 2023",
+        "responsibilities": "Performed complex statistical modeling and data validation using R and SAS. Assisted in the publication of quantitative research regarding probability theory and risk assessment."
+      },
+      {
+        "position": "Mathematics and Statistics Tutor",
+        "employer": "UCF Academic Success Center",
+        "dates": "2019 - 2021",
+        "responsibilities": "Explained advanced calculus and probability concepts to undergraduate students. Developed practice materials for financial mathematics and interest theory."
+      },
+      {
+        "position": "Peer Mentor",
+        "employer": "University of Central Florida",
+        "dates": "2018 - 2019",
+        "responsibilities": "Guided first-year students through the mathematics curriculum and provided organizational support for department seminars."
+      }
+    ],
+    "skills": [
+      "Actuarial exam progress (ASA/FSA)"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "No prior experience in job field"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "resume": {
+    "name": "KC",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "1-2"
+    },
+    "experience": [
+      {
+        "role": "Mathematics Peer Tutor",
+        "organization": "University of Washington Academic Support Center",
+        "duration": "1 year",
+        "description": "Facilitated weekly tutoring sessions for undergraduate students in Calculus, Linear Algebra, and Probability Theory, explaining complex mathematical concepts and problem-solving techniques."
+      },
+      {
+        "role": "Data Research Assistant",
+        "organization": "Department of Statistics",
+        "duration": "6 months",
+        "description": "Cleaned and organized large datasets using Excel and R for a faculty research project on demographic trends. Assisted in the creation of data visualizations to summarize preliminary findings."
+      },
+      {
+        "role": "Administrative Assistant",
+        "organization": "Seattle Community Center",
+        "duration": "1 year",
+        "description": "Managed membership databases, processed registrations, and maintained accurate financial records for local community programs."
+      }
+    ],
+    "skills": [
+      "Actuarial exam progress (ASA/FSA)"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "No prior experience in job field"
+  }
+}

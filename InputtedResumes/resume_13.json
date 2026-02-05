@@ -1,0 +1,37 @@
+{
+  "resume": {
+    "name": "KC",
+    "education": {
+      "institution": "New York University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "company": "New York University",
+        "role": "Graduate Research Assistant",
+        "duration": "1 year",
+        "description": "Assisted in the development of statistical models for economic forecasting. Performed data cleansing and regression analysis using R and Excel for academic publications."
+      },
+      {
+        "company": "Global Finance Partners",
+        "role": "Risk Management Intern",
+        "duration": "3 months",
+        "description": "Supported the risk assessment team by monitoring portfolio volatility and preparing weekly exposure reports. Analyzed historical market data to identify potential financial risks."
+      },
+      {
+        "company": "Private Tutoring",
+        "role": "Mathematics Tutor",
+        "duration": "2 years",
+        "description": "Provided instruction in advanced calculus, probability, and statistics to undergraduate students, ensuring mastery of core mathematical principles required for actuarial science."
+      }
+    ],
+    "skills": [
+      "Actuarial exam progress (ASA/FSA)"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "No prior experience in job field"
+  }
+}

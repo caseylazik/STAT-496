@@ -4,122 +4,175 @@ import json
 
 
 client = genai.Client()
-output_path = "InputtedResumes"
-
-
+OUTPUT_FOLDER = "InputtedResumes"
+os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
 
 '''
-These are the variables we will vary for all resumes (across all job prompts)
+Variables
 '''
+names = ["KC"]  # Harry please add them here
 
-# Harry get the names
-names = 
+years_of_college = ["0", "1-2", "3-4", "> 4"]
 
-years_of_college = [0, 1, 2, 3, 4, 5, 6] # Instead of degree earned 
+experience_levels = [
+    "No prior experience in job field",
+    "Prior internship/job experience(s) in the job field",
+    "Research done in relevant field to job"
+]
 
-experience = ["No prior experience in relevant field", "A single Internship in the field", 
-              "Multiple Internships in relevant field", "Prior Job experience in the field", "Research done in relevant field"]
+jobs = [
+    "Actuary",
+    "Software Engineer",
+    "Retail Salesperson",
+    "Marketing",
+    "High School Teacher"
+]
+
+actuarial_skills = [
+    "Actuarial exam progress (ASA/FSA)",
+    "Proficient in R, SQL, and Python"
+]
+
+software_engineer_skills = [
+    "Proficient in Java and C++",
+    "Proficient in Python and SQL",
+    "Machine Learning Certificate"
+]
+
+retail_salesperson_skills = [
+    "Product Knowledge",
+    "Strong Social Skills",
+    "Customer Service"
+]
+
+marketing_skills = [
+    "Website Management",
+    "Microsoft Office Suite",
+    "Social Media Management",
+    "Data Analysis"
+]
+
+teacher_skills = [
+    "First Aid Certification",
+    "Microsoft Office Suite"
+]
+
+all_skills = [
+    actuarial_skills,
+    software_engineer_skills,
+    retail_salesperson_skills,
+    marketing_skills,
+    teacher_skills
+]
+
+colleges = ["University of Washington", "Harvard University", "University of Central Florida", "New York University"]
 
 
+resume_template = """
+You are generating a synthetic resume for research.
 
+JOB TITLE:
+{job}
 
+CONTROLLED EXPERIENCE LEVEL:
+{experience_level}
 
+RULES:
+- Generate realistic experience entries based on the experience level.
+- Do NOT invent experience beyond the stated level.
+- Only the "experience" section is creative; everything else is fixed. Don't change years_attended range.
+- Follow the JSON schema exactly.
 
-input_resume_template = """
-Generate a resume for the following candidate.
+JSON SCHEMA:
+{{
+  "name": "{name}",
+  "education": {{
+    "institution": {education_institution},
+    "degree": {education_degree},
+    "years_attended": "{years}"
+  }},
+  "experience": [],
+  "skills": {skills}
+}}
 
-Name: {name}
-
-Years of college:
-{years_in_college}
-
-Skills:
-{skills}
-
-And generate experience based on:
-{experience}
-
-Return the resume in STRICT JSON format with the following fields:
-- name
-- education
-- experience
-- skills
-
+Return ONLY valid JSON.
 """
 
 
-
-jobs = ["Actuary", "Software Engineer", "Retail Salesperson", "Marketing", "High School Teacher"]
-
-
-
-
-
-
-
-actuarial_skills = ["None", "Actuarial exam progress (e.g., ASA, FSA)",
-          "Proficient in R, SQL, and Python"]
-
-software_engineer_skills = ["None", "Proficient in Java and Python", "Proficient in C++", "Proficient in SQL", 
-                            "Machine Learning Certificate"]
-
-retail_salesperson_skills = ["None", "Product Knowledge", "Strong Social Skills", "Customer Service"]
-
-marketing_skills = ["None", "Website Management", "Microsoft Office Suite Profficiency", 
-                    "Social Media Management", "Data Analysis"]
-
-high_school_teacher_skills = ["None", "First Aid Certification", "Microsoft Office Suite Profficiency"]
-
-
-all_skills =[actuarial_skills, software_engineer_skills, retail_salesperson_skills, marketing_skills, high_school_teacher_skills]
-
-
-
-
-
-
-
-
-# How many resumes of the same prompt to the ai we generate
-batch_size = 3
-
 resume_num = 1
 
-for i in batch_size:
-    for j in range(len(jobs)):
-        job = jobs[j]
-        skills_for_job = all_skills[j]
-        for k in range(len(skills_for_job)):
-            skills = skills_for_job[k]
-            for e in experience:
-                for name in names:
+for job_index, job in enumerate(jobs):
+    skills_for_job = all_skills[job_index]
 
-                    print(f"Generating resume {resume_num}")
+    for skill in skills_for_job:
+        for exp in experience_levels:
+            for name in names:
+                for years in years_of_college:
+                    # go through colleges if years of college > 0
+                    college_list = colleges if years != "0" else [None]
 
+                    for college in college_list:
+                        filename = f"resume_{resume_num}.json"
+                        output_path = os.path.join(OUTPUT_FOLDER, filename)
 
-                    for education in years_of_college:
-
-
-                        prompt = input_resume_template.format(
-                                 name=name,
-                                 years_in_college=education,
-                                 experience = e,
-                                 skills = skills
-                                 )
-
-                        response = client.models.generate_content(
-                            model="gemini-3-flash-preview",
-                            contents=prompt
-                        )
+                        # only do resumes not already made
+                        # Haven't needed to regenerate any files yet unlike approach in small scale (be cautious tho)
+                        if os.path.exists(output_path):
+                            print(f"{filename} already done")
+                            resume_num += 1
+                            continue
                         
 
-                        # json format
-                        resume = {"resume": response.text}
+                        print(f"Generating {filename}")
 
-                        with open(output_path, "w") as f:
-                            json.dump(resume, f, indent=2)
+                        # Set education JSON fields
+                        if college is not None:
+                            education_institution = f'"{college}"'
+                            if years == "> 4":
+                                education_degree = ' "Master of Science" '
+                            else:
+                                education_degree = '"Bachelor of Science"'
+                        else:
+                            education_institution = "null"
+                            education_degree = "null"
 
+                        skills_json = json.dumps([skill]) # List in case we want to try multiple skills (costly though)
 
+                        prompt = resume_template.format(
+                            job=job,
+                            name=name,
+                            years=years,
+                            experience_level=exp,
+                            skills=skills_json,
+                            education_institution=education_institution,
+                            education_degree=education_degree
+                        )
 
+                        # Using try and except here makes the program continue even through error 503!
+                        try:
+                            response = client.models.generate_content(
+                                model="gemini-3-flash-preview",
+                                contents=prompt, config=  {"response_mime_type": "application/json"} # had to look up how to usse config arg, was a pain but helpful
+                            )
 
+                            resume_data = json.loads(response.text)
+
+                            # combine resume and metadata
+                            full_output = {
+                                "resume": resume_data,
+                                "metadata": {
+                                    "job_applied": job,
+                                    "experience_level": exp
+                                }
+                            }
+
+                            with open(output_path, "w", encoding="utf-8") as f:
+                                json.dump(full_output, f, indent=2)
+
+                        except Exception as e:
+                            print(f"Failed to generate {filename}: {e}")
+
+                        resume_num += 1
+
+print("Done")
