@@ -1,6 +1,6 @@
 {
   "resume": {
-    "name": "KC",
+    "name": "GAGE BEAVER",
     "education": {
       "institution": "New York University",
       "degree": "Bachelor of Science",
@@ -8,14 +8,22 @@
     },
     "experience": [
       {
-        "title": "Peer Mathematics Tutor",
-        "organization": "NYU Academic Resource Center",
-        "description": "Led weekly tutoring sessions for undergraduate students in Calculus I, II, and Linear Algebra, simplifying complex mathematical proofs and quantitative concepts."
+        "company": "NYU Mathematics Department",
+        "role": "Quantitative Research Assistant",
+        "duration": "September 2023 - Present",
+        "description": "Collaborate with faculty to analyze large datasets using R and Python. Apply statistical methods to identify trends in historical financial data and assist in the preparation of academic reports."
       },
       {
-        "title": "Administrative Data Clerk",
-        "organization": "Manhattan Logistics Services",
-        "description": "Performed daily data entry and verification of shipping manifests, maintaining a high level of accuracy in the company's internal inventory tracking system."
+        "company": "University Learning Center",
+        "role": "Mathematics and Statistics Tutor",
+        "duration": "September 2022 - May 2023",
+        "description": "Provided individual and group tutoring for undergraduate courses including Calculus III, Linear Algebra, and Probability Theory. Simplified complex mathematical concepts for a diverse student body."
+      },
+      {
+        "company": "Washington Square Data Solutions",
+        "role": "Data Entry Intern",
+        "duration": "June 2022 - August 2022",
+        "description": "Maintained and updated client databases with high accuracy. Utilized Advanced Excel functions to organize raw data for senior analysts and assisted in basic descriptive statistical analysis."
       }
     ],
     "skills": [

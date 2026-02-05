@@ -1,6 +1,6 @@
 {
   "resume": {
-    "name": "KC",
+    "name": "GAGE BEAVER",
     "education": {
       "institution": "University of Central Florida",
       "degree": "Bachelor of Science",
@@ -8,16 +8,22 @@
     },
     "experience": [
       {
-        "company": "University of Central Florida - Mathematics Department",
-        "role": "Peer Tutor",
-        "dates": "2022-2023",
-        "description": "Provided academic support for students in Calculus III and Statistics courses, explaining complex mathematical concepts and assisting with probability theory problems."
+        "company": "Florida Blue",
+        "role": "Actuarial Intern",
+        "dates": "May 2022 - August 2022",
+        "responsibilities": "Assisted senior actuaries with data cleaning and preparation for annual rate filing using SQL. Performed sensitivity analysis on pricing models and updated quarterly reporting templates in Microsoft Excel."
       },
       {
-        "company": "UCF Actuarial Science Club",
-        "role": "Research Project Assistant",
-        "dates": "2022",
-        "description": "Collaborated on a data analysis project using Excel to model hypothetical life expectancy tables based on CDC demographic data. Assisted in presenting findings on mortality risk factors to club members."
+        "company": "UCF Mathematics Department",
+        "role": "Peer Tutor",
+        "dates": "September 2021 - April 2022",
+        "responsibilities": "Provided academic support to undergraduate students in Calculus III and Probability Theory. Facilitated weekly review sessions focused on problem-solving techniques relevant to actuarial science fundamentals."
+      },
+      {
+        "company": "Publix Super Markets",
+        "role": "Customer Service Lead",
+        "dates": "May 2020 - August 2021",
+        "responsibilities": "Managed front-end operations and coordinated staff scheduling. Handled high-volume transactions and resolved complex customer inquiries in a fast-paced retail environment."
       }
     ],
     "skills": [

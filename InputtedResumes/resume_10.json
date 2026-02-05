@@ -1,6 +1,6 @@
 {
   "resume": {
-    "name": "KC",
+    "name": "GAGE BEAVER",
     "education": {
       "institution": "University of Washington",
       "degree": "Master of Science",
@@ -8,25 +8,16 @@
     },
     "experience": [
       {
-        "company": "University of Washington - Department of Statistics",
-        "position": "Graduate Research Assistant",
-        "location": "Seattle, WA",
-        "dates": "2022 - 2024",
-        "description": "Developed statistical models to analyze large datasets using R and Python. Performed regression analysis and probability modeling to support faculty research publications."
+        "company": "University of Washington Department of Statistics",
+        "role": "Graduate Research Assistant",
+        "dates": "2021 - 2023",
+        "description": "Conducted advanced statistical modeling and data validation for academic research papers. Utilized R and Python to manage large datasets and perform predictive analytics on demographic trends."
       },
       {
-        "company": "Private Tutoring Services",
-        "position": "Mathematics and Statistics Tutor",
-        "location": "Seattle, WA",
-        "dates": "2020 - 2022",
-        "description": "Provided advanced instruction in Calculus, Linear Algebra, and Probability Theory to undergraduate students. Assisted students in preparing for rigorous quantitative examinations."
-      },
-      {
-        "company": "University Student Center",
-        "position": "Administrative Assistant",
-        "location": "Seattle, WA",
-        "dates": "2018 - 2020",
-        "description": "Managed scheduling and record-keeping for campus events. Utilized Excel for data entry and financial tracking of student organization budgets."
+        "company": "Pacific Northwest Academic Center",
+        "role": "Mathematics Tutor",
+        "dates": "2019 - 2021",
+        "description": "Provided instruction to undergraduate students in multivariable calculus, linear algebra, and probability theory. Simplified complex mathematical concepts to improve student comprehension and performance."
       }
     ],
     "skills": [

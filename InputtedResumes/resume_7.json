@@ -1,6 +1,6 @@
 {
   "resume": {
-    "name": "KC",
+    "name": "GAGE BEAVER",
     "education": {
       "institution": "Harvard University",
       "degree": "Bachelor of Science",
@@ -8,22 +8,34 @@
     },
     "experience": [
       {
-        "company": "Liberty Mutual Insurance",
-        "title": "Actuarial Intern",
-        "dates": "June 2023 - August 2023",
-        "description": "Assisted the life insurance pricing team with data reconciliation and model validation using Excel and SQL. Performed sensitivity analysis on various interest rate scenarios to support quarterly reporting."
+        "position": "Mathematics Department Peer Tutor",
+        "organization": "Harvard University",
+        "duration": "2 years",
+        "responsibilities": [
+          "Facilitated weekly review sessions for undergraduate students in multivariable calculus, linear algebra, and probability theory.",
+          "Simplified complex mathematical proofs and statistical concepts to improve student comprehension and exam performance.",
+          "Maintained detailed records of student progress and identified specific areas requiring curriculum reinforcement."
+        ]
       },
       {
-        "company": "Harvard University Department of Statistics",
-        "title": "Peer Tutor",
-        "dates": "September 2022 - May 2024",
-        "description": "Facilitated weekly tutoring sessions for undergraduate students in Probability and Linear Algebra. Explained complex mathematical concepts and assisted with the application of statistical software."
+        "position": "Data Analysis Intern",
+        "organization": "Cambridge Tech Solutions",
+        "duration": "3 months",
+        "responsibilities": [
+          "Assisted in the cleaning and organization of large datasets using Excel and SQL for internal performance reviews.",
+          "Created visualization reports to identify seasonal trends in customer engagement metrics.",
+          "Collaborated with the analytics team to automate routine reporting processes, reducing manual entry time by 15%."
+        ]
       },
       {
-        "company": "Student Financial Services",
-        "title": "Administrative Assistant",
-        "dates": "September 2021 - May 2022",
-        "description": "Managed high-volume data entry and digital filing for student accounts. Ensured accuracy of financial records and provided customer service to students regarding billing inquiries."
+        "position": "Research Assistant",
+        "organization": "Harvard Economics Lab",
+        "duration": "1 year",
+        "responsibilities": [
+          "Supported senior researchers in gathering and synthesizing demographic data for socioeconomic impact studies.",
+          "Utilized R to perform basic statistical modeling and hypothesis testing on survey results.",
+          "Proofread and formatted research papers for submission to academic journals, ensuring accuracy in mathematical notation."
+        ]
       }
     ],
     "skills": [

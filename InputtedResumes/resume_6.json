@@ -1,6 +1,6 @@
 {
   "resume": {
-    "name": "KC",
+    "name": "GAGE BEAVER",
     "education": {
       "institution": "University of Washington",
       "degree": "Bachelor of Science",
@@ -8,22 +8,22 @@
     },
     "experience": [
       {
-        "title": "Actuarial Intern",
-        "company": "Northwestern Mutual Life",
-        "dates": "June 2023 - August 2023",
-        "description": "Assisted senior actuaries with data validation and preparation for quarterly financial reporting. Utilized Excel and SQL to support pricing model updates and performed basic sensitivity analysis on mortality assumptions."
+        "company": "University of Washington Math Study Center",
+        "role": "Undergraduate Peer Tutor",
+        "duration": "2022 - 2023",
+        "description": "Provided instructional support for students in multivariable calculus and linear algebra. Facilitated study sessions focusing on complex mathematical proofs and statistical applications."
       },
       {
-        "title": "Quantitative Finance Research Assistant",
-        "company": "University of Washington",
-        "dates": "September 2022 - May 2023",
-        "description": "Collaborated with faculty on statistical modeling projects involving time-series analysis. Cleaned large datasets and generated visualizations to communicate findings related to market volatility."
+        "company": "Northwest Mutual (Internship)",
+        "role": "Finance Intern",
+        "duration": "Summer 2023",
+        "description": "Assisted the financial planning team with data entry and basic trend analysis using Excel. Observed quarterly risk assessment meetings to understand corporate financial structures."
       },
       {
-        "title": "Mathematics Tutor",
-        "company": "UW Instructional Center",
-        "dates": "September 2021 - June 2022",
-        "description": "Provided individual and group instruction for undergraduate students in Calculus, Linear Algebra, and Probability Theory, helping students master complex mathematical proofs and applications."
+        "company": "University of Washington Housing",
+        "role": "Administrative Assistant",
+        "duration": "2021 - 2022",
+        "description": "Managed student housing records and processed application data with high accuracy. Utilized database software to organize resident information and generate occupancy reports."
       }
     ],
     "skills": [

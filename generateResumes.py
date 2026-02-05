@@ -11,7 +11,10 @@ os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 '''
 Variables
 '''
-names = ["KC"]  # Harry please add them here
+names = ['GAGE BEAVER', 'SCOTT CRAVEN', 'REED HAAS', 'REBECCA BEARDEN', 'KAYLEIGH CREECH', 'JUDITH HAAS',
+        'DESHAWN PINKNEY', 'JAVON CONEY', 'TEVIN IVORY', 'LATOYA FAVORS', 'AYANNA BATTLE', 'QUEEN BROADNAX',
+          'NESTOR ALZATE', 'JULIO TORRESRODRIGUEZ', 'GREGORIO LEZCANO', 'ROCIO MOREJON', 'PERLA ECHEVERRI', 
+          'GRACIELA RIVERO', 'HUY DANH', 'PARTH LUONG', 'TAM SHRESTHA', 'AN LI', 'SHIVANI PENG', 'KAVYA KIM']
 
 years_of_college = ["0", "1-2", "3-4", "> 4"]
 

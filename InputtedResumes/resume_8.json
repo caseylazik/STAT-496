@@ -1,6 +1,6 @@
 {
   "resume": {
-    "name": "KC",
+    "name": "GAGE BEAVER",
     "education": {
       "institution": "University of Central Florida",
       "degree": "Bachelor of Science",
@@ -8,24 +8,22 @@
     },
     "experience": [
       {
-        "role": "Mathematics Tutor",
-        "organization": "University of Central Florida Math Lab",
-        "duration": "2 years",
-        "responsibilities": [
-          "Clarified complex calculus, probability, and statistics concepts for undergraduate students.",
-          "Facilitated group study sessions focusing on problem-solving techniques and quantitative logic.",
-          "Maintained high student satisfaction ratings through clear communication and personalized instruction."
-        ]
+        "company": "University of Central Florida Math Success Center",
+        "role": "Peer Tutor",
+        "dates": "2022 - 2024",
+        "description": "Guided students through complex mathematical concepts in Calculus I-III and Probability, simplifying abstract theories for practical application."
       },
       {
-        "role": "Data Entry Clerk",
-        "organization": "Regional Insurance Solutions",
-        "duration": "3 months",
-        "responsibilities": [
-          "Transferred policyholder information into central databases with a high level of accuracy.",
-          "Utilized Excel to organize and clean large datasets for senior underwriting staff.",
-          "Assisted in the preparation of monthly documentation for internal audits."
-        ]
+        "company": "Publix Super Markets",
+        "role": "Customer Service Representative",
+        "dates": "2020 - 2022",
+        "description": "Managed high-volume cash transactions and provided detail-oriented service in a fast-paced environment while completing undergraduate coursework."
+      },
+      {
+        "company": "UCF Statistics Department",
+        "role": "Undergraduate Research Assistant",
+        "dates": "2023 - 2024",
+        "description": "Assisted faculty in organizing large datasets for academic papers, utilizing Excel to identify trends and ensure data integrity."
       }
     ],
     "skills": [
