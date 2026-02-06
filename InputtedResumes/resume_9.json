@@ -1,31 +1,23 @@
 {
   "resume": {
-    "name": "GAGE BEAVER",
+    "name": "BRADLEY HOLCOMB",
     "education": {
-      "institution": "New York University",
-      "degree": "Bachelor of Science",
-      "years_attended": "3-4"
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
     },
     "experience": [
       {
-        "company": "MetLife",
-        "title": "Actuarial Intern",
-        "duration": "3 months",
-        "responsibilities": [
-          "Assisted senior actuaries with data validation and cleansing for quarterly valuation reports using Excel and SQL.",
-          "Performed sensitivity testing on various economic scenarios to support the pricing team in life insurance product development.",
-          "Automated routine data extraction processes, reducing manual processing time by approximately 10%."
-        ]
+        "company": "Starbucks",
+        "role": "Barista",
+        "duration": "2022 - Present",
+        "description": "Providing customer service and managing point-of-sale transactions in a fast-paced environment."
       },
       {
-        "company": "New York University",
-        "title": "Mathematics Peer Tutor",
-        "duration": "2 years",
-        "responsibilities": [
-          "Provided academic support to undergraduate students in Calculus III, Linear Algebra, and Probability Theory.",
-          "Developed custom study guides and practice problems for students preparing for the Society of Actuaries (SOA) Exam P.",
-          "Maintained a 95% student satisfaction rating based on department performance reviews."
-        ]
+        "company": "University of Washington",
+        "role": "Library Assistant",
+        "duration": "2019 - 2022",
+        "description": "Organized archival materials and assisted students with locating academic resources."
       }
     ],
     "skills": [
@@ -34,6 +26,6 @@
   },
   "metadata": {
     "job_applied": "Actuary",
-    "experience_level": "No prior experience in job field"
+    "experience_level": "No prior experience or research done for job field."
   }
 }

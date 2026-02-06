@@ -1,29 +1,41 @@
 {
   "resume": {
-    "name": "GAGE BEAVER",
+    "name": "BRADLEY HOLCOMB",
     "education": {
-      "institution": "University of Central Florida",
+      "institution": "Seattle University",
       "degree": "Bachelor of Science",
-      "years_attended": "3-4"
+      "years_attended": "2020 - 2024"
     },
     "experience": [
       {
-        "company": "University of Central Florida Math Success Center",
-        "role": "Peer Tutor",
-        "dates": "2022 - 2024",
-        "description": "Guided students through complex mathematical concepts in Calculus I-III and Probability, simplifying abstract theories for practical application."
+        "title": "Student Math Tutor",
+        "company": "Seattle University Learning Commons",
+        "dates": "September 2022 - May 2024",
+        "responsibilities": [
+          "Explained fundamental calculus and statistics concepts to undergraduate students to improve their understanding of course materials.",
+          "Facilitated study sessions for groups of 5-10 students, focusing on problem-solving techniques and algebraic accuracy.",
+          "Maintained detailed logs of student attendance and progress reports for department supervisors."
+        ]
       },
       {
-        "company": "Publix Super Markets",
-        "role": "Customer Service Representative",
-        "dates": "2020 - 2022",
-        "description": "Managed high-volume cash transactions and provided detail-oriented service in a fast-paced environment while completing undergraduate coursework."
+        "title": "Sales Associate",
+        "company": "Dick's Sporting Goods",
+        "dates": "June 2021 - August 2022",
+        "responsibilities": [
+          "Managed point-of-sale transactions and maintained an accurate cash drawer in a high-volume retail environment.",
+          "Assisted customers with product inquiries and provided recommendations based on individual needs.",
+          "Assisted with inventory management and restocking procedures to ensure store organization."
+        ]
       },
       {
-        "company": "UCF Statistics Department",
-        "role": "Undergraduate Research Assistant",
-        "dates": "2023 - 2024",
-        "description": "Assisted faculty in organizing large datasets for academic papers, utilizing Excel to identify trends and ensure data integrity."
+        "title": "Dining Hall Assistant",
+        "company": "Seattle University Campus Dining",
+        "dates": "September 2020 - May 2021",
+        "responsibilities": [
+          "Coordinated with a team to ensure efficient food service operations during peak campus hours.",
+          "Adhered to strict health and safety protocols regarding food preparation and sanitation.",
+          "Resolved student concerns regarding meal plans and dietary options with professional communication."
+        ]
       }
     ],
     "skills": [
@@ -32,6 +44,6 @@
   },
   "metadata": {
     "job_applied": "Actuary",
-    "experience_level": "No prior experience in job field"
+    "experience_level": "No prior experience or research done for job field."
   }
 }

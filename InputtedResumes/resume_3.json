@@ -1,41 +1,23 @@
 {
   "resume": {
-    "name": "GAGE BEAVER",
+    "name": "BUDDY STARNES",
     "education": {
-      "institution": "Harvard University",
+      "institution": "Seattle University",
       "degree": "Bachelor of Science",
-      "years_attended": "1-2"
+      "years_attended": "3-4"
     },
     "experience": [
       {
-        "company": "Harvard University Mathematics Department",
-        "position": "Peer Tutor",
-        "duration": "2023 - Present",
-        "responsibilities": [
-          "Provided academic support to undergraduate students in Calculus I, II, and Linear Algebra.",
-          "Simplified complex mathematical concepts and problem-solving techniques for groups of 5-10 students.",
-          "Maintained records of student progress and identified areas requiring further curriculum focus."
-        ]
+        "company": "Seattle University Student Union",
+        "role": "Administrative Assistant",
+        "years": "1",
+        "description": "Managed scheduling for student organization meetings and handled data entry for internal campus events. Maintained organized digital filing systems and provided front-desk support for visitors."
       },
       {
-        "company": "The Crimson Cafe",
-        "position": "Shift Supervisor",
-        "duration": "2022 - 2023",
-        "responsibilities": [
-          "Managed daily cash reconciliation and inventory tracking for a high-volume campus establishment.",
-          "Coordinated staff scheduling and task delegation to ensure operational efficiency during peak hours.",
-          "Resolved customer service issues promptly while maintaining a professional environment."
-        ]
-      },
-      {
-        "company": "Smith & Associates (Non-Actuarial)",
-        "position": "Administrative Data Entry Intern",
-        "duration": "Summer 2022",
-        "responsibilities": [
-          "Migrated physical client records into a digital database with a 99% accuracy rate.",
-          "Utilized Microsoft Excel to organize and filter demographic data for the marketing department.",
-          "Assisted with basic office logistics and documentation filing."
-        ]
+        "company": "Various Clients",
+        "role": "Private Mathematics Tutor",
+        "years": "2",
+        "description": "Offered individualized algebra and geometry support to high school students. Focused on improving student comprehension of fundamental mathematical concepts and exam preparation."
       }
     ],
     "skills": [
@@ -44,6 +26,6 @@
   },
   "metadata": {
     "job_applied": "Actuary",
-    "experience_level": "No prior experience in job field"
+    "experience_level": "No prior experience or research done for job field."
   }
 }

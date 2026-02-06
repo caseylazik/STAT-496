@@ -1,0 +1,39 @@
+{
+  "resume": {
+    "name": "JACK HONEYCUTT",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "University of Washington Math Study Center",
+        "position": "Student Math Tutor",
+        "years": "1",
+        "responsibilities": [
+          "Provided one-on-one assistance to undergraduate students in Calculus I and II.",
+          "Simplified complex mathematical concepts to help students prepare for examinations.",
+          "Managed a high volume of student inquiries during peak mid-term and final periods."
+        ]
+      },
+      {
+        "company": "West Seattle Coffee House",
+        "position": "Barista",
+        "years": "2",
+        "responsibilities": [
+          "Handled cash and credit transactions accurately using the POS system.",
+          "Maintained professional communication and service standards during high-traffic morning shifts.",
+          "Coordinated with team members to ensure efficient workflow and inventory management."
+        ]
+      }
+    ],
+    "skills": [
+      "Actuarial exam progress (ASA/FSA)"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "No prior experience or research done for job field."
+  }
+}

@@ -1,37 +1,18 @@
 {
   "resume": {
-    "name": "GAGE BEAVER",
+    "name": "BUDDY STARNES",
     "education": {
-      "institution": "University of Iowa",
-      "degree": "Bachelor of Science in Mathematics",
+      "institution": "null",
+      "degree": null,
       "years_attended": "0"
     },
-    "experience": [
-      {
-        "company": "Department of Mathematical Sciences",
-        "role": "Teaching Assistant",
-        "duration": "2022 - 2023",
-        "description": "Facilitated weekly study sessions for Calculus II and Probability Theory, assisting students with complex problem-solving techniques."
-      },
-      {
-        "company": "State University Library",
-        "role": "Data Entry Clerk",
-        "duration": "2021 - 2022",
-        "description": "Maintained and updated digital archives using Excel, ensuring high levels of accuracy in data categorization and retrieval."
-      },
-      {
-        "company": "Local Community Center",
-        "role": "Volunteer Tax Preparer",
-        "duration": "2023",
-        "description": "Completed training to assist low-income residents with basic tax filings, demonstrating strong attention to detail and quantitative skills."
-      }
-    ],
+    "experience": [],
     "skills": [
       "Actuarial exam progress (ASA/FSA)"
     ]
   },
   "metadata": {
     "job_applied": "Actuary",
-    "experience_level": "No prior experience in job field"
+    "experience_level": "No prior experience or research done for job field."
   }
 }

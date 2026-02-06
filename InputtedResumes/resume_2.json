@@ -1,23 +1,25 @@
 {
   "resume": {
-    "name": "GAGE BEAVER",
+    "name": "BUDDY STARNES",
     "education": {
       "institution": "University of Washington",
       "degree": "Bachelor of Science",
-      "years_attended": "1-2"
+      "years_attended": "3-4"
     },
     "experience": [
       {
-        "role": "Mathematics Tutor",
+        "title": "Mathematics Tutor",
         "company": "University of Washington Academic Support Center",
-        "dates": "2023 - 2024",
-        "description": "Provided one-on-one academic support for undergraduate students in Calculus I-III and Probability Theory. Simplified complex mathematical proofs and statistical concepts."
+        "location": "Seattle, WA",
+        "dates": "2021 - 2023",
+        "description": "Provided one-on-one and group tutoring for undergraduate students in Calculus I-III and Linear Algebra. Focused on clarifying fundamental mathematical concepts and improving students' quantitative problem-solving skills."
       },
       {
-        "role": "Administrative Assistant",
-        "company": "UW Office of the Registrar",
-        "dates": "2022 - 2023",
-        "description": "Maintained student records and performed data entry using Microsoft Excel. Ensured accuracy of data sets and assisted with basic reporting tasks."
+        "title": "Customer Service Associate",
+        "company": "University Bookstore",
+        "location": "Seattle, WA",
+        "dates": "2019 - 2021",
+        "description": "Managed point-of-sale transactions and assisted customers with inventory inquiries. Balanced daily cash drawers and maintained organized records of textbook shipments."
       }
     ],
     "skills": [
@@ -26,6 +28,6 @@
   },
   "metadata": {
     "job_applied": "Actuary",
-    "experience_level": "No prior experience in job field"
+    "experience_level": "No prior experience or research done for job field."
   }
 }

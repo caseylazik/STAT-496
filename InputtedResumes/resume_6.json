@@ -1,29 +1,29 @@
 {
   "resume": {
-    "name": "GAGE BEAVER",
+    "name": "BRADLEY HOLCOMB",
     "education": {
-      "institution": "University of Washington",
-      "degree": "Bachelor of Science",
-      "years_attended": "3-4"
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
     },
     "experience": [
       {
-        "company": "University of Washington Math Study Center",
-        "role": "Undergraduate Peer Tutor",
-        "duration": "2022 - 2023",
-        "description": "Provided instructional support for students in multivariable calculus and linear algebra. Facilitated study sessions focusing on complex mathematical proofs and statistical applications."
+        "company": "Quick Stop Grocery",
+        "position": "Stock Associate",
+        "dates": "2022 - 2023",
+        "responsibilities": "Managed inventory levels on the sales floor and assisted customers with locating products."
       },
       {
-        "company": "Northwest Mutual (Internship)",
-        "role": "Finance Intern",
-        "duration": "Summer 2023",
-        "description": "Assisted the financial planning team with data entry and basic trend analysis using Excel. Observed quarterly risk assessment meetings to understand corporate financial structures."
+        "company": "Sunshine Landscaping",
+        "position": "General Laborer",
+        "dates": "2021 - 2022",
+        "responsibilities": "Maintained residential lawns and operated basic equipment for debris removal and yard care."
       },
       {
-        "company": "University of Washington Housing",
-        "role": "Administrative Assistant",
-        "duration": "2021 - 2022",
-        "description": "Managed student housing records and processed application data with high accuracy. Utilized database software to organize resident information and generate occupancy reports."
+        "company": "The Coffee Bean",
+        "position": "Barista",
+        "dates": "2020 - 2021",
+        "responsibilities": "Handled cash transactions and prepared beverages in a fast-paced service environment."
       }
     ],
     "skills": [
@@ -32,6 +32,6 @@
   },
   "metadata": {
     "job_applied": "Actuary",
-    "experience_level": "No prior experience in job field"
+    "experience_level": "No prior experience or research done for job field."
   }
 }

@@ -1,23 +1,23 @@
 {
   "resume": {
-    "name": "GAGE BEAVER",
+    "name": "BRADLEY HOLCOMB",
     "education": {
-      "institution": "University of Washington",
+      "institution": "Seattle University",
       "degree": "Master of Science",
       "years_attended": "> 4"
     },
     "experience": [
       {
-        "company": "University of Washington Department of Statistics",
-        "role": "Graduate Research Assistant",
-        "dates": "2021 - 2023",
-        "description": "Conducted advanced statistical modeling and data validation for academic research papers. Utilized R and Python to manage large datasets and perform predictive analytics on demographic trends."
+        "company": "Seattle University",
+        "role": "Graduate Teaching Assistant",
+        "duration": "2021 - 2023",
+        "description": "Assisted faculty in the mathematics department by grading undergraduate coursework in advanced calculus and statistics. Conducted weekly tutoring sessions for students to clarify complex quantitative theories and formulas."
       },
       {
-        "company": "Pacific Northwest Academic Center",
-        "role": "Mathematics Tutor",
-        "dates": "2019 - 2021",
-        "description": "Provided instruction to undergraduate students in multivariable calculus, linear algebra, and probability theory. Simplified complex mathematical concepts to improve student comprehension and performance."
+        "company": "Main Street Cafe",
+        "role": "Shift Lead",
+        "duration": "2018 - 2021",
+        "description": "Managed daily cash reconciliation and staff scheduling. Handled customer inquiries and resolved service issues while maintaining accurate inventory records and financial logs for the manager."
       }
     ],
     "skills": [
@@ -26,6 +26,6 @@
   },
   "metadata": {
     "job_applied": "Actuary",
-    "experience_level": "No prior experience in job field"
+    "experience_level": "No prior experience or research done for job field."
   }
 }

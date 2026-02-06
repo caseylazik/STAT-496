@@ -1,0 +1,37 @@
+{
+  "resume": {
+    "name": "JACK HONEYCUTT",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "title": "Mathematics Tutor",
+        "company": "Seattle University Learning Assistance Center",
+        "years": "2021-2023",
+        "description": "Facilitated one-on-one and group tutoring sessions for undergraduate students in Calculus, Differential Equations, and Statistics. Simplified complex mathematical theorems to help peers achieve academic goals."
+      },
+      {
+        "title": "Barista",
+        "company": "Redhawk Coffee Co.",
+        "years": "2020-2022",
+        "description": "Maintained high levels of efficiency in a fast-paced retail environment. Handled point-of-sale transactions, managed inventory counts, and ensured high standards of customer service during peak morning rushes."
+      },
+      {
+        "title": "Delivery Driver",
+        "company": "Local Pizza Distribution",
+        "years": "2019-2020",
+        "description": "Coordinated efficient delivery routes to ensure timely arrival of products. Managed cash and credit transactions accurately while maintaining a professional demeanor with a diverse customer base."
+      }
+    ],
+    "skills": [
+      "Actuarial exam progress (ASA/FSA)"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "No prior experience or research done for job field."
+  }
+}

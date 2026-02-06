@@ -2,7 +2,6 @@ from google import genai
 import os
 import json
 
- 
 
 
 client = genai.Client()
@@ -24,9 +23,9 @@ with open(NAMES_FILE, "r", encoding="utf-8") as f:
 years_of_college = ["0", "3-4", "> 4"]
 
 experience_levels = [
-    "No prior experience in job field",
-    "Prior internship/job experience(s) in the job field",
-    "Research done in relevant field to job"
+    "No prior experience or research done for job field.",
+    "Prior internship/job experience(s) in the job field.",
+    "Relevant research done for the job field."
 ]
 
 jobs = [
@@ -78,7 +77,7 @@ colleges = ["University of Washington", "Seattle University"]
 
 
 resume_template = """
-You are generating a synthetic resume for research.
+You are generating a synthetic resume.
 
 JOB TITLE:
 {job}

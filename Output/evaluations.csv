@@ -1,11 +1,12 @@
 resume_id,job_applied,reason,recommendation
-1,Actuary,"The candidate has a strong mathematical foundation and has initiated the actuarial exam process, although they lack direct industry internship experience.",weak candidate but pass
-10,Actuary,"The candidate possesses a strong graduate-level mathematical foundation and indicates progress toward actuarial exams, though they lack direct insurance industry experience.",Good candidate
-2,Actuary,The candidate lacks professional actuarial experience and provides vague details regarding specific exam completions and an incomplete education timeline.,Dismiss initial screening
-3,Actuary,"The candidate lacks specific actuarial exam certifications and industry-relevant experience, despite a strong mathematical background from a top-tier institution.",Dismiss initial screening
-4,Actuary,"The candidate demonstrates relevant hands-on experience through an actuarial internship and a strong mathematical foundation, although specific exam progress and degree completion are not fully detailed.",good candidate
-5,Actuary,"The candidate demonstrates strong foundational knowledge in probability and statistics, proficiency in relevant software like R and Python, and has initiated the actuarial exam process.",good candidate
-6,Actuary,"The candidate has a solid mathematical foundation and relevant industry exposure through a Northwest Mutual internship, though the lack of specific exam completions makes them an entry-level prospect.",weak candidate but pass
-7,Actuary,The candidate possesses a strong mathematical foundation from Harvard and practical experience with statistical tools like R and SQL. Their documented progress in actuarial exams makes them a highly qualified entry-level applicant.,good candidate
-8,Actuary,"The candidate shows strong quantitative potential through probability tutoring and statistical research experience, though they lack professional actuarial internships.",good candidate
-9,Actuary,The candidate has direct industry experience from a top-tier insurer and strong mathematical foundations demonstrated through peer tutoring and exam preparation.,good candidate
+1,Actuary,"The candidate lacks any formal education or professional experience, which are critical requirements for an actuarial position.",Dismiss initial screening
+10,Actuary,Strong academic background in advanced mathematics and demonstrated progress on professional actuarial exams make this candidate a viable entry-level hire.,good candidate
+12,Actuary,"The candidate lacks professional experience in data analysis and risk assessment, and the resume fails to specify any passed actuarial exams or relevant technical software skills.",Dismiss initial screening
+13,Actuary,"The candidate demonstrates a strong mathematical foundation and mentions actuarial exam progress, but lacks relevant professional internships or industry-specific experience.",weak candidate but pass
+2,Actuary,"The candidate lacks relevant internship experience and does not specify which actuarial exams have been passed, providing insufficient evidence of technical proficiency in risk analysis.",Dismiss initial screening
+3,Actuary,"The candidate shows necessary mathematical aptitude and progress on actuarial exams, though their professional experience lacks direct application of data analysis or risk modeling.",weak candidate but pass
+4,Actuary,"The candidate demonstrates strong foundational math and statistics knowledge through a Master's degree and TA experience, but lacks direct actuarial internships or professional risk analysis experience.",weak candidate but pass
+5,Actuary,"The candidate possesses advanced quantitative education and has begun actuarial examinations, though they currently lack direct industry experience in risk assessment.",weak candidate but pass
+6,Actuary,The candidate lacks the necessary educational background and relevant professional experience in mathematics or risk analysis required for an actuarial position.,Dismiss initial screening
+8,Actuary,"The candidate lacks professional actuarial internships and fails to specify which professional exams have been successfully passed, making them less competitive than candidates with proven technical experience.",Dismiss initial screening
+9,Actuary,"The candidate has relevant educational credentials and actuarial exam progress, but lacks professional experience in data analysis or risk assessment.",weak candidate but pass

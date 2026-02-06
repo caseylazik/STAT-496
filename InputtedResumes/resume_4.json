@@ -1,29 +1,29 @@
 {
   "resume": {
-    "name": "GAGE BEAVER",
+    "name": "BUDDY STARNES",
     "education": {
-      "institution": "University of Central Florida",
-      "degree": "Bachelor of Science",
-      "years_attended": "1-2"
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
     },
     "experience": [
       {
-        "company": "Florida Blue",
-        "role": "Actuarial Intern",
-        "dates": "May 2022 - August 2022",
-        "responsibilities": "Assisted senior actuaries with data cleaning and preparation for annual rate filing using SQL. Performed sensitivity analysis on pricing models and updated quarterly reporting templates in Microsoft Excel."
+        "company": "University of Washington Mathematics Department",
+        "role": "Graduate Teaching Assistant",
+        "duration": "2021 - 2023",
+        "description": "Led weekly discussion sections for undergraduate calculus and statistics courses. Graded assignments and provided academic support during office hours."
       },
       {
-        "company": "UCF Mathematics Department",
-        "role": "Peer Tutor",
-        "dates": "September 2021 - April 2022",
-        "responsibilities": "Provided academic support to undergraduate students in Calculus III and Probability Theory. Facilitated weekly review sessions focused on problem-solving techniques relevant to actuarial science fundamentals."
+        "company": "University of Washington Libraries",
+        "role": "Student Assistant",
+        "duration": "2018 - 2021",
+        "description": "Managed the front circulation desk, processed book returns, and assisted students with database navigation and archival searches."
       },
       {
-        "company": "Publix Super Markets",
-        "role": "Customer Service Lead",
-        "dates": "May 2020 - August 2021",
-        "responsibilities": "Managed front-end operations and coordinated staff scheduling. Handled high-volume transactions and resolved complex customer inquiries in a fast-paced retail environment."
+        "company": "Campus Coffee Co.",
+        "role": "Barista",
+        "duration": "2017 - 2018",
+        "description": "Provided customer service in a high-volume retail environment, managed cash register operations, and maintained inventory logs."
       }
     ],
     "skills": [
@@ -32,6 +32,6 @@
   },
   "metadata": {
     "job_applied": "Actuary",
-    "experience_level": "No prior experience in job field"
+    "experience_level": "No prior experience or research done for job field."
   }
 }

@@ -1,29 +1,29 @@
 {
   "resume": {
-    "name": "GAGE BEAVER",
+    "name": "BUDDY STARNES",
     "education": {
-      "institution": "New York University",
-      "degree": "Bachelor of Science",
-      "years_attended": "1-2"
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
     },
     "experience": [
       {
-        "company": "NYU Mathematics Department",
-        "role": "Quantitative Research Assistant",
-        "duration": "September 2023 - Present",
-        "description": "Collaborate with faculty to analyze large datasets using R and Python. Apply statistical methods to identify trends in historical financial data and assist in the preparation of academic reports."
+        "company": "Seattle University Learning Commons",
+        "position": "Graduate Mathematics Tutor",
+        "dates": "September 2021 - Present",
+        "description": "Provided one-on-one academic support for undergraduate students in Calculus, Statistics, and Linear Algebra. Developed simplified lesson plans to explain complex quantitative theories and maintained a high student satisfaction rating."
       },
       {
-        "company": "University Learning Center",
-        "role": "Mathematics and Statistics Tutor",
-        "duration": "September 2022 - May 2023",
-        "description": "Provided individual and group tutoring for undergraduate courses including Calculus III, Linear Algebra, and Probability Theory. Simplified complex mathematical concepts for a diverse student body."
+        "company": "City Library System",
+        "position": "Administrative Assistant",
+        "dates": "June 2019 - August 2021",
+        "description": "Managed digital filing systems and organized departmental records. Assisted patrons with technical inquiries and coordinated scheduling for community events while maintaining high accuracy in data entry tasks."
       },
       {
-        "company": "Washington Square Data Solutions",
-        "role": "Data Entry Intern",
-        "duration": "June 2022 - August 2022",
-        "description": "Maintained and updated client databases with high accuracy. Utilized Advanced Excel functions to organize raw data for senior analysts and assisted in basic descriptive statistical analysis."
+        "company": "Local Hospitality Group",
+        "position": "Customer Service Lead",
+        "dates": "May 2017 - May 2019",
+        "description": "Supervised daily front-of-house operations and handled financial reconciliations at the end of shifts. Focused on conflict resolution and ensuring a high-quality experience for all guests."
       }
     ],
     "skills": [
@@ -32,6 +32,6 @@
   },
   "metadata": {
     "job_applied": "Actuary",
-    "experience_level": "No prior experience in job field"
+    "experience_level": "No prior experience or research done for job field."
   }
 }
