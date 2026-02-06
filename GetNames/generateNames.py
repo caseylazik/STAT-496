@@ -60,8 +60,10 @@ asi_lastnames = last_names[(last_names['asi'] > 0.9) & (last_names["prob"] > 0.0
 
 seed = 42
 
+
 def sample_names(df, n=3):
     return df.sample(n=n, replace=False, random_state=seed)['name'].tolist()
+
 
 wm = sample_names(wm_firstnames, 3)
 wf = sample_names(wf_firstnames, 3)
