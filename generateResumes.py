@@ -2,6 +2,8 @@ from google import genai
 import os
 import json
 
+ 
+
 
 client = genai.Client()
 OUTPUT_FOLDER = "InputtedResumes"
@@ -11,12 +13,15 @@ os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 '''
 Variables
 '''
-names = ['GAGE BEAVER', 'SCOTT CRAVEN', 'REED HAAS', 'REBECCA BEARDEN', 'KAYLEIGH CREECH', 'JUDITH HAAS',
-        'DESHAWN PINKNEY', 'JAVON CONEY', 'TEVIN IVORY', 'LATOYA FAVORS', 'AYANNA BATTLE', 'QUEEN BROADNAX',
-          'NESTOR ALZATE', 'JULIO TORRESRODRIGUEZ', 'GREGORIO LEZCANO', 'ROCIO MOREJON', 'PERLA ECHEVERRI', 
-          'GRACIELA RIVERO', 'HUY DANH', 'PARTH LUONG', 'TAM SHRESTHA', 'AN LI', 'SHIVANI PENG', 'KAVYA KIM']
 
-years_of_college = ["0", "1-2", "3-4", "> 4"]
+NAMES_FILE = os.path.join("GetNames", "names.txt")
+
+with open(NAMES_FILE, "r", encoding="utf-8") as f:
+    names = [line.strip() for line in f if line.strip()]
+
+# print(names)
+
+years_of_college = ["0", "3-4", "> 4"]
 
 experience_levels = [
     "No prior experience in job field",
@@ -69,7 +74,7 @@ all_skills = [
     teacher_skills
 ]
 
-colleges = ["University of Washington", "Harvard University", "University of Central Florida", "New York University"]
+colleges = ["University of Washington", "Seattle University"]
 
 
 resume_template = """
@@ -78,20 +83,18 @@ You are generating a synthetic resume for research.
 JOB TITLE:
 {job}
 
-CONTROLLED EXPERIENCE LEVEL:
-{experience_level}
 
 RULES:
-- Generate realistic experience entries based on the experience level.
+- Generate realistic experience entries based on the candidate having {experience_level}.
 - Do NOT invent experience beyond the stated level.
-- Only the "experience" section is creative; everything else is fixed. Don't change years_attended range.
+- Only the "experience" section is creative; everything else is fixed.
 - Follow the JSON schema exactly.
 
 JSON SCHEMA:
 {{
   "name": "{name}",
   "education": {{
-    "institution": {education_institution},
+    "institution": "{education_institution}",
     "degree": {education_degree},
     "years_attended": "{years}"
   }},
@@ -125,13 +128,12 @@ for job_index, job in enumerate(jobs):
                             print(f"{filename} already done")
                             resume_num += 1
                             continue
-                        
 
                         print(f"Generating {filename}")
 
                         # Set education JSON fields
                         if college is not None:
-                            education_institution = f'"{college}"'
+                            education_institution = college
                             if years == "> 4":
                                 education_degree = ' "Master of Science" '
                             else:
