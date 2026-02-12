@@ -14,8 +14,16 @@ Variables
 
 NAMES_FILE = os.path.join("GetNames", "names.txt")
 
+names=[]
 with open(NAMES_FILE, "r", encoding="utf-8") as f:
-    names = [line.strip() for line in f if line.strip()]
+    for line in f:
+        full_name, race, sex = line.strip().split(",")
+
+        names.append({
+            "name": full_name,
+            "race": race,
+            "sex": sex
+        })
 
 # print(names)
 
@@ -159,7 +167,7 @@ for job_index, job in enumerate(jobs):
 
                         resume_data = json.loads(response.text)
 
-                        for name in names:
+                        for person in names:
 
                             filename = f"resume_{resume_num}.json"
 
@@ -169,7 +177,7 @@ for job_index, job in enumerate(jobs):
 
                             # rebuild the resume dict with 'name' first
                             resume_with_name = {
-                                "name": name,
+                                "name": person["name"],
                                 "education": resume_data.get("education", {}),
                                 "experience": resume_data.get("experience", []),
                                 "skills": resume_data.get("skills", [])
@@ -180,7 +188,9 @@ for job_index, job in enumerate(jobs):
                                 "resume": resume_with_name,
                                 "metadata": {
                                     "job_applied": job,
-                                    "experience_level": exp
+                                    "experience_level": exp,
+                                    "race": person["race"],
+                                    "sex" : person["sex"]
                                 }
                             }
 

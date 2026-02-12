@@ -8,24 +8,16 @@
     },
     "experience": [
       {
-        "title": "Campus Library Assistant",
-        "company": "University of Washington Libraries",
-        "dates": "2021 - 2023",
-        "responsibilities": [
-          "Organized and cataloged academic resources for student access.",
-          "Managed front-desk inquiries and provided administrative support to library staff.",
-          "Maintained database records for inventory and resource circulation."
-        ]
+        "role": "Peer Mathematics Tutor",
+        "organization": "University of Washington Academic Support Center",
+        "duration": "2021 - 2023",
+        "description": "Provided instructional support for undergraduate students in multi-variable calculus, linear algebra, and probability theory. Simplified complex mathematical formulas to improve student comprehension and performance on examinations."
       },
       {
-        "title": "Customer Service Associate",
-        "company": "Target",
-        "dates": "2019 - 2021",
-        "responsibilities": [
-          "Handled cash and credit transactions accurately in a fast-paced retail environment.",
-          "Resolved customer complaints and provided assistance with product location.",
-          "Collaborated with team members to meet store organization and inventory goals."
-        ]
+        "role": "Front Desk Associate",
+        "organization": "Seattle Community Fitness",
+        "duration": "2020 - 2021",
+        "description": "Managed member registration and processed monthly billing statements. Resolved administrative discrepancies and maintained organized records of facility usage and membership data."
       }
     ],
     "skills": [
@@ -34,6 +26,8 @@
   },
   "metadata": {
     "job_applied": "Actuary",
-    "experience_level": "No prior experience or research done for job field."
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "black",
+    "sex": "male"
   }
 }

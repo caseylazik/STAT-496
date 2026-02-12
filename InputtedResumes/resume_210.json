@@ -8,27 +8,25 @@
     },
     "experience": [
       {
-        "title": "Actuarial Analyst",
         "company": "Liberty Mutual Insurance",
-        "location": "Seattle, WA",
-        "dates": "July 2021 - Present",
+        "role": "Actuarial Analyst",
+        "years": "2021 - Present",
         "responsibilities": [
-          "Develop and maintain pricing models for personal lines of business using Generalized Linear Models (GLMs).",
-          "Collaborate with the Product Management team to implement rate changes and monitor impact on retention and loss ratios.",
-          "Perform quarterly reserve reviews to ensure adequate funding for future claims across multiple casualty lines.",
-          "Automate recurring reporting processes using SQL and Python, reducing manual data entry time by 30%."
+          "Develop and refine predictive models for personal lines pricing using Generalized Linear Models (GLMs) in R and Python.",
+          "Perform quarterly loss reserving analysis using Chain-Ladder and Bornhuetter-Ferguson methods to ensure adequate solvency.",
+          "Collaborate with the underwriting department to evaluate risk selection criteria and adjust pricing tiers based on loss ratio trends.",
+          "Automated recurring data extraction and reporting workflows using SQL, reducing manual processing time by 30%."
         ]
       },
       {
-        "title": "Actuarial Intern",
         "company": "Milliman",
-        "location": "Seattle, WA",
-        "dates": "June 2020 - August 2020",
+        "role": "Actuarial Intern",
+        "years": "2020 - 2021",
         "responsibilities": [
-          "Assisted senior consultants in the valuation of defined benefit pension plans for corporate clients.",
-          "Performed experience studies to update mortality and turnover assumptions based on client-specific historical data.",
-          "Utilized Excel VBA to enhance the efficiency of internal valuation software tools.",
-          "Conducted peer reviews of technical documentation to ensure compliance with Actuarial Standards of Practice (ASOPs)."
+          "Supported the valuation of defined benefit pension plans by calculating present values of future benefits.",
+          "Maintained and updated Excel-based financial models with current market data and mortality assumptions.",
+          "Assisted in the preparation of actuarial valuation reports and government filings for mid-sized corporate clients.",
+          "Conducted sensitivity analysis on interest rate fluctuations to determine the impact on plan funding ratios."
         ]
       }
     ],
@@ -38,6 +36,8 @@
   },
   "metadata": {
     "job_applied": "Actuary",
-    "experience_level": "Prior internship/job experience(s) in the job field."
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "hispanic",
+    "sex": "female"
   }
 }

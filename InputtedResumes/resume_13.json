@@ -8,16 +8,24 @@
     },
     "experience": [
       {
-        "position": "General Laborer",
-        "company": "City Maintenance Dept",
-        "period": "2023 - Present",
-        "description": "Perform manual labor tasks including landscaping and basic facility upkeep. This role does not involve data analysis, financial modeling, or actuarial research."
+        "company": "Self-Employed",
+        "role": "General Laborer",
+        "duration": "4 months",
+        "responsibilities": [
+          "Performed basic yard maintenance including mowing lawns and trimming hedges for neighborhood residents.",
+          "Assisted with residential moving tasks by lifting and transporting furniture and boxes.",
+          "Followed verbal instructions to complete manual tasks efficiently."
+        ]
       },
       {
-        "position": "Retail Associate",
-        "company": "Regional Grocery Mart",
-        "period": "2021 - 2023",
-        "description": "Processed customer transactions and stocked inventory. Responsibilities were focused on customer service and physical logistics with no exposure to risk management or statistical applications."
+        "company": "Local Community Center",
+        "role": "Volunteer Event Setup",
+        "duration": "2 months",
+        "responsibilities": [
+          "Arranged seating and tables for weekend community gatherings.",
+          "Managed the distribution of physical flyers to local residents.",
+          "Cleaned and organized the facility following the conclusion of events."
+        ]
       }
     ],
     "skills": [
@@ -26,6 +34,8 @@
   },
   "metadata": {
     "job_applied": "Actuary",
-    "experience_level": "No prior experience or research done for job field."
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "hispanic",
+    "sex": "male"
   }
 }

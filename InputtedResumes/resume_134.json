@@ -8,16 +8,16 @@
     },
     "experience": [
       {
-        "company": "Metropolitan Life & Casualty",
-        "role": "Actuarial Analyst",
-        "years": "2",
-        "description": "Assisted in the valuation of policy liabilities for life insurance products, ensuring compliance with statutory and GAAP requirements. Developed automated reporting tools using VBA and SQL to streamline quarterly reserve calculations. Conducted sensitivity analysis on interest rate fluctuations to support asset-liability management (ALM) strategies."
+        "company": "Shield Life & Health",
+        "role": "Junior Actuarial Analyst",
+        "duration": "2022 - Present",
+        "description": "Support the pricing and valuation teams by performing experience studies for group health products. Maintain and update actuarial models to reflect current mortality and morbidity trends. Assist in the preparation of quarterly financial reports and regulatory filings using SQL and Excel."
       },
       {
-        "company": "Precision Reinsurance Group",
+        "company": "Peak Casualty Group",
         "role": "Actuarial Intern",
-        "years": "1",
-        "description": "Performed data cleansing and validation for large-scale catastrophe modeling datasets. Supported senior actuaries in pricing treaty reinsurance contracts by analyzing historical loss trends and loss development factors. Prepared data visualizations for executive summaries using R and Excel."
+        "duration": "2021 - 2022",
+        "description": "Assisted in the calculation of loss reserves using chain-ladder and Bornhuetter-Ferguson methods. Developed VBA macros to automate data reconciliation between the claims database and actuarial software. Conducted sensitivity analysis on proposed rate changes for personal auto lines."
       }
     ],
     "skills": [
@@ -26,6 +26,8 @@
   },
   "metadata": {
     "job_applied": "Actuary",
-    "experience_level": "Prior internship/job experience(s) in the job field."
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "hispanic",
+    "sex": "male"
   }
 }

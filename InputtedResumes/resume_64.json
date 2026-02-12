@@ -8,16 +8,16 @@
     },
     "experience": [
       {
-        "company": "Seattle University Dining Services",
-        "role": "Student Server",
+        "title": "Mathematics Tutor",
+        "organization": "Seattle University Learning Commons",
         "duration": "2022 - 2024",
-        "description": "Managed food service and point-of-sale transactions in a high-volume campus environment, ensuring accuracy in financial handling."
+        "description": "Provided academic support to undergraduate students in Calculus I, II, and Linear Algebra. Focused on clarifying fundamental mathematical concepts and assisting with problem-solving techniques."
       },
       {
-        "company": "Target",
-        "role": "Seasonal Sales Associate",
-        "duration": "2021 - 2021",
-        "description": "Assisted customers with product inquiries and maintained organizational standards on the sales floor during peak holiday hours."
+        "title": "Front-End Associate",
+        "organization": "Whole Foods Market",
+        "duration": "2021 - 2022",
+        "description": "Handled high-volume point-of-sale transactions and addressed customer inquiries. Maintained a high level of accuracy in cash handling and inventory reporting."
       }
     ],
     "skills": [
@@ -26,6 +26,8 @@
   },
   "metadata": {
     "job_applied": "Actuary",
-    "experience_level": "No prior experience or research done for job field."
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "hispanic",
+    "sex": "female"
   }
 }

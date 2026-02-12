@@ -80,18 +80,18 @@ aln = sample_names(asi_lastnames, 3)
 
 names = []
 
-names += [f"{fn} {ln}" for fn, ln in zip(wm, wln)]
+names += [f"{fn} {ln},white,male" for fn, ln in zip(wm, wln)]
 wln = sample_names(whi_lastnames, 3)
-names += [f"{fn} {ln}" for fn, ln in zip(wf, wln)]
-names += [f"{fn} {ln}" for fn, ln in zip(bm, bln)]
+names += [f"{fn} {ln},white,female" for fn, ln in zip(wf, wln)]
+names += [f"{fn} {ln},black,male" for fn, ln in zip(bm, bln)]
 bln = sample_names(bla_lastnames, 3)
-names += [f"{fn} {ln}" for fn, ln in zip(bf, bln)]
-names += [f"{fn} {ln}" for fn, ln in zip(hm, hln)]
+names += [f"{fn} {ln},black,female" for fn, ln in zip(bf, bln)]
+names += [f"{fn} {ln},hispanic,male" for fn, ln in zip(hm, hln)]
 hln = sample_names(his_lastnames, 3)
-names += [f"{fn} {ln}" for fn, ln in zip(hf, hln)]
-names += [f"{fn} {ln}" for fn, ln in zip(am, aln)]
+names += [f"{fn} {ln},hispanic,female" for fn, ln in zip(hf, hln)]
+names += [f"{fn} {ln},asian,male" for fn, ln in zip(am, aln)]
 aln = sample_names(asi_lastnames, 3)
-names += [f"{fn} {ln}" for fn, ln in zip(af, aln)]
+names += [f"{fn} {ln},asian,female" for fn, ln in zip(af, aln)]
 
 
 with open("names.txt", "w") as f:

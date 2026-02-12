@@ -8,24 +8,16 @@
     },
     "experience": [
       {
-        "job_title": "Graduate Teaching Assistant",
-        "company": "Seattle University",
-        "dates": "2021 - 2023",
-        "responsibilities": [
-          "Led weekly recitation sections for undergraduate business calculus students.",
-          "Graded assignments and exams for advanced statistics courses.",
-          "Provided one-on-one tutoring during office hours to explain complex mathematical concepts."
-        ]
+        "company": "Seattle University Library",
+        "role": "Student Assistant",
+        "duration": "2021 - 2023",
+        "description": "Organized archival materials, assisted students with database navigation, and managed front-desk inquiries."
       },
       {
-        "job_title": "Customer Service Representative",
-        "company": "Regional Retail Solutions",
-        "dates": "2019 - 2021",
-        "responsibilities": [
-          "Managed high volumes of customer inquiries and resolved billing discrepancies.",
-          "Processed daily transaction reports and ensured data entry accuracy within the CRM system.",
-          "Collaborated with team members to streamline checkout procedures and reduce wait times."
-        ]
+        "company": "Campus Dining Services",
+        "role": "Shift Lead",
+        "duration": "2019 - 2021",
+        "description": "Supervised a team of five in a high-volume food service environment and handled daily cash reconciliation."
       }
     ],
     "skills": [
@@ -34,6 +26,8 @@
   },
   "metadata": {
     "job_applied": "Actuary",
-    "experience_level": "No prior experience or research done for job field."
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "black",
+    "sex": "female"
   }
 }

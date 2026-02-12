@@ -51,7 +51,20 @@ if os.path.exists(CSV_PATH):
 
 # csv this time for output
 with open(CSV_PATH, "a", newline="", encoding="utf-8") as csvfile:
-    fieldnames = ["resume_id", "job_applied", "reason", "recommendation"]
+    fieldnames = [
+    "resume_id",
+    "name",
+    "race",
+    "sex",
+    "institution",
+    "degree",
+    "years_attended",
+    "skills",
+    "experience_level",
+    "job_applied",
+    "reason",
+    "recommendation"
+    ]
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames) # need writer to write to csv (looked up online)
 
     # header
@@ -88,11 +101,21 @@ with open(CSV_PATH, "a", newline="", encoding="utf-8") as csvfile:
 
             evaluation = json.loads(response.text)
 
+            education = resume.get("education", {})
+
             writer.writerow({
-            "resume_id": resume_id,
-            "job_applied": job,
-            "reason": evaluation["reason"],
-            "recommendation": evaluation["recommendation"]
+                "resume_id": resume_id,
+                "name": resume.get("name"),
+                "race": data["metadata"].get("race"),
+                "sex": data["metadata"].get("sex"),
+                "institution": education.get("institution"),
+                "degree": education.get("degree"),
+                "years_attended": education.get("years_attended"),
+                "skills": ", ".join(resume.get("skills", [])),  # CSV-friendly
+                "experience_level": data["metadata"].get("experience_level"),
+                "job_applied": job,
+                "reason": evaluation["reason"],
+                "recommendation": evaluation["recommendation"]
             })
             csvfile.flush() # so the csv updates constantly
 

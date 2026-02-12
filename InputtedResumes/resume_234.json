@@ -8,27 +8,27 @@
     },
     "experience": [
       {
-        "title": "Actuarial Analyst",
-        "company": "Liberty Mutual Insurance",
+        "job_title": "Junior Actuarial Analyst",
+        "company": "Milliman",
         "location": "Seattle, WA",
-        "dates": "2022 - Present",
+        "dates": "July 2022 - Present",
         "responsibilities": [
-          "Perform quarterly reserve valuations for Personal Lines using Chain Ladder and Bornhuetter-Ferguson methodologies.",
-          "Utilize R and SQL to develop Generalized Linear Models (GLMs) for predictive modeling of claim frequency and severity.",
-          "Collaborate with the pricing team to prepare rate filing documentation for state regulatory departments.",
-          "Automated monthly KPI reporting using VBA and Power BI, reducing manual processing time by 20%."
+          "Assisted in the preparation of statutory and GAAP financial reporting for life insurance product lines.",
+          "Utilized SQL and Python to extract and manipulate large datasets for mortality and morbidity trend analysis.",
+          "Performed quarterly reserve calculations and reconciled differences in valuation results.",
+          "Contributed to the automation of monthly reporting templates using VBA, reducing processing time by 15%."
         ]
       },
       {
-        "title": "Actuarial Intern",
-        "company": "Milliman",
-        "location": "Seattle, WA",
-        "dates": "2021 - 2022",
+        "job_title": "Actuarial Intern",
+        "company": "Liberty Mutual Insurance",
+        "location": "Remote",
+        "dates": "May 2021 - August 2021",
         "responsibilities": [
-          "Assisted in the valuation of defined benefit pension plans by updating census data and discount rate assumptions.",
-          "Performed sensitivity analysis on life insurance product portfolios to evaluate the impact of fluctuating interest rates.",
-          "Supported senior consultants in auditing financial statements for compliance with ASOP standards.",
-          "Developed custom Excel tools for peer-reviewing liability calculations."
+          "Supported the personal lines pricing team by conducting sensitivity analysis on premium rate changes.",
+          "Developed a data validation tool in Excel to identify outliers in claims data, improving data integrity for modeling.",
+          "Presented a competitive landscape analysis to senior leadership, focusing on emerging auto insurance trends.",
+          "Assisted with documentation for state regulatory filings to ensure compliance with actuarial standards of practice."
         ]
       }
     ],
@@ -38,6 +38,8 @@
   },
   "metadata": {
     "job_applied": "Actuary",
-    "experience_level": "Prior internship/job experience(s) in the job field."
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "hispanic",
+    "sex": "female"
   }
 }

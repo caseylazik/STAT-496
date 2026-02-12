@@ -8,27 +8,16 @@
     },
     "experience": [
       {
-        "title": "Actuarial Research Assistant",
-        "organization": "University Department of Mathematical Sciences",
-        "location": "Academic Setting",
-        "dates": "2022 - 2023",
-        "responsibilities": [
-          "Conducted longitudinal research on mortality improvement scales using Lee-Carter modeling in R to forecast future life expectancy trends.",
-          "Performed multivariate regression analysis on a dataset of 500,000+ records to identify key variables impacting health insurance claim frequency.",
-          "Developed a stochastic simulation model to test the impact of varying interest rate environments on long-term annuity liabilities.",
-          "Collaborated with faculty to refine data cleansing protocols for raw insurance industry datasets, ensuring 99% accuracy in downstream modeling."
-        ]
+        "role": "Graduate Research Fellow - Actuarial Modeling",
+        "organization": "University Quantitative Research Lab",
+        "years": "2022-2023",
+        "description": "Conducted an in-depth analysis of stochastic mortality models, specifically comparing Lee-Carter and Cairns-Blake-Dowd frameworks for projecting longevity risk. Managed large datasets of historical census data using R and SQL to identify trends in age-specific mortality rates."
       },
       {
-        "title": "Predictive Risk Modeling Researcher",
-        "organization": "Quantitative Finance Lab",
-        "location": "Academic Setting",
-        "dates": "2021 - 2022",
-        "responsibilities": [
-          "Analyzed the correlation between macroeconomic indicators and life insurance lapse rates using Generalized Linear Models (GLMs).",
-          "Utilized SQL to query large-scale historical market data for use in Monte Carlo simulations of pension fund solvency.",
-          "Prepared technical documentation and data visualizations explaining tail-risk scenarios and Value at Risk (VaR) for faculty review."
-        ]
+        "role": "Research Assistant - Predictive Analytics",
+        "organization": "Center for Risk Management and Insurance",
+        "years": "2021-2022",
+        "description": "Assisted in the development of a predictive model for health insurance claim frequency utilizing Generalized Linear Models (GLMs). Evaluated the impact of socioeconomic variables on risk segmentation and presented findings on premium elasticity to departmental faculty."
       }
     ],
     "skills": [
@@ -37,6 +26,8 @@
   },
   "metadata": {
     "job_applied": "Actuary",
-    "experience_level": "Relevant research done for the job field."
+    "experience_level": "Relevant research done for the job field.",
+    "race": "asian",
+    "sex": "male"
   }
 }

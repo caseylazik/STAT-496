@@ -8,24 +8,16 @@
     },
     "experience": [
       {
-        "company": "Target",
-        "role": "Guest Service Associate",
-        "dates": "2022 - Present",
-        "responsibilities": [
-          "Process customer returns and exchanges while maintaining high service standards.",
-          "Manage point-of-sale transactions and resolve billing discrepancies for guests.",
-          "Coordinate with floor leads to ensure inventory levels are maintained and organized."
-        ]
+        "company": "University of Washington",
+        "role": "Graduate Teaching Assistant",
+        "dates": "2021 - 2023",
+        "description": "Led undergraduate discussion sections for introductory mathematics courses and graded student assignments."
       },
       {
-        "company": "University of Washington Housing",
-        "role": "Student Desk Assistant",
-        "dates": "2019 - 2022",
-        "responsibilities": [
-          "Managed front-desk operations for a 500-student residence hall.",
-          "Handled secure mail sorting and distribution for residents and staff.",
-          "Responded to emergency maintenance requests and directed calls to appropriate departments."
-        ]
+        "company": "Safeway",
+        "role": "Courtesy Clerk",
+        "dates": "2018 - 2021",
+        "description": "Provided customer service, managed inventory stocking, and assisted with front-end operations in a retail setting."
       }
     ],
     "skills": [
@@ -34,6 +26,8 @@
   },
   "metadata": {
     "job_applied": "Actuary",
-    "experience_level": "No prior experience or research done for job field."
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "white",
+    "sex": "male"
   }
 }
