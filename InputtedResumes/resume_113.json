@@ -1,0 +1,39 @@
+{
+  "resume": {
+    "name": "NAYELI SOTOLONGO",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "job_title": "Graduate Teaching Assistant",
+        "company": "Seattle University",
+        "dates": "2021 - 2023",
+        "responsibilities": [
+          "Led weekly recitation sections for undergraduate business calculus students.",
+          "Graded assignments and exams for advanced statistics courses.",
+          "Provided one-on-one tutoring during office hours to explain complex mathematical concepts."
+        ]
+      },
+      {
+        "job_title": "Customer Service Representative",
+        "company": "Regional Retail Solutions",
+        "dates": "2019 - 2021",
+        "responsibilities": [
+          "Managed high volumes of customer inquiries and resolved billing discrepancies.",
+          "Processed daily transaction reports and ensured data entry accuracy within the CRM system.",
+          "Collaborated with team members to streamline checkout procedures and reduce wait times."
+        ]
+      }
+    ],
+    "skills": [
+      "Actuarial exam progress (ASA/FSA)"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "No prior experience or research done for job field."
+  }
+}

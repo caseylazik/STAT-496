@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "SHRUTI PARK",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "title": "Graduate Research Assistant",
+        "organization": "Seattle University - Department of Mathematics",
+        "location": "Seattle, WA",
+        "period": "2021 - 2023",
+        "description": "Conducted intensive research on stochastic modeling for catastrophe risk assessment. Utilized R and SQL to analyze historical property-casualty data, identifying key predictors for high-severity loss events. Presented findings on the impact of climate volatility on long-term premium stability to faculty and industry partners."
+      },
+      {
+        "title": "Actuarial Research Project Lead",
+        "organization": "Quantitative Finance & Actuarial Lab",
+        "location": "Seattle, WA",
+        "period": "2020 - 2021",
+        "description": "Led a team of three in a research project focused on survival analysis and mortality rate projections. Developed a Python-based framework to automate the cleaning and validation of large demographic datasets. Applied Generalized Linear Models (GLMs) to refine life expectancy estimates for diverse policyholder cohorts."
+      }
+    ],
+    "skills": [
+      "Proficient in R, SQL, and Python"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "Relevant research done for the job field."
+  }
+}

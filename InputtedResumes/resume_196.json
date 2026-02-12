@@ -1,0 +1,43 @@
+{
+  "resume": {
+    "name": "MISTY STARNES",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "title": "Actuarial Analyst",
+        "company": "Liberty Mutual Insurance",
+        "location": "Seattle, WA",
+        "dates": "July 2021 - Present",
+        "responsibilities": [
+          "Develop and maintain pricing models for personal lines of business using Generalized Linear Models (GLMs).",
+          "Collaborate with the Product Management team to implement rate changes and monitor impact on retention and loss ratios.",
+          "Perform quarterly reserve reviews to ensure adequate funding for future claims across multiple casualty lines.",
+          "Automate recurring reporting processes using SQL and Python, reducing manual data entry time by 30%."
+        ]
+      },
+      {
+        "title": "Actuarial Intern",
+        "company": "Milliman",
+        "location": "Seattle, WA",
+        "dates": "June 2020 - August 2020",
+        "responsibilities": [
+          "Assisted senior consultants in the valuation of defined benefit pension plans for corporate clients.",
+          "Performed experience studies to update mortality and turnover assumptions based on client-specific historical data.",
+          "Utilized Excel VBA to enhance the efficiency of internal valuation software tools.",
+          "Conducted peer reviews of technical documentation to ensure compliance with Actuarial Standards of Practice (ASOPs)."
+        ]
+      }
+    ],
+    "skills": [
+      "Actuarial exam progress (ASA/FSA)"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "Prior internship/job experience(s) in the job field."
+  }
+}

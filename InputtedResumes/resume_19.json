@@ -1,0 +1,31 @@
+{
+  "resume": {
+    "name": "TAM PARK",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "position": "General Laborer",
+        "company": "City Maintenance Dept",
+        "period": "2023 - Present",
+        "description": "Perform manual labor tasks including landscaping and basic facility upkeep. This role does not involve data analysis, financial modeling, or actuarial research."
+      },
+      {
+        "position": "Retail Associate",
+        "company": "Regional Grocery Mart",
+        "period": "2021 - 2023",
+        "description": "Processed customer transactions and stocked inventory. Responsibilities were focused on customer service and physical logistics with no exposure to risk management or statistical applications."
+      }
+    ],
+    "skills": [
+      "Actuarial exam progress (ASA/FSA)"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "No prior experience or research done for job field."
+  }
+}

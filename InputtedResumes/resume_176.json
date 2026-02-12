@@ -1,0 +1,43 @@
+{
+  "resume": {
+    "name": "CORTEZ IVORY",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "title": "Junior Actuarial Analyst",
+        "company": "Pacific Life Insurance",
+        "location": "Seattle, WA",
+        "years": "2022-Present",
+        "responsibilities": [
+          "Perform quarterly valuation and reserve calculations for life insurance products using GGY AXIS.",
+          "Update mortality and lapse assumptions based on historical trend analysis and experience studies.",
+          "Develop automated reporting templates using VBA and SQL to reduce monthly data processing time by 20%.",
+          "Support senior actuaries in preparing financial projections and documentation for regulatory filings."
+        ]
+      },
+      {
+        "title": "Actuarial Intern",
+        "company": "Liberty Mutual Insurance",
+        "location": "Seattle, WA",
+        "years": "2021-2022",
+        "responsibilities": [
+          "Assisted in the pricing of personal lines products by conducting competitive rate analysis and loss development modeling.",
+          "Utilized R and SQL to clean and validate large datasets for use in predictive modeling projects.",
+          "Collaborated with the underwriting team to identify key risk drivers in the personal auto portfolio.",
+          "Presented findings on regional loss trends to department leadership during the final internship capstone."
+        ]
+      }
+    ],
+    "skills": [
+      "Actuarial exam progress (ASA/FSA)"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "Prior internship/job experience(s) in the job field."
+  }
+}

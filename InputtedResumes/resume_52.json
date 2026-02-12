@@ -1,0 +1,31 @@
+{
+  "resume": {
+    "name": "MISTY STARNES",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "Seattle University Dining Services",
+        "role": "Student Server",
+        "duration": "2022 - 2024",
+        "description": "Managed food service and point-of-sale transactions in a high-volume campus environment, ensuring accuracy in financial handling."
+      },
+      {
+        "company": "Target",
+        "role": "Seasonal Sales Associate",
+        "duration": "2021 - 2021",
+        "description": "Assisted customers with product inquiries and maintained organizational standards on the sales floor during peak holiday hours."
+      }
+    ],
+    "skills": [
+      "Actuarial exam progress (ASA/FSA)"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "No prior experience or research done for job field."
+  }
+}

@@ -1,23 +1,23 @@
 {
   "resume": {
-    "name": "BUDDY STARNES",
+    "name": "JACK HONEYCUTT",
     "education": {
-      "institution": "Seattle University",
-      "degree": "Bachelor of Science",
-      "years_attended": "3-4"
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
     },
     "experience": [
       {
-        "company": "Seattle University Student Union",
-        "role": "Administrative Assistant",
-        "years": "1",
-        "description": "Managed scheduling for student organization meetings and handled data entry for internal campus events. Maintained organized digital filing systems and provided front-desk support for visitors."
+        "position": "General Laborer",
+        "company": "City Maintenance Dept",
+        "period": "2023 - Present",
+        "description": "Perform manual labor tasks including landscaping and basic facility upkeep. This role does not involve data analysis, financial modeling, or actuarial research."
       },
       {
-        "company": "Various Clients",
-        "role": "Private Mathematics Tutor",
-        "years": "2",
-        "description": "Offered individualized algebra and geometry support to high school students. Focused on improving student comprehension of fundamental mathematical concepts and exam preparation."
+        "position": "Retail Associate",
+        "company": "Regional Grocery Mart",
+        "period": "2021 - 2023",
+        "description": "Processed customer transactions and stocked inventory. Responsibilities were focused on customer service and physical logistics with no exposure to risk management or statistical applications."
       }
     ],
     "skills": [

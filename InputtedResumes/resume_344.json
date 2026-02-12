@@ -1,0 +1,34 @@
+{
+  "resume": {
+    "name": "CORTEZ IVORY",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "role": "Graduate Research Assistant",
+        "organization": "Seattle University - Department of Mathematics",
+        "description": "Collaborated with faculty on stochastic modeling research, specifically focusing on the application of Monte Carlo simulations to value long-term insurance liabilities under fluctuating interest rates."
+      },
+      {
+        "role": "Lead Researcher - Master's Thesis",
+        "organization": "Seattle University",
+        "description": "Conducted a quantitative analysis of predictive modeling techniques in property-casualty insurance, utilizing Generalized Linear Models (GLMs) to evaluate risk factors in large-scale historical claim datasets."
+      },
+      {
+        "role": "Academic Research Contributor",
+        "organization": "Seattle University Actuarial Science Group",
+        "description": "Performed rigorous statistical testing on mortality trend datasets to assess the impact of demographic shifts on pension fund solvency projections."
+      }
+    ],
+    "skills": [
+      "Actuarial exam progress (ASA/FSA)"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "Relevant research done for the job field."
+  }
+}

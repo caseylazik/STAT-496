@@ -1,0 +1,39 @@
+{
+  "resume": {
+    "name": "SUE HOLCOMB",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "title": "Campus Library Assistant",
+        "company": "University of Washington Libraries",
+        "dates": "2021 - 2023",
+        "responsibilities": [
+          "Organized and cataloged academic resources for student access.",
+          "Managed front-desk inquiries and provided administrative support to library staff.",
+          "Maintained database records for inventory and resource circulation."
+        ]
+      },
+      {
+        "title": "Customer Service Associate",
+        "company": "Target",
+        "dates": "2019 - 2021",
+        "responsibilities": [
+          "Handled cash and credit transactions accurately in a fast-paced retail environment.",
+          "Resolved customer complaints and provided assistance with product location.",
+          "Collaborated with team members to meet store organization and inventory goals."
+        ]
+      }
+    ],
+    "skills": [
+      "Actuarial exam progress (ASA/FSA)"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "No prior experience or research done for job field."
+  }
+}

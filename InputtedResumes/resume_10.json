@@ -1,23 +1,23 @@
 {
   "resume": {
-    "name": "BRADLEY HOLCOMB",
+    "name": "LATANYA PRINGLE",
     "education": {
-      "institution": "Seattle University",
-      "degree": "Master of Science",
-      "years_attended": "> 4"
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
     },
     "experience": [
       {
-        "company": "Seattle University",
-        "role": "Graduate Teaching Assistant",
-        "duration": "2021 - 2023",
-        "description": "Assisted faculty in the mathematics department by grading undergraduate coursework in advanced calculus and statistics. Conducted weekly tutoring sessions for students to clarify complex quantitative theories and formulas."
+        "position": "General Laborer",
+        "company": "City Maintenance Dept",
+        "period": "2023 - Present",
+        "description": "Perform manual labor tasks including landscaping and basic facility upkeep. This role does not involve data analysis, financial modeling, or actuarial research."
       },
       {
-        "company": "Main Street Cafe",
-        "role": "Shift Lead",
-        "duration": "2018 - 2021",
-        "description": "Managed daily cash reconciliation and staff scheduling. Handled customer inquiries and resolved service issues while maintaining accurate inventory records and financial logs for the manager."
+        "position": "Retail Associate",
+        "company": "Regional Grocery Mart",
+        "period": "2021 - 2023",
+        "description": "Processed customer transactions and stocked inventory. Responsibilities were focused on customer service and physical logistics with no exposure to risk management or statistical applications."
       }
     ],
     "skills": [

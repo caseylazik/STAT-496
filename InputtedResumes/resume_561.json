@@ -1,0 +1,43 @@
+{
+  "resume": {
+    "name": "CEDRIC LATTIMORE",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "job_title": "Actuarial Associate",
+        "company": "Pacific Life Insurance",
+        "location": "Newport Beach, CA",
+        "dates": "June 2021 \u2013 Present",
+        "responsibilities": [
+          "Develop and maintain complex actuarial models for valuation and financial reporting using R and Prophet.",
+          "Perform quarterly experience studies on mortality and lapse rates to inform pricing assumptions for new product launches.",
+          "Streamline data extraction and manipulation processes by creating automated SQL queries, reducing manual reporting time by 15%.",
+          "Collaborate with the risk management team to perform sensitivity testing and stress scenarios for capital requirement assessments."
+        ]
+      },
+      {
+        "job_title": "Actuarial Intern",
+        "company": "Milliman",
+        "location": "Seattle, WA",
+        "dates": "May 2020 \u2013 August 2020",
+        "responsibilities": [
+          "Supported senior consultants in the Property and Casualty practice with loss development and reserving analysis.",
+          "Cleaned and validated policyholder datasets using Python to ensure accuracy in predictive modeling.",
+          "Assisted in the preparation of annual rate filing documents for state regulatory agencies.",
+          "Conducted market research on industry trends and competitor pricing models to support client strategic planning."
+        ]
+      }
+    ],
+    "skills": [
+      "Proficient in R, SQL, and Python"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "Prior internship/job experience(s) in the job field."
+  }
+}

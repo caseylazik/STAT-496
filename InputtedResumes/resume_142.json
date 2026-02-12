@@ -1,0 +1,31 @@
+{
+  "resume": {
+    "name": "SHRUTI PARK",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "company": "Metropolitan Life & Casualty",
+        "role": "Actuarial Analyst",
+        "years": "2",
+        "description": "Assisted in the valuation of policy liabilities for life insurance products, ensuring compliance with statutory and GAAP requirements. Developed automated reporting tools using VBA and SQL to streamline quarterly reserve calculations. Conducted sensitivity analysis on interest rate fluctuations to support asset-liability management (ALM) strategies."
+      },
+      {
+        "company": "Precision Reinsurance Group",
+        "role": "Actuarial Intern",
+        "years": "1",
+        "description": "Performed data cleansing and validation for large-scale catastrophe modeling datasets. Supported senior actuaries in pricing treaty reinsurance contracts by analyzing historical loss trends and loss development factors. Prepared data visualizations for executive summaries using R and Excel."
+      }
+    ],
+    "skills": [
+      "Actuarial exam progress (ASA/FSA)"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "Prior internship/job experience(s) in the job field."
+  }
+}

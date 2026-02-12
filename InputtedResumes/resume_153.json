@@ -1,0 +1,42 @@
+{
+  "resume": {
+    "name": "CEDRIC LATTIMORE",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "job_title": "Actuarial Analyst",
+        "company": "Milliman",
+        "location": "Seattle, WA",
+        "dates": "September 2021 - Present",
+        "responsibilities": [
+          "Perform quarterly loss reserving analyses for property and casualty lines using Chain-Ladder and Bornhuetter-Ferguson methodologies.",
+          "Maintain and update complex pricing models in Excel and VBA to support annual rate filings and profitability studies.",
+          "Collaborate with the data engineering team to streamline the extraction of policyholder data using SQL, reducing report generation time by 20%.",
+          "Assist in the preparation of actuarial memorandums and state regulatory filings to ensure compliance with statutory requirements."
+        ]
+      },
+      {
+        "job_title": "Actuarial Intern",
+        "company": "Liberty Mutual Insurance",
+        "location": "Boston, MA",
+        "dates": "June 2020 - August 2020",
+        "responsibilities": [
+          "Analyzed large datasets to identify emerging loss trends in personal auto insurance lines using R and SAS.",
+          "Conducted impact studies for proposed rating factor changes and presented findings to the product management team.",
+          "Automated routine data validation checks using Python, enhancing the accuracy of data used in predictive modeling."
+        ]
+      }
+    ],
+    "skills": [
+      "Actuarial exam progress (ASA/FSA)"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "Prior internship/job experience(s) in the job field."
+  }
+}

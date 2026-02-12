@@ -1,0 +1,40 @@
+{
+  "resume": {
+    "name": "ASHANTI LATTIMORE",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "company": "Apex Insurance Group",
+        "position": "Actuarial Analyst",
+        "duration": "2021 - Present",
+        "responsibilities": [
+          "Perform quarterly loss reserve analysis for commercial property and casualty lines using chain-ladder and Bornhuetter-Ferguson methods.",
+          "Maintain and update pricing models in R to reflect recent loss trends and changes in legislative environments.",
+          "Collaborate with the data science team to integrate predictive modeling into the underwriting process for personal lines.",
+          "Prepare and document state rate filings to ensure compliance with regulatory requirements."
+        ]
+      },
+      {
+        "company": "Heritage Life & Annuity",
+        "position": "Actuarial Intern",
+        "duration": "2020 - 2021",
+        "responsibilities": [
+          "Automated the monthly valuation reporting process using SQL and R, reducing manual processing time by 15 hours per month.",
+          "Assisted senior actuaries in sensitivity testing for universal life products to evaluate financial impact under various interest rate scenarios.",
+          "Performed data reconciliation tasks to ensure the integrity of policyholder data used in mortality studies."
+        ]
+      }
+    ],
+    "skills": [
+      "Proficient in R, SQL, and Python"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "Prior internship/job experience(s) in the job field."
+  }
+}

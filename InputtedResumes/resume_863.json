@@ -1,0 +1,31 @@
+{
+  "resume": {
+    "name": "NAVYA HWANG",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "company": "NexGen Solutions",
+        "role": "Software Engineer",
+        "duration": "June 2022 \u2013 Present",
+        "description": "Develop and maintain robust backend services using C++ for high-concurrency financial processing systems. Collaborate with the QA team to implement comprehensive automated testing suites. Optimize Java-based middleware components to reduce latency by 20%."
+      },
+      {
+        "company": "ByteStream Systems",
+        "role": "Software Engineering Intern",
+        "duration": "January 2022 \u2013 May 2022",
+        "description": "Assisted in the migration of legacy Java applications to a modern microservices architecture. Participated in code reviews and utilized Git for version control. Fixed critical bugs in the internal reporting tool, improving data accuracy for stakeholders."
+      }
+    ],
+    "skills": [
+      "Proficient in Java and C++"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "Prior internship/job experience(s) in the job field."
+  }
+}

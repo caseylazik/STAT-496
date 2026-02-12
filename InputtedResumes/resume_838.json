@@ -1,0 +1,37 @@
+{
+  "resume": {
+    "name": "SHRUTI PARK",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "company": "Westside Grocery",
+        "role": "Customer Service Representative",
+        "duration": "2022 - 2024",
+        "description": "Managed point-of-sale transactions and assisted customers with inquiries in a fast-paced retail environment."
+      },
+      {
+        "company": "Seattle Public Library",
+        "role": "Volunteer Assistant",
+        "duration": "2020 - 2022",
+        "description": "Organized archival materials and assisted patrons with basic computer troubleshooting and facility navigation."
+      },
+      {
+        "company": "Self-Employed",
+        "role": "Private Math Tutor",
+        "duration": "2018 - 2020",
+        "description": "Provided one-on-one algebra and geometry tutoring to high school students to improve their academic performance."
+      }
+    ],
+    "skills": [
+      "Proficient in Java and C++"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "No prior experience or research done for job field."
+  }
+}

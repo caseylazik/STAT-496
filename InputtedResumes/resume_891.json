@@ -1,0 +1,31 @@
+{
+  "resume": {
+    "name": "JACK HONEYCUTT",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "CloudNexus Systems",
+        "role": "Junior Software Engineer",
+        "dates": "July 2022 - Present",
+        "description": "Develop and maintain core backend services using C++. Collaborate with the infrastructure team to optimize low-latency data processing modules and implement robust unit testing suites to ensure code reliability."
+      },
+      {
+        "company": "TechStream Solutions",
+        "role": "Software Engineering Intern",
+        "dates": "June 2021 - August 2021",
+        "description": "Assisted in the development of RESTful microservices using Java and Spring Boot. Focused on optimizing database query performance and participating in Agile scrum ceremonies to track sprint progress."
+      }
+    ],
+    "skills": [
+      "Proficient in Java and C++"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "Prior internship/job experience(s) in the job field."
+  }
+}

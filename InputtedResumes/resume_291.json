@@ -1,0 +1,29 @@
+{
+  "resume": {
+    "name": "JACK HONEYCUTT",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "role": "Lead Student Researcher - Stochastic Modeling",
+        "organization": "Seattle University Mathematics Department",
+        "description": "Conducted an intensive research project focused on the application of Monte Carlo simulations to model the volatility of long-term disability claims. Utilized R and Python to analyze historical dataset patterns, identifying key correlations between economic indicators and claim frequency. Presented findings on risk mitigation strategies to a panel of academic and industry professionals."
+      },
+      {
+        "role": "Undergraduate Research Assistant",
+        "organization": "Quantitative Risk Analysis Lab",
+        "description": "Collaborated on a study examining the impact of changing mortality rates on pension fund solvency. Developed Generalized Linear Models (GLMs) to project future liabilities under various demographic scenarios. Cleaned and processed large-scale datasets to ensure the integrity of survival analysis calculations and life table development."
+      }
+    ],
+    "skills": [
+      "Actuarial exam progress (ASA/FSA)"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "Relevant research done for the job field."
+  }
+}

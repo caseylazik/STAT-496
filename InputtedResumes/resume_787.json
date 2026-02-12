@@ -1,0 +1,25 @@
+{
+  "resume": {
+    "name": "TAM PARK",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "role": "Undergraduate Student",
+        "company": "Seattle University",
+        "duration": "N/A",
+        "description": "Completed full-time undergraduate studies at Seattle University. This candidate has no prior professional work experience, internships, or industry-specific research projects in the field of software engineering."
+      }
+    ],
+    "skills": [
+      "Proficient in Java and C++"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "No prior experience or research done for job field."
+  }
+}

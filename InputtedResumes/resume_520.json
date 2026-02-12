@@ -1,0 +1,41 @@
+{
+  "resume": {
+    "name": "JIMENA ARMENTEROS",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "Liberty Mutual Insurance",
+        "position": "Actuarial Analyst I",
+        "duration": "2 years",
+        "responsibilities": [
+          "Performed quarterly loss reserve analysis for personal auto lines, ensuring compliance with statutory accounting principles.",
+          "Developed automated reporting tools using R and SQL to track loss ratio trends and identify emerging risks in high-growth regions.",
+          "Collaborated with product management to prepare data for state rate filings and respond to regulatory inquiries.",
+          "Applied Generalized Linear Models (GLMs) to refine pricing segments and improve competitive positioning."
+        ]
+      },
+      {
+        "company": "Milliman",
+        "position": "Actuarial Intern",
+        "duration": "1 year",
+        "responsibilities": [
+          "Assisted senior consultants with the valuation of pension plan liabilities for corporate clients.",
+          "Utilized Excel and Python to clean large datasets and verify the accuracy of demographic data used in mortality projections.",
+          "Drafted technical documentation outlining methodology changes for annual valuation reports.",
+          "Performed sensitivity analysis on interest rate assumptions to evaluate impact on plan funding levels."
+        ]
+      }
+    ],
+    "skills": [
+      "Proficient in R, SQL, and Python"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "Prior internship/job experience(s) in the job field."
+  }
+}

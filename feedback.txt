@@ -1,0 +1,21 @@
+This text file's purpose is to write down ideas and record feedback we have addressed:
+
+
+
+
+
+Feedback to address from each other or professor:
+
+- Consider bias from order (order of input to LLM can change things quite a bit)
+
+
+Addressed Feedback:
+
+- Improved Resume detail (use LLM to generate them)
+- Included more jobs
+- Less bullet-pointed requirements for a job
+- More varied names generated using Harvard database
+- Not describing education as just a level of degree
+- Rank the resumes on an ordered scale rather than simply approve or not
+- Reversed order of decision/explanation such that the explanation comes first
+- Removed race/sex bias from generating the resumes with the names in LLM input, instead place string after the LLM gives its output (saves time too)

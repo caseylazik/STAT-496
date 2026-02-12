@@ -1,0 +1,43 @@
+{
+  "resume": {
+    "name": "NAVYA HWANG",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "title": "Actuarial Analyst",
+        "company": "Liberty Mutual Insurance",
+        "location": "Seattle, WA",
+        "dates": "2022 - Present",
+        "responsibilities": [
+          "Perform quarterly reserve valuations for Personal Lines using Chain Ladder and Bornhuetter-Ferguson methodologies.",
+          "Utilize R and SQL to develop Generalized Linear Models (GLMs) for predictive modeling of claim frequency and severity.",
+          "Collaborate with the pricing team to prepare rate filing documentation for state regulatory departments.",
+          "Automated monthly KPI reporting using VBA and Power BI, reducing manual processing time by 20%."
+        ]
+      },
+      {
+        "title": "Actuarial Intern",
+        "company": "Milliman",
+        "location": "Seattle, WA",
+        "dates": "2021 - 2022",
+        "responsibilities": [
+          "Assisted in the valuation of defined benefit pension plans by updating census data and discount rate assumptions.",
+          "Performed sensitivity analysis on life insurance product portfolios to evaluate the impact of fluctuating interest rates.",
+          "Supported senior consultants in auditing financial statements for compliance with ASOP standards.",
+          "Developed custom Excel tools for peer-reviewing liability calculations."
+        ]
+      }
+    ],
+    "skills": [
+      "Actuarial exam progress (ASA/FSA)"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "Prior internship/job experience(s) in the job field."
+  }
+}

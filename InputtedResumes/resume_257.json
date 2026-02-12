@@ -1,0 +1,42 @@
+{
+  "resume": {
+    "name": "NAYELI SOTOLONGO",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "title": "Actuarial Research Assistant",
+        "organization": "University Department of Mathematical Sciences",
+        "location": "Academic Setting",
+        "dates": "2022 - 2023",
+        "responsibilities": [
+          "Conducted longitudinal research on mortality improvement scales using Lee-Carter modeling in R to forecast future life expectancy trends.",
+          "Performed multivariate regression analysis on a dataset of 500,000+ records to identify key variables impacting health insurance claim frequency.",
+          "Developed a stochastic simulation model to test the impact of varying interest rate environments on long-term annuity liabilities.",
+          "Collaborated with faculty to refine data cleansing protocols for raw insurance industry datasets, ensuring 99% accuracy in downstream modeling."
+        ]
+      },
+      {
+        "title": "Predictive Risk Modeling Researcher",
+        "organization": "Quantitative Finance Lab",
+        "location": "Academic Setting",
+        "dates": "2021 - 2022",
+        "responsibilities": [
+          "Analyzed the correlation between macroeconomic indicators and life insurance lapse rates using Generalized Linear Models (GLMs).",
+          "Utilized SQL to query large-scale historical market data for use in Monte Carlo simulations of pension fund solvency.",
+          "Prepared technical documentation and data visualizations explaining tail-risk scenarios and Value at Risk (VaR) for faculty review."
+        ]
+      }
+    ],
+    "skills": [
+      "Actuarial exam progress (ASA/FSA)"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "Relevant research done for the job field."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "resume": {
+    "name": "NAVYA HWANG",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "role": "Graduate Research Assistant",
+        "focus": "Stochastic Modeling and Risk Assessment",
+        "description": "Conducted comprehensive research on the application of stochastic processes in life insurance reserve calculations. Developed simulation models in R to analyze the impact of fluctuating interest rates on long-term solvency ratios."
+      },
+      {
+        "role": "Independent Researcher",
+        "focus": "Predictive Analytics in General Insurance",
+        "description": "Performed quantitative analysis on catastrophe loss datasets to improve predictive accuracy for property insurance premiums. Utilized SQL for data extraction and Python to implement Generalized Linear Models (GLMs) for claim frequency estimation."
+      }
+    ],
+    "skills": [
+      "Proficient in R, SQL, and Python"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "Relevant research done for the job field."
+  }
+}

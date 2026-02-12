@@ -1,0 +1,41 @@
+{
+  "resume": {
+    "name": "TEVIN PRINGLE",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "Amazon",
+        "title": "Software Development Engineer Intern",
+        "location": "Seattle, WA",
+        "dates": "June 2022 - September 2022",
+        "responsibilities": [
+          "Collaborated with a team of five engineers to develop a high-throughput data processing microservice using Java and Spring Boot.",
+          "Optimized existing database queries for the order management system, resulting in a 12% reduction in latency.",
+          "Authored and maintained comprehensive unit tests using JUnit and Mockito to ensure system reliability and 90% code coverage."
+        ]
+      },
+      {
+        "company": "F5 Networks",
+        "title": "Software Engineering Intern",
+        "location": "Seattle, WA",
+        "dates": "June 2021 - September 2021",
+        "responsibilities": [
+          "Implemented performance-critical features in a network traffic management application using C++.",
+          "Contributed to the migration of legacy build systems to modern CI/CD pipelines, streamlining the deployment process.",
+          "Participated in peer code reviews and architectural design sessions to improve codebase modularity and maintainability."
+        ]
+      }
+    ],
+    "skills": [
+      "Proficient in Java and C++"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "Prior internship/job experience(s) in the job field."
+  }
+}

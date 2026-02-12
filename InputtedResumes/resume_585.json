@@ -1,0 +1,31 @@
+{
+  "resume": {
+    "name": "CEDRIC LATTIMORE",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "title": "Associate Actuary",
+        "company": "Liberty Mutual Insurance",
+        "dates": "2021 - Present",
+        "responsibilities": "Developed and refined pricing models for personal auto insurance lines using Generalized Linear Models (GLMs). Conducted quarterly reserve analysis and calculated IBNR provisions. Collaborated with the underwriting department to monitor loss ratios and suggest rate adjustments based on emerging trends."
+      },
+      {
+        "title": "Actuarial Intern",
+        "company": "Premera Blue Cross",
+        "dates": "2020 - 2021",
+        "responsibilities": "Supported the health valuation team in preparing annual and quarterly financial statements. Utilized SQL to extract and clean large claims datasets for trend analysis. Assisted in the preparation of state regulatory rate filings and documentation for ACA-compliant health plans."
+      }
+    ],
+    "skills": [
+      "Proficient in R, SQL, and Python"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "Prior internship/job experience(s) in the job field."
+  }
+}

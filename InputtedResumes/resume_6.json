@@ -1,6 +1,6 @@
 {
   "resume": {
-    "name": "BRADLEY HOLCOMB",
+    "name": "SUZANNE HONEYCUTT",
     "education": {
       "institution": "null",
       "degree": null,
@@ -8,22 +8,16 @@
     },
     "experience": [
       {
-        "company": "Quick Stop Grocery",
-        "position": "Stock Associate",
-        "dates": "2022 - 2023",
-        "responsibilities": "Managed inventory levels on the sales floor and assisted customers with locating products."
-      },
-      {
-        "company": "Sunshine Landscaping",
         "position": "General Laborer",
-        "dates": "2021 - 2022",
-        "responsibilities": "Maintained residential lawns and operated basic equipment for debris removal and yard care."
+        "company": "City Maintenance Dept",
+        "period": "2023 - Present",
+        "description": "Perform manual labor tasks including landscaping and basic facility upkeep. This role does not involve data analysis, financial modeling, or actuarial research."
       },
       {
-        "company": "The Coffee Bean",
-        "position": "Barista",
-        "dates": "2020 - 2021",
-        "responsibilities": "Handled cash transactions and prepared beverages in a fast-paced service environment."
+        "position": "Retail Associate",
+        "company": "Regional Grocery Mart",
+        "period": "2021 - 2023",
+        "description": "Processed customer transactions and stocked inventory. Responsibilities were focused on customer service and physical logistics with no exposure to risk management or statistical applications."
       }
     ],
     "skills": [

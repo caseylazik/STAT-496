@@ -1,29 +1,23 @@
 {
   "resume": {
-    "name": "BUDDY STARNES",
+    "name": "SUE HOLCOMB",
     "education": {
-      "institution": "Seattle University",
-      "degree": "Master of Science",
-      "years_attended": "> 4"
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
     },
     "experience": [
       {
-        "company": "Seattle University Learning Commons",
-        "position": "Graduate Mathematics Tutor",
-        "dates": "September 2021 - Present",
-        "description": "Provided one-on-one academic support for undergraduate students in Calculus, Statistics, and Linear Algebra. Developed simplified lesson plans to explain complex quantitative theories and maintained a high student satisfaction rating."
+        "position": "General Laborer",
+        "company": "City Maintenance Dept",
+        "period": "2023 - Present",
+        "description": "Perform manual labor tasks including landscaping and basic facility upkeep. This role does not involve data analysis, financial modeling, or actuarial research."
       },
       {
-        "company": "City Library System",
-        "position": "Administrative Assistant",
-        "dates": "June 2019 - August 2021",
-        "description": "Managed digital filing systems and organized departmental records. Assisted patrons with technical inquiries and coordinated scheduling for community events while maintaining high accuracy in data entry tasks."
-      },
-      {
-        "company": "Local Hospitality Group",
-        "position": "Customer Service Lead",
-        "dates": "May 2017 - May 2019",
-        "description": "Supervised daily front-of-house operations and handled financial reconciliations at the end of shifts. Focused on conflict resolution and ensuring a high-quality experience for all guests."
+        "position": "Retail Associate",
+        "company": "Regional Grocery Mart",
+        "period": "2021 - 2023",
+        "description": "Processed customer transactions and stocked inventory. Responsibilities were focused on customer service and physical logistics with no exposure to risk management or statistical applications."
       }
     ],
     "skills": [

@@ -1,0 +1,31 @@
+{
+  "resume": {
+    "name": "SUZANNE HONEYCUTT",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "title": "Undergraduate Research Assistant",
+        "organization": "University of Washington Department of Statistics",
+        "dates": "2022 - 2023",
+        "description": "Conducted quantitative research on stochastic modeling of mortality rates, utilizing R and historical census data to forecast longevity trends. Analyzed the variance in life expectancy across diverse demographics to identify potential pricing impacts for life insurance products."
+      },
+      {
+        "title": "Lead Researcher - Actuarial Science Capstone Project",
+        "organization": "UW Center for Statistics and the Social Sciences",
+        "dates": "2021 - 2022",
+        "description": "Performed an empirical study on the correlation between extreme weather events and property insurance claim frequency. Applied Generalized Linear Models (GLMs) to assess risk levels and presented findings on premium adjustment strategies to faculty advisors."
+      }
+    ],
+    "skills": [
+      "Actuarial exam progress (ASA/FSA)"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "Relevant research done for the job field."
+  }
+}

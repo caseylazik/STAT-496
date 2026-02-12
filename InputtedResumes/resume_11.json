@@ -1,6 +1,6 @@
 {
   "resume": {
-    "name": "JACK HONEYCUTT",
+    "name": "EARNESTINE IVORY",
     "education": {
       "institution": "null",
       "degree": null,
@@ -8,16 +8,16 @@
     },
     "experience": [
       {
-        "company": "Local Community Center",
-        "role": "General Volunteer",
-        "duration": "2023 - Present",
-        "description": "Assisted with organizing community events and managing front-desk sign-ins."
+        "position": "General Laborer",
+        "company": "City Maintenance Dept",
+        "period": "2023 - Present",
+        "description": "Perform manual labor tasks including landscaping and basic facility upkeep. This role does not involve data analysis, financial modeling, or actuarial research."
       },
       {
-        "company": "Self-Employed",
-        "role": "Neighborhood Lawn Maintenance",
-        "duration": "2021 - 2023",
-        "description": "Provided basic lawn care services for residential neighbors on a seasonal basis."
+        "position": "Retail Associate",
+        "company": "Regional Grocery Mart",
+        "period": "2021 - 2023",
+        "description": "Processed customer transactions and stocked inventory. Responsibilities were focused on customer service and physical logistics with no exposure to risk management or statistical applications."
       }
     ],
     "skills": [

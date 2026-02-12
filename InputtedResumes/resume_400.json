@@ -1,0 +1,31 @@
+{
+  "resume": {
+    "name": "JIMENA ARMENTEROS",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "University of Washington Dining Services",
+        "role": "Student Food Service Worker",
+        "dates": "2022 - 2024",
+        "description": "Provided efficient customer service to students and faculty in a high-volume cafeteria. Managed point-of-sale transactions and maintained health safety standards in food preparation areas."
+      },
+      {
+        "company": "Regal Cinemas",
+        "role": "Floor Staff",
+        "dates": "2021 - 2022",
+        "description": "Operated ticket booths and concession stands while ensuring a clean environment for guests. Handled cash reconciliation and assisted with inventory restocking during peak hours."
+      }
+    ],
+    "skills": [
+      "Proficient in R, SQL, and Python"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "No prior experience or research done for job field."
+  }
+}

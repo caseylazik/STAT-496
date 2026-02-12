@@ -1,0 +1,39 @@
+{
+  "resume": {
+    "name": "MISTY STARNES",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "company": "Target",
+        "role": "Guest Service Associate",
+        "dates": "2022 - Present",
+        "responsibilities": [
+          "Process customer returns and exchanges while maintaining high service standards.",
+          "Manage point-of-sale transactions and resolve billing discrepancies for guests.",
+          "Coordinate with floor leads to ensure inventory levels are maintained and organized."
+        ]
+      },
+      {
+        "company": "University of Washington Housing",
+        "role": "Student Desk Assistant",
+        "dates": "2019 - 2022",
+        "responsibilities": [
+          "Managed front-desk operations for a 500-student residence hall.",
+          "Handled secure mail sorting and distribution for residents and staff.",
+          "Responded to emergency maintenance requests and directed calls to appropriate departments."
+        ]
+      }
+    ],
+    "skills": [
+      "Actuarial exam progress (ASA/FSA)"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "No prior experience or research done for job field."
+  }
+}

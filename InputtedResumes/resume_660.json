@@ -1,0 +1,29 @@
+{
+  "resume": {
+    "name": "ASHANTI LATTIMORE",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "role": "Undergraduate Research Assistant",
+        "company": "Seattle University Department of Mathematics",
+        "description": "Conducted data-driven research on stochastic modeling and mortality rate projections. Utilized R to perform regression analysis on historical demographic data, contributing to a published paper on long-term risk assessment in public pension funds."
+      },
+      {
+        "role": "Actuarial Science Research Lead",
+        "company": "University Capstone Project",
+        "description": "Led a quantitative study on the impact of climate volatility on regional property insurance premiums. Built predictive models in Python to simulate catastrophic loss scenarios and extracted large-scale weather datasets using SQL to evaluate loss-ratio distributions."
+      }
+    ],
+    "skills": [
+      "Proficient in R, SQL, and Python"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "Relevant research done for the job field."
+  }
+}
