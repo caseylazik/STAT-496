@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "MIGUEL ARMENTEROS",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "title": "Customer Service Representative",
+        "company": "Town Center Retail",
+        "dates": "2020 - 2023",
+        "description": "Assisted customers with product selection and handled cash register operations in a high-volume retail environment."
+      },
+      {
+        "title": "Delivery Driver",
+        "company": "QuickEats Logistics",
+        "dates": "2018 - 2020",
+        "description": "Managed time-sensitive delivery routes and maintained accurate records of customer transactions."
+      }
+    ],
+    "skills": [
+      "Microsoft Office Suite"
+    ]
+  },
+  "metadata": {
+    "job_applied": "High School Teacher",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "hispanic",
+    "sex": "male"
+  }
+}

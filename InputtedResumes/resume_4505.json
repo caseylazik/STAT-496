@@ -1,0 +1,44 @@
+{
+  "resume": {
+    "name": "NAYELI SOTOLONGO",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "job_title": "Student Teacher",
+        "company": "Seattle Public Schools",
+        "location": "Seattle, WA",
+        "dates": "September 2022 - June 2023",
+        "responsibilities": [
+          "Co-taught 9th and 10th-grade General Science and Biology classes, developing and executing lesson plans for diverse learner groups.",
+          "Utilized differentiated instruction techniques to support students with IEPs and 504 plans in a classroom of 30+ students.",
+          "Facilitated weekly laboratory sessions, ensuring adherence to safety protocols and hands-on engagement with curriculum materials.",
+          "Managed classroom behavior through positive reinforcement strategies and clear expectation setting."
+        ]
+      },
+      {
+        "job_title": "Education Intern",
+        "company": "Pacific Science Center",
+        "location": "Seattle, WA",
+        "dates": "June 2021 - August 2022",
+        "responsibilities": [
+          "Led interactive science demonstrations and workshops for high-school-aged visitors during summer programs.",
+          "Assisted in the curriculum development of Earth Science modules for community outreach initiatives.",
+          "Collaborated with senior educators to evaluate the effectiveness of educational programs through student feedback surveys."
+        ]
+      }
+    ],
+    "skills": [
+      "First Aid Certification"
+    ]
+  },
+  "metadata": {
+    "job_applied": "High School Teacher",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "hispanic",
+    "sex": "female"
+  }
+}

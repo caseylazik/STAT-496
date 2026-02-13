@@ -1,0 +1,41 @@
+{
+  "resume": {
+    "name": "CORTEZ IVORY",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "title": "Graduate Research Assistant",
+        "organization": "Seattle University - Department of Mathematics",
+        "duration": "2 years",
+        "responsibilities": [
+          "Developed stochastic models to evaluate the impact of mortality trend shifts on life insurance pricing.",
+          "Performed multivariate survival analysis using R on longitudinal demographic datasets.",
+          "Collaborated with faculty to simulate extreme weather event frequencies and their corresponding impact on property and casualty loss reserves."
+        ]
+      },
+      {
+        "title": "Lead Researcher - Actuarial Capstone",
+        "organization": "Seattle University",
+        "duration": "1 year",
+        "responsibilities": [
+          "Conducted a comparative analysis of predictive modeling techniques for high-frequency, low-severity insurance claims.",
+          "Leveraged SQL to query large relational databases and integrated Python scripts for automated data cleaning and feature engineering.",
+          "Presented research findings on the correlation between macroeconomic indicators and credit insurance risk to the local actuarial society chapter."
+        ]
+      }
+    ],
+    "skills": [
+      "Proficient in R, SQL, and Python"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "black",
+    "sex": "male"
+  }
+}

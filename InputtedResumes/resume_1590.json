@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "SUZANNE HONEYCUTT",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "title": "Software Engineering Intern",
+        "company": "Tableau Software",
+        "duration": "June 2022 - September 2022",
+        "description": "Collaborated with the backend data team to optimize SQL query execution plans, resulting in a 10% improvement in dashboard loading times. Assisted in the migration of legacy services to AWS Lambda using Python and Terraform."
+      },
+      {
+        "title": "Junior Software Developer",
+        "company": "Expedia Group",
+        "duration": "January 2023 - Present",
+        "description": "Develop and maintain customer-facing microservices using Java and Spring Boot. Implemented unit and integration tests using JUnit and Mockito, increasing code coverage from 75% to 90%. Participate in daily stand-ups and sprint planning as part of an Agile development team."
+      }
+    ],
+    "skills": [
+      "Machine Learning Certificate"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "white",
+    "sex": "female"
+  }
+}

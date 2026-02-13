@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "CORTEZ IVORY",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "company": "University Dining Services",
+        "role": "Food Service Worker",
+        "duration": "2 years",
+        "description": "Prepared food items and maintained cleanliness of the dining hall. Focused on basic service tasks and inventory stocking with no exposure to professional marketing roles or industry research."
+      },
+      {
+        "company": "City Parks Department",
+        "role": "Seasonal Groundskeeper",
+        "duration": "4 months",
+        "description": "Performed outdoor maintenance tasks including mowing lawns and clearing debris. Role was strictly labor-based and did not involve any business development or marketing-related functions."
+      }
+    ],
+    "skills": [
+      "Website Management"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "black",
+    "sex": "male"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "JIMENA ARMENTEROS",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "University of Washington - Paul G. Allen School of Computer Science",
+        "role": "Undergraduate Research Assistant",
+        "years": "2022-2023",
+        "description": "Conducted research on the efficiency of distributed systems and consensus algorithms. Developed a simulation framework in Python to benchmark network latency across various node configurations, contributing to a published paper on scalable backend architectures."
+      },
+      {
+        "company": "NextGen Systems Lab",
+        "role": "Research Engineering Intern",
+        "years": "2023",
+        "description": "Implemented research-based optimization techniques for large-scale data processing pipelines. Assisted in the development of a prototype software suite that utilized experimental caching strategies to reduce CPU overhead by 12%."
+      }
+    ],
+    "skills": [
+      "Machine Learning Certificate"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "hispanic",
+    "sex": "female"
+  }
+}

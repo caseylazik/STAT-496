@@ -1,0 +1,42 @@
+{
+  "resume": {
+    "name": "SHRUTI PARK",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "role": "Student Teacher",
+        "organization": "Seattle Public Schools",
+        "location": "Seattle, WA",
+        "dates": "2022 - 2023",
+        "description": "Completed a full-year teaching internship within a high school mathematics department. Developed and executed daily lesson plans for Algebra I and Geometry, managed classroom environments of 25+ students, and participated in parent-teacher conferences and departmental curriculum mapping."
+      },
+      {
+        "role": "Instructional Assistant",
+        "organization": "Lakeview High School",
+        "location": "Bellevue, WA",
+        "dates": "2021 - 2022",
+        "description": "Supported lead teachers in the implementation of individualized education programs (IEPs) for students. Facilitated small group study sessions, provided one-on-one tutoring in core subject areas, and assisted with the grading of assignments and data entry."
+      },
+      {
+        "role": "After-School Program Tutor",
+        "organization": "Youth Learning Center",
+        "location": "Seattle, WA",
+        "dates": "2020 - 2021",
+        "description": "Provided academic support to high school students in a community-based setting. Focused on improving literacy and numeracy skills while helping students prepare for standardized testing and college entrance exams."
+      }
+    ],
+    "skills": [
+      "Microsoft Office Suite"
+    ]
+  },
+  "metadata": {
+    "job_applied": "High School Teacher",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "asian",
+    "sex": "female"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "resume": {
+    "name": "CORTEZ IVORY",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "company": "Horizon Digital Media",
+        "title": "Marketing Intern",
+        "location": "Chicago, IL",
+        "duration": "June 2022 \u2013 December 2022",
+        "responsibilities": [
+          "Assisted in the management of social media accounts, increasing follower engagement by 15% through curated content and community interaction.",
+          "Conducted weekly market research reports on competitor advertising strategies and presented findings to the creative team.",
+          "Drafted and scheduled promotional emails using industry-standard automation platforms for a database of 10,000 subscribers.",
+          "Supported the event coordination team during the planning and execution of two regional product launch events."
+        ]
+      },
+      {
+        "company": "Stellar Peak Solutions",
+        "title": "Junior Marketing Coordinator",
+        "location": "Austin, TX",
+        "duration": "January 2023 \u2013 August 2023",
+        "responsibilities": [
+          "Collaborated with the content team to develop SEO-optimized blog posts that drove a 20% increase in organic web traffic.",
+          "Monitored and reported on campaign performance metrics using Google Analytics to provide actionable insights for future budget allocation.",
+          "Maintained the company marketing calendar, ensuring all cross-departmental deadlines for campaign assets were met.",
+          "Liaised with external vendors to order promotional materials and ensure brand consistency across all physical touchpoints."
+        ]
+      }
+    ],
+    "skills": [
+      "Microsoft Office Suite"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "black",
+    "sex": "male"
+  }
+}

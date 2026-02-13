@@ -1,0 +1,41 @@
+{
+  "resume": {
+    "name": "NAYELI SOTOLONGO",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "company": "Liberty Mutual Insurance",
+        "role": "Actuarial Analyst",
+        "duration": "2021 - Present",
+        "responsibilities": [
+          "Develop and refine pricing models for personal lines using Generalized Linear Models (GLMs) to improve loss ratio targets.",
+          "Perform quarterly reserve analysis and assist in the preparation of regulatory filings and financial reports.",
+          "Collaborate with product management to analyze the impact of rate changes on policyholder retention."
+        ]
+      },
+      {
+        "company": "Milliman",
+        "role": "Actuarial Intern",
+        "duration": "2020 - 2021",
+        "responsibilities": [
+          "Supported senior consultants in the valuation of defined benefit pension plans by verifying participant data integrity.",
+          "Utilized SQL to extract and clean large datasets for use in predictive modeling and trend analysis.",
+          "Assisted in the automation of routine actuarial reports, increasing department efficiency by 15%."
+        ]
+      }
+    ],
+    "skills": [
+      "Proficient in R, SQL, and Python"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "hispanic",
+    "sex": "female"
+  }
+}

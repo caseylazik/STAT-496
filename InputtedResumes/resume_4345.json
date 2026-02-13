@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "BUDDY STARNES",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "Starbucks",
+        "role": "Barista",
+        "duration": "2021 - 2023",
+        "description": "Prepared beverages, handled cash transactions, and maintained a clean workspace in a fast-paced environment."
+      },
+      {
+        "company": "Valley Public Library",
+        "role": "Shelving Assistant",
+        "duration": "2019 - 2021",
+        "description": "Organized books and media according to the Dewey Decimal System and assisted patrons with basic directional inquiries."
+      }
+    ],
+    "skills": [
+      "First Aid Certification"
+    ]
+  },
+  "metadata": {
+    "job_applied": "High School Teacher",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "white",
+    "sex": "male"
+  }
+}

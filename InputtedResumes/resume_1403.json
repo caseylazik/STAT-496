@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "EARNESTINE IVORY",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "title": "Graduate Research Assistant",
+        "organization": "UW Distributed Systems Lab",
+        "duration": "2 years",
+        "responsibilities": "Conducted primary research on high-concurrency data processing systems. Developed custom Python frameworks to simulate network latency and optimized SQL-based data ingestion pipelines for large-scale experimental datasets."
+      },
+      {
+        "title": "Software Engineering Research Intern",
+        "organization": "Pacific Northwest National Laboratory",
+        "duration": "6 months",
+        "responsibilities": "Collaborated on a research project focused on automated code analysis tools. Built a metadata extraction engine using Python and managed relational databases for performance benchmarking across various software architectures."
+      }
+    ],
+    "skills": [
+      "Proficient in Python and SQL"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "black",
+    "sex": "female"
+  }
+}

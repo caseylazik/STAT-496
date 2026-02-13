@@ -1,0 +1,43 @@
+{
+  "resume": {
+    "name": "BEATRIZ ESTEVEZ",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "Seattle University Learning Center",
+        "position": "Peer Math Tutor",
+        "location": "Seattle, WA",
+        "dates": "2022 - 2023",
+        "responsibilities": [
+          "Assisted undergraduate students in understanding fundamental concepts of Calculus, Statistics, and Linear Algebra.",
+          "Facilitated individual and group study sessions to help students prepare for departmental examinations.",
+          "Maintained organized logs of student sessions and identified areas requiring additional instructional focus."
+        ]
+      },
+      {
+        "company": "Redhawk Dining Services",
+        "position": "Student Assistant",
+        "location": "Seattle, WA",
+        "dates": "2020 - 2022",
+        "responsibilities": [
+          "Managed point-of-sale transactions and handled cash reconciliations for high-volume campus dining facilities.",
+          "Collaborated with diverse team members to maintain service efficiency during peak operational hours.",
+          "Ensured compliance with health and safety standards while providing consistent customer service."
+        ]
+      }
+    ],
+    "skills": [
+      "Proficient in R, SQL, and Python"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "hispanic",
+    "sex": "female"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "resume": {
+    "name": "BUDDY STARNES",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "title": "Customer Service Associate",
+        "company": "Target",
+        "dates": "2022 - 2024",
+        "description": "Managed point-of-sale transactions and assisted customers with locating merchandise in a fast-paced retail environment while maintaining store inventory standards."
+      }
+    ],
+    "skills": [
+      "Machine Learning Certificate"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "white",
+    "sex": "male"
+  }
+}

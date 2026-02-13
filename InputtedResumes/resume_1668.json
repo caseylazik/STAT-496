@@ -1,0 +1,41 @@
+{
+  "resume": {
+    "name": "ASHANTI LATTIMORE",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "company": "F5 Networks",
+        "position": "Software Engineer",
+        "duration": "2021 - Present",
+        "responsibilities": [
+          "Design and implement scalable RESTful APIs using Java and Spring Boot to support high-concurrency network security traffic.",
+          "Collaborate with the DevOps team to optimize CI/CD pipelines, reducing deployment errors by 20% through automated integration testing.",
+          "Refactor legacy C++ modules into modern microservices, improving system maintainability and reducing technical debt."
+        ]
+      },
+      {
+        "company": "Expedia Group",
+        "position": "Software Engineering Intern",
+        "duration": "2020 - 2021",
+        "responsibilities": [
+          "Developed a responsive data visualization dashboard using React.js and GraphQL to monitor real-time booking metrics.",
+          "Automated unit testing suites using Jest and Enzyme, increasing code coverage from 65% to 88% for the front-end repository.",
+          "Participated in Agile sprints and daily stand-ups, contributing to the successful launch of a revamped search filter feature."
+        ]
+      }
+    ],
+    "skills": [
+      "Machine Learning Certificate"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "black",
+    "sex": "female"
+  }
+}

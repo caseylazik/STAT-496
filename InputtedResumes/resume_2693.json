@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "SUE HOLCOMB",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "Nordstrom",
+        "role": "Retail Sales Associate",
+        "duration": "June 2021 - Present",
+        "description": "Engage with customers to provide personalized product recommendations and styling advice. Process high-volume transactions accurately via POS systems and maintain store visual standards."
+      },
+      {
+        "company": "Target",
+        "role": "Sales Floor Intern",
+        "duration": "May 2020 - August 2020",
+        "description": "Supported department managers in inventory replenishment and shelf organization. Assisted guests with locating merchandise and resolved basic service inquiries to ensure a positive shopping experience."
+      }
+    ],
+    "skills": [
+      "Customer Service"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Retail Salesperson",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "white",
+    "sex": "female"
+  }
+}

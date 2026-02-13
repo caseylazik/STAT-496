@@ -134,7 +134,7 @@ for job_index, job in enumerate(jobs):
                         education_institution = "null"
                         education_degree = "null"
 
-                    skills_json = json.dumps([skill]) # List in case we want to try multiple skills (costly though)
+                    skills_json = json.dumps([skill])  # List in case we want to try multiple skills (costly though)
 
                     prompt = resume_template.format(
                         job=job,
@@ -144,7 +144,6 @@ for job_index, job in enumerate(jobs):
                         education_institution=education_institution,
                         education_degree=education_degree
                     )
-
 
 
                     filename = f"resume_{resume_num}.json"
@@ -167,11 +166,13 @@ for job_index, job in enumerate(jobs):
 
                         resume_data = json.loads(response.text)
 
+                        print(f"Generating resumes {resume_num} - {resume_num + 23}")
+
                         for person in names:
 
                             filename = f"resume_{resume_num}.json"
 
-                            print(f"Generating {filename}")
+                             
 
                             output_path = os.path.join(OUTPUT_FOLDER, filename)
 
@@ -190,7 +191,7 @@ for job_index, job in enumerate(jobs):
                                     "job_applied": job,
                                     "experience_level": exp,
                                     "race": person["race"],
-                                    "sex" : person["sex"]
+                                    "sex": person["sex"]
                                 }
                             }
 
@@ -199,7 +200,7 @@ for job_index, job in enumerate(jobs):
 
                             resume_num += 1
 
-                    except Exception as e: 
+                    except Exception as e:
                         print(f"Failed to generate resume {resume_num} - {resume_num + 23}: {e}")
                         resume_num += len(names)
 

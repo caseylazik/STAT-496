@@ -1,0 +1,31 @@
+{
+  "resume": {
+    "name": "SHRUTI PARK",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "role": "Graduate Teaching Assistant",
+        "company": "Seattle University",
+        "description": "Managed administrative tasks for undergraduate mathematics courses, graded assignments, and provided one-on-one tutoring sessions for students in advanced calculus."
+      },
+      {
+        "role": "Customer Service Representative",
+        "company": "Local Retailer",
+        "description": "Handled high-volume customer inquiries, processed transactions accurately, and assisted with inventory management in a fast-paced environment."
+      }
+    ],
+    "skills": [
+      "Proficient in R, SQL, and Python"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "asian",
+    "sex": "female"
+  }
+}

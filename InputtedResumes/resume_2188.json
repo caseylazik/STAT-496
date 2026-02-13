@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "MISTY STARNES",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "role": "Informal Peer Tutor",
+        "organization": "University Study Group",
+        "duration": "2022-2023",
+        "description": "Organized weekly meetings with classmates to discuss course materials and shared study notes for various science modules."
+      },
+      {
+        "role": "Neighborhood Helper",
+        "organization": "Self-Employed",
+        "duration": "Summer 2021",
+        "description": "Assisted neighbors with basic tasks such as watering plants, collecting mail, and walking dogs while they were on vacation."
+      }
+    ],
+    "skills": [
+      "Strong Social Skills"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Retail Salesperson",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "white",
+    "sex": "female"
+  }
+}

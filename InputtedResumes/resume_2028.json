@@ -1,0 +1,43 @@
+{
+  "resume": {
+    "name": "ASHANTI LATTIMORE",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "role": "Sales Associate",
+        "company": "Urban Outfitters",
+        "dates": "2021 - Present",
+        "responsibilities": [
+          "Engage with customers to provide personalized product recommendations and ensure a positive shopping experience.",
+          "Operate Point of Sale (POS) systems for various transactions, including returns, exchanges, and loyalty program sign-ups.",
+          "Maintain store visual standards by organizing displays and ensuring high-traffic areas are clean and stocked.",
+          "Consistently met or exceeded monthly sales goals through proactive customer outreach and product demonstrations."
+        ]
+      },
+      {
+        "role": "Retail Sales Intern",
+        "company": "Nordstrom",
+        "dates": "2020 - 2021",
+        "responsibilities": [
+          "Assisted senior sales associates in managing high-volume customer flow during holiday peak seasons.",
+          "Received training on inventory management software to track stock levels and facilitate special orders.",
+          "Collaborated with the merchandising team to implement floor sets based on seasonal marketing directives.",
+          "Provided detailed information regarding brand history and fabric care to enhance customer confidence in purchases."
+        ]
+      }
+    ],
+    "skills": [
+      "Product Knowledge"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Retail Salesperson",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "black",
+    "sex": "female"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "CEDRIC LATTIMORE",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "Amazon",
+        "role": "Software Engineering Intern",
+        "duration": "June 2022 - September 2022",
+        "description": "Collaborated with the AWS S3 team to optimize data retrieval latency by 15% through the implementation of a distributed caching mechanism using Java. Assisted in the deployment of microservices and participated in daily stand-ups and code reviews."
+      },
+      {
+        "company": "TechStart Solutions",
+        "role": "Junior Software Engineer",
+        "duration": "January 2023 - Present",
+        "description": "Developed and maintained high-performance backend modules in C++ for a financial data processing application. Reduced system downtime by 10% by identifying and fixing memory leaks and optimizing database queries."
+      }
+    ],
+    "skills": [
+      "Proficient in Java and C++"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "black",
+    "sex": "male"
+  }
+}

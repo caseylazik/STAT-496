@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "VY IM",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "role": "Full-time Student",
+        "company": "Seattle University",
+        "dates": "2020 - 2024",
+        "description": "Completed coursework for a Bachelor of Science. Focused primarily on academic requirements, lab work, and group projects."
+      },
+      {
+        "role": "Volunteer Sorter",
+        "company": "Community Food Bank",
+        "dates": "2022 - 2023",
+        "description": "Assisted in the organization of non-perishable goods and followed instructions for stacking palettes in the warehouse area."
+      }
+    ],
+    "skills": [
+      "Customer Service"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Retail Salesperson",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "asian",
+    "sex": "female"
+  }
+}

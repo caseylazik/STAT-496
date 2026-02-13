@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "SUE HOLCOMB",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "company": "Nexus Digital Agency",
+        "role": "Marketing Coordinator",
+        "years": "2",
+        "responsibilities": "Managed multi-channel social media campaigns and analyzed engagement metrics to optimize content strategy. Coordinated with the design team to produce marketing collateral for quarterly product launches."
+      },
+      {
+        "company": "Stellar Tech Solutions",
+        "role": "Marketing Intern",
+        "years": "1",
+        "responsibilities": "Assisted in the execution of email marketing automation workflows and conducted market research to identify emerging industry trends. Maintained the company blog and monitored SEO performance across primary landing pages."
+      }
+    ],
+    "skills": [
+      "Website Management"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "white",
+    "sex": "female"
+  }
+}

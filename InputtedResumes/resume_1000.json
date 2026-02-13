@@ -1,0 +1,35 @@
+{
+  "resume": {
+    "name": "JIMENA ARMENTEROS",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "role": "Undergraduate Research Assistant",
+        "organization": "Paul G. Allen School of Computer Science & Engineering",
+        "location": "Seattle, WA",
+        "dates": "2022 - 2024",
+        "description": "Collaborated on a faculty-led research project focused on optimizing distributed systems. Developed automated performance testing scripts in Java and implemented a custom data serialization protocol in C++ to reduce network overhead by 15%."
+      },
+      {
+        "role": "Independent Research Fellow",
+        "organization": "UW Department of Electrical & Computer Engineering",
+        "location": "Seattle, WA",
+        "dates": "2023",
+        "description": "Conducted a study on memory-efficient algorithms for real-time signal processing. Built a comparative simulation framework using C++ to evaluate the trade-offs between static and dynamic memory allocation in embedded environments."
+      }
+    ],
+    "skills": [
+      "Proficient in Java and C++"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "hispanic",
+    "sex": "female"
+  }
+}

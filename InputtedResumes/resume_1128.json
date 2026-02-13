@@ -1,0 +1,27 @@
+{
+  "resume": {
+    "name": "VY IM",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "title": "Front Desk Attendant",
+        "company": "University of Washington Fitness Center",
+        "dates": "2022 - 2023",
+        "description": "Managed student check-ins, handled equipment rentals, and answered general inquiries regarding facility hours."
+      }
+    ],
+    "skills": [
+      "Proficient in Python and SQL"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "asian",
+    "sex": "female"
+  }
+}

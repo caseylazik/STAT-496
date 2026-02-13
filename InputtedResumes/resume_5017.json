@@ -1,0 +1,40 @@
+{
+  "resume": {
+    "name": "BUDDY STARNES",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "title": "Graduate Research Assistant",
+        "organization": "Seattle University Department of Curriculum and Instruction",
+        "responsibilities": [
+          "Conducted a comprehensive longitudinal study on the impact of inquiry-based learning models on high school student retention in STEM subjects.",
+          "Analyzed large datasets of standardized test scores to identify correlations between socio-economic factors and academic performance in urban school districts.",
+          "Collaborated with faculty to develop and pilot a research-based pedagogical framework for differentiated instruction in secondary education classrooms.",
+          "Presented research findings on restorative justice practices in high school environments at regional education conferences."
+        ]
+      },
+      {
+        "title": "Secondary Education Research Fellow",
+        "organization": "Pacific Northwest Education Lab",
+        "responsibilities": [
+          "Led a field research project evaluating the effectiveness of digital literacy integration in 9th-grade English Language Arts curricula.",
+          "Authored a technical report on the efficacy of peer-to-peer tutoring models for at-risk youth based on observed classroom interactions.",
+          "Assisted in the design of survey instruments used to measure student engagement and psychological safety within the classroom."
+        ]
+      }
+    ],
+    "skills": [
+      "Microsoft Office Suite"
+    ]
+  },
+  "metadata": {
+    "job_applied": "High School Teacher",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "white",
+    "sex": "male"
+  }
+}

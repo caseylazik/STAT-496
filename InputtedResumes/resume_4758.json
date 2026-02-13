@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "SUZANNE HONEYCUTT",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "company": "Home Depot",
+        "role": "Customer Service Representative",
+        "duration": "2022 - 2024",
+        "description": "Processed returns and exchanges, resolved customer complaints regarding merchandise, and managed front-end transactions."
+      },
+      {
+        "company": "Pinnacle Logistics",
+        "role": "Warehouse Associate",
+        "duration": "2019 - 2022",
+        "description": "Sorted and organized incoming freight, utilized handheld scanners for inventory tracking, and maintained a clean workspace environment."
+      }
+    ],
+    "skills": [
+      "Microsoft Office Suite"
+    ]
+  },
+  "metadata": {
+    "job_applied": "High School Teacher",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "white",
+    "sex": "female"
+  }
+}

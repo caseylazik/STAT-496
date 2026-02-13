@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "THANH IM",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "role": "Graduate Research Assistant",
+        "organization": "Seattle University - Department of Marketing",
+        "duration": "12 months",
+        "description": "Conducted quantitative research on consumer behavior patterns using structural equation modeling. Synthesized data from over 500 survey responses to provide insights into brand loyalty drivers."
+      },
+      {
+        "role": "Market Analysis Research Lead",
+        "organization": "Seattle Graduate Research Symposium",
+        "duration": "6 months",
+        "description": "Executed an independent research project focused on digital marketing attribution models. Evaluated the correlation between multi-channel advertising spend and customer acquisition costs through regression analysis."
+      }
+    ],
+    "skills": [
+      "Data Analysis"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "asian",
+    "sex": "male"
+  }
+}

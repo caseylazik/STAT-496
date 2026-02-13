@@ -1,0 +1,41 @@
+{
+  "resume": {
+    "name": "TAM PARK",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "Milliman",
+        "position": "Actuarial Intern",
+        "duration": "June 2022 - August 2022",
+        "responsibilities": [
+          "Performed data validation and cleaning on large health insurance datasets using SQL to ensure accuracy for quarterly financial reporting.",
+          "Assisted in the development of automated valuation tools in R, reducing report generation time by 15% for the consulting team.",
+          "Participated in sensitivity testing for pension plan assumptions, documenting results for senior actuarial review."
+        ]
+      },
+      {
+        "company": "Liberty Mutual Insurance",
+        "position": "Actuarial Analyst I",
+        "duration": "June 2023 - Present",
+        "responsibilities": [
+          "Update and maintain pricing models for personal lines of insurance, incorporating new loss trend data and regulatory requirements.",
+          "Collaborate with the product management team to analyze competitive market positions and recommend rate adjustments.",
+          "Utilize Python to build predictive models for customer retention, contributing to a 5% improvement in targeted marketing efficiency."
+        ]
+      }
+    ],
+    "skills": [
+      "Proficient in R, SQL, and Python"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "asian",
+    "sex": "male"
+  }
+}

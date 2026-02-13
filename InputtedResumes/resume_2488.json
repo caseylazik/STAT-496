@@ -1,0 +1,41 @@
+{
+  "resume": {
+    "name": "JIMENA ARMENTEROS",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "title": "Graduate Research Lead: Retail Consumer Behavior",
+        "company": "University of Washington",
+        "dates": "2023 - 2024",
+        "responsibilities": [
+          "Conducted extensive qualitative research on the impact of consultative selling techniques on customer loyalty within high-traffic retail environments.",
+          "Analyzed market trends and consumer psychology data to identify key performance indicators for successful sales associates.",
+          "Authored a comprehensive report on the integration of digital POS systems with personalized floor service to improve the overall customer experience."
+        ]
+      },
+      {
+        "title": "Field Researcher (Academic Project)",
+        "company": "Independent Study - Retail Operations",
+        "dates": "2022 - 2023",
+        "responsibilities": [
+          "Performed observational studies in various retail settings to evaluate the effectiveness of store layout and visual merchandising on spontaneous purchase behavior.",
+          "Researched industry-standard inventory management protocols and product knowledge training modules used by top-tier global retailers.",
+          "Synthesized best practices for conflict resolution and customer grievance handling through comparative analysis of service industry case studies."
+        ]
+      }
+    ],
+    "skills": [
+      "Strong Social Skills"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Retail Salesperson",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "hispanic",
+    "sex": "female"
+  }
+}

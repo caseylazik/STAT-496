@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "THANH IM",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "role": "High School Science Teacher",
+        "organization": "Evergreen District High School",
+        "duration": "2019 - Present",
+        "details": "Delivered comprehensive Biology and Chemistry curricula to students in grades 9-12, facilitating laboratory experiments and utilizing data-driven assessments to track student progress."
+      },
+      {
+        "role": "Educational Research Assistant",
+        "organization": "Center for Pedagogical Excellence",
+        "duration": "2017 - 2019",
+        "details": "Conducted qualitative research on the impact of inquiry-based learning models in secondary education; analyzed student engagement metrics and presented findings on active learning strategies to district board members."
+      }
+    ],
+    "skills": [
+      "Microsoft Office Suite"
+    ]
+  },
+  "metadata": {
+    "job_applied": "High School Teacher",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "asian",
+    "sex": "male"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "VY IM",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "role": "Independent Retail Market Researcher",
+        "company": "Self-Directed Study",
+        "dates": "2023 - Present",
+        "description": "Conducted extensive field research on local retail environments to analyze customer traffic patterns and visual merchandising effectiveness. Evaluated various Point of Sale (POS) systems and inventory tracking methodologies through industry literature and comparative store visits."
+      },
+      {
+        "role": "Consumer Behavior Analyst",
+        "company": "Academic Project",
+        "dates": "2022 - 2023",
+        "description": "Synthesized data on retail sales trends and consumer psychology to understand the impact of personalized service on customer retention. Researched high-performing sales techniques and communication strategies used by market leaders in the retail sector."
+      }
+    ],
+    "skills": [
+      "Customer Service"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Retail Salesperson",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "asian",
+    "sex": "female"
+  }
+}

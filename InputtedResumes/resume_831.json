@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "EDUARDO ESTEVEZ",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "title": "Customer Service Representative",
+        "company": "Local Community Center",
+        "dates": "2021 - 2023",
+        "description": "Handled front-desk inquiries, managed facility bookings, and resolved scheduling conflicts for community members."
+      },
+      {
+        "title": "Retail Sales Associate",
+        "company": "General Goods Store",
+        "dates": "2018 - 2021",
+        "description": "Processed transactions, maintained inventory levels, and provided direct assistance to customers on the sales floor."
+      }
+    ],
+    "skills": [
+      "Proficient in Java and C++"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "hispanic",
+    "sex": "male"
+  }
+}

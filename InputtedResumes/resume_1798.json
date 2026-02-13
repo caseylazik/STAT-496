@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "SHRUTI PARK",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "company": "Seattle University Research Laboratory",
+        "position": "Graduate Research Assistant",
+        "duration": "2 years",
+        "responsibilities": "Conducted research on distributed systems performance, developing a custom benchmarking suite in Go to evaluate microservices latency. Optimized data ingestion pipelines which resulted in a 20% improvement in throughput for large-scale data processing tasks."
+      },
+      {
+        "company": "Center for Computational Excellence",
+        "position": "Software Research Intern",
+        "duration": "1 year",
+        "responsibilities": "Collaborated on a peer-reviewed study regarding algorithmic efficiency in real-time sensor data analysis. Implemented and tested modular software components in Python and C++ to validate theoretical models."
+      }
+    ],
+    "skills": [
+      "Machine Learning Certificate"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "asian",
+    "sex": "female"
+  }
+}

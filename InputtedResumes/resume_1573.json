@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "MIGUEL ARMENTEROS",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "role": "Junior Software Engineer",
+        "company": "TechNova Solutions",
+        "duration": "June 2022 - Present",
+        "description": "Developed and maintained scalable microservices using Python and FastAPI. Collaborated with the DevOps team to streamline deployment processes using Docker and Kubernetes. Improved system performance by 20% through database indexing and query optimization."
+      },
+      {
+        "role": "Software Engineering Intern",
+        "company": "DataFlow Systems",
+        "duration": "January 2022 - May 2022",
+        "description": "Built responsive front-end components using React.js and Redux. Participated in daily stand-ups and Agile sprint planning. Wrote comprehensive unit tests using Jest to ensure high code coverage and reliability."
+      }
+    ],
+    "skills": [
+      "Machine Learning Certificate"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "hispanic",
+    "sex": "male"
+  }
+}

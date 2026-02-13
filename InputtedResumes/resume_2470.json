@@ -1,0 +1,34 @@
+{
+  "resume": {
+    "name": "SHRUTI PARK",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "role": "Retail Market Research Project",
+        "organization": "Seattle University",
+        "description": "Conducted an intensive semester-long analysis of local retail environments, shadowing sales floor dynamics and documenting effective customer engagement techniques."
+      },
+      {
+        "role": "Independent Study: Consumer Psychology",
+        "organization": "Self-Directed",
+        "description": "Researched and compiled data on the impact of visual merchandising on purchasing decisions, focusing on how store layout influences upsell opportunities."
+      }
+    ],
+    "skills": [
+      "Strong Social Skills",
+      "Market Trend Analysis",
+      "Customer Interaction Research",
+      "Product Knowledge Acquisition"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Retail Salesperson",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "asian",
+    "sex": "female"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "BUDDY STARNES",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "CloudScale Systems",
+        "role": "Junior Software Engineer",
+        "duration": "1 year",
+        "description": "Designed and implemented RESTful APIs using Java and the Spring Boot framework. Optimized C++ backend modules for high-performance data processing, reducing latency by 20%. Participated in daily stand-ups and code reviews to ensure high-quality software delivery."
+      },
+      {
+        "company": "NetNexus Technologies",
+        "role": "Software Engineering Intern",
+        "duration": "6 months",
+        "description": "Assisted in the development of cross-platform desktop applications using C++. Developed automated unit tests in Java, increasing code coverage by 30%. Resolved over 50 identified bugs in the legacy codebase during the internship period."
+      }
+    ],
+    "skills": [
+      "Proficient in Java and C++"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "white",
+    "sex": "male"
+  }
+}

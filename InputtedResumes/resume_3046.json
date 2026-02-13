@@ -1,0 +1,43 @@
+{
+  "resume": {
+    "name": "SHRUTI PARK",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "Northwest Creative Agency",
+        "role": "Marketing Coordinator",
+        "dates": "June 2022 - Present",
+        "responsibilities": [
+          "Develop and execute multi-channel marketing campaigns that increased brand engagement by 20% across social platforms.",
+          "Collaborate with the design team to produce digital and print marketing collateral aligned with brand guidelines.",
+          "Analyze campaign performance metrics using Google Analytics and provide actionable insights for future strategy adjustments.",
+          "Oversee the monthly email marketing calendar, resulting in a 12% increase in click-through rates."
+        ]
+      },
+      {
+        "company": "Evergreen Tech Solutions",
+        "role": "Marketing Intern",
+        "dates": "January 2021 - May 2022",
+        "responsibilities": [
+          "Assisted in the management of the company's social media accounts, creating content calendars and monitoring community interactions.",
+          "Conducted market research on competitor activities and presented weekly findings to the senior marketing manager.",
+          "Drafted blog posts and website copy to improve organic SEO rankings for key product terms.",
+          "Supported the planning and logistics of three regional industry trade shows and networking events."
+        ]
+      }
+    ],
+    "skills": [
+      "Website Management"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "asian",
+    "sex": "female"
+  }
+}

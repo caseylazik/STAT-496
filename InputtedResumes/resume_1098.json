@@ -1,0 +1,31 @@
+{
+  "resume": {
+    "name": "BEATRIZ ESTEVEZ",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "role": "Summer Camp Counselor",
+        "organization": "Pinecrest Youth Camp",
+        "description": "Supervised groups of children aged 8-12 during outdoor activities and organized daily recreational games. Ensured the safety and well-being of all participants."
+      },
+      {
+        "role": "Delivery Driver",
+        "organization": "Local Pizza Kitchen",
+        "description": "Managed timely delivery of food orders to residential and commercial locations. Handled cash and credit transactions and maintained vehicle cleanliness."
+      }
+    ],
+    "skills": [
+      "Proficient in Python and SQL"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "hispanic",
+    "sex": "female"
+  }
+}

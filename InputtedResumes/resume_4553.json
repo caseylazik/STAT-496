@@ -1,0 +1,44 @@
+{
+  "resume": {
+    "name": "NAYELI SOTOLONGO",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "title": "Student Teacher",
+        "organization": "Lakeside High School",
+        "location": "Seattle, WA",
+        "dates": "August 2022 - June 2023",
+        "responsibilities": [
+          "Designed and delivered daily lesson plans for Algebra I and Geometry to classes of 25+ students, ensuring alignment with state curriculum standards.",
+          "Facilitated small-group instruction and individual tutoring sessions to support students with diverse learning needs and IEP requirements.",
+          "Integrated educational technology, including interactive whiteboards and Google Classroom, to enhance student engagement and track performance data.",
+          "Participated in parent-teacher conferences and departmental meetings to discuss student progress and curriculum development."
+        ]
+      },
+      {
+        "title": "Teaching Intern",
+        "organization": "Garfield High School",
+        "location": "Seattle, WA",
+        "dates": "January 2022 - June 2022",
+        "responsibilities": [
+          "Assisted lead teachers in the Social Studies department with grading, classroom management, and material preparation.",
+          "Observed varied instructional strategies and implemented scaffolding techniques for English Language Learners (ELL).",
+          "Supervised after-school study halls and provided academic support across multiple subjects."
+        ]
+      }
+    ],
+    "skills": [
+      "First Aid Certification"
+    ]
+  },
+  "metadata": {
+    "job_applied": "High School Teacher",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "hispanic",
+    "sex": "female"
+  }
+}

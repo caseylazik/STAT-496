@@ -1,0 +1,43 @@
+{
+  "resume": {
+    "name": "SHRUTI PARK",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "Northwest Digital Solutions",
+        "position": "Junior Marketing Associate",
+        "duration": "January 2023 - Present",
+        "responsibilities": [
+          "Coordinate multi-channel social media campaigns, increasing organic engagement by 20% across LinkedIn and Instagram.",
+          "Monitor and report on monthly KPI performance using Google Analytics to inform strategy adjustments.",
+          "Draft and edit copy for weekly email newsletters and promotional blasts for a customer base of 15,000.",
+          "Collaborate with the design team to ensure all brand assets align with current marketing objectives."
+        ]
+      },
+      {
+        "company": "Emerald City Tech",
+        "position": "Marketing Intern",
+        "duration": "June 2022 - December 2022",
+        "responsibilities": [
+          "Assisted the content lead in performing SEO keyword research for the corporate blog.",
+          "Curated and scheduled daily posts for various social media platforms using Hootsuite.",
+          "Conducted market research on competitor pricing and promotional tactics to identify industry trends.",
+          "Supported the event marketing team in organizing logistics for local trade shows and networking events."
+        ]
+      }
+    ],
+    "skills": [
+      "Data Analysis"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "asian",
+    "sex": "female"
+  }
+}

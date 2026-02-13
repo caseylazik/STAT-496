@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "NAYELI SOTOLONGO",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "title": "Graduate Student Researcher",
+        "company": "University of Washington",
+        "dates": "2021 - 2023",
+        "description": "Conducted high-level academic research and data analysis as part of the Master of Science curriculum. Presented complex findings to faculty and peers in a classroom setting."
+      },
+      {
+        "title": "Teaching Assistant",
+        "company": "University of Washington",
+        "dates": "2019 - 2021",
+        "description": "Assisted professors with grading undergraduate assignments and organizing course materials. Facilitated study sessions for students to clarify academic concepts."
+      }
+    ],
+    "skills": [
+      "Strong Social Skills"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Retail Salesperson",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "hispanic",
+    "sex": "female"
+  }
+}

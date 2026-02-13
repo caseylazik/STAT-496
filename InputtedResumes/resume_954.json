@@ -1,0 +1,23 @@
+{
+  "resume": {
+    "name": "BEATRIZ ESTEVEZ",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      "Junior Software Engineer at CloudStream Solutions (2021 - Present): Developed and maintained scalable backend microservices using Java and Spring Boot, while optimizing legacy C++ modules for improved data processing efficiency.",
+      "Software Engineering Intern at TechFlow Inc. (May 2020 - August 2020): Collaborated with the core engineering team to build internal automation tools and performed extensive unit testing and debugging for Java-based web applications."
+    ],
+    "skills": [
+      "Proficient in Java and C++"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "hispanic",
+    "sex": "female"
+  }
+}

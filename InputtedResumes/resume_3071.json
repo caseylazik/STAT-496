@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "NAVYA HWANG",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "Northwest Digital Solutions",
+        "role": "Marketing Coordinator",
+        "duration": "1 year",
+        "description": "Coordinated multi-channel digital campaigns and managed content updates for the corporate website. Analyzed traffic data to optimize landing pages and improved lead conversion rates by 12%."
+      },
+      {
+        "company": "Cascadia Creative Agency",
+        "role": "Marketing Intern",
+        "duration": "6 months",
+        "description": "Assisted in the creation of social media assets and maintained the client promotional calendar. Conducted market research for brand positioning and prepared weekly performance reports for the account management team."
+      }
+    ],
+    "skills": [
+      "Website Management"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "asian",
+    "sex": "female"
+  }
+}

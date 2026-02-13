@@ -1,0 +1,49 @@
+{
+  "resume": {
+    "name": "SUE HOLCOMB",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "title": "Student Teacher",
+        "organization": "Seattle Public Schools",
+        "location": "Seattle, WA",
+        "dates": "2022 - 2023",
+        "responsibilities": [
+          "Collaborated with a mentor teacher to design and deliver daily lesson plans for Grade 9 and 10 Biology classes.",
+          "Utilized diverse instructional strategies to accommodate students with IEPs and 504 plans, ensuring inclusive classroom participation.",
+          "Integrated educational technology such as SMART Boards and Google Classroom to enhance student engagement and track assignments.",
+          "Facilitated parent-teacher conferences to discuss student performance and developed targeted improvement plans."
+        ]
+      },
+      {
+        "title": "Teaching Assistant",
+        "organization": "University of Washington - Department of Biology",
+        "location": "Seattle, WA",
+        "dates": "2021 - 2022",
+        "responsibilities": [
+          "Supported lead instructors in facilitating laboratory sections for over 60 undergraduate students.",
+          "Prepared lab materials, demonstrated proper safety protocols, and assisted students with data collection and analysis.",
+          "Maintained records of student attendance and grades using the university's Learning Management System."
+        ]
+      }
+    ],
+    "skills": [
+      "Microsoft Office Suite",
+      "Curriculum Development",
+      "Classroom Management",
+      "Differentiated Instruction",
+      "Educational Technology",
+      "Conflict Resolution"
+    ]
+  },
+  "metadata": {
+    "job_applied": "High School Teacher",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "white",
+    "sex": "female"
+  }
+}

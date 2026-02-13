@@ -1,0 +1,31 @@
+{
+  "resume": {
+    "name": "BRADLEY HOLCOMB",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "job_title": "High School Social Studies Teacher",
+        "company": "Westside Public Schools",
+        "description": "Delivered comprehensive history and civics instruction to grades 9-12. Integrated technology-driven assessment tools to monitor student progress and adapted curriculum to meet diverse learning needs."
+      },
+      {
+        "job_title": "Educational Research Associate",
+        "company": "Regional Institute for Pedagogical Studies",
+        "description": "Conducted primary research on the effectiveness of inquiry-based learning models in secondary social studies classrooms. Analyzed qualitative data from classroom observations to develop evidence-based teaching strategies now implemented district-wide."
+      }
+    ],
+    "skills": [
+      "First Aid Certification"
+    ]
+  },
+  "metadata": {
+    "job_applied": "High School Teacher",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "white",
+    "sex": "male"
+  }
+}

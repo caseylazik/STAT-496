@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "RODOLFO SOTOLONGO",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "company": "Joe's Coffee House",
+        "role": "Barista",
+        "duration": "2021 - 2023",
+        "description": "Handled cash register transactions, prepared beverages for customers, and ensured the storefront remained clean and organized during busy shifts."
+      },
+      {
+        "company": "City Public Library",
+        "role": "Front Desk Assistant",
+        "duration": "2018 - 2021",
+        "description": "Managed the check-out desk, organized returned books on shelves, and answered general inquiries from library visitors."
+      }
+    ],
+    "skills": [
+      "Data Analysis"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "hispanic",
+    "sex": "male"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "resume": {
+    "name": "BRADLEY HOLCOMB",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      "Conducted independent market research project on consumer purchasing behaviors and the impact of store layout on sales conversion rates.",
+      "Performed comparative analysis of point-of-sale systems and inventory management software to identify industry best practices for retail efficiency.",
+      "Researched emerging trends in customer service excellence and personalized shopping experiences through academic literature reviews and field observations.",
+      "Developed a strategic overview of product placement strategies and promotional tactics utilized by top-tier global retailers."
+    ],
+    "skills": [
+      "Product Knowledge"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Retail Salesperson",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "white",
+    "sex": "male"
+  }
+}

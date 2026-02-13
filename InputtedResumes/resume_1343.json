@@ -1,0 +1,42 @@
+{
+  "resume": {
+    "name": "NAVYA HWANG",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "role": "Graduate Research Assistant",
+        "organization": "University Computer Science Lab",
+        "duration": "2022 - 2023",
+        "responsibilities": [
+          "Developed high-performance algorithms for large-scale data processing using Python.",
+          "Designed and implemented relational database schemas using SQL to manage experimental datasets.",
+          "Authored a technical report on the optimization of distributed software architectures for cloud environments.",
+          "Collaborated with faculty to translate mathematical research models into functional software prototypes."
+        ]
+      },
+      {
+        "role": "Research Intern",
+        "organization": "Center for AI & Software Innovation",
+        "duration": "2021 - 2022",
+        "responsibilities": [
+          "Conducted extensive benchmarking for back-end system performance using automated Python scripts.",
+          "Applied SQL query optimization techniques to reduce data retrieval latency by 30% for research queries.",
+          "Contributed to the development of an open-source library for predictive analytics."
+        ]
+      }
+    ],
+    "skills": [
+      "Proficient in Python and SQL"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "asian",
+    "sex": "female"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "BEATRIZ ESTEVEZ",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "company": "University of Washington Department of Statistics",
+        "position": "Graduate Research Researcher",
+        "duration": "2 years",
+        "description": "Led a comprehensive research project analyzing longitudinal mortality data to refine life insurance underwriting models. Developed stochastic simulations in R to forecast long-term liability risks for pension funds. Utilized SQL to manage and clean large-scale demographic datasets, ensuring data integrity for predictive modeling. Published findings on the application of generalized linear models in assessing catastrophic property risk."
+      },
+      {
+        "company": "Actuarial Science Research Group",
+        "position": "Project Lead - Predictive Modeling",
+        "duration": "1 year",
+        "description": "Conducted quantitative research on the correlation between socioeconomic factors and healthcare cost volatility. Built automated Python scripts to perform sensitivity analysis on interest rate fluctuations. Presented research insights to industry stakeholders, focusing on the optimization of capital allocation strategies under Solvency II frameworks."
+      }
+    ],
+    "skills": [
+      "Proficient in R, SQL, and Python"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "hispanic",
+    "sex": "female"
+  }
+}

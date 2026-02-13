@@ -1,0 +1,36 @@
+{
+  "resume": {
+    "name": "BEATRIZ ESTEVEZ",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "role": "Actuarial Research Assistant",
+        "organization": "Seattle University Department of Mathematics",
+        "description": "Conducted longitudinal research on stochastic mortality modeling, utilizing R to simulate life expectancy trends for pension fund risk assessment. Analyzed large-scale demographic datasets to refine predictive accuracy in life insurance pricing models."
+      },
+      {
+        "role": "Undergraduate Researcher",
+        "organization": "Financial Risk Modeling Project",
+        "description": "Developed a multivariate regression model to assess the correlation between climate change indicators and property insurance claim frequency. Presented findings on tail-risk behavior in catastrophe modeling to faculty advisors."
+      },
+      {
+        "role": "Data Analyst (Research Focus)",
+        "organization": "Regional Insurance Analytics Seminar",
+        "description": "Synthesized peer-reviewed research on Credibility Theory to build a prototype credibility-weighted premium calculator. Evaluated the impact of various smoothing techniques on loss development factors."
+      }
+    ],
+    "skills": [
+      "Actuarial exam progress (ASA/FSA)"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "hispanic",
+    "sex": "female"
+  }
+}

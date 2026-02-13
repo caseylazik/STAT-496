@@ -1,0 +1,41 @@
+{
+  "resume": {
+    "name": "THANH IM",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "job_title": "Marketing Coordinator",
+        "company": "Summit Digital Solutions",
+        "duration": "1 year",
+        "responsibilities": [
+          "Executed multi-channel social media campaigns, resulting in a 20% increase in follower engagement across primary platforms.",
+          "Managed the editorial calendar for the corporate blog, coordinating with freelance writers to ensure timely delivery of SEO-optimized content.",
+          "Tracked and reported on KPIs for monthly email marketing efforts, providing actionable insights for A/B testing subject lines."
+        ]
+      },
+      {
+        "job_title": "Marketing Intern",
+        "company": "Evergreen Creative Agency",
+        "duration": "6 months",
+        "responsibilities": [
+          "Assisted the lead strategist in performing competitive market analysis and keyword research for client accounts.",
+          "Collaborated with the design team to produce visual assets for promotional materials and digital advertisements.",
+          "Supported on-site event logistics for local brand activations, ensuring all collateral and signage were correctly placed."
+        ]
+      }
+    ],
+    "skills": [
+      "Microsoft Office Suite"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "asian",
+    "sex": "male"
+  }
+}

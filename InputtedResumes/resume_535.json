@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "TEVIN PRINGLE",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "role": "Junior Actuarial Analyst",
+        "company": "Premera Blue Cross",
+        "duration": "June 2022 - Present",
+        "description": "Perform monthly valuation of insurance liabilities and prepare detailed reports for the financial accounting department. Utilize SQL and R to conduct trend analysis on health insurance claims and optimize pricing strategies for commercial segments. Successfully passed SOA Exams P, FM, and IFM while maintaining full-time responsibilities."
+      },
+      {
+        "role": "Actuarial Intern",
+        "company": "Milliman",
+        "duration": "May 2021 - August 2021",
+        "description": "Supported the property and casualty consulting team with data cleaning and preparation for loss reserve analysis. Developed Python scripts to automate the generation of exhibit tables for actuarial reports. Assisted in the peer review of predictive models for personal auto insurance rates."
+      }
+    ],
+    "skills": [
+      "Proficient in R, SQL, and Python"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "black",
+    "sex": "male"
+  }
+}

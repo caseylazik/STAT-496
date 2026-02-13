@@ -1,0 +1,39 @@
+{
+  "resume": {
+    "name": "SUZANNE HONEYCUTT",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "Starbucks",
+        "role": "Barista",
+        "years": "2021-2023",
+        "description": "Handled high-volume customer orders, processed cash and credit transactions, and maintained a clean workspace while ensuring timely beverage preparation."
+      },
+      {
+        "company": "Safeway",
+        "role": "Courtesy Clerk",
+        "years": "2019-2021",
+        "description": "Assisted customers with bagging groceries, retrieved shopping carts from the parking lot, and performed general cleaning duties to maintain store appearance."
+      },
+      {
+        "company": "Private Residence",
+        "role": "Babysitter",
+        "years": "2018-2019",
+        "description": "Supervised children after school, prepared basic meals, and assisted with homework assignments in a safe and responsible manner."
+      }
+    ],
+    "skills": [
+      "Microsoft Office Suite"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "white",
+    "sex": "female"
+  }
+}

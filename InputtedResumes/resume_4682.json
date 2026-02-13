@@ -1,0 +1,43 @@
+{
+  "resume": {
+    "name": "BRADLEY HOLCOMB",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "title": "Customer Service Representative",
+        "company": "Local Retail Outlet",
+        "location": "Springfield, IL",
+        "dates": "2022 - Present",
+        "responsibilities": [
+          "Assisted customers with product inquiries and located items on the sales floor.",
+          "Processed transactions at the point of sale and maintained cash drawer accuracy.",
+          "Resolved basic customer complaints and escalated complex issues to management."
+        ]
+      },
+      {
+        "title": "Delivery Driver",
+        "company": "Pizzeria Uno",
+        "location": "Springfield, IL",
+        "dates": "2020 - 2022",
+        "responsibilities": [
+          "Transported food orders to residential and commercial addresses within a set timeframe.",
+          "Maintained a clean and reliable vehicle for daily operations.",
+          "Handled cash and credit card payments at the door while providing professional service."
+        ]
+      }
+    ],
+    "skills": [
+      "Microsoft Office Suite"
+    ]
+  },
+  "metadata": {
+    "job_applied": "High School Teacher",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "white",
+    "sex": "male"
+  }
+}

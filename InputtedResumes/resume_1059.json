@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "JACK HONEYCUTT",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "role": "Graduate Research Assistant",
+        "organization": "Seattle University Distributed Systems Lab",
+        "duration": "2021 - 2023",
+        "description": "Conducted primary research on optimizing garbage collection algorithms for high-throughput Java applications. Developed a benchmark suite in C++ to measure memory latency across different JVM configurations. Contributed to a peer-reviewed publication on concurrent data structures."
+      },
+      {
+        "role": "Software Engineering Research Intern",
+        "organization": "Advanced Computing Institute",
+        "duration": "2022",
+        "description": "Collaborated with senior researchers to implement a prototype for a distributed file system using Java. Refactored legacy C++ modules to improve thread safety and resource allocation. Validated research hypotheses through rigorous unit testing and performance profiling."
+      }
+    ],
+    "skills": [
+      "Proficient in Java and C++"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "white",
+    "sex": "male"
+  }
+}

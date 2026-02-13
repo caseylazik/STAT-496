@@ -1,0 +1,20 @@
+{
+  "resume": {
+    "name": "NAVYA HWANG",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [],
+    "skills": [
+      "Proficient in R, SQL, and Python"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "asian",
+    "sex": "female"
+  }
+}

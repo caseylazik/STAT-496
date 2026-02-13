@@ -1,0 +1,39 @@
+{
+  "resume": {
+    "name": "CORTEZ IVORY",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "role": "Graduate Research Assistant",
+        "institution": "Seattle University Department of Education",
+        "years": "2021 - 2023",
+        "description": "Conducted primary research on the effectiveness of inquiry-based learning models in secondary STEM classrooms. Collected and analyzed qualitative data from pilot programs to evaluate student engagement and long-term retention of complex scientific concepts."
+      },
+      {
+        "role": "Student Teacher",
+        "institution": "Rainier Beach High School",
+        "years": "2022 - 2023",
+        "description": "Developed and implemented lesson plans for 10th-grade Biology and 12th-grade Physics. Applied research findings to differentiated instruction strategies, resulting in a measurable increase in formative assessment scores across three class periods."
+      },
+      {
+        "role": "Education Research Contributor",
+        "institution": "Pacific Science Center Partnership",
+        "years": "2020 - 2021",
+        "description": "Collaborated on a study examining the impact of informal learning environments on high school students' career interests in technology. Synthesized findings into a report presented at a regional educational conference."
+      }
+    ],
+    "skills": [
+      "First Aid Certification"
+    ]
+  },
+  "metadata": {
+    "job_applied": "High School Teacher",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "black",
+    "sex": "male"
+  }
+}

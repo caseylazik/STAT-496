@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "BRADLEY HOLCOMB",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "job_title": "Graduate Lab Assistant",
+        "organization": "Seattle University",
+        "dates": "2021 - 2023",
+        "details": "Managed laboratory equipment and performed data entry for departmental research. Focused on academic documentation and technical maintenance without public interaction."
+      },
+      {
+        "job_title": "Volunteer Archival Aide",
+        "organization": "Seattle Historical Society",
+        "dates": "2019 - 2021",
+        "details": "Sorted and filed historical documents in a back-office environment. Maintained silence and order in the archives while categorizing paper records."
+      }
+    ],
+    "skills": [
+      "Product Knowledge"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Retail Salesperson",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "white",
+    "sex": "male"
+  }
+}

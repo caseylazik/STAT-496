@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "TEVIN PRINGLE",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "role": "Sales Associate",
+        "company": "Target",
+        "duration": "2022 - 2023",
+        "description": "Assisted customers with product inquiries and maintained floor organization in a high-traffic retail environment."
+      },
+      {
+        "role": "Front Desk Receptionist",
+        "company": "Community Health Center",
+        "duration": "2020 - 2022",
+        "description": "Managed incoming calls, scheduled appointments, and handled administrative tasks for a busy medical office."
+      }
+    ],
+    "skills": [
+      "Social Media Management"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "black",
+    "sex": "male"
+  }
+}

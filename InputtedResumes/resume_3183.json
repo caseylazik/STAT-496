@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "EDUARDO ESTEVEZ",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "Seattle University - Marketing Department",
+        "position": "Market Research Assistant",
+        "duration": "1 Year",
+        "description": "Conducted extensive primary and secondary research on consumer purchasing behaviors within the Pacific Northwest. Assisted in the development of focus group protocols and synthesized qualitative data into actionable insights for departmental case studies."
+      },
+      {
+        "company": "Beacon Strategy Group",
+        "position": "Junior Research Intern",
+        "duration": "6 Months",
+        "description": "Performed competitive landscape analysis and keyword research to support digital marketing strategies. Compiled comprehensive reports on industry trends and audience segmentation to assist senior analysts in campaign planning."
+      }
+    ],
+    "skills": [
+      "Website Management"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "hispanic",
+    "sex": "male"
+  }
+}

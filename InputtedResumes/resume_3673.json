@@ -1,0 +1,42 @@
+{
+  "resume": {
+    "name": "BUDDY STARNES",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "title": "Customer Service Associate",
+        "company": "Local Retailer",
+        "location": "Seattle, WA",
+        "dates": "2021 - 2023",
+        "description": "Managed cash register transactions and assisted customers with finding products on the sales floor. Maintained a clean and organized storefront to ensure a pleasant shopping environment."
+      },
+      {
+        "title": "Event Volunteer",
+        "company": "City Community Center",
+        "location": "Seattle, WA",
+        "dates": "2020",
+        "description": "Handled set-up and tear-down for local community events and distributed flyers to attendees. Provided general directions and information to guests during peak hours."
+      },
+      {
+        "title": "Administrative Assistant",
+        "company": "University Department Office",
+        "location": "Seattle, WA",
+        "dates": "2018 - 2020",
+        "description": "Answered incoming telephone calls and directed them to the appropriate staff members. Filed physical documents and assisted with data entry tasks as requested by the office manager."
+      }
+    ],
+    "skills": [
+      "Social Media Management"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "white",
+    "sex": "male"
+  }
+}

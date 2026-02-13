@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "NAVYA HWANG",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "title": "Graduate Marketing Researcher",
+        "company": "Seattle University Research Lab",
+        "dates": "2022 - 2023",
+        "description": "Conducted primary market research on consumer behavior patterns within digital ecosystems. Utilized quantitative analysis to evaluate the efficacy of targeted social media advertising across diverse demographics."
+      },
+      {
+        "title": "Market Trends Analyst (Academic Project)",
+        "company": "Strategic Insights Group",
+        "dates": "2021 - 2022",
+        "description": "Performed secondary research on emerging social media platforms to identify shifts in user engagement. Developed data-driven reports recommending optimization strategies for brand presence and community management."
+      }
+    ],
+    "skills": [
+      "Social Media Management"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "asian",
+    "sex": "female"
+  }
+}

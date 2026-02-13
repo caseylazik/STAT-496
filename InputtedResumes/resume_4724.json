@@ -1,0 +1,41 @@
+{
+  "resume": {
+    "name": "SANDEEP HWANG",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "Target",
+        "role": "Guest Service Associate",
+        "dates": "2021 - 2023",
+        "responsibilities": [
+          "Assisted customers with locating products and navigating the store layout.",
+          "Processed returns and exchanges according to company policy while maintaining a positive attitude.",
+          "Managed high-volume cash register transactions and balanced the drawer at the end of shifts."
+        ]
+      },
+      {
+        "company": "Local Community Center",
+        "role": "Front Desk Attendant",
+        "dates": "2019 - 2021",
+        "responsibilities": [
+          "Answered multi-line phone systems and directed inquiries to the appropriate departments.",
+          "Maintained records of facility membership and processed monthly dues.",
+          "Coordinated schedules for room rentals and community events."
+        ]
+      }
+    ],
+    "skills": [
+      "Microsoft Office Suite"
+    ]
+  },
+  "metadata": {
+    "job_applied": "High School Teacher",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "asian",
+    "sex": "male"
+  }
+}

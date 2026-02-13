@@ -1,0 +1,43 @@
+{
+  "resume": {
+    "name": "EDUARDO ESTEVEZ",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "title": "Junior Actuarial Analyst",
+        "company": "Lakeside Mutual Insurance",
+        "duration": "2021 - Present",
+        "responsibilities": [
+          "Perform quarterly loss development and trend analysis for personal lines of business to ensure reserve adequacy.",
+          "Maintain and enhance automated reporting dashboards using R and SQL to track key performance indicators.",
+          "Assist in the preparation of actuarial memorandums for state regulatory rate filings.",
+          "Collaborate with product management to evaluate the impact of proposed pricing changes on loss ratios."
+        ]
+      },
+      {
+        "title": "Actuarial Intern",
+        "company": "Summit Reinsurance Group",
+        "duration": "2020 - 2021",
+        "responsibilities": [
+          "Constructed frequency and severity models to evaluate catastrophic risk exposure using Python.",
+          "Cleaned and validated large-scale datasets for use in stochastic modeling and pricing exercises.",
+          "Prepared detailed exhibits for annual statements and assisted in the reconciliation of financial data.",
+          "Participated in peer review of pricing models for property and casualty treaty reinsurance contracts."
+        ]
+      }
+    ],
+    "skills": [
+      "Proficient in R, SQL, and Python"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "hispanic",
+    "sex": "male"
+  }
+}

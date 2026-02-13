@@ -1,0 +1,41 @@
+{
+  "resume": {
+    "name": "NAYELI SOTOLONGO",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "title": "Graduate Research Assistant",
+        "organization": "Seattle University",
+        "duration": "1 year",
+        "responsibilities": [
+          "Conducted comprehensive secondary research on emerging digital marketing trends and consumer psychological triggers.",
+          "Synthesized data from multi-channel industry reports to identify shifts in target audience demographics.",
+          "Assisted in the design and distribution of quantitative surveys to evaluate brand perception and recall."
+        ]
+      },
+      {
+        "title": "Market Research Project Participant",
+        "organization": "Academic Research Initiative",
+        "duration": "6 months",
+        "responsibilities": [
+          "Performed a competitive analysis of regional e-commerce players to identify gaps in market positioning.",
+          "Gathered and organized qualitative data from focus groups to support a thesis on social media engagement strategies.",
+          "Utilized data visualization techniques to present research findings on consumer purchasing behavior to faculty panels."
+        ]
+      }
+    ],
+    "skills": [
+      "Microsoft Office Suite"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "hispanic",
+    "sex": "female"
+  }
+}

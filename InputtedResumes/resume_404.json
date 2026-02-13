@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "SANDEEP HWANG",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "University of Washington Tutoring Center",
+        "role": "Mathematics Tutor",
+        "years": "2022-2023",
+        "description": "Provided one-on-one academic support to undergraduate students in Calculus I and II. Simplified complex mathematical formulas and helped students prepare for final examinations."
+      },
+      {
+        "company": "Starbucks",
+        "role": "Barista",
+        "years": "2020-2022",
+        "description": "Managed high-volume customer transactions and maintained inventory levels. Developed strong communication skills and worked effectively within a fast-paced team environment."
+      }
+    ],
+    "skills": [
+      "Proficient in R, SQL, and Python"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "asian",
+    "sex": "male"
+  }
+}

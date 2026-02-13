@@ -1,0 +1,24 @@
+{
+  "resume": {
+    "name": "NAYELI SOTOLONGO",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      "Independent Market Researcher: Conducted a deep-dive analysis of consumer behavior trends within the e-commerce sector, focusing on the impact of social proof on conversion rates.",
+      "Competitive Analysis Project: Developed a comprehensive 50-page report evaluating the digital marketing strategies of top-tier SaaS competitors, identifying key gaps in SEO and content positioning.",
+      "Target Audience Segmentation Study: Leveraged primary and secondary research data to define three primary customer personas for the emerging green-tech market, including psychographic profiling and media consumption habits."
+    ],
+    "skills": [
+      "Website Management"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "hispanic",
+    "sex": "female"
+  }
+}

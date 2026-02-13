@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "JIMENA ARMENTEROS",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "Seattle Public Schools",
+        "role": "High School Science Teacher",
+        "years": "2",
+        "description": "Implemented research-driven inquiry-based learning models to enhance student engagement in the sciences. Utilized data-driven assessment strategies developed during undergraduate pedagogical research to track and improve student performance metrics."
+      },
+      {
+        "company": "UW Department of Curriculum & Instruction",
+        "role": "Undergraduate Research Assistant",
+        "years": "1",
+        "description": "Conducted a literature review and assisted in data collection for a study focused on the efficacy of active learning strategies in secondary STEM education. Presented findings on classroom management techniques at a regional education symposium."
+      }
+    ],
+    "skills": [
+      "Microsoft Office Suite"
+    ]
+  },
+  "metadata": {
+    "job_applied": "High School Teacher",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "hispanic",
+    "sex": "female"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "resume": {
+    "name": "BEATRIZ ESTEVEZ",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "title": "Customer Service Associate",
+        "company": "Local Retail Pharmacy",
+        "duration": "2019 - 2023",
+        "responsibilities": "Managed point-of-sale transactions, handled customer inquiries, and maintained store inventory records."
+      }
+    ],
+    "skills": [
+      "Proficient in Python and SQL"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "hispanic",
+    "sex": "female"
+  }
+}

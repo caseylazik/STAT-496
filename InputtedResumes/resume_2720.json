@@ -1,0 +1,41 @@
+{
+  "resume": {
+    "name": "CORTEZ IVORY",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "title": "Lead Sales Associate",
+        "company": "Gap Inc.",
+        "duration": "2021 - Present",
+        "responsibilities": [
+          "Provide personalized styling recommendations to customers, consistently exceeding individual monthly sales targets by 15%.",
+          "Process complex transactions including returns, exchanges, and loyalty program enrollments using POS systems.",
+          "Oversee floor merchandising and stock replenishment to ensure optimal product presentation and accessibility."
+        ]
+      },
+      {
+        "title": "Retail Sales Intern",
+        "company": "Nordstrom",
+        "duration": "2019 - 2020",
+        "responsibilities": [
+          "Assisted senior sales staff in high-volume departments, focusing on customer engagement and product knowledge.",
+          "Managed fitting room traffic and organized inventory to maintain a premium shopping environment.",
+          "Participated in comprehensive training on customer conflict resolution and consultative selling techniques."
+        ]
+      }
+    ],
+    "skills": [
+      "Customer Service"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Retail Salesperson",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "black",
+    "sex": "male"
+  }
+}

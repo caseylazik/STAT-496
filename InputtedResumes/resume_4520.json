@@ -1,0 +1,43 @@
+{
+  "resume": {
+    "name": "CORTEZ IVORY",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "role": "High School Science Teacher",
+        "organization": "Seattle Public Schools",
+        "duration": "2021 - Present",
+        "responsibilities": [
+          "Develop and implement comprehensive lesson plans for 10th-grade Biology and 12th-grade Physics aligned with state standards.",
+          "Facilitate hands-on laboratory experiments and ensure all safety protocols are strictly followed.",
+          "Assess student progress through a variety of formative and summative evaluations, providing detailed feedback to support academic growth.",
+          "Collaborate with the STEM department to integrate cross-disciplinary projects and enhance the science curriculum."
+        ]
+      },
+      {
+        "role": "Student Teacher (Internship)",
+        "organization": "Bellevue High School",
+        "duration": "2020 - 2021",
+        "responsibilities": [
+          "Completed a full-year teaching residency under a mentor teacher, managing three sections of General Science.",
+          "Designed and delivered a specialized unit on environmental sustainability that increased student engagement by 20%.",
+          "Provided one-on-one academic support and tutoring to students during after-school sessions.",
+          "Utilized classroom management software to track attendance, grades, and behavioral progress."
+        ]
+      }
+    ],
+    "skills": [
+      "First Aid Certification"
+    ]
+  },
+  "metadata": {
+    "job_applied": "High School Teacher",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "black",
+    "sex": "male"
+  }
+}

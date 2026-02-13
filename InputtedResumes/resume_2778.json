@@ -1,0 +1,41 @@
+{
+  "resume": {
+    "name": "BEATRIZ ESTEVEZ",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "company": "Retail Industry Analysis Project",
+        "role": "Independent Researcher",
+        "duration": "3 months",
+        "responsibilities": [
+          "Conducted extensive research on retail sales methodologies, focusing on the SPIN and consultative selling techniques to improve conversion rates.",
+          "Analyzed regional market trends and consumer behavior patterns within high-traffic shopping centers to identify successful merchandising strategies.",
+          "Evaluated Point of Sale (POS) system functionalities and inventory management best practices through independent study and software tutorials.",
+          "Studied de-escalation protocols and customer service frameworks used by industry-leading retail brands to handle complex consumer interactions."
+        ]
+      },
+      {
+        "company": "Community Resource Center",
+        "role": "Volunteer Information Assistant",
+        "duration": "5 months",
+        "responsibilities": [
+          "Applied research-based communication strategies to assist visitors with inquiries, ensuring a high level of satisfaction.",
+          "Maintained organized documentation of available resources, utilizing inventory categorization skills learned through retail field research."
+        ]
+      }
+    ],
+    "skills": [
+      "Customer Service"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Retail Salesperson",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "hispanic",
+    "sex": "female"
+  }
+}

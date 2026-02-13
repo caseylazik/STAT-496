@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "CEDRIC LATTIMORE",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "role": "Lead Student Researcher - Actuarial Science Department",
+        "organization": "University Quantitative Research Lab",
+        "duration": "2022 - 2023",
+        "description": "Developed a predictive model using R to analyze the impact of climate change on property insurance claim frequencies. Applied stochastic modeling techniques to forecast long-term loss reserves for regional carriers."
+      },
+      {
+        "role": "Independent Researcher",
+        "organization": "Undergraduate Honors Thesis",
+        "duration": "2021 - 2022",
+        "description": "Conducted a statistical analysis of mortality trends in pension fund participants using SQL for data extraction and Python for data visualization. Evaluated the sensitivity of annuity pricing to shifting interest rate environments."
+      }
+    ],
+    "skills": [
+      "Proficient in R, SQL, and Python"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "black",
+    "sex": "male"
+  }
+}

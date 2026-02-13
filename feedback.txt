@@ -7,7 +7,6 @@ This text file's purpose is to write down ideas and record feedback we have addr
 Feedback to address from each other or professor:
 
 - Consider bias from order (order of input to LLM can change things quite a bit)
-- Make output.csv include the resume data for each entry rather than just the note of which resume_id it belongs to
 
 
 Addressed Feedback:
@@ -20,4 +19,4 @@ Addressed Feedback:
 - Rank the resumes on an ordered scale rather than simply approve or not
 - Reversed order of decision/explanation such that the explanation comes first
 - Removed race/sex bias from generating the resumes with the names in LLM input, instead place string after the LLM gives its output (saves time too)
-- Added the resume details to each output and included the race/sex variables concretely
+- Added the resume details (rather than only resume_id) to each output in output.csv and included the race/sex variables concretely

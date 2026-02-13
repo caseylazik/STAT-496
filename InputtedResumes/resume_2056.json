@@ -1,0 +1,35 @@
+{
+  "resume": {
+    "name": "JIMENA ARMENTEROS",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "title": "Independent Retail Market Research",
+        "description": "Conducted extensive field observation and analysis of high-traffic retail environments to identify successful customer engagement patterns and point-of-sale conversion techniques. Researched the psychological drivers behind consumer purchasing decisions and the impact of visual merchandising on floor traffic.",
+        "duration": "3 Months"
+      },
+      {
+        "title": "Product Analysis & Sales Simulation Project",
+        "description": "Systematically reviewed top-selling consumer electronics brands to master the translation of technical specifications into relatable customer benefits. Practiced objection-handling frameworks and closing strategies based on industry-standard retail sales training materials.",
+        "duration": "2 Months"
+      }
+    ],
+    "skills": [
+      "Product Knowledge",
+      "Consumer Behavior Analysis",
+      "Market Trend Research",
+      "Active Listening",
+      "Upselling Techniques"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Retail Salesperson",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "hispanic",
+    "sex": "female"
+  }
+}

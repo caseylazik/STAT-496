@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "BRADLEY HOLCOMB",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "job_title": "Retail Sales Associate",
+        "company": "Target",
+        "years": "2022 - 2024",
+        "description": "Engaged with customers to provide personalized product recommendations, processed point-of-sale transactions accurately, and maintained visual merchandising standards across the electronics and home goods departments."
+      },
+      {
+        "job_title": "Sales Intern",
+        "company": "Nordstrom",
+        "years": "2021 - 2022",
+        "description": "Assisted senior sales staff in the men's apparel section, learned inventory management systems, and contributed to meeting daily and weekly sales targets through proactive customer engagement."
+      }
+    ],
+    "skills": [
+      "Customer Service"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Retail Salesperson",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "white",
+    "sex": "male"
+  }
+}

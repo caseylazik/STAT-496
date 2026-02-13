@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "THANH IM",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "title": "Undergraduate Research Assistant",
+        "company": "Seattle University - Department of Computer Science",
+        "duration": "2 years",
+        "description": "Collaborated with faculty on research regarding distributed systems performance. Developed a simulation framework in Java to model network latency in cloud environments. Optimized C++ backend routines to improve data processing speed by 30% for large-scale algorithmic simulations."
+      },
+      {
+        "title": "Research Intern",
+        "company": "Institute for Software Research",
+        "duration": "Summer 2023",
+        "description": "Conducted a comparative analysis of memory management techniques in C++ and Java. Authored automated scripts to monitor memory leaks in legacy software systems. Presented findings on software reliability and code efficiency to a panel of senior researchers."
+      }
+    ],
+    "skills": [
+      "Proficient in Java and C++"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "asian",
+    "sex": "male"
+  }
+}

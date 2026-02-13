@@ -1,0 +1,31 @@
+{
+  "resume": {
+    "name": "SUZANNE HONEYCUTT",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "title": "Independent Marketing Researcher",
+        "organization": "Self-Directed Market Analysis Project",
+        "description": "Conducted a comprehensive research study on digital consumer behavior trends within the retail sector, utilizing social listening tools to identify key purchase drivers and sentiment shifts."
+      },
+      {
+        "title": "Lead Researcher - Competitive Landscape Study",
+        "organization": "Independent Study",
+        "description": "Analyzed competitor SEO strategies and content marketing performance for top-performing SaaS companies, producing a data-driven report on industry benchmarks and growth opportunities."
+      }
+    ],
+    "skills": [
+      "Data Analysis"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "white",
+    "sex": "female"
+  }
+}

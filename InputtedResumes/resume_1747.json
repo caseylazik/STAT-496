@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "TAM PARK",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "title": "Undergraduate Research Assistant",
+        "organization": "Seattle University Computer Science Department",
+        "period": "2022 - 2023",
+        "description": "Collaborated with faculty on research regarding distributed systems performance. Developed and optimized benchmarking scripts in Python to analyze network latency across cloud-native environments. Contributed to documentation for open-source research tools used by the department."
+      },
+      {
+        "title": "Software Research Intern",
+        "organization": "National Science Foundation (NSF) REU Program",
+        "period": "Summer 2022",
+        "description": "Conducted research on automated bug detection using static analysis techniques. Implemented a proof-of-concept tool in Java that identified common concurrency patterns in large-scale codebases. Published findings in a departmental technical report."
+      }
+    ],
+    "skills": [
+      "Machine Learning Certificate"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "asian",
+    "sex": "male"
+  }
+}

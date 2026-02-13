@@ -1,0 +1,41 @@
+{
+  "resume": {
+    "name": "BUDDY STARNES",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "Local Coffee Shop",
+        "position": "Barista",
+        "duration": "6 months",
+        "responsibilities": [
+          "Prepared and served coffee drinks to customers in a fast-paced environment.",
+          "Managed cash register and processed payments accurately.",
+          "Maintained a clean workspace and stocked supplies as needed."
+        ]
+      },
+      {
+        "company": "Community Center",
+        "position": "Volunteer Event Helper",
+        "duration": "3 months",
+        "responsibilities": [
+          "Assisted in setting up tables and chairs for weekend community events.",
+          "Handed out flyers and greeted guests at the entrance.",
+          "Helped with cleaning up the facility after events concluded."
+        ]
+      }
+    ],
+    "skills": [
+      "Social Media Management"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "white",
+    "sex": "male"
+  }
+}

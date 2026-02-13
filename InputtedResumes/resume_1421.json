@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "SUE HOLCOMB",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "role": "Graduate Research Assistant",
+        "organization": "Seattle University Computer Science Department",
+        "duration": "2021 - 2023",
+        "description": "Researched and developed a high-performance distributed computing prototype. Utilized Python for simulating network latency and SQL for managing large-scale experimental datasets, resulting in a 15% improvement in data throughput benchmarks."
+      },
+      {
+        "role": "Software Research Intern",
+        "organization": "Pacific Northwest Research Institute",
+        "duration": "2020 - 2021",
+        "description": "Collaborated on the implementation of a new algorithmic model for predictive data analysis. Responsible for building the automated testing suite in Python and optimizing relational database schemas for research data storage."
+      }
+    ],
+    "skills": [
+      "Proficient in Python and SQL"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "white",
+    "sex": "female"
+  }
+}

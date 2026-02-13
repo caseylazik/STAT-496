@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "JIMENA ARMENTEROS",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "title": "Undergraduate Research Assistant",
+        "organization": "Seattle University Marketing Department",
+        "duration": "1 year",
+        "responsibilities": "Conducted primary research on consumer behavior patterns using qualitative and quantitative methodologies. Analyzed large data sets to identify emerging market trends and presented findings to faculty members."
+      },
+      {
+        "title": "Market Research Project Lead",
+        "organization": "Senior Capstone Project",
+        "duration": "6 months",
+        "responsibilities": "Designed and implemented a comprehensive market research study focusing on brand perception among Gen Z demographics. Utilized advanced data analysis tools to interpret survey results and formulated a strategic marketing proposal based on research outcomes."
+      }
+    ],
+    "skills": [
+      "Data Analysis"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "hispanic",
+    "sex": "female"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "resume": {
+    "name": "SHRUTI PARK",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "role": "Undergraduate Research Assistant",
+        "organization": "University of Washington Consumer Insights Lab",
+        "description": "Collaborated with lead researchers to execute a large-scale study on digital advertising efficacy, focusing on consumer attention spans and brand recall metrics across social media platforms."
+      },
+      {
+        "role": "Primary Researcher",
+        "organization": "Marketing Strategy Capstone Project",
+        "description": "Conducted extensive qualitative and quantitative research on local market trends, utilizing demographic data and survey results to develop a theoretical market entry plan for an emerging beverage brand."
+      }
+    ],
+    "skills": [
+      "Microsoft Office Suite"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "asian",
+    "sex": "female"
+  }
+}

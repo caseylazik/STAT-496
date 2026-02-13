@@ -1,0 +1,42 @@
+{
+  "resume": {
+    "name": "TAM PARK",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "company": "Cascadia Digital Marketing",
+        "role": "Marketing Coordinator",
+        "duration": "2 years",
+        "responsibilities": [
+          "Executed multi-channel social media campaigns, resulting in a 20% increase in cross-platform follower growth.",
+          "Managed the editorial calendar and coordinated with freelance writers to produce bi-weekly blog content.",
+          "Analyzed monthly campaign performance reports to optimize ad spend and improve lead generation quality.",
+          "Facilitated A/B testing for email marketing subject lines to increase open rates."
+        ]
+      },
+      {
+        "company": "Summit Tech Solutions",
+        "role": "Marketing Intern",
+        "duration": "6 months",
+        "responsibilities": [
+          "Conducted market research on competitor pricing and product positioning to support the sales team.",
+          "Assisted in the preparation of promotional materials for the annual regional tech conference.",
+          "Maintained and updated the company CRM database to ensure lead accuracy and contact segmentation."
+        ]
+      }
+    ],
+    "skills": [
+      "Microsoft Office Suite"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "asian",
+    "sex": "male"
+  }
+}

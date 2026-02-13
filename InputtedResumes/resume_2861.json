@@ -1,0 +1,31 @@
+{
+  "resume": {
+    "name": "SUE HOLCOMB",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "role": "Retail Market Researcher",
+        "focus": "Independent Study",
+        "details": "Conducted a detailed analysis of local retail environments, focusing on visual merchandising techniques, inventory replenishment cycles, and consumer demographic trends to optimize sales floor performance."
+      },
+      {
+        "role": "Consumer Engagement Analyst",
+        "focus": "Self-Directed Project",
+        "details": "Researched psychological triggers in consumer behavior and high-impact communication strategies to improve customer retention and satisfaction scores in high-volume retail settings."
+      }
+    ],
+    "skills": [
+      "Customer Service"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Retail Salesperson",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "white",
+    "sex": "female"
+  }
+}

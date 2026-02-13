@@ -1,0 +1,27 @@
+{
+  "resume": {
+    "name": "EARNESTINE IVORY",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "Local Coffee Stand",
+        "role": "Service Worker",
+        "duration": "2023-2024",
+        "description": "Prepared beverages for customers and processed payments at the register. Cleaned the facility and stocked inventory as needed."
+      }
+    ],
+    "skills": [
+      "Microsoft Office Suite"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "black",
+    "sex": "female"
+  }
+}

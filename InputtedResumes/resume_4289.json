@@ -1,0 +1,31 @@
+{
+  "resume": {
+    "name": "NAYELI SOTOLONGO",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "title": "Graduate Research Assistant - Consumer Behavior",
+        "company": "University of Washington",
+        "description": "Conducted extensive quantitative research on digital consumer purchasing paths, utilizing statistical software to identify key drivers in brand loyalty. Synthesized academic literature to support hypotheses on market segmentation and emerging social media trends."
+      },
+      {
+        "title": "Market Research Project Lead",
+        "company": "Academic Capstone Project",
+        "description": "Led a comprehensive field study analyzing local retail competition and consumer sentiment. Designed and deployed primary survey instruments, processed raw data to identify market gaps, and presented data-driven recommendations for brand positioning."
+      }
+    ],
+    "skills": [
+      "Data Analysis"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "hispanic",
+    "sex": "female"
+  }
+}

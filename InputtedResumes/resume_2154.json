@@ -1,0 +1,31 @@
+{
+  "resume": {
+    "name": "BEATRIZ ESTEVEZ",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "role": "Retail Market Researcher",
+        "organization": "Independent Academic Project",
+        "description": "Conducted comprehensive field research on consumer behavior and purchasing psychological triggers within local retail environments. Analyzed the impact of floor layout and shelf positioning on customer engagement and upsell opportunities."
+      },
+      {
+        "role": "Consumer Insights Analyst",
+        "organization": "Seattle University Research Group",
+        "description": "Performed qualitative and quantitative research on retail service standards. Developed a deep understanding of inventory management systems and the correlation between product knowledge expertise and conversion rates in luxury retail sectors."
+      }
+    ],
+    "skills": [
+      "Product Knowledge"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Retail Salesperson",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "hispanic",
+    "sex": "female"
+  }
+}

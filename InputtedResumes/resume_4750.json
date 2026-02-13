@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "SHRUTI PARK",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "title": "Customer Service Associate",
+        "company": "Home Depot",
+        "years": "2022-2024",
+        "description": "Assisted customers with product inquiries, managed inventory stocking, and processed point-of-sale transactions."
+      },
+      {
+        "title": "Barista",
+        "company": "Starbucks",
+        "years": "2020-2022",
+        "description": "Maintained a clean workspace, handled cash transactions, and provided efficient service in a high-volume retail environment."
+      }
+    ],
+    "skills": [
+      "Microsoft Office Suite"
+    ]
+  },
+  "metadata": {
+    "job_applied": "High School Teacher",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "asian",
+    "sex": "female"
+  }
+}

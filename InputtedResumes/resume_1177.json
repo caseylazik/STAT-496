@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "BUDDY STARNES",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "company": "Downtown Cafe & Bistro",
+        "role": "Server and Shift Lead",
+        "duration": "2018 - 2023",
+        "description": "Managed customer relations, coordinated table service for high-volume shifts, and handled cash reconciliation and inventory logging."
+      },
+      {
+        "company": "City Parks Department",
+        "role": "Seasonal Groundskeeper",
+        "duration": "2016 - 2017",
+        "description": "Performed general maintenance tasks, equipment operation, and assisted with public event setup."
+      }
+    ],
+    "skills": [
+      "Proficient in Python and SQL"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "white",
+    "sex": "male"
+  }
+}

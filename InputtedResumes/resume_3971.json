@@ -1,0 +1,39 @@
+{
+  "resume": {
+    "name": "EARNESTINE IVORY",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "company": "City Center Cinema",
+        "position": "Concessions Stand Worker",
+        "years": "2021-2023",
+        "description": "Served snacks and drinks to patrons during movie shifts. Cleaned theaters between screenings and processed cash payments at the register."
+      },
+      {
+        "company": "Green Valley Landscaping",
+        "position": "General Laborer",
+        "years": "2019-2021",
+        "description": "Performed basic yard maintenance including mowing lawns, raking leaves, and clearing debris from residential properties."
+      },
+      {
+        "company": "Quick-Stop Gas & Shop",
+        "position": "Night Shift Clerk",
+        "years": "2018-2019",
+        "description": "Monitored store inventory and assisted customers with fuel pump operations and grocery purchases during overnight hours."
+      }
+    ],
+    "skills": [
+      "Data Analysis"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "black",
+    "sex": "female"
+  }
+}

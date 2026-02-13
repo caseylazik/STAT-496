@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "SANDEEP HWANG",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "Seattle University Educational Research Lab",
+        "role": "Lead Research Assistant - Adolescent Pedagogical Studies",
+        "dates": "2022 - 2023",
+        "description": "Conducted a comprehensive qualitative study on the impact of inquiry-based learning on high school student engagement in STEM subjects. Synthesized data from 50+ classroom observations to develop a white paper on effective formative assessment techniques."
+      },
+      {
+        "company": "Northwest Regional Education Association",
+        "role": "Curriculum Development Fellow",
+        "dates": "2021 - 2022",
+        "description": "Assisted in research focused on the efficacy of blended learning environments for secondary education. Developed pilot curriculum modules for high school biology based on current neuro-educational research, focusing on information retention and student autonomy."
+      }
+    ],
+    "skills": [
+      "First Aid Certification"
+    ]
+  },
+  "metadata": {
+    "job_applied": "High School Teacher",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "asian",
+    "sex": "male"
+  }
+}

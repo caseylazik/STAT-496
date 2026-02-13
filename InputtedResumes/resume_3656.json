@@ -1,0 +1,41 @@
+{
+  "resume": {
+    "name": "CORTEZ IVORY",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "Local Coffee Shop",
+        "role": "Barista",
+        "dates": "2022 - 2024",
+        "responsibilities": [
+          "Prepared and served beverages to customers in a fast-paced environment.",
+          "Maintained cleanliness of the seating area and service counter.",
+          "Handled cash and credit transactions accurately using a POS system."
+        ]
+      },
+      {
+        "company": "Seattle Public Library",
+        "role": "Volunteer Assistant",
+        "dates": "2021 - 2022",
+        "responsibilities": [
+          "Organized and shelved books and media materials according to system protocols.",
+          "Assisted patrons with locating specific resources and using public computers.",
+          "Supported staff with administrative tasks and event setup."
+        ]
+      }
+    ],
+    "skills": [
+      "Social Media Management"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "black",
+    "sex": "male"
+  }
+}

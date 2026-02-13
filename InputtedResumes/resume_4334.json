@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "RODOLFO SOTOLONGO",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "company": "Sunrise Grocery Store",
+        "role": "Cashier",
+        "duration": "2022 - 2023",
+        "description": "Processed customer transactions, managed cash drawer reconciliations, and provided basic customer service on the sales floor."
+      },
+      {
+        "company": "Neighborhood Households",
+        "role": "Pet Sitter",
+        "duration": "2020 - 2022",
+        "description": "Responsible for the daily care, feeding, and walking of neighborhood pets while owners were away."
+      }
+    ],
+    "skills": [
+      "First Aid Certification"
+    ]
+  },
+  "metadata": {
+    "job_applied": "High School Teacher",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "hispanic",
+    "sex": "male"
+  }
+}

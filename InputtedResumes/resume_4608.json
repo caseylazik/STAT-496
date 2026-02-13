@@ -1,0 +1,36 @@
+{
+  "resume": {
+    "name": "VY IM",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "title": "Education Research Assistant",
+        "organization": "University of Washington College of Education",
+        "responsibilities": "Collaborated on a multi-phase research project investigating the impact of inquiry-based learning on student retention in secondary science education. Analyzed classroom data and peer-reviewed literature to develop evidence-based pedagogical strategies."
+      },
+      {
+        "title": "Undergraduate Researcher",
+        "organization": "Pedagogical Innovation Lab",
+        "responsibilities": "Conducted independent research on the integration of digital literacy tools in high school humanities curricula. Synthesized findings into a comprehensive report presented at the Undergraduate Research Symposium, focusing on closing the achievement gap through technology."
+      },
+      {
+        "title": "Curriculum Development Intern",
+        "organization": "Seattle Public Schools",
+        "responsibilities": "Applied research findings regarding socio-emotional learning (SEL) to assist in the redesign of 10th-grade health education modules. Reviewed curriculum efficacy and suggested data-driven modifications to improve student outcomes."
+      }
+    ],
+    "skills": [
+      "First Aid Certification"
+    ]
+  },
+  "metadata": {
+    "job_applied": "High School Teacher",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "asian",
+    "sex": "female"
+  }
+}

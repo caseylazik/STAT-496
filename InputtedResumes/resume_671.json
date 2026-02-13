@@ -1,0 +1,35 @@
+{
+  "resume": {
+    "name": "NAVYA HWANG",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "title": "Actuarial Research Assistant",
+        "company": "Seattle University Department of Mathematics",
+        "location": "Seattle, WA",
+        "dates": "2022 - 2024",
+        "description": "Conducted quantitative research on predictive mortality modeling using life table data. Leveraged R and SQL to clean large datasets and implement stochastic simulations of future pension liabilities. Collaborated with faculty to refine risk assessment frameworks for long-term disability insurance pricing."
+      },
+      {
+        "title": "Undergraduate Researcher - Financial Risk",
+        "company": "Seattle University Quantitative Finance Lab",
+        "location": "Seattle, WA",
+        "dates": "2021 - 2022",
+        "description": "Analyzed historical market volatility trends and their correlation with interest rate shifts. Developed Python scripts to automate the calculation of Value at Risk (VaR) for diverse asset portfolios. Documented findings on the impact of extreme weather events on property and casualty insurance loss reserves."
+      }
+    ],
+    "skills": [
+      "Proficient in R, SQL, and Python"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "asian",
+    "sex": "female"
+  }
+}

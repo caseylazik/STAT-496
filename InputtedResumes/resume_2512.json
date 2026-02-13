@@ -1,0 +1,35 @@
+{
+  "resume": {
+    "name": "JIMENA ARMENTEROS",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "role": "Graduate Research Assistant",
+        "company": "Seattle University - Department of Psychology",
+        "location": "Seattle, WA",
+        "duration": "2 years",
+        "description": "Conducted specialized research into consumer behavior and retail decision-making processes. Analyzed data regarding customer satisfaction metrics and the impact of store environments on purchasing habits."
+      },
+      {
+        "role": "Retail Market Analyst (Academic Project)",
+        "company": "Northwest Consumer Insights Group",
+        "location": "Seattle, WA",
+        "duration": "1 year",
+        "description": "Performed field research and observational studies on modern retail sales techniques. Developed a comprehensive understanding of inventory management, visual merchandising, and the psychological drivers of customer loyalty through academic case studies."
+      }
+    ],
+    "skills": [
+      "Strong Social Skills"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Retail Salesperson",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "hispanic",
+    "sex": "female"
+  }
+}

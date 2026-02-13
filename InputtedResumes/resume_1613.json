@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "SUE HOLCOMB",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "title": "Junior Software Engineer",
+        "company": "Innovate Solutions",
+        "dates": "September 2022 - Present",
+        "description": "Collaborated on the migration of legacy monolithic services to a microservices architecture using Node.js and Docker. Optimized database queries in PostgreSQL, reducing latency by 20%. Integrated third-party APIs for payment processing and automated CI/CD pipelines."
+      },
+      {
+        "title": "Software Engineer Intern",
+        "company": "CloudStream Tech",
+        "dates": "June 2022 - August 2022",
+        "description": "Assisted in the development of RESTful APIs using Python and Flask. Wrote comprehensive unit tests to increase code coverage by 15% and participated in daily agile stand-ups to streamline feature delivery."
+      }
+    ],
+    "skills": [
+      "Machine Learning Certificate"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "white",
+    "sex": "female"
+  }
+}

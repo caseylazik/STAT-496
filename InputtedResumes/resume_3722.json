@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "BRADLEY HOLCOMB",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "company": "Blue Stream Digital",
+        "role": "Marketing Coordinator",
+        "years": "2021 - 2023",
+        "description": "Managed end-to-end social media campaigns across multiple platforms, increasing organic engagement by 25%. Monitored KPIs and adjusted strategies based on weekly performance reports using Google Analytics."
+      },
+      {
+        "company": "Lumina Creative Agency",
+        "role": "Marketing Intern",
+        "years": "2020 - 2021",
+        "description": "Assisted in the creation of monthly content calendars and drafted copy for email marketing newsletters. Conducted market research to identify emerging industry trends and supported the lead strategist in client presentations."
+      }
+    ],
+    "skills": [
+      "Social Media Management"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "white",
+    "sex": "male"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "SANDEEP HWANG",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "company": "Self-Managed",
+        "role": "Social Media Hobbyist",
+        "dates": "2022 - Present",
+        "description": "Maintain personal Instagram and TikTok profiles by posting daily photos and engaging with followers through the comments section."
+      },
+      {
+        "company": "Neighborhood Garage Sale",
+        "role": "Volunteer Sign Maker",
+        "dates": "June 2023",
+        "description": "Drew and placed five neon poster board signs at major intersections to direct local traffic to a weekend yard sale event."
+      }
+    ],
+    "skills": [
+      "Social Media Management"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "asian",
+    "sex": "male"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "MISTY STARNES",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "title": "Graduate Research Assistant",
+        "organization": "University of Washington - College of Education",
+        "duration": "2 years",
+        "responsibilities": "Conducted primary research on pedagogical frameworks for secondary education; analyzed student engagement data in STEM classrooms; authored a thesis on evidence-based instructional strategies for adolescent learners."
+      },
+      {
+        "title": "Student Teacher",
+        "organization": "Seattle Public Schools",
+        "duration": "1 year",
+        "responsibilities": "Applied research findings on differentiated instruction to 10th-grade lesson plans; collaborated with faculty to implement evidence-based classroom management techniques; evaluated student learning outcomes using quantitative data analysis."
+      }
+    ],
+    "skills": [
+      "Microsoft Office Suite"
+    ]
+  },
+  "metadata": {
+    "job_applied": "High School Teacher",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "white",
+    "sex": "female"
+  }
+}

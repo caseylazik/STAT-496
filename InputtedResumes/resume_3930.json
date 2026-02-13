@@ -1,0 +1,41 @@
+{
+  "resume": {
+    "name": "BEATRIZ ESTEVEZ",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "role": "Graduate Research Assistant - Consumer Insights",
+        "organization": "University of Washington",
+        "duration": "2022 - 2024",
+        "responsibilities": [
+          "Conducted quantitative and qualitative research on digital consumer behavior trends for various industry sectors.",
+          "Analyzed large datasets using statistical tools to identify correlations between brand engagement and social media presence.",
+          "Authored comprehensive reports on market segmentation and emerging demographic shifts in the Pacific Northwest."
+        ]
+      },
+      {
+        "role": "Independent Market Research Consultant",
+        "organization": "Marketing Research Project",
+        "duration": "2021 - 2022",
+        "responsibilities": [
+          "Performs primary research through focus groups and surveys to evaluate product-market fit for startup ventures.",
+          "Synthesized competitive analysis data to help local businesses refine their online brand positioning.",
+          "Utilized SEO tools and analytics to track and report on digital campaign performance during research pilot programs."
+        ]
+      }
+    ],
+    "skills": [
+      "Social Media Management"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "hispanic",
+    "sex": "female"
+  }
+}

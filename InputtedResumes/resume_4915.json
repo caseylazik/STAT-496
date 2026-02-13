@@ -1,0 +1,39 @@
+{
+  "resume": {
+    "name": "TAM PARK",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "role": "Student Teacher",
+        "company": "Roosevelt High School",
+        "years": "2022 - 2023",
+        "description": "Developed and implemented comprehensive lesson plans for 11th-grade English Language Arts, aligning curriculum with state standards and facilitating classroom discussions for diverse student populations."
+      },
+      {
+        "role": "Teaching Intern",
+        "company": "Seattle Public Schools",
+        "years": "2021 - 2022",
+        "description": "Assisted lead teachers in classroom management and small-group instruction, provided individualized support to students with IEPs, and contributed to the development of digital learning modules."
+      },
+      {
+        "role": "Private Tutor",
+        "company": "Academic Success Center",
+        "years": "2019 - 2021",
+        "description": "Delivered specialized instruction in Mathematics and Science to high school students, resulting in an average grade improvement of one letter grade for regular attendees."
+      }
+    ],
+    "skills": [
+      "Microsoft Office Suite"
+    ]
+  },
+  "metadata": {
+    "job_applied": "High School Teacher",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "asian",
+    "sex": "male"
+  }
+}

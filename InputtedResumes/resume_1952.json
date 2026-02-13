@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "CORTEZ IVORY",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "Nordstrom",
+        "role": "Sales Associate",
+        "duration": "June 2022 - August 2023",
+        "responsibilities": "Engaged with customers to provide personalized shopping experiences, consistently met monthly sales quotas by 15%, and maintained visual merchandising standards across the department."
+      },
+      {
+        "company": "Best Buy",
+        "role": "Retail Sales Intern",
+        "duration": "May 2021 - August 2021",
+        "responsibilities": "Assisted the home electronics team with product demonstrations, utilized POS systems for high-volume transactions, and supported inventory management through weekly stock audits."
+      }
+    ],
+    "skills": [
+      "Product Knowledge"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Retail Salesperson",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "black",
+    "sex": "male"
+  }
+}

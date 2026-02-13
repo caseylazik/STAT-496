@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "MIGUEL ARMENTEROS",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "company": "TechFlow Systems",
+        "role": "Software Engineer",
+        "duration": "January 2023 \u2013 Present",
+        "description": "Design and maintain backend microservices using Python and FastAPI. Optimize relational database schemas and complex SQL queries to improve application response times by 25%."
+      },
+      {
+        "company": "Amazon",
+        "role": "Software Development Engineer Intern",
+        "duration": "June 2022 \u2013 September 2022",
+        "description": "Developed an automated data validation tool using Python to streamline internal reporting workflows. Collaborated with senior engineers to refactor legacy SQL scripts, ensuring better scalability for cloud-based storage solutions."
+      }
+    ],
+    "skills": [
+      "Proficient in Python and SQL"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "hispanic",
+    "sex": "male"
+  }
+}

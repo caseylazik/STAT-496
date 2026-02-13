@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "BEATRIZ ESTEVEZ",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "role": "Marketing Intern",
+        "company": "Summit Digital Solutions",
+        "duration": "6 months",
+        "responsibilities": "Supported the digital marketing team in managing social media calendars for three client accounts. Conducted keyword research to assist in SEO optimization for monthly blog posts and tracked campaign performance using Google Analytics."
+      },
+      {
+        "role": "Social Media Coordinator",
+        "company": "University Student Association",
+        "duration": "1 year",
+        "responsibilities": "Managed the association's Instagram and Twitter profiles, creating visual content and copy that increased follower engagement by 20%. Coordinated with campus organizations to promote events and initiatives through targeted digital outreach."
+      }
+    ],
+    "skills": [
+      "Social Media Management"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "hispanic",
+    "sex": "female"
+  }
+}

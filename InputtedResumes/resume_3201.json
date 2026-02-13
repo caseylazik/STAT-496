@@ -1,0 +1,31 @@
+{
+  "resume": {
+    "name": "CEDRIC LATTIMORE",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "role": "Graduate Research Assistant - Consumer Insights",
+        "organization": "University of Washington",
+        "description": "Conducted extensive primary and secondary research on digital consumption patterns, utilizing data analytics to identify key market drivers and brand positioning opportunities."
+      },
+      {
+        "role": "Independent Researcher - Market Entry Analysis",
+        "organization": "Master's Thesis Project",
+        "description": "Executed a comprehensive competitive landscape study for emerging tech sectors, focusing on the impact of user interface design on website retention rates and conversion metrics."
+      }
+    ],
+    "skills": [
+      "Website Management"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "black",
+    "sex": "male"
+  }
+}

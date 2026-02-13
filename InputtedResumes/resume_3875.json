@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "EARNESTINE IVORY",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "title": "Marketing Research Assistant",
+        "organization": "University of Washington - Department of Communication",
+        "dates": "2022 - 2023",
+        "description": "Conducted extensive primary research on consumer sentiment regarding digital privacy in advertising, utilizing survey data to identify key demographic trends. Compiled comprehensive reports on competitor social media strategies for academic review."
+      },
+      {
+        "title": "Market Analysis Project Lead",
+        "organization": "UW Business Research Lab",
+        "dates": "2023",
+        "description": "Led a collaborative research project focused on the efficacy of micro-influencer marketing versus traditional celebrity endorsements. Analyzed engagement metrics across three social media platforms to determine ROI for hypothetical retail brands."
+      }
+    ],
+    "skills": [
+      "Social Media Management"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "black",
+    "sex": "female"
+  }
+}

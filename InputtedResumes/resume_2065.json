@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "BUDDY STARNES",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "title": "Retail Market Research Lead (Academic Project)",
+        "company": "University of Washington",
+        "years": "2023",
+        "description": "Conducted a detailed analysis of local retail consumer behavior and purchasing patterns. Developed a mock sales strategy based on seasonal trends and competitor pricing models."
+      },
+      {
+        "title": "Independent Retail Industry Researcher",
+        "company": "Self-Directed",
+        "years": "2022-2023",
+        "description": "Studied high-performance sales techniques and visual merchandising standards. Researched POS system functionalities and inventory management protocols used by top-tier retail chains."
+      }
+    ],
+    "skills": [
+      "Product Knowledge"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Retail Salesperson",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "white",
+    "sex": "male"
+  }
+}

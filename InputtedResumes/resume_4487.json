@@ -1,0 +1,43 @@
+{
+  "resume": {
+    "name": "NAVYA HWANG",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "title": "Student Teacher",
+        "organization": "Roosevelt High School",
+        "dates": "2022 - 2023",
+        "responsibilities": [
+          "Co-taught 10th-grade Biology and Chemistry classes, delivering curriculum-aligned lessons to diverse student populations.",
+          "Designed and implemented daily lesson plans that integrated multimedia tools and hands-on laboratory experiments.",
+          "Facilitated small group instruction and provided one-on-one support for students with IEPs and 504 plans.",
+          "Managed classroom behavior using positive reinforcement strategies and established a productive learning environment.",
+          "Assisted in grading assignments and providing constructive feedback to improve student performance."
+        ]
+      },
+      {
+        "title": "Teaching Assistant Intern",
+        "organization": "University of Washington Gear Up Program",
+        "dates": "2021 - 2022",
+        "responsibilities": [
+          "Supported lead instructors in providing academic enrichment in mathematics to high school students from underrepresented backgrounds.",
+          "Organized and supervised educational field trips and college preparatory workshops.",
+          "Maintained student attendance records and monitored progress through weekly assessments."
+        ]
+      }
+    ],
+    "skills": [
+      "First Aid Certification"
+    ]
+  },
+  "metadata": {
+    "job_applied": "High School Teacher",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "asian",
+    "sex": "female"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "MISTY STARNES",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "role": "Graduate Research Assistant",
+        "institution": "Seattle University",
+        "duration": "2 years",
+        "description": "Conducted extensive research on consumer behavior and digital engagement patterns. Utilized statistical modeling to analyze the efficacy of multi-channel marketing campaigns and presented findings on brand perception."
+      },
+      {
+        "role": "Lead Academic Researcher",
+        "institution": "Department of Marketing Research",
+        "duration": "1 year",
+        "description": "Spearheaded a research project focused on the impact of user experience design on website conversion rates. Performed competitive analysis and market trend forecasting to identify growth opportunities for digital platforms."
+      }
+    ],
+    "skills": [
+      "Website Management"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "white",
+    "sex": "female"
+  }
+}

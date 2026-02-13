@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "CORTEZ IVORY",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "title": "Dog Walker",
+        "company": "Self-Employed",
+        "years": "2023",
+        "description": "Walked neighborhood dogs on a regular schedule. Ensured animals were fed and watered according to owner instructions."
+      },
+      {
+        "title": "Store Associate",
+        "company": "Value Mart",
+        "years": "2022",
+        "description": "Folded clothes, organized shelves, and helped customers find specific items in the aisles. Worked the cash register during busy hours."
+      }
+    ],
+    "skills": [
+      "Microsoft Office Suite"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "black",
+    "sex": "male"
+  }
+}

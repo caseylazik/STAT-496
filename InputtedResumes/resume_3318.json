@@ -1,0 +1,31 @@
+{
+  "resume": {
+    "name": "SUZANNE HONEYCUTT",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "title": "Customer Service Representative",
+        "company": "Regional Retail Outlet",
+        "description": "Handled customer inquiries and processed returns at the service desk. Maintained a clean and organized storefront while assisting with basic inventory stocking."
+      },
+      {
+        "title": "Summer Camp Counselor",
+        "company": "City Parks and Recreation",
+        "description": "Supervised groups of children during daily recreational activities. Coordinated schedules for outdoor events and ensured all safety protocols were followed."
+      }
+    ],
+    "skills": [
+      "Microsoft Office Suite"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "white",
+    "sex": "female"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "resume": {
+    "name": "THANH IM",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "company": "Lumina Digital Agency",
+        "position": "Junior Marketing Coordinator",
+        "duration": "1 year",
+        "responsibilities": [
+          "Executed daily updates to client websites and landing pages to ensure content accuracy and SEO optimization.",
+          "Collaborated with the creative team to develop multi-channel social media campaigns across Instagram and LinkedIn.",
+          "Analyzed monthly performance metrics using Google Analytics to provide actionable insights for campaign strategy adjustments."
+        ]
+      },
+      {
+        "company": "GreenStream Innovations",
+        "position": "Marketing Intern",
+        "duration": "6 months",
+        "responsibilities": [
+          "Assisted in the management of the corporate website content management system (CMS) to support product launches.",
+          "Conducted market research on competitor pricing and promotional strategies to inform internal quarterly reports.",
+          "Drafted and edited copy for weekly email newsletters and promotional blog posts."
+        ]
+      }
+    ],
+    "skills": [
+      "Website Management"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "asian",
+    "sex": "male"
+  }
+}

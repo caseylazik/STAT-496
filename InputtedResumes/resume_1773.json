@@ -1,0 +1,39 @@
+{
+  "resume": {
+    "name": "THANH IM",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "title": "Graduate Research Assistant",
+        "organization": "University of Washington, Paul G. Allen School of Computer Science & Engineering",
+        "duration": "2021 - 2023",
+        "description": "Collaborated on research focusing on distributed systems scalability; developed a prototype in Go to simulate high-throughput network communication protocols and analyzed performance bottlenecks."
+      },
+      {
+        "title": "Software Research Intern",
+        "organization": "Pacific Northwest National Laboratory",
+        "duration": "2022",
+        "description": "Researched and implemented automated software testing strategies for large-scale scientific simulations; utilized Python and Docker to containerize research environments and improve reproducibility of results."
+      },
+      {
+        "title": "Independent Researcher",
+        "organization": "Open Source Software Community",
+        "duration": "2020 - 2021",
+        "description": "Conducted a comparative analysis of memory management techniques in Rust vs C++; published findings in a peer-reviewed undergraduate journal and contributed performance patches to a popular open-source data parser."
+      }
+    ],
+    "skills": [
+      "Machine Learning Certificate"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "asian",
+    "sex": "male"
+  }
+}

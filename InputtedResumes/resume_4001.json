@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "NAYELI SOTOLONGO",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "Main Street Cafe",
+        "role": "Barista",
+        "dates": "2022 - 2023",
+        "description": "Handled customer orders, managed cash register transactions, and maintained storefront cleanliness during high-volume shifts."
+      },
+      {
+        "company": "Self-Employed",
+        "role": "Pet Sitter",
+        "dates": "2020 - 2022",
+        "description": "Provided daily care and walking services for neighborhood pets, ensuring safety and following specific owner instructions."
+      }
+    ],
+    "skills": [
+      "Data Analysis"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "hispanic",
+    "sex": "female"
+  }
+}

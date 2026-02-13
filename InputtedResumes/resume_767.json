@@ -1,0 +1,27 @@
+{
+  "resume": {
+    "name": "NAVYA HWANG",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "University Book Store",
+        "role": "Customer Service Assistant",
+        "dates": "2021 - 2023",
+        "description": "Managed point-of-sale transactions, assisted customers with locating materials, and maintained organized inventory records during the academic semesters."
+      }
+    ],
+    "skills": [
+      "Proficient in Java and C++"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "asian",
+    "sex": "female"
+  }
+}

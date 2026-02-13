@@ -1,0 +1,44 @@
+{
+  "resume": {
+    "name": "CEDRIC LATTIMORE",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "title": "Retail Sales Associate",
+        "company": "Nordstrom",
+        "location": "Seattle, WA",
+        "dates": "2022 - 2024",
+        "responsibilities": [
+          "Engaged with customers to provide personalized shopping assistance and product recommendations based on individual preferences.",
+          "Met and exceeded monthly sales targets by utilizing upselling techniques and maintaining extensive product knowledge.",
+          "Managed Point of Sale (POS) transactions, handled returns, and ensured the accuracy of the cash drawer at the end of shifts.",
+          "Collaborated with the visual merchandising team to organize floor displays and ensure a clean, inviting store environment."
+        ]
+      },
+      {
+        "title": "Sales Intern",
+        "company": "Gap Inc.",
+        "location": "Bellevue, WA",
+        "dates": "2021 - 2022",
+        "responsibilities": [
+          "Assisted senior sales staff in high-volume customer service scenarios during peak holiday seasons.",
+          "Executed inventory replenishment tasks to ensure all sizes and styles were consistently available on the sales floor.",
+          "Learned and applied basic conflict resolution skills to address customer concerns regarding pricing or product availability."
+        ]
+      }
+    ],
+    "skills": [
+      "Strong Social Skills"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Retail Salesperson",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "black",
+    "sex": "male"
+  }
+}

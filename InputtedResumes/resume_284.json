@@ -1,0 +1,42 @@
+{
+  "resume": {
+    "name": "SANDEEP HWANG",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "title": "Undergraduate Research Assistant",
+        "organization": "University of Washington, Department of Mathematics",
+        "location": "Seattle, WA",
+        "dates": "September 2022 - May 2023",
+        "description": "Assisted in the development of stochastic models to predict long-term disability claim frequencies. Performed rigorous data cleaning and statistical validation on large-scale longitudinal datasets using R and SQL."
+      },
+      {
+        "title": "Actuarial Science Capstone Researcher",
+        "organization": "Center for Actuarial Excellence",
+        "location": "Seattle, WA",
+        "dates": "January 2023 - June 2023",
+        "description": "Conducted a comparative analysis of generalized linear models (GLMs) versus machine learning techniques for auto insurance pricing. Published findings on the impact of non-traditional variables on loss ratio accuracy within a departmental journal."
+      },
+      {
+        "title": "Independent Research Project: Mortality Modeling",
+        "organization": "University of Washington",
+        "location": "Seattle, WA",
+        "dates": "August 2021 - December 2021",
+        "description": "Researched and implemented the Lee-Carter model for mortality forecasting. Analyzed historical life table data to project future life expectancy trends and their implications for pension fund solvency."
+      }
+    ],
+    "skills": [
+      "Actuarial exam progress (ASA/FSA)"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "asian",
+    "sex": "male"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "resume": {
+    "name": "EDUARDO ESTEVEZ",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "company": "Urban Outfitters",
+        "role": "Sales Associate",
+        "duration": "2021 - Present",
+        "responsibilities": [
+          "Proactively greeted customers and assisted with product selection, resulting in consistent achievement of daily sales targets.",
+          "Processed transactions accurately using POS systems and managed returns and exchanges according to company policy.",
+          "Maintained store visual standards by replenishing stock and organizing displays on the sales floor."
+        ]
+      },
+      {
+        "company": "Target",
+        "role": "Retail Intern",
+        "duration": "2020 - 2021",
+        "responsibilities": [
+          "Supported the guest services team by addressing customer inquiries and resolving minor complaints efficiently.",
+          "Assisted with inventory management, including receiving shipments and scanning merchandise into the tracking system.",
+          "Shadowed senior sales leads to learn effective upselling techniques and product demonstration skills."
+        ]
+      }
+    ],
+    "skills": [
+      "Customer Service"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Retail Salesperson",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "hispanic",
+    "sex": "male"
+  }
+}

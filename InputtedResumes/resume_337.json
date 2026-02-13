@@ -1,0 +1,39 @@
+{
+  "resume": {
+    "name": "BUDDY STARNES",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "job_title": "Graduate Research Assistant",
+        "organization": "Seattle University - Mathematics Department",
+        "years": "2021 - 2023",
+        "description": "Conducted extensive research on stochastic modeling for mortality rate forecasting. Developed predictive algorithms using R to analyze historical social security data and assess long-term life expectancy trends for pension fund adjustments."
+      },
+      {
+        "job_title": "Quantitative Researcher (Actuarial Focus)",
+        "organization": "University Financial Risk Lab",
+        "years": "2020 - 2021",
+        "description": "Collaborated on a project evaluating the impact of catastrophe risk on regional property insurance portfolios. Used Monte Carlo simulations to model loss distributions and performed sensitivity analyses on various reinsurance structures."
+      },
+      {
+        "job_title": "Independent Research Contributor",
+        "organization": "Actuarial Science Thesis Project",
+        "years": "2022 - 2023",
+        "description": "Authored a comprehensive research paper on the application of Generalized Linear Models (GLMs) to non-life insurance pricing. Cleaned and processed large-scale claims datasets to optimize frequency and severity modeling techniques."
+      }
+    ],
+    "skills": [
+      "Actuarial exam progress (ASA/FSA)"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "white",
+    "sex": "male"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "resume": {
+    "name": "JACK HONEYCUTT",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "title": "Independent Retail Market Researcher",
+        "company": "Self-Directed",
+        "duration": "3 months",
+        "responsibilities": [
+          "Conducted extensive field observations of consumer behavior and purchasing patterns within various high-traffic retail environments.",
+          "Analyzed visual merchandising strategies and their direct impact on customer engagement and department navigation.",
+          "Researched standard Point of Sale (POS) operations and inventory management workflows to ensure readiness for technical retail tasks."
+        ]
+      },
+      {
+        "title": "Customer Service Strategy Analyst",
+        "company": "Independent Study",
+        "duration": "2 months",
+        "responsibilities": [
+          "Synthesized industry best practices for conflict resolution and customer de-escalation through comprehensive case study reviews.",
+          "Developed a foundational understanding of sales KPIs including conversion rates, average transaction value, and units per transaction.",
+          "Practiced active listening and persuasive communication techniques based on established retail sales training frameworks."
+        ]
+      }
+    ],
+    "skills": [
+      "Strong Social Skills"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Retail Salesperson",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "white",
+    "sex": "male"
+  }
+}

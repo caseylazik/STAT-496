@@ -1,0 +1,39 @@
+{
+  "resume": {
+    "name": "CEDRIC LATTIMORE",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "role": "Graduate Research Assistant",
+        "institution": "University of Washington College of Education",
+        "period": "2021 - 2023",
+        "responsibilities": "Conducted primary research on the impact of inquiry-based learning models on student retention in secondary science education. Published findings on pedagogical strategies for diverse learning environments."
+      },
+      {
+        "role": "Student Teacher",
+        "organization": "Roosevelt High School",
+        "period": "2022 - 2023",
+        "responsibilities": "Applied evidence-based teaching methodologies from research background to manage classrooms of 30+ students. Developed and delivered lesson plans in Physics and Chemistry aligned with NGSS standards."
+      },
+      {
+        "role": "Curriculum Research Intern",
+        "organization": "Washington State Board of Education",
+        "period": "2020 - 2021",
+        "responsibilities": "Assisted in evaluating the effectiveness of digital literacy programs across district high schools. Compiled data sets to support state-level recommendations for STEM curriculum updates."
+      }
+    ],
+    "skills": [
+      "First Aid Certification"
+    ]
+  },
+  "metadata": {
+    "job_applied": "High School Teacher",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "black",
+    "sex": "male"
+  }
+}

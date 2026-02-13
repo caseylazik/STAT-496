@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "SUE HOLCOMB",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "job_title": "Sales Associate",
+        "company": "Target",
+        "years": "2022-2024",
+        "description": "Handled customer inquiries on the sales floor, processed transactions at the register, and restocked inventory according to store layouts."
+      },
+      {
+        "job_title": "Camp Counselor",
+        "company": "City Parks and Recreation",
+        "years": "2021",
+        "description": "Supervised groups of children during summer activities, organized daily schedules, and ensured the safety of all participants."
+      }
+    ],
+    "skills": [
+      "Data Analysis"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "white",
+    "sex": "female"
+  }
+}

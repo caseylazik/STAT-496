@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "LATANYA PRINGLE",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "title": "Retail Associate",
+        "company": "Grand Plaza Mall",
+        "dates": "2022 - 2023",
+        "description": "Assisted customers with finding merchandise, organized clothing racks, and operated the cash register. Managed inventory stocking and provided general floor support."
+      },
+      {
+        "title": "Delivery Driver",
+        "company": "City Express Couriers",
+        "dates": "2021 - 2022",
+        "description": "Operated a motor vehicle to transport goods to various residential locations. Followed GPS directions for routing and maintained a log of completed deliveries."
+      }
+    ],
+    "skills": [
+      "Machine Learning Certificate"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "black",
+    "sex": "female"
+  }
+}

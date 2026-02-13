@@ -1,0 +1,31 @@
+{
+  "resume": {
+    "name": "EDUARDO ESTEVEZ",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "role": "Independent Market Researcher",
+        "company": "Market Analysis Project",
+        "description": "Conducted extensive primary and secondary research on current digital marketing trends and consumer purchasing behaviors in the e-commerce sector. Analyzed competitor brand positioning and social media engagement metrics to identify industry best practices."
+      },
+      {
+        "role": "Strategic Marketing Researcher",
+        "company": "Self-Directed Case Study",
+        "description": "Performed a deep-dive analysis into SEO optimization techniques and content marketing strategies. Evaluated the effectiveness of multi-channel advertising campaigns through historical data review and synthesized findings into a comprehensive research report."
+      }
+    ],
+    "skills": [
+      "Microsoft Office Suite"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "hispanic",
+    "sex": "male"
+  }
+}

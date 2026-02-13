@@ -1,0 +1,43 @@
+{
+  "resume": {
+    "name": "CORTEZ IVORY",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "job_title": "Marketing Coordinator",
+        "company": "Northwest Digital Agency",
+        "location": "Seattle, WA",
+        "dates": "2022 - 2023",
+        "responsibilities": [
+          "Managed day-to-day execution of social media campaigns across Instagram, LinkedIn, and Twitter, resulting in a 12% increase in organic reach.",
+          "Monitored marketing KPIs and prepared monthly reports for senior leadership using Google Analytics.",
+          "Collaborated with cross-functional teams to update website copy and promotional blog content for seasonal product launches."
+        ]
+      },
+      {
+        "job_title": "Marketing Intern",
+        "company": "Cascade Tech Solutions",
+        "location": "Bellevue, WA",
+        "dates": "2021 - 2022",
+        "responsibilities": [
+          "Supported the lead strategist in performing competitive market analysis and keyword research for SEO optimization.",
+          "Drafted copy for weekly email newsletters and managed subscriber lists via Mailchimp.",
+          "Assisted in the organization and promotion of virtual industry networking events."
+        ]
+      }
+    ],
+    "skills": [
+      "Social Media Management"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "black",
+    "sex": "male"
+  }
+}

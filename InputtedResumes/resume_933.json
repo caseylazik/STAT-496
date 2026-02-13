@@ -1,0 +1,41 @@
+{
+  "resume": {
+    "name": "THANH IM",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "company": "CloudStream Systems",
+        "title": "Software Engineer",
+        "duration": "June 2021 \u2013 Present",
+        "responsibilities": [
+          "Develop and maintain scalable RESTful APIs using Java Spring Boot for high-traffic enterprise applications.",
+          "Optimize PostgreSQL database queries and indexing strategies, resulting in a 15% reduction in application latency.",
+          "Collaborate with cross-functional teams to transition monolithic services into a containerized microservices architecture using Docker."
+        ]
+      },
+      {
+        "company": "Nexus Innovations",
+        "title": "Software Engineering Intern",
+        "duration": "May 2020 \u2013 August 2020",
+        "responsibilities": [
+          "Assisted in the development of an internal system diagnostic tool written in C++ for monitoring hardware performance.",
+          "Implemented automated unit testing suites that increased code coverage for the core messaging library by 20%.",
+          "Participated in daily agile stand-ups and performed code reviews for fellow engineering interns."
+        ]
+      }
+    ],
+    "skills": [
+      "Proficient in Java and C++"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "asian",
+    "sex": "male"
+  }
+}

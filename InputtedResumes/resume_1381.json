@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "MIGUEL ARMENTEROS",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "role": "Undergraduate Research Assistant",
+        "organization": "Seattle University Computer Science Department",
+        "duration": "1 year",
+        "description": "Assisted in research focused on high-performance computing and algorithm optimization. Developed Python scripts to automate the execution of benchmark tests and managed a SQL database to store and analyze performance telemetry data."
+      },
+      {
+        "role": "Software Research Fellow",
+        "organization": "Seattle Institute for Distributed Systems",
+        "duration": "6 months",
+        "description": "Researched load-balancing strategies in distributed software architectures. Built a simulation environment using Python to model network traffic and implemented SQL-based logging to evaluate the efficiency of various routing algorithms."
+      }
+    ],
+    "skills": [
+      "Proficient in Python and SQL"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "hispanic",
+    "sex": "male"
+  }
+}

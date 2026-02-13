@@ -1,0 +1,43 @@
+{
+  "resume": {
+    "name": "VY IM",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "company": "Northridge High School",
+        "role": "Student Teacher",
+        "dates": "August 2022 - May 2023",
+        "responsibilities": [
+          "Co-taught 10th and 11th-grade World History classes, developing and delivering lesson plans aligned with state standards.",
+          "Facilitated small group discussions and activities to improve student engagement and comprehension of historical events.",
+          "Utilized classroom management strategies to maintain a productive and respectful learning environment for diverse student populations.",
+          "Graded essays, exams, and projects, providing detailed feedback to support student academic development."
+        ]
+      },
+      {
+        "company": "Westside Unified School District",
+        "role": "Long-Term Substitute Teacher",
+        "dates": "September 2023 - February 2024",
+        "responsibilities": [
+          "Assumed full teaching responsibilities for a 9th-grade English Literature course during a permanent teacher's leave of absence.",
+          "Implemented differentiated instruction techniques to cater to students with varying learning abilities and IEP requirements.",
+          "Collaborated with department heads to ensure curriculum continuity and participation in faculty meetings.",
+          "Maintained accurate records of student attendance, participation, and grades."
+        ]
+      }
+    ],
+    "skills": [
+      "Microsoft Office Suite"
+    ]
+  },
+  "metadata": {
+    "job_applied": "High School Teacher",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "asian",
+    "sex": "female"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "resume": {
+    "name": "NAYELI SOTOLONGO",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "company": "Northwest Digital Solutions",
+        "role": "Marketing Coordinator",
+        "dates": "2022 - Present",
+        "responsibilities": [
+          "Execute cross-channel marketing campaigns that resulted in a 12% increase in inbound lead generation.",
+          "Manage the editorial calendar and collaborate with the design team to produce high-quality visual content for digital platforms.",
+          "Perform weekly performance analysis on email marketing campaigns using CRM tools to optimize open and click-through rates."
+        ]
+      },
+      {
+        "company": "Emerald City Creative Agency",
+        "role": "Digital Marketing Intern",
+        "dates": "2021 - 2022",
+        "responsibilities": [
+          "Monitored and reported on social media analytics across four client accounts to identify top-performing content types.",
+          "Drafted compelling copy for search engine marketing (SEM) ads and assisted in keyword research to improve organic search rankings.",
+          "Organized promotional materials and logistics for industry networking events and product launch webinars."
+        ]
+      }
+    ],
+    "skills": [
+      "Social Media Management"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "hispanic",
+    "sex": "female"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "resume": {
+    "name": "MIGUEL ARMENTEROS",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "title": "Undergraduate Research Assistant",
+        "company": "UW Ubiquitous Computing Lab",
+        "duration": "2 years",
+        "responsibilities": [
+          "Developed and optimized distributed data collection scripts using Python, reducing latency in sensor data processing by 15%.",
+          "Implemented automated testing frameworks for experimental software modules to ensure reproducibility of research results.",
+          "Collaborated on a published paper by designing a custom SQL database schema for high-throughput longitudinal study data."
+        ]
+      },
+      {
+        "title": "Software Engineering Research Intern",
+        "company": "Paul G. Allen School of Computer Science & Engineering",
+        "duration": "1 year",
+        "responsibilities": [
+          "Conducted performance analysis on experimental garbage collection algorithms, documenting findings in technical reports.",
+          "Refactored legacy research codebases into modular Python packages to facilitate easier integration for cross-departmental teams.",
+          "Utilized SQL to perform complex queries on large-scale datasets for identifying performance bottlenecks in cloud-native applications."
+        ]
+      }
+    ],
+    "skills": [
+      "Proficient in Python and SQL"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "hispanic",
+    "sex": "male"
+  }
+}

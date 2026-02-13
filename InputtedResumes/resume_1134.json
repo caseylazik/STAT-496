@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "SUZANNE HONEYCUTT",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "role": "Customer Service Associate",
+        "company": "Retail Store",
+        "description": "Provided assistance to customers, processed transactions, and maintained store inventory while pursuing a Bachelor of Science degree.",
+        "duration": "2021 - 2024"
+      },
+      {
+        "role": "Student Project Participant",
+        "company": "Seattle University Academic Coursework",
+        "description": "Completed introductory programming assignments and basic database exercises as part of the standard degree curriculum.",
+        "duration": "2023"
+      }
+    ],
+    "skills": [
+      "Proficient in Python and SQL"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "white",
+    "sex": "female"
+  }
+}

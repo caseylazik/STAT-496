@@ -1,0 +1,31 @@
+{
+  "resume": {
+    "name": "EDUARDO ESTEVEZ",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "role": "Marketing Research Assistant",
+        "institution": "University of Washington - Department of Communication",
+        "description": "Conducted extensive primary and secondary research on consumer behavior patterns and the effectiveness of digital advertising across various demographics. Analyzed competitive landscapes for local businesses to identify market gaps and opportunities for brand positioning."
+      },
+      {
+        "role": "Independent Market Analyst (Research Project)",
+        "institution": "Self-Directed",
+        "description": "Performed a comprehensive deep-dive into SEO and content marketing trends, resulting in a 40-page report on optimizing organic reach for new e-commerce platforms. Investigated the impact of user interface design on customer retention and conversion rates through qualitative case study analysis."
+      }
+    ],
+    "skills": [
+      "Website Management"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "hispanic",
+    "sex": "male"
+  }
+}

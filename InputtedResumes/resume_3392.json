@@ -1,0 +1,43 @@
+{
+  "resume": {
+    "name": "CORTEZ IVORY",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "title": "Marketing Intern",
+        "company": "Northwest Digital Media",
+        "location": "Seattle, WA",
+        "dates": "June 2022 - August 2022",
+        "responsibilities": [
+          "Assisted the digital marketing team in managing social media accounts, increasing follower engagement by 12% across Instagram and LinkedIn.",
+          "Drafted weekly email newsletters and promotional content using automated marketing software.",
+          "Conducted competitive analysis and presented findings to senior management to inform upcoming product launch strategies."
+        ]
+      },
+      {
+        "title": "Junior Marketing Assistant",
+        "company": "Summit Retail Group",
+        "location": "Bellevue, WA",
+        "dates": "September 2022 - May 2023",
+        "responsibilities": [
+          "Coordinated logistics for promotional events and product demonstrations, ensuring brand consistency across all touchpoints.",
+          "Maintained and updated the company website's blog section with SEO-optimized articles.",
+          "Monitored campaign performance metrics using Google Analytics to generate monthly ROI reports for the marketing director."
+        ]
+      }
+    ],
+    "skills": [
+      "Microsoft Office Suite"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "black",
+    "sex": "male"
+  }
+}

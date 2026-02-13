@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "LATANYA PRINGLE",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "CloudStream Solutions",
+        "role": "Junior Software Engineer",
+        "duration": "1 year",
+        "description": "Developed and maintained RESTful APIs using Python and Flask, optimizing database interactions with SQL to reduce latency by 15%. Collaborated with senior engineers on microservices architecture and implemented unit tests to ensure code quality."
+      },
+      {
+        "company": "Innovate Tech Labs",
+        "role": "Software Engineering Intern",
+        "duration": "6 months",
+        "description": "Assisted in the migration of legacy data scripts to modern Python workflows. Contributed to frontend bug fixes and participated in daily stand-ups and agile sprint planning sessions."
+      }
+    ],
+    "skills": [
+      "Proficient in Python and SQL"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "black",
+    "sex": "female"
+  }
+}

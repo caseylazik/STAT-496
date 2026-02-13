@@ -1,0 +1,35 @@
+{
+  "resume": {
+    "name": "TAM PARK",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "company": "Tableau",
+        "role": "Software Engineer Intern",
+        "location": "Seattle, WA",
+        "duration": "June 2022 - September 2022",
+        "description": "Developed and optimized data visualization components using TypeScript and React. Improved rendering performance for large datasets by 15% through memoization and efficient state management."
+      },
+      {
+        "company": "Microsoft",
+        "role": "Software Development Engineer I",
+        "location": "Redmond, WA",
+        "duration": "January 2023 - Present",
+        "description": "Design and implement scalable backend microservices for Azure using C# and .NET Core. Collaborated with cross-functional teams to migrate legacy authentication services to a containerized Kubernetes environment."
+      }
+    ],
+    "skills": [
+      "Machine Learning Certificate"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "asian",
+    "sex": "male"
+  }
+}

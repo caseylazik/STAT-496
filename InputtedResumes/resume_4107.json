@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "JACK HONEYCUTT",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "Northwest Tech Solutions",
+        "role": "Marketing Coordinator",
+        "duration": "1 year",
+        "description": "Managed multi-channel digital marketing campaigns, including email marketing and social media scheduling. Utilized performance metrics to refine target audience segments and improved click-through rates by 15% through A/B testing."
+      },
+      {
+        "company": "Emerald City Media Group",
+        "role": "Marketing Intern",
+        "duration": "6 months",
+        "description": "Supported the senior marketing team in developing seasonal content calendars and coordinating promotional events. Conducted competitive analysis reports and monitored brand mentions across digital platforms to inform strategy."
+      }
+    ],
+    "skills": [
+      "Data Analysis"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "white",
+    "sex": "male"
+  }
+}

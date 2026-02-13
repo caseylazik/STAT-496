@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "SHRUTI PARK",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "title": "Campus Library Assistant",
+        "company": "University of Washington",
+        "duration": "1 year",
+        "description": "Organized books and assisted students with finding resources in the university library. Maintained a quiet study environment and processed book returns."
+      },
+      {
+        "title": "Volunteer Youth Coach",
+        "company": "Local Community Center",
+        "duration": "6 months",
+        "description": "Supervised weekend soccer drills for children aged 6-8. Coordinated schedules and communicated with parents regarding game times."
+      }
+    ],
+    "skills": [
+      "Product Knowledge"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Retail Salesperson",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "asian",
+    "sex": "female"
+  }
+}

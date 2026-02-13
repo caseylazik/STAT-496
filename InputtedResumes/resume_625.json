@@ -1,0 +1,36 @@
+{
+  "resume": {
+    "name": "BUDDY STARNES",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "role": "Undergraduate Research Assistant",
+        "organization": "University of Washington Department of Statistics",
+        "description": "Conducted quantitative research on longitudinal mortality data to identify trends in life expectancy across diverse socioeconomic demographics. Leveraged R to perform regression analysis and visualized findings for departmental seminars."
+      },
+      {
+        "role": "Independent Researcher",
+        "organization": "Actuarial Science Capstone Project",
+        "description": "Developed a predictive model for automobile insurance claim frequency using Generalized Linear Models (GLMs). Utilized SQL to query large public datasets and Python to validate model assumptions and perform sensitivity testing."
+      },
+      {
+        "role": "Research Fellow",
+        "organization": "Risk Management and Insurance Lab",
+        "description": "Assisted faculty in modeling catastrophe risk for coastal properties. Cleaned and processed raw environmental data using Python, contributing to a published paper on the economic impact of climate-related claims."
+      }
+    ],
+    "skills": [
+      "Proficient in R, SQL, and Python"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "white",
+    "sex": "male"
+  }
+}

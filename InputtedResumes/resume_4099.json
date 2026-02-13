@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "TAM PARK",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "company": "Nexus Digital Agency",
+        "position": "Marketing Intern",
+        "duration": "6 months",
+        "responsibilities": "Assisted the digital marketing team in monitoring social media engagement and scheduling posts for diverse client accounts. Conducted market research and competitor analysis to provide insights for brand positioning strategies. Supported the creation of weekly performance reports by aggregating data from various platforms."
+      },
+      {
+        "company": "GreenLeaf Consumer Goods",
+        "position": "Marketing Assistant",
+        "duration": "1 year",
+        "responsibilities": "Coordinated email marketing campaigns, including list segmentation and A/B testing of subject lines to improve open rates. Collaborated with the content team to optimize website copy for SEO and managed the internal marketing asset library. Tracked campaign ROI and presented findings during monthly department meetings."
+      }
+    ],
+    "skills": [
+      "Data Analysis"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "asian",
+    "sex": "male"
+  }
+}

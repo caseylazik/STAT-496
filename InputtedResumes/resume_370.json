@@ -1,0 +1,41 @@
+{
+  "resume": {
+    "name": "LATANYA PRINGLE",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "job_title": "Customer Service Associate",
+        "company": "City Grocery Mart",
+        "duration": "2021 - 2023",
+        "responsibilities": [
+          "Managed point-of-sale transactions and processed cash, credit, and debit payments accurately.",
+          "Resolved customer concerns regarding product availability and store policies with a professional demeanor.",
+          "Collaborated with team members to restock inventory and maintain a clean, organized storefront."
+        ]
+      },
+      {
+        "job_title": "Summer Camp Counselor",
+        "company": "Pine Valley Youth Camp",
+        "duration": "Summer 2020",
+        "responsibilities": [
+          "Supervised groups of up to 15 children, ensuring their safety and engagement during outdoor activities.",
+          "Organized daily recreational games and assisted in coordinating meal schedules for camp participants.",
+          "Maintained clear communication with parents and camp directors regarding child safety and behavioral updates."
+        ]
+      }
+    ],
+    "skills": [
+      "Proficient in R, SQL, and Python"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "black",
+    "sex": "female"
+  }
+}

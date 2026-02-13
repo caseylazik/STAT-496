@@ -1,0 +1,35 @@
+{
+  "resume": {
+    "name": "BRADLEY HOLCOMB",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "title": "Actuarial Analyst",
+        "company": "Pacific Life Insurance",
+        "location": "Newport Beach, CA",
+        "dates": "2022 - Present",
+        "description": "Perform quarterly valuation and financial reporting for life insurance products. Utilize R for predictive modeling of policyholder behavior and SQL for extraction of large-scale claims data. Assist in the development of pricing strategies for new term life offerings."
+      },
+      {
+        "title": "Actuarial Intern",
+        "company": "Liberty Mutual",
+        "location": "Seattle, WA",
+        "dates": "2021 - 2022",
+        "description": "Supported the Property & Casualty team with loss development analysis and trend identification. Automated data cleaning processes using Python, reducing report generation time by 30%. Contributed to the preparation of regulatory rate filing documentation."
+      }
+    ],
+    "skills": [
+      "Proficient in R, SQL, and Python"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "white",
+    "sex": "male"
+  }
+}

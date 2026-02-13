@@ -1,0 +1,29 @@
+{
+  "resume": {
+    "name": "SUZANNE HONEYCUTT",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "role": "Independent Researcher - Consumer Psychology & Retail Layouts",
+        "description": "Conducted observational research on the impact of store geography and aisle placement on customer decision-making processes. Analyzed key performance indicators that drive conversion rates in high-traffic retail environments."
+      },
+      {
+        "role": "Lead Student Researcher - Retail Market Trends",
+        "description": "Investigated the correlation between personalized sales interactions and brand loyalty. Compiled detailed reports on competitive pricing strategies and seasonal merchandising techniques within the local retail sector."
+      }
+    ],
+    "skills": [
+      "Customer Service"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Retail Salesperson",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "white",
+    "sex": "female"
+  }
+}

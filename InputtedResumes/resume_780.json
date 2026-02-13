@@ -1,0 +1,20 @@
+{
+  "resume": {
+    "name": "ASHANTI LATTIMORE",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [],
+    "skills": [
+      "Proficient in Java and C++"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "black",
+    "sex": "female"
+  }
+}

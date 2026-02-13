@@ -1,0 +1,41 @@
+{
+  "resume": {
+    "name": "TEVIN PRINGLE",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "F5 Networks",
+        "role": "Software Engineer",
+        "duration": "2 years",
+        "responsibilities": [
+          "Developed and maintained backend services using Python and Django framework.",
+          "Designed and optimized complex SQL schemas and queries for high-traffic data processing systems.",
+          "Integrated third-party APIs and automated internal reporting tools to streamline operations."
+        ]
+      },
+      {
+        "company": "Tableau",
+        "role": "Software Engineering Intern",
+        "duration": "6 months",
+        "responsibilities": [
+          "Collaborated with the data visualization team to refactor legacy Python scripts for better performance.",
+          "Wrote unit tests and performed database migrations for PostgreSQL environments.",
+          "Participated in Agile sprints and daily stand-ups to deliver feature updates for the core product."
+        ]
+      }
+    ],
+    "skills": [
+      "Proficient in Python and SQL"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Software Engineer",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "black",
+    "sex": "male"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "resume": {
+    "name": "RODOLFO SOTOLONGO",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "job_title": "Marketing Coordinator",
+        "company": "Nexus Digital Solutions",
+        "location": "Seattle, WA",
+        "duration": "August 2021 - Present",
+        "responsibilities": [
+          "Developed and executed multi-channel digital marketing campaigns that increased brand awareness by 25% over 12 months.",
+          "Managed the editorial calendar for social media platforms, overseeing content creation and community engagement.",
+          "Collaborated with the sales team to design lead generation landing pages, improving conversion rates by 10%."
+        ]
+      },
+      {
+        "job_title": "Marketing Intern",
+        "company": "Vantage Point Creative",
+        "location": "Tacoma, WA",
+        "duration": "May 2020 - May 2021",
+        "responsibilities": [
+          "Conducted market research and competitive analysis to identify new growth opportunities in the Pacific Northwest region.",
+          "Assisted in the production of weekly email newsletters and tracked performance metrics such as open and click-through rates.",
+          "Supported the SEO team by performing keyword research and updating meta descriptions for client websites."
+        ]
+      }
+    ],
+    "skills": [
+      "Data Analysis"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "hispanic",
+    "sex": "male"
+  }
+}

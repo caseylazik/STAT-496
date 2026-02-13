@@ -1,0 +1,44 @@
+{
+  "resume": {
+    "name": "SANDEEP HWANG",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "role": "Marketing Coordinator",
+        "company": "Vantage Media Group",
+        "location": "Seattle, WA",
+        "dates": "2021 - Present",
+        "responsibilities": [
+          "Manage daily social media content calendars and engagement strategies for three major client accounts.",
+          "Assist in the development and execution of email marketing campaigns resulting in a 12% increase in open rates.",
+          "Coordinate with cross-functional teams to ensure consistent brand messaging across all digital and print platforms.",
+          "Monitor and report on monthly campaign performance using CRM and web analytics tools."
+        ]
+      },
+      {
+        "role": "Marketing Intern",
+        "company": "Beacon Tech Solutions",
+        "location": "Bellevue, WA",
+        "dates": "2020 - 2021",
+        "responsibilities": [
+          "Conducted market research and competitor analysis to support the launch of a new SaaS product line.",
+          "Drafted copy for weekly newsletters and promotional blog posts targeting B2B audiences.",
+          "Maintained the marketing asset library and provided administrative support for seasonal promotional events."
+        ]
+      }
+    ],
+    "skills": [
+      "Data Analysis"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "asian",
+    "sex": "male"
+  }
+}

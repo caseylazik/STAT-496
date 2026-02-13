@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "BRADLEY HOLCOMB",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "company": "Northwest Logistics Center",
+        "position": "Warehouse Associate",
+        "dates": "June 2022 - Present",
+        "responsibilities": "Managed heavy machinery for inventory transport, performed manual auditing of incoming shipments, and maintained safety standards on the floor."
+      },
+      {
+        "company": "Local Community Recreation",
+        "position": "Seasonal Camp Counselor",
+        "dates": "May 2018 - August 2021",
+        "responsibilities": "Supervised groups of youth during outdoor activities, coordinated daily schedules for participants, and managed equipment inventory for the facility."
+      }
+    ],
+    "skills": [
+      "Website Management"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "white",
+    "sex": "male"
+  }
+}

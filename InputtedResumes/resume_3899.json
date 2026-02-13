@@ -1,0 +1,42 @@
+{
+  "resume": {
+    "name": "EARNESTINE IVORY",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "title": "Marketing Research Assistant",
+        "organization": "Seattle University - Albers School of Business and Economics",
+        "duration": "1 year",
+        "responsibilities": [
+          "Conducted extensive primary research on consumer purchasing behavior trends within the e-commerce sector.",
+          "Analyzed qualitative data from focus groups to identify emerging social media engagement strategies.",
+          "Synthesized market data into comprehensive reports to support faculty publications on digital brand positioning.",
+          "Utilized SEO research tools to evaluate the effectiveness of various content marketing archetypes."
+        ]
+      },
+      {
+        "title": "Independent Research Project - Digital Marketing Trends",
+        "organization": "Seattle University",
+        "duration": "6 months",
+        "responsibilities": [
+          "Executed a deep-dive study on the impact of social media management on brand loyalty for local non-profit organizations.",
+          "Performed competitive analysis and benchmarking of digital presence for small-to-medium enterprises in the Seattle area.",
+          "Presented research findings on target audience segmentation and data-driven content creation at an undergraduate symposium."
+        ]
+      }
+    ],
+    "skills": [
+      "Social Media Management"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "black",
+    "sex": "female"
+  }
+}

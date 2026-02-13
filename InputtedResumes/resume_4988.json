@@ -1,0 +1,41 @@
+{
+  "resume": {
+    "name": "SANDEEP HWANG",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "role": "Undergraduate Research Assistant",
+        "organization": "Seattle University Department of Education",
+        "dates": "2022 - 2023",
+        "responsibilities": [
+          "Conducted a comprehensive research study on the impact of inquiry-based learning models on student retention in secondary STEM classrooms.",
+          "Synthesized qualitative data from focus groups with high school educators to identify barriers to digital literacy in low-income districts.",
+          "Presented findings on evidence-based classroom management strategies at the Northwest Regional Education Conference."
+        ]
+      },
+      {
+        "role": "Student Teacher",
+        "organization": "Seattle Public High Schools",
+        "dates": "2023 - 2024",
+        "responsibilities": [
+          "Applied research-backed pedagogical frameworks to develop and deliver 10th-grade Biology curriculum to a diverse student body.",
+          "Utilized data-driven assessment tools to track student progress and adjust instructional strategies based on individual learning needs.",
+          "Collaborated with faculty to integrate socio-emotional learning (SEL) research into daily lesson planning."
+        ]
+      }
+    ],
+    "skills": [
+      "Microsoft Office Suite"
+    ]
+  },
+  "metadata": {
+    "job_applied": "High School Teacher",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "asian",
+    "sex": "male"
+  }
+}

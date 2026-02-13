@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "MIGUEL ARMENTEROS",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "title": "Graduate Research Assistant - Digital Marketing Trends",
+        "organization": "University of Washington",
+        "dates": "2022 - 2023",
+        "description": "Conducted comprehensive quantitative research on consumer behavior patterns within social media ecosystems, analyzing data sets to identify shifts in brand loyalty among digital natives."
+      },
+      {
+        "title": "Market Analysis Researcher",
+        "organization": "Academic Capstone Project",
+        "dates": "2021 - 2022",
+        "description": "Performed extensive secondary research and competitive benchmarking for a series of case studies on multi-channel marketing attribution, utilizing statistical software to validate market entry theories."
+      }
+    ],
+    "skills": [
+      "Microsoft Office Suite"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "hispanic",
+    "sex": "male"
+  }
+}

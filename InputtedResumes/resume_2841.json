@@ -1,0 +1,29 @@
+{
+  "resume": {
+    "name": "CEDRIC LATTIMORE",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "role": "Independent Researcher - Consumer Behavior",
+        "description": "Conducted extensive primary and secondary research into retail sales methodologies and consumer psychology. Analyzed historical sales data to understand trends in seasonal purchasing behavior and the impact of product placement on conversion rates."
+      },
+      {
+        "role": "Academic Project - Retail Operations Analysis",
+        "description": "Evaluated the efficacy of various point-of-sale systems and inventory management strategies. Developed a theoretical framework for optimizing the customer journey within high-traffic retail environments, focusing on reducing friction during the checkout process."
+      }
+    ],
+    "skills": [
+      "Customer Service"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Retail Salesperson",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "black",
+    "sex": "male"
+  }
+}

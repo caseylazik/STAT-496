@@ -1,0 +1,41 @@
+{
+  "resume": {
+    "name": "JIMENA ARMENTEROS",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "title": "Student Teacher",
+        "company": "Central Heights High School",
+        "dates": "August 2022 - May 2023",
+        "responsibilities": [
+          "Developed and delivered comprehensive lesson plans for 10th-grade World History and 11th-grade US History classes.",
+          "Utilized classroom management strategies to maintain a productive and safe learning environment for 30+ students per session.",
+          "Collaborated with mentor teachers to design assessments and analyze student performance data to adjust instruction."
+        ]
+      },
+      {
+        "title": "Teaching Assistant",
+        "company": "Greenwood Secondary School",
+        "dates": "August 2021 - June 2022",
+        "responsibilities": [
+          "Provided academic support to students in small group settings to reinforce core concepts in Social Studies.",
+          "Assisted in the grading of homework, quizzes, and exams while maintaining confidentiality and accurate records.",
+          "Supported the lead teacher in implementing individualized education programs (IEPs) for students with special needs."
+        ]
+      }
+    ],
+    "skills": [
+      "First Aid Certification"
+    ]
+  },
+  "metadata": {
+    "job_applied": "High School Teacher",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "hispanic",
+    "sex": "female"
+  }
+}

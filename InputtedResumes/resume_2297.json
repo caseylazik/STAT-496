@@ -1,0 +1,43 @@
+{
+  "resume": {
+    "name": "NAYELI SOTOLONGO",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "title": "Retail Sales Associate",
+        "company": "Urban Threads Boutique",
+        "duration": "2 years",
+        "responsibilities": [
+          "Greeted customers and provided personalized product recommendations based on their style preferences and needs.",
+          "Maintained an in-depth knowledge of current promotions, return policies, and inventory availability.",
+          "Processed cash, credit, and mobile payments accurately using the POS system while maintaining a balanced drawer.",
+          "Organized sales floor merchandise and designed window displays to attract foot traffic and enhance brand image."
+        ]
+      },
+      {
+        "title": "Retail Sales Intern",
+        "company": "Grand Plaza Department Store",
+        "duration": "6 months",
+        "responsibilities": [
+          "Assisted senior sales staff in high-volume departments to ensure customer satisfaction during peak shopping hours.",
+          "Monitored fitting rooms and proactively offered alternative sizes or colors to shoppers.",
+          "Performed inventory replenishment and tagging of new arrivals to maintain a fully stocked sales floor.",
+          "Participated in weekly team meetings to discuss sales targets and customer service strategies."
+        ]
+      }
+    ],
+    "skills": [
+      "Strong Social Skills"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Retail Salesperson",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "hispanic",
+    "sex": "female"
+  }
+}

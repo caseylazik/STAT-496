@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "THANH IM",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "job_title": "Graduate Research Assistant",
+        "company": "University of Washington",
+        "duration": "2021 - 2023",
+        "description": "Managed laboratory equipment and analyzed complex datasets for academic publications within the science department."
+      },
+      {
+        "job_title": "Academic Peer Tutor",
+        "company": "UW Student Support Services",
+        "duration": "2019 - 2021",
+        "description": "Assisted fellow students in understanding advanced scientific concepts and prepared instructional materials for study groups."
+      }
+    ],
+    "skills": [
+      "Product Knowledge"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Retail Salesperson",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "asian",
+    "sex": "male"
+  }
+}

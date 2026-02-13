@@ -1,0 +1,41 @@
+{
+  "resume": {
+    "name": "BEATRIZ ESTEVEZ",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "title": "Customer Service Representative",
+        "company": "Target",
+        "dates": "2021 - 2023",
+        "responsibilities": [
+          "Handled customer inquiries and processed returns at the guest services desk.",
+          "Managed point-of-sale transactions and maintained an organized workspace.",
+          "Assisted in restocking shelves and ensuring products were correctly labeled."
+        ]
+      },
+      {
+        "title": "Camp Counselor",
+        "company": "YMCA Summer Programs",
+        "dates": "2019 - 2020",
+        "responsibilities": [
+          "Supervised groups of children during daily outdoor activities and crafts.",
+          "Ensured the safety and well-being of all participants throughout the day.",
+          "Communicated daily schedules to parents during drop-off and pick-up."
+        ]
+      }
+    ],
+    "skills": [
+      "Website Management"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "hispanic",
+    "sex": "female"
+  }
+}

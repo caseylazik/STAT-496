@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "NAYELI SOTOLONGO",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "role": "Marketing Research Lead (Academic Project)",
+        "organization": "Consumer Behavior Study",
+        "duration": "6 Months",
+        "description": "Conducted comprehensive qualitative and quantitative research on millennial purchasing patterns in the sustainable fashion industry. Utilized Boolean search strings to aggregate data from 20+ peer-reviewed journals and industry white papers."
+      },
+      {
+        "role": "Competitive Analysis Researcher",
+        "organization": "Independent Market Study",
+        "duration": "3 Months",
+        "description": "Performed a detailed SWOT analysis and digital audit of five major competitors in the SaaS space. Analyzed social media engagement metrics and SEO keywords to identify market gaps and opportunities for brand differentiation."
+      }
+    ],
+    "skills": [
+      "Social Media Management"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "hispanic",
+    "sex": "female"
+  }
+}

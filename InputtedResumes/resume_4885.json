@@ -1,0 +1,39 @@
+{
+  "resume": {
+    "name": "MIGUEL ARMENTEROS",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "company": "Seattle Public Schools",
+        "role": "High School Science Teacher",
+        "years": "2022 - Present",
+        "description": "Design and deliver curriculum for Biology and Chemistry courses for grades 9-12. Implement differentiated instruction strategies to support diverse learners and utilize data-driven assessments to track student progress and modify instructional techniques."
+      },
+      {
+        "company": "Lake Washington School District",
+        "role": "Student Teaching Intern",
+        "years": "2021 - 2022",
+        "description": "Co-taught high school Earth Science classes under the supervision of a mentor teacher. Developed lesson plans, managed classroom behavior, and integrated digital learning tools to improve student engagement in a hybrid learning environment."
+      },
+      {
+        "company": "University Tutoring Center",
+        "role": "Academic Peer Tutor",
+        "years": "2019 - 2021",
+        "description": "Provided one-on-one and small group instruction for high school students in STEM subjects, focusing on exam preparation and foundational concept mastery."
+      }
+    ],
+    "skills": [
+      "Microsoft Office Suite"
+    ]
+  },
+  "metadata": {
+    "job_applied": "High School Teacher",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "hispanic",
+    "sex": "male"
+  }
+}

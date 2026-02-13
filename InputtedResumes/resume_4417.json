@@ -1,0 +1,39 @@
+{
+  "resume": {
+    "name": "BUDDY STARNES",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "company": "Downtown Coffee Roasters",
+        "role": "Lead Barista",
+        "duration": "2021 - 2023",
+        "description": "Managed high-volume beverage preparation and provided customer service in a fast-paced retail environment. Responsible for opening procedures and inventory tracking."
+      },
+      {
+        "company": "City Public Library",
+        "role": "Administrative Clerk",
+        "duration": "2018 - 2021",
+        "description": "Organized and filed physical records, processed membership applications, and maintained digital databases for the acquisitions department."
+      },
+      {
+        "company": "Westside Community Center",
+        "role": "Front Desk Attendant",
+        "duration": "2016 - 2018",
+        "description": "Gave tours of the facility to prospective members and handled scheduling for community room rentals."
+      }
+    ],
+    "skills": [
+      "First Aid Certification"
+    ]
+  },
+  "metadata": {
+    "job_applied": "High School Teacher",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "white",
+    "sex": "male"
+  }
+}

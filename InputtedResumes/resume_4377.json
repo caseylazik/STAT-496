@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "CEDRIC LATTIMORE",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "Target",
+        "role": "Sales Associate",
+        "years": "2021-2023",
+        "description": "Assisted customers with locating merchandise, managed inventory restocking, and operated point-of-sale systems during high-traffic shifts."
+      },
+      {
+        "company": "Joe's Coffee",
+        "role": "Barista",
+        "years": "2019-2021",
+        "description": "Prepared beverages in a fast-paced environment, maintained a clean workspace, and provided consistent customer service."
+      }
+    ],
+    "skills": [
+      "First Aid Certification"
+    ]
+  },
+  "metadata": {
+    "job_applied": "High School Teacher",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "black",
+    "sex": "male"
+  }
+}

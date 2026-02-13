@@ -1,0 +1,41 @@
+{
+  "resume": {
+    "name": "BUDDY STARNES",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "job_title": "Sales Floor Associate",
+        "company": "Target",
+        "duration": "2021 - 2023",
+        "responsibilities": [
+          "Assisted customers with locating items throughout the store",
+          "Operated cash registers and handled cash and credit transactions",
+          "Unpacked shipments and organized merchandise on shelves"
+        ]
+      },
+      {
+        "job_title": "Camp Counselor",
+        "company": "City Recreation Department",
+        "duration": "Summer 2019, Summer 2020",
+        "responsibilities": [
+          "Supervised groups of children during daily outdoor activities",
+          "Ensured the safety and well-being of all participants",
+          "Coordinated set-up and clean-up for lunch and craft sessions"
+        ]
+      }
+    ],
+    "skills": [
+      "Website Management"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "white",
+    "sex": "male"
+  }
+}

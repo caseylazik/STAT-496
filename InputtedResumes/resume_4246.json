@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "SHRUTI PARK",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "role": "Undergraduate Research Assistant",
+        "organization": "University of Washington Department of Marketing",
+        "duration": "1 Year",
+        "description": "Conducted extensive primary and secondary research on consumer behavior patterns within the Pacific Northwest retail sector. Leveraged quantitative data sets to identify correlations between social media engagement and brand loyalty. Prepared comprehensive reports summarizing market trends and competitive positioning to support departmental white papers."
+      },
+      {
+        "role": "Market Research Lead (Academic Project)",
+        "organization": "Foster School of Business",
+        "duration": "6 Months",
+        "description": "Led a student research team in analyzing the efficacy of multi-channel marketing campaigns for local non-profits. Designed and distributed digital surveys to a target audience of 1,000+ individuals, utilizing data analysis tools to interpret response rates and sentiment analysis."
+      }
+    ],
+    "skills": [
+      "Data Analysis"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "asian",
+    "sex": "female"
+  }
+}

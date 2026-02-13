@@ -1,0 +1,39 @@
+{
+  "resume": {
+    "name": "JACK HONEYCUTT",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "role": "Graduate Research Assistant",
+        "organization": "University of Washington - Department of Statistics",
+        "years": "2021-2023",
+        "description": "Conducted advanced research on stochastic modeling and mortality rate projections. Utilized Bayesian inference techniques to improve the accuracy of life expectancy estimates in heterogeneous populations."
+      },
+      {
+        "role": "Actuarial Research Intern",
+        "organization": "Pacific Northwest Risk Analytics",
+        "years": "2020-2021",
+        "description": "Assisted in the development of predictive models for property and casualty loss reserves. Performed sensitivity analysis on various discount rate scenarios and presented findings on long-tail liability trends to the senior actuarial team."
+      },
+      {
+        "role": "Independent Research Project",
+        "organization": "University of Washington",
+        "years": "2019-2020",
+        "description": "Analyzed historical climate data to model the impact of extreme weather events on regional agricultural insurance premiums using R and Python-based simulation tools."
+      }
+    ],
+    "skills": [
+      "Actuarial exam progress (ASA/FSA)"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Actuary",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "white",
+    "sex": "male"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "EARNESTINE IVORY",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "company": "University of Washington",
+        "position": "Full-time Student",
+        "years": "2020-2024",
+        "description": "Completed a four-year degree program while managing a rigorous academic schedule and participating in group study sessions."
+      },
+      {
+        "company": "Seattle Community Volunteer Group",
+        "position": "Volunteer",
+        "years": "2023",
+        "description": "Assisted with local neighborhood cleanup events and helped distribute flyers for community meetings."
+      }
+    ],
+    "skills": [
+      "Customer Service"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Retail Salesperson",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "black",
+    "sex": "female"
+  }
+}

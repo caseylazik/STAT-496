@@ -1,0 +1,39 @@
+{
+  "resume": {
+    "name": "SANDEEP HWANG",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "job_title": "Graduate Research Assistant",
+        "company": "University of Washington Lab",
+        "duration": "2 years",
+        "description": "Executed laboratory protocols and recorded raw data for biological sample analysis. Focused primarily on equipment maintenance and data entry into internal spreadsheets."
+      },
+      {
+        "job_title": "Seasonal Warehouse Associate",
+        "company": "Amazon",
+        "duration": "6 months",
+        "description": "Processed incoming shipments, organized inventory shelves, and utilized scanning software to track package movement throughout the facility."
+      },
+      {
+        "job_title": "Private Tutor",
+        "company": "Self-Employed",
+        "duration": "1 year",
+        "description": "Assisted middle school students with basic mathematics and science homework through weekly one-on-one sessions."
+      }
+    ],
+    "skills": [
+      "Data Analysis"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "asian",
+    "sex": "male"
+  }
+}

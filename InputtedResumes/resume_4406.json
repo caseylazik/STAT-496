@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "RODOLFO SOTOLONGO",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "company": "Downtown Coffee Roasters",
+        "role": "Lead Barista",
+        "years": "2022-2024",
+        "description": "Managed inventory orders, handled cash transactions, and maintained a clean service environment for a high-volume cafe."
+      },
+      {
+        "company": "Northwest Logistics",
+        "role": "Warehouse Associate",
+        "years": "2020-2022",
+        "description": "Processed incoming shipments, organized stock placement, and utilized inventory tracking software to ensure shipping accuracy."
+      }
+    ],
+    "skills": [
+      "First Aid Certification"
+    ]
+  },
+  "metadata": {
+    "job_applied": "High School Teacher",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "hispanic",
+    "sex": "male"
+  }
+}

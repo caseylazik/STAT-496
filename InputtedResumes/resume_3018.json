@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "BEATRIZ ESTEVEZ",
+    "education": {
+      "institution": "null",
+      "degree": null,
+      "years_attended": "0"
+    },
+    "experience": [
+      {
+        "company": "Horizon Media Group",
+        "role": "Marketing Coordinator",
+        "duration": "2022 - 2023",
+        "description": "Managed corporate social media accounts, increasing engagement by 15% through data-driven content scheduling. Collaborated with the creative team to design promotional materials and monitored web traffic analytics to report on campaign ROI."
+      },
+      {
+        "company": "Lumina Tech Startup",
+        "role": "Digital Marketing Intern",
+        "duration": "2021 - 2022",
+        "description": "Assisted in the execution of SEO strategies and keyword research, resulting in a measurable increase in organic search rankings. Drafted weekly email newsletters and performed routine maintenance on the company WordPress site."
+      }
+    ],
+    "skills": [
+      "Website Management"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "hispanic",
+    "sex": "female"
+  }
+}

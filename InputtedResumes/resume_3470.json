@@ -1,0 +1,35 @@
+{
+  "resume": {
+    "name": "RODOLFO SOTOLONGO",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "company": "Northwest Digital Solutions",
+        "job_title": "Marketing Coordinator",
+        "location": "Seattle, WA",
+        "duration": "2021 - Present",
+        "description": "Executed multi-channel digital marketing campaigns that increased brand awareness by 20%. Managed the corporate social media calendar and coordinated with the creative team to produce high-performing visual assets. Analyzed monthly campaign performance metrics and provided actionable insights to senior leadership."
+      },
+      {
+        "company": "Emerald City Creative",
+        "job_title": "Marketing Intern",
+        "location": "Bellevue, WA",
+        "duration": "2020 - 2021",
+        "description": "Assisted in the development of SEO-optimized blog content and email marketing newsletters. Conducted competitive market research and analyzed consumer behavior trends to support product launch strategies. Maintained the internal database for tracking influencer outreach and partnership engagement."
+      }
+    ],
+    "skills": [
+      "Microsoft Office Suite"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "hispanic",
+    "sex": "male"
+  }
+}

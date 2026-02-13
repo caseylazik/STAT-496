@@ -1,0 +1,43 @@
+{
+  "resume": {
+    "name": "SUE HOLCOMB",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "title": "Independent Researcher (Retail & Consumer Behavior)",
+        "organization": "Self-Directed Project",
+        "location": "Seattle, WA",
+        "dates": "2023 - 2024",
+        "responsibilities": [
+          "Conducted extensive research into modern retail sales methodologies and consumer psychology to understand purchasing drivers.",
+          "Analyzed local retail market trends and documented best practices for high-impact customer engagement and visual merchandising.",
+          "Performed case study evaluations on successful Point of Sale (POS) system implementations and inventory management strategies."
+        ]
+      },
+      {
+        "title": "Academic Research Lead (Sales Optimization)",
+        "organization": "University Case Study Portfolio",
+        "location": "Seattle, WA",
+        "dates": "2022 - 2023",
+        "responsibilities": [
+          "Led a simulated retail environment project focusing on customer service excellence and the resolution of common consumer grievances.",
+          "Researched and presented findings on the correlation between personalized product recommendations and increased store conversion rates.",
+          "Evaluated competitive pricing strategies and store layout optimization for maximum foot traffic efficiency."
+        ]
+      }
+    ],
+    "skills": [
+      "Strong Social Skills"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Retail Salesperson",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "white",
+    "sex": "female"
+  }
+}
