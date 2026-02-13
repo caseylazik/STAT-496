@@ -1,0 +1,44 @@
+{
+  "resume": {
+    "name": "TAM PARK",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Bachelor of Science",
+      "years_attended": "3-4"
+    },
+    "experience": [
+      {
+        "title": "Marketing Research Assistant (Academic Project)",
+        "organization": "Seattle University",
+        "location": "Seattle, WA",
+        "dates": "2022 - 2023",
+        "responsibilities": [
+          "Conducted a comprehensive analysis of consumer behavior trends among Gen Z demographics in the Pacific Northwest for a senior capstone project.",
+          "Synthesized secondary research from industry reports to identify emerging opportunities in the sustainable apparel market.",
+          "Developed and distributed digital surveys to over 400 participants to gather primary data on brand loyalty and purchase intent.",
+          "Presented data-driven insights on competitive landscape positioning to a panel of faculty and local business consultants."
+        ]
+      },
+      {
+        "title": "Independent Researcher - Social Media Analytics",
+        "organization": "Seattle University Business Department",
+        "location": "Seattle, WA",
+        "dates": "2021 - 2022",
+        "responsibilities": [
+          "Performed intensive research on algorithm shifts across major social media platforms and their impact on organic engagement for small businesses.",
+          "Compiled a database of 50+ case studies exploring the correlation between influencer transparency and consumer trust.",
+          "Utilized quantitative research methods to track and report on keyword performance and SEO trends within the tech startup sector."
+        ]
+      }
+    ],
+    "skills": [
+      "Microsoft Office Suite"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Relevant research done for the job field.",
+    "race": "asian",
+    "sex": "male"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "resume": {
+    "name": "TAM PARK",
+    "education": {
+      "institution": "Seattle University",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "company": "Starbucks",
+        "role": "Barista",
+        "duration": "2022 - 2024",
+        "responsibilities": [
+          "Delivered high-quality customer service in a fast-paced retail environment.",
+          "Managed point-of-sale transactions and handled cash accurately.",
+          "Maintained a clean and organized workspace to ensure operational efficiency."
+        ]
+      },
+      {
+        "company": "Seattle University Library",
+        "role": "Administrative Assistant",
+        "duration": "2019 - 2022",
+        "responsibilities": [
+          "Organized and filed physical and digital records for library staff.",
+          "Answered telephone inquiries and directed visitors to appropriate departments.",
+          "Assisted with basic data entry tasks using spreadsheet software."
+        ]
+      }
+    ],
+    "skills": [
+      "Microsoft Office Suite"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "No prior experience or research done for job field.",
+    "race": "asian",
+    "sex": "male"
+  }
+}

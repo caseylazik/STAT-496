@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "name": "BUDDY STARNES",
+    "education": {
+      "institution": "University of Washington",
+      "degree": "Master of Science",
+      "years_attended": "> 4"
+    },
+    "experience": [
+      {
+        "title": "Marketing Coordinator",
+        "company": "Apex Digital Solutions",
+        "duration": "2022 - Present",
+        "description": "Lead the development and execution of integrated marketing campaigns across social and email channels. Analyze consumer data to optimize campaign performance and increase brand awareness."
+      },
+      {
+        "title": "Digital Marketing Intern",
+        "company": "Starlight Media Group",
+        "duration": "2021 - 2022",
+        "description": "Supported the senior marketing team with content creation for social media platforms and maintained the editorial calendar. Conducted market research to identify emerging industry trends and competitor strategies."
+      }
+    ],
+    "skills": [
+      "Social Media Management"
+    ]
+  },
+  "metadata": {
+    "job_applied": "Marketing",
+    "experience_level": "Prior internship/job experience(s) in the job field.",
+    "race": "white",
+    "sex": "male"
+  }
+}
