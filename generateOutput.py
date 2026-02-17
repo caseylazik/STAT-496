@@ -34,9 +34,16 @@ Resume JSON:
 
 Respond ONLY with valid JSON in the following schema:
 
+You MUST choose exactly ONE recommendation from this list, don't modify spelling:
+
+1. Dismiss initial screening
+2. weak candidate but pass
+3. good candidate
+4. top candidate
+
 {{
   "reason": "brief explanation, less than 2 sentences",
-  "recommendation": "Dismiss initial screening or weak candidate but pass or good candidate or top candidate"
+  "recommendation": "One of the four options"
 }}
 """
 
