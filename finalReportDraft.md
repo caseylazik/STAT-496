@@ -1,8 +1,16 @@
 **Introduction**
 
-
+This study analyzes how different variables of a resume impact an LLM's evaluation of it. Specifically, we'll examine how the variables of a resume affect the Gemini 3 Flash Preview’s evaluation and classification of the candidate. The primary motivating factor for our project is the widespread usage of these models by companies for resume screenings. Nearly 90% of companies are using some form of AI in their hiring process, according to the World Economic Forum. This isn’t likely to go away either; the same source found that using AI in this manner has reduced hiring costs dramatically. With this new shift in how companies choose to move forward with hiring job applicants, we think it's important to do further studies on important issues raised from papers like View of Gender, Race, and Intersectional Bias in Resume Screening via Language Model Retrieval. In that paper from the University of Washington Information School, Kyra Wilson and Aylin Caliskan found that LLMs “reinforce societal ‘defaults’” by preferencing white and male applicants. Our study will look to update these results as well as expand into other variables such as education level, experience, and skills. These results will give us a better understanding of how LLMs evaluate resumes, which variables significantly impact the recommendation, and what biases exist. The idea is to help job applicants understand the tools being used by companies by finding what aspects of the resume are most influential, as well as give employers a better idea of the decision making process of the tool they are putting an important part of their business in the hands of.
 
 
 
 
 **Experimental Design**
+
+We generated 5040 resumes using Gemini 3 Flash Preview, which will encompass the variables we plan to test (name, experience, education, etc. ). Each resume generated will be for one of 5 jobs: actuary, software engineer, retail salesperson, marketing, and high school teacher. This means there are 1008 resumes for each job. Resumes are in JSON format and the prompts used to create the resumes will let the LLM choose a candidate's experience for a job, based on the experience level given. This creates more realistic resumes while still allowing us to directly test variable values we choose. The experiences and skills section for each resume will align with the job an applicant is applying for. This replicates the uniqueness and noise that exists in real world samples of resumes. Using the Harvard database of probabilities for race associated with first and last names in combination with a UC Irvine database of gender by name, we were able to create names highly associated with the white, black, asian, and hispanic races, as well as male and female identifying names within each race. We created a pool of names with a likelihood of representing each group, and then selected randomly from each pool to replicate real world conditions. All of this creates the resume, which is then given to Gemini 3 with instructions on how to respond[revisit once prompt is finalized?]. Gemini 3 is directed to classify each candidate into one of 4 groups based on the resume: dismiss on initial screening, weak candidate but pass, good candidate, or top candidate. It also returns a brief reason for the decision. 
+
+
+
+View of Gender, Race, and Intersectional Bias in Resume Screening via Language Model Retrieval
+
+Hiring with AI doesn't have to be so inhumane. Here's how | World Economic Forum.
