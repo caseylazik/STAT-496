@@ -47,86 +47,103 @@ You MUST choose exactly ONE recommendation from this list, don't modify spelling
 }}
 """
 
-# so we don't redo resumes we've already done
-completed_ids = set()
-if os.path.exists(CSV_PATH):
-    with open(CSV_PATH, newline="", encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            completed_ids.add(row["resume_id"])
 
 
-# csv this time for output
-with open(CSV_PATH, "a", newline="", encoding="utf-8") as csvfile:
-    fieldnames = [
-    "resume_id",
-    "name",
-    "race",
-    "sex",
-    "institution",
-    "degree",
-    "years_attended",
-    "skills",
-    "experience_level",
-    "job_applied",
-    "reason",
-    "recommendation"
-    ]
-    writer = csv.DictWriter(csvfile, fieldnames=fieldnames) # need writer to write to csv (looked up online)
+added_a_output = True
 
-    # header
-    if not completed_ids:
-        writer.writeheader()
+while added_a_output:
+    added_a_output = False
 
-    for filename in os.listdir(INPUT_FOLDER):
-        resume_id = filename.replace("resume_", "").replace(".json", "") # just the resume number
+    # so we don't redo resumes we've already done
+    completed_ids = set()
+    if os.path.exists(CSV_PATH):
+        with open(CSV_PATH, newline="", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                completed_ids.add(row["resume_id"])
 
-        if resume_id in completed_ids:
-            print(f"Skipping resume {resume_id} (already evaluated)")
-            continue
 
-        print(f"Evaluating resume {resume_id}")
+    # csv this time for output
+    with open(CSV_PATH, "a", newline="", encoding="utf-8") as csvfile:
+        fieldnames = [
+            "resume_id",
+            "name",
+            "race",
+            "sex",
+            "institution",
+            "degree",
+            "years_attended",
+            "skills",
+            "experience_level",
+            "job_applied",
+            "reason",
+            "recommendation"
+            ]
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames) # need writer to write to csv (looked up online)
 
-        with open(os.path.join(INPUT_FOLDER, filename), encoding="utf-8") as f:
-            data = json.load(f)
+        # header
+        if not completed_ids:
+            writer.writeheader()
 
-        resume = data["resume"]
-        job = data["metadata"]["job_applied"]
+        for filename in os.listdir(INPUT_FOLDER):
+            resume_id = filename.replace("resume_", "").replace(".json", "") # just the resume number
 
-        prompt = template.format(
-            job=job,
-            job_description=job_descriptions[job],
-            resume_json=json.dumps(resume, indent=2)
-        )
+            if resume_id in completed_ids:
+                # print(f"Skipping resume {resume_id} (already evaluated)")
+                continue
 
-        try:
-            response = client.models.generate_content(
-                model="gemini-3-flash-preview",
-                contents=prompt,
-                config={"response_mime_type": "application/json"}
+            print(f"Evaluating resume {resume_id}")
+
+            with open(os.path.join(INPUT_FOLDER, filename), encoding="utf-8") as f:
+                data = json.load(f)
+
+            resume = data["resume"]
+            job = data["metadata"]["job_applied"]
+
+            prompt = template.format(
+                job=job,
+                job_description=job_descriptions[job],
+                resume_json=json.dumps(resume, indent=2)
             )
 
-            evaluation = json.loads(response.text)
+            try:
+                response = client.models.generate_content(
+                    model="gemini-3-flash-preview",
+                    contents=prompt,
+                    config={"response_mime_type": "application/json"}
+                )
+                 
 
-            education = resume.get("education", {})
+                evaluation = json.loads(response.text)
 
-            writer.writerow({
-                "resume_id": resume_id,
-                "name": resume.get("name"),
-                "race": data["metadata"].get("race"),
-                "sex": data["metadata"].get("sex"),
-                "institution": education.get("institution"),
-                "degree": education.get("degree"),
-                "years_attended": education.get("years_attended"),
-                "skills": ", ".join(resume.get("skills", [])),  # CSV-friendly
-                "experience_level": data["metadata"].get("experience_level"),
-                "job_applied": job,
-                "reason": evaluation["reason"],
-                "recommendation": evaluation["recommendation"]
-            })
-            csvfile.flush() # so the csv updates constantly
+                if isinstance(evaluation, list):
+                    print("Fixed an instance where the LLM produced the JSON within a list rather than JSON itself")
+                    # print(response.text)
+                    # print(evaluation)
+                    evaluation = evaluation[0]
 
-        except Exception as e:
-            print(f"Failed to evaluate resume {resume_id}: {e}")
+
+
+                education = resume.get("education", {})
+
+                writer.writerow({
+                    "resume_id": resume_id,
+                    "name": resume.get("name"),
+                    "race": data["metadata"].get("race"),
+                    "sex": data["metadata"].get("sex"),
+                    "institution": education.get("institution"),
+                    "degree": education.get("degree"),
+                    "years_attended": education.get("years_attended"),
+                    "skills": ", ".join(resume.get("skills", [])),  # CSV-friendly
+                    "experience_level": data["metadata"].get("experience_level"),
+                    "job_applied": job,
+                    "reason": evaluation["reason"],
+                    "recommendation": evaluation["recommendation"]
+                })
+                csvfile.flush() # so the csv updates constantly
+                added_a_output = True
+
+            except Exception as e:
+                print(f"Failed to evaluate resume {resume_id}: {e}")
 
 print("All done")
