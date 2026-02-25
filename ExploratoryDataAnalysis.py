@@ -13,8 +13,6 @@ df_normal = pd.read_csv(NORMAL_PATH)
 df_exp_req = pd.read_csv(EXPERIENCE_REQ_PATH)
 
 
-
-
 recommendation_numeric_mapping = {
     "Dismiss initial screening": 0,
     "weak candidate but pass": 1,
@@ -27,6 +25,25 @@ recommendation_numeric_mapping = {
 df_normal["recommendation_score"] = df_normal["recommendation"].map(recommendation_numeric_mapping)
 
 df_exp_req["recommendation_score"] = df_exp_req["recommendation"].map(recommendation_numeric_mapping)
+
+
+
+def distributionPlot(df, label):
+    plt.figure()
+    df["recommendation"].value_counts().plot(kind="bar")
+    plt.title(f"Recommendation Distribution — {label}")
+    plt.ylabel("Count")
+    plt.xlabel("Recommendation")
+    plt.tight_layout()
+    plt.savefig(f"Output/plots/{label}_recommendation_distribution.png")
+    plt.close()
+
+
+
+
+
+
+ 
 
 
 
@@ -64,3 +81,22 @@ print(df_exp_req.groupby("race")["recommendation_score"].sum())
 
 
 print(df_exp_req.groupby("sex")["recommendation_score"].sum())
+
+
+
+
+
+
+
+
+
+
+
+
+# Plots:
+distributionPlot(df_normal, "normalPrompt")
+
+distributionPlot(df_exp_req, "experienceRequiredPrompt")
+
+
+ 

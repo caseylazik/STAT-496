@@ -1,37 +1,124 @@
 from sklearn.linear_model import LogisticRegression
 import pandas as pd
 import numpy as np
-
-data_path = "Output/evaluations.csv"
-
-
-
-df = pd.read_csv(data_path)
+from scipy.stats import chi2_contingency
+from statsmodels.miscmodels.ordinal_model import OrderedModel
 
 
-
-X = pd.get_dummies(df["race"], drop_first=True)
-y = df["recommendation"]
-
-model = LogisticRegression(penalty='none', solver="lbfgs")
-model.fit(X, y)
-
-for name, coef in zip(X.columns, model.coef_[0]):
-    print(name, coef)
-
-print("\nOdds Ratios:")
-for name, coef in zip(X.columns, model.coef_[0]):
-    print(name, np.exp(coef))
+NORMAL_PATH = "Output/evaluations.csv"
+EXPERIENCE_REQ_PATH = "Output/evaluationsExperienceRequired.csv"
 
 
-X = pd.get_dummies(df["sex"], drop_first=True)
+# Normal prompt (no experience required)
+df_normal = pd.read_csv(NORMAL_PATH)
+# Experience Required prompt 
+df_exp_req = pd.read_csv(EXPERIENCE_REQ_PATH)
 
-model = LogisticRegression(penalty='none', solver="lbfgs")
-model.fit(X, y)
 
-for name, coef in zip(X.columns, model.coef_[0]):
-    print("\n", name, coef)
+recommendation_numeric_mapping = {
+    "Dismiss initial screening": 0,
+    "weak candidate but pass": 1,
+    "good candidate": 2,
+    "top candidate": 3
+}
 
-print("\nOdds Ratios:")
-for name, coef in zip(X.columns, model.coef_[0]):
-    print(name, np.exp(coef))
+
+df_normal["recommendation_score"] = df_normal["recommendation"].map(recommendation_numeric_mapping)
+
+df_exp_req["recommendation_score"] = df_exp_req["recommendation"].map(recommendation_numeric_mapping)
+
+
+
+
+table = pd.crosstab(df_normal["race"], df_normal["recommendation"])
+chi2, p, dof, expected = chi2_contingency(table)
+
+print("Chi-square for normal prompt of recommendation and race:", chi2)
+print("P-val for normal prompt of recommendation and race:", p)
+
+print()
+
+
+table = pd.crosstab(df_exp_req ["race"], df_exp_req ["recommendation"])
+chi2, p, dof, expected = chi2_contingency(table)
+
+print("Chi-square for experience required prompt of recommendation and race:", chi2)
+print("P-val for experience required prompt of recommendation and race:", p)
+
+print()
+
+
+
+X_normal = pd.get_dummies(df_normal[["race", "sex"]], drop_first=True)
+
+X_exp_req = pd.get_dummies(df_exp_req[["race", "sex"]], drop_first=True)
+
+
+
+
+normal_model = OrderedModel(df_normal["recommendation_score"], X_normal, distr="logit")
+normal_res = normal_model.fit(disp=False)
+
+print("Ordinal logistic regression model output for normal prompt:")
+print(normal_res.summary())
+
+
+
+
+print()
+
+
+exp_req_model = OrderedModel(df_exp_req["recommendation_score"], X_exp_req, distr="logit")
+exp_req_res = exp_req_model.fit(disp=False)
+
+print("Ordinal logistic regression model output for experience required prompt:")
+print(exp_req_res.summary())
+
+
+
+
+
+table = pd.crosstab(df_normal["sex"], df_normal["recommendation"])
+chi2, p, dof, expected = chi2_contingency(table)
+
+print("Chi-square for normal prompt of recommendation and sex:", chi2)
+print("P-val for normal prompt of recommendation and sex:", p)
+
+
+
+print()
+ 
+
+table = pd.crosstab(df_exp_req ["sex"], df_exp_req ["recommendation"])
+chi2, p, dof, expected = chi2_contingency(table)
+
+print("Chi-square for experience required prompt of recommendation and sex:", chi2)
+print("P-val for experience required prompt of recommendation and sex:", p)
+
+
+
+
+# y = df_normal["recommendation"]
+
+# model = LogisticRegression(penalty='none', solver="lbfgs")
+# model.fit(X_normal, y)
+
+# for name, coef in zip(X_normal.columns, model.coef_[0]):
+#     print(name, coef)
+
+# print("\nOdds Ratios:")
+# for name, coef in zip(X_normal.columns, model.coef_[0]):
+#     print(name, np.exp(coef))
+
+
+# X = pd.get_dummies(df_normal["sex"], drop_first=True)
+
+# model = LogisticRegression(penalty='none', solver="lbfgs")
+# model.fit(X, y)
+
+# for name, coef in zip(X.columns, model.coef_[0]):
+#     print("\n", name, coef)
+
+# print("\nOdds Ratios:")
+# for name, coef in zip(X.columns, model.coef_[0]):
+#     print(name, np.exp(coef))
