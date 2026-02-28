@@ -96,29 +96,7 @@ print("Chi-square for experience required prompt of recommendation and sex:", ch
 print("P-val for experience required prompt of recommendation and sex:", p)
 
 
+print()
 
-
-# y = df_normal["recommendation"]
-
-# model = LogisticRegression(penalty='none', solver="lbfgs")
-# model.fit(X_normal, y)
-
-# for name, coef in zip(X_normal.columns, model.coef_[0]):
-#     print(name, coef)
-
-# print("\nOdds Ratios:")
-# for name, coef in zip(X_normal.columns, model.coef_[0]):
-#     print(name, np.exp(coef))
-
-
-# X = pd.get_dummies(df_normal["sex"], drop_first=True)
-
-# model = LogisticRegression(penalty='none', solver="lbfgs")
-# model.fit(X, y)
-
-# for name, coef in zip(X.columns, model.coef_[0]):
-#     print("\n", name, coef)
-
-# print("\nOdds Ratios:")
-# for name, coef in zip(X.columns, model.coef_[0]):
-#     print(name, np.exp(coef))
+print(df_normal["recommendation_score"].mean().__round__(2))
+print(df_exp_req["recommendation_score"].mean().__round__(2))

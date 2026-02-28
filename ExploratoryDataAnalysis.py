@@ -86,7 +86,10 @@ print(df_exp_req.groupby("sex")["recommendation_score"].sum())
 
 
 
+print(df_normal.groupby("institution")["recommendation_score"].sum())
 
+
+print(df_exp_req.groupby("institution")["recommendation_score"].sum())
 
 
 
