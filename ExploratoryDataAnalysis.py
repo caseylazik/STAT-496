@@ -29,6 +29,10 @@ df_exp_req["recommendation_score"] = df_exp_req["recommendation"].map(recommenda
 
 print("\nOriginal/Normal Prompt: \n")
 
+print(df_normal["recommendation_score"].mean().__round__(3))
+
+print()
+
 print(df_normal["recommendation"].value_counts())
 
 print()
@@ -59,7 +63,10 @@ print()
 
 print("\n\nNow lets do experience required prompt: \n")
 
+ 
+print(df_exp_req["recommendation_score"].mean().__round__(3))
 
+print()
 
 print(df_exp_req["recommendation"].value_counts())
 
@@ -224,6 +231,8 @@ plt.close()
 
 # Numerical results from running this
 
+# Average recommendation score for both prompts was similar (1.315 experience req, 1.311 normal)
+
 # Average recommendation score for normal prompt hase Asian names at 1.299,
 # black names at 1.330, hispanic names at 1.328, and white names at 1.286. Men had an
 # average score of 1.291, whereas women had an average of 1.331. UW had an average score
@@ -240,6 +249,3 @@ plt.close()
 
 
 
- 
-
- 
