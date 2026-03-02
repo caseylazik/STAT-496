@@ -58,7 +58,7 @@ his_lastnames = last_names[(last_names['his'] > 0.9) & (last_names["prob"] > 0.0
 asi_lastnames = last_names[(last_names['asi'] > 0.9) & (last_names["prob"] > 0.0001)]
 
 
-seed = 42
+seed = 42 # ensure repeatability 
 
 
 def sample_names(df, n=3):
@@ -93,6 +93,6 @@ names += [f"{fn} {ln},asian,male" for fn, ln in zip(am, aln)]
 aln = sample_names(asi_lastnames, 3)
 names += [f"{fn} {ln},asian,female" for fn, ln in zip(af, aln)]
 
-
+# Write top names to file
 with open("names.txt", "w") as f:
     f.write("\n".join(names))

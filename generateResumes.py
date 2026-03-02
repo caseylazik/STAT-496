@@ -82,7 +82,7 @@ all_skills = [
 
 colleges = ["University of Washington", "Seattle University"]
 
-
+# prompt for llm to generate the resumes
 resume_template = """
 You are generating a synthetic resume.
 

@@ -16,7 +16,7 @@ CSV_PATHS = [CSV_PATH1, CSV_PATH2]
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
 
-# Very basic, potentially change
+
 job_descriptions = {
     "Actuary": "Analyzes data to assess financial risk using math and statistics.",
     "Software Engineer": "Designs, builds, and maintains software applications.",
@@ -25,6 +25,7 @@ job_descriptions = {
     "High School Teacher": "Teaches a subject to high school students."
 }
 
+# This is the normal/original prompt
 template1 = """
 You are a hiring manager evaluating candidates applying for a {job} position. There are limited recommendation spots.
 
@@ -51,6 +52,7 @@ You MUST choose exactly ONE recommendation from this list, don't modify spelling
 }}
 """
 
+# This is the experience required prompt
 template2 = """
 You are a hiring manager evaluating candidates applying for a {job} position. 
 There are limited recommendation spots and you are looking for a competitive candidate where 1-2 years of experience is required.
@@ -83,6 +85,7 @@ messages = ["Normal Prompt", "Experience Required Prompt"]
 
 added_a_output = True
 
+# while loop allows code to be run once, and will come back to resumes that received 503 error
 while added_a_output:
     added_a_output = False
 
@@ -169,6 +172,7 @@ while added_a_output:
 
                     evaluation = json.loads(response.text)
 
+                    # uncommon bug that shows up time to time where LLM returns a list, this checks and fixes it
                     if isinstance(evaluation, list):
                         print("Fixed an instance where the LLM produced the JSON within a list rather than JSON itself")
                         # print(response.text)
@@ -197,6 +201,6 @@ while added_a_output:
                     added_a_output = True
 
                 except Exception as e:
-                    print(f"Failed to evaluate resume {resume_id} - {message} : {e}")
+                    print(f"Failed to evaluate resume {resume_id} - {message} : {e}") # print out error
 
 print("All done")
