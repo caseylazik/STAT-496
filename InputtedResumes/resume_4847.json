@@ -8,36 +8,31 @@
     },
     "experience": [
       {
-        "title": "Student Teacher",
-        "organization": "Seattle Public Schools",
+        "role": "Student Teacher",
+        "organization": "Seattle Public Schools - Roosevelt High School",
         "location": "Seattle, WA",
-        "dates": "2022 - 2023",
+        "duration": "September 2022 - June 2023",
         "responsibilities": [
-          "Collaborated with a mentor teacher to design and deliver daily lesson plans for Grade 9 and 10 Biology classes.",
-          "Utilized diverse instructional strategies to accommodate students with IEPs and 504 plans, ensuring inclusive classroom participation.",
-          "Integrated educational technology such as SMART Boards and Google Classroom to enhance student engagement and track assignments.",
-          "Facilitated parent-teacher conferences to discuss student performance and developed targeted improvement plans."
+          "Developed and implemented lesson plans for Algebra I and Geometry classes, catering to diverse learning styles and abilities.",
+          "Facilitated classroom discussions and activities to promote student engagement and critical thinking skills.",
+          "Collaborated with the lead teacher to assess student progress and provide individualized support and feedback.",
+          "Attended department meetings and professional development workshops to refine pedagogical techniques."
         ]
       },
       {
-        "title": "Teaching Assistant",
-        "organization": "University of Washington - Department of Biology",
-        "location": "Seattle, WA",
-        "dates": "2021 - 2022",
+        "role": "Teaching Assistant Intern",
+        "organization": "Highline High School",
+        "location": "Burien, WA",
+        "duration": "January 2022 - May 2022",
         "responsibilities": [
-          "Supported lead instructors in facilitating laboratory sections for over 60 undergraduate students.",
-          "Prepared lab materials, demonstrated proper safety protocols, and assisted students with data collection and analysis.",
-          "Maintained records of student attendance and grades using the university's Learning Management System."
+          "Provided small group instruction and one-on-one tutoring for students struggling with core scientific concepts.",
+          "Assisted in the preparation of laboratory materials and supervised student-led experiments.",
+          "Maintained accurate records of student attendance and graded formative assessments to track learning outcomes."
         ]
       }
     ],
     "skills": [
-      "Microsoft Office Suite",
-      "Curriculum Development",
-      "Classroom Management",
-      "Differentiated Instruction",
-      "Educational Technology",
-      "Conflict Resolution"
+      "Microsoft Office Suite"
     ]
   },
   "metadata": {
