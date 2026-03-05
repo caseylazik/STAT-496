@@ -7,6 +7,8 @@ from statsmodels.miscmodels.ordinal_model import OrderedModel
 
 NORMAL_PATH = "Output/evaluations.csv"
 EXPERIENCE_REQ_PATH = "Output/evaluationsExperienceRequired.csv"
+#NORMAL_PATH = "C://Users//harry//Downloads//evaluations.csv"
+#EXPERIENCE_REQ_PATH = "C://Users//harry//Downloads//evaluationsExperienceRequired.csv"
 
 
 # Normal prompt (no experience required)
@@ -15,6 +17,8 @@ df_normal = pd.read_csv(NORMAL_PATH)
 df_exp_req = pd.read_csv(EXPERIENCE_REQ_PATH)
 
 
+df_normal["degree"] = df_normal["degree"].replace("", "No Degree").fillna("No Degree")
+df_exp_req["degree"] = df_exp_req["degree"].replace("", "No Degree").fillna("No Degree")
 recommendation_numeric_mapping = {
     "Dismiss initial screening": 0,
     "weak candidate but pass": 1,
@@ -26,6 +30,7 @@ recommendation_numeric_mapping = {
 df_normal["recommendation_score"] = df_normal["recommendation"].map(recommendation_numeric_mapping)
 
 df_exp_req["recommendation_score"] = df_exp_req["recommendation"].map(recommendation_numeric_mapping)
+
 
 
 
@@ -46,6 +51,56 @@ print("Chi-square for experience required prompt of recommendation and race:", c
 print("P-val for experience required prompt of recommendation and race:", p.__round__(3))
 
 print()
+
+
+#exp level
+table = pd.crosstab(df_normal["experience_level"], df_normal["recommendation"])
+chi2, p, dof, expected = chi2_contingency(table)
+
+print("Chi-square for normal prompt of recommendation and experience level:", chi2.__round__(3))
+print("P-val for normal prompt of recommendation and experience level:", p.__round__(3))
+
+
+table = pd.crosstab(df_exp_req ["experience_level"], df_exp_req ["recommendation"])
+chi2, p, dof, expected = chi2_contingency(table)
+
+print("Chi-square for experience required prompt of recommendation and experience level:", chi2.__round__(3))
+print("P-val for experience required prompt of recommendation and experience level:", p.__round__(3))
+
+print()
+
+#instituion
+table = pd.crosstab(df_normal["institution"], df_normal["recommendation"])
+chi2, p, dof, expected = chi2_contingency(table)
+
+print("Chi-square for normal prompt of recommendation and institution:", chi2.__round__(3))
+print("P-val for normal prompt of recommendation and institution:", p.__round__(3))
+
+
+table = pd.crosstab(df_exp_req ["institution"], df_exp_req ["recommendation"])
+chi2, p, dof, expected = chi2_contingency(table)
+
+print("Chi-square for experience required prompt of recommendation and institution:", chi2.__round__(3))
+print("P-val for experience required prompt of recommendation and institution:", p.__round__(3))
+
+print()
+
+#degree
+table = pd.crosstab(df_normal["degree"], df_normal["recommendation"])
+chi2, p, dof, expected = chi2_contingency(table)
+
+print("Chi-square for normal prompt of recommendation and degree:", chi2.__round__(3))
+print("P-val for normal prompt of recommendation and degree:", p.__round__(3))
+
+
+table = pd.crosstab(df_exp_req ["degree"], df_exp_req ["recommendation"])
+chi2, p, dof, expected = chi2_contingency(table)
+
+print("Chi-square for experience required prompt of recommendation and degree:", chi2.__round__(3))
+print("P-val for experience required prompt of recommendation and degree:", p.__round__(3))
+
+print()
+
 
 
 
@@ -146,17 +201,63 @@ exp_req_res = exp_req_model.fit(method="bfgs", disp=False)
 print(exp_req_res.summary())
 
 
+#degree
+normal_model = OrderedModel.from_formula(
+    "recommendation_score ~ degree",
+    data=df_normal,
+    distr="logit"
+)
+normal_res = normal_model.fit(method="bfgs", disp=False)
 
+print(normal_res.summary())
+
+
+#full logistic regression model with all variables(not skills)
+
+normal_model = OrderedModel.from_formula(
+    "recommendation_score ~ race + sex + institution + degree + experience_level",
+    data=df_normal,
+    distr="logit"
+)
+normal_res = normal_model.fit(method="bfgs", disp=False)
+
+print(normal_res.summary())
+
+
+exp_req_model = OrderedModel.from_formula(
+    "recommendation_score ~ race + sex + institution + degree + experience_level",
+    data=df_exp_req,
+    distr="logit"
+)
+exp_req_res = exp_req_model.fit(method="bfgs", disp=False)
+
+print(exp_req_res.summary())
 
 
 # Results from running this
 
+
 # P-val for normal prompt of recommendation and race: 0.968
-# P-val for normal prompt of recommendation and sex: 0.373
-
-
 # P-val for experience required prompt of recommendation and race: 0.933 
+
+# P-val for normal prompt of recommendation and sex: 0.373
 # P-val for experience required prompt of recommendation and sex: 0.857
+
+# P-val for normal prompt of recommendation and experience level: 0
+# P-val for experience required prompt of recommendation and experience level: 0
+
+# P-val for normal prompt of recommendation and institution: 0
+# P-val for experience required prompt of recommendation and institution: 0
+
+# P-val for normal prompt of recommendation and degree: 0
+# P-val for experience required prompt of recommendation and degree: 0
+
+
+
+
+
+
+
 
 
 # The ordinal logistic regression model for both race and sex concluded that race and sex
