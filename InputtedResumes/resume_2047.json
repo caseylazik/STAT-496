@@ -8,22 +8,20 @@
     },
     "experience": [
       {
-        "title": "Independent Retail Market Research",
-        "description": "Conducted extensive field observation and analysis of high-traffic retail environments to identify successful customer engagement patterns and point-of-sale conversion techniques. Researched the psychological drivers behind consumer purchasing decisions and the impact of visual merchandising on floor traffic.",
-        "duration": "3 Months"
+        "company": "Independent Market Research Project",
+        "role": "Retail Trend Researcher",
+        "years": "2023-2024",
+        "description": "Conducted extensive field research on consumer behavior and purchasing patterns across five major retail sectors. Analyzed the effectiveness of various visual merchandising techniques and their impact on foot traffic and conversion rates."
       },
       {
-        "title": "Product Analysis & Sales Simulation Project",
-        "description": "Systematically reviewed top-selling consumer electronics brands to master the translation of technical specifications into relatable customer benefits. Practiced objection-handling frameworks and closing strategies based on industry-standard retail sales training materials.",
-        "duration": "2 Months"
+        "company": "Self-Directed Professional Development",
+        "role": "Sales Methodology Analyst",
+        "years": "2023",
+        "description": "Researched and documented best practices in high-volume retail sales, focusing on the 'Features-Advantages-Benefits' (FAB) model and effective objection-handling strategies. Studied inventory management systems and loss prevention protocols used by industry leaders."
       }
     ],
     "skills": [
-      "Product Knowledge",
-      "Consumer Behavior Analysis",
-      "Market Trend Research",
-      "Active Listening",
-      "Upselling Techniques"
+      "Product Knowledge"
     ]
   },
   "metadata": {

@@ -8,21 +8,20 @@
     },
     "experience": [
       {
-        "role": "Retail Market Research Project",
-        "organization": "Seattle University",
-        "description": "Conducted an intensive semester-long analysis of local retail environments, shadowing sales floor dynamics and documenting effective customer engagement techniques."
+        "job_title": "Retail Market Research Analyst (Academic Project)",
+        "company": "Seattle University Research Lab",
+        "duration": "6 months",
+        "description": "Conducted extensive field research on local boutique and big-box retail environments to identify successful sales closing techniques and customer engagement strategies. Compiled data on consumer traffic patterns and the impact of visual merchandising on impulse purchasing behavior."
       },
       {
-        "role": "Independent Study: Consumer Psychology",
-        "organization": "Self-Directed",
-        "description": "Researched and compiled data on the impact of visual merchandising on purchasing decisions, focusing on how store layout influences upsell opportunities."
+        "job_title": "Community Engagement Volunteer",
+        "company": "Seattle Neighborhood Association",
+        "duration": "1 year",
+        "description": "Applied researched interpersonal communication frameworks to advocate for community programs. Actively practiced consultative social skills to identify resident needs and provide appropriate program recommendations, mirroring a retail sales approach."
       }
     ],
     "skills": [
-      "Strong Social Skills",
-      "Market Trend Analysis",
-      "Customer Interaction Research",
-      "Product Knowledge Acquisition"
+      "Strong Social Skills"
     ]
   },
   "metadata": {
