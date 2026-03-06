@@ -40,7 +40,7 @@ Casey Lazik
 \section{Introduction}
 
 \par
-One of the applications that AI is being used most in right now is the hiring process. When you apply for a job, chances are that AI will handle that application in at least some form. Nearly 90\% of companies are using some form of AI in their hiring process, according to the World Economic Forum(Amitabh and Ansari 2025). They cite the motivation in part for the increase in the volume of job applications. This isn’t likely to go away either; the same source found that using AI in this manner has reduced hiring costs dramatically. The motivation is understandable, integration of AI saves time, cost, and effort. One common example is the use of AI to screen massive pools of candidates in order to bring the best candidates to the desk of a human in the hiring process(Rigotti and Fosch-Villaronga 2024). Large application volume will probably continue particularly in entry-level jobs based on large rises in unemployment among recent college graduates(Ozkan and Sullivan 2025).
+One of the applications that AI is being used most in right now is the hiring process. When you apply for a job, chances are that AI will handle that application in at least some form. Nearly 90\% of companies are using some form of AI in their hiring process, according to the World Economic Forum(Amitabh and Ansari 2025). They cite the motivation in part for the increase in the volume of job applications. This isn’t likely to go away either; the same source found that using AI in this manner has dramatically reduced hiring costs. The motivation is understandable; integration of AI saves time, cost, and effort. One common example is the use of AI to screen massive pools of candidates in order to bring the best candidates to the desk of a human in the hiring process(Rigotti and Fosch-Villaronga 2024). Large application volume will probably continue particularly in entry-level jobs based on large rises in unemployment among recent college graduates(Ozkan and Sullivan 2025).
 
 With this new shift in how companies choose to move forward with hiring job applicants, it is important to do further studies on important issues raised in a work by Wilson and Caliskan(2024). That work used real resumes, but edited names to use the most likely names for white and Black men and women, as well as a common, racially ambigous name. Using a minimum of 160 resumes per job from a total pool of approximately 500, they found that LLMs “reinforce societal ‘defaults’” by preferencing white and male applicants. 
 
@@ -52,11 +52,11 @@ We aim to to update these results with a larger pool of resumes as well as expan
 
 We generated 5040 resumes using Gemini 3 Flash Preview, which will encompass the variables we plan to test (name, experience, education, etc). Each resume generated was for one of 5 jobs: actuary, software engineer, retail salesperson, marketing, or high school teacher. This means there are 1008 resumes for each job. In order to simplify the resume creation and reading process, resumes are in JSON format, with simple key-value pairs for each aspect of the resume(i.e name, education, skills). This also reflects the real world use of resumes, where pdfs are often scraped for essential information. 
 
-We used the LLM to create the resumes in JSON format, giving it strict instructions to use given values for each key. For education, we varied institution and years of college. Testing various universities has enough complexity to have its own paper, so for a simple expirement we used only the University of Washington and Seattle University, two schools in the same city with different levels of reputation. For years of college we used 3 possible values: 0, 3-4, and more than 4. Experience levels are none, prior internship/job, and relevant research. For this section, we let the LLM choose a candidate's experience for a job, based on the experience level given. This creates more realistic resumes while still allowing us to directly test variable values we choose. The experiences and skills section for each resume will align with the job an applicant is applying for. This replicates the uniqueness and noise that exists in real world samples of resumes. For full lists of experience and skills inputs, see the Appendix \ref{app:appendix}. Using the Harvard database of probabilities for race associated with first and last names in combination with a UC Irvine database of gender by name, we were able to create names highly associated with the white, Black, Asian, and Hispanic races, as well as male and female identifying names within each race. We created a pool of names with a likelihood of representing each group, and then selected randomly from each pool to replicate real world conditions. 
+We used the LLM to create the resumes in JSON format, giving it strict instructions to use given values for each key. For education, we varied institution and years of college. Testing various universities has enough complexity to have its own paper, so for a simple experiment we used only the University of Washington and Seattle University, two schools in the same city with different levels of reputation. For years of college we used 3 possible values: 0, 3-4, and more than 4. Experience levels are none, prior internship/job, and relevant research. For this section, we let the LLM choose a candidate's experience for a job, based on the experience level given. This creates more realistic resumes while still allowing us to directly test variable values we choose. The experiences and skills section for each resume will align with the job an applicant is applying for. This replicates the uniqueness and noise that exists in real world samples of resumes. For full lists of experience and skills inputs, see the Appendix \ref{app:appendix}. Using the Harvard database of probabilities for race associated with first and last names in combination with a UC Irvine database of gender by name, we were able to create names highly associated with the white, Black, Asian, and Hispanic races, as well as male and female identifying names within each race. We created a pool of names with a likelihood of representing each group, and then selected randomly from each pool to replicate real world conditions. 
 
 
 
-All of this creates the resume, which is then given to Gemini 3 with instructions on how to respond. Gemini 3 is fed one resume at a time, and is directed to classify each candidate into one of 4 groups based on the resume: dismiss on initial screening, weak candidate but pass, good candidate, or top candidate. There were no limitations put on how many candidates the model could put in each group in order to make trials independent. It also returns a brief reason for the decision. This output was organized in a CSV file alongside the resume information of the candidate, alongside some metadata unseen by the LLM (like race/sex group). The following is the prompt given to the LLM for evaluating the resumes. Brackets indicate parts that vary for each job or resume.
+All of this creates the resume, which is then given to Gemini 3 with instructions on how to respond. Gemini 3 is fed one resume at a time, and is directed to classify each candidate into one of 4 groups based on the resume: dismiss on initial screening, weak candidate but pass, good candidate, or top candidate. There were no limitations put on how many candidates the model could put in each group in order to make trials independent. It also returns a brief reason for the decision. The following is the prompt given to the LLM. Brackets indicate parts that vary for each job or resume.
 
 \begin{quote}
 You are a hiring manager evaluating candidates applying for a {[job]} position. There are limited recommendation spots.
@@ -115,29 +115,129 @@ You MUST choose exactly ONE recommendation from this list, don't modify spelling
 \}\}
 \end{quote}
 
+We will refer to this prompt and its results as the experience required prompt or listing, while the first prompt will be referred to as the basic or normal prompt.
+
  
 % --------------------
 \section{Data Analysis}
 
+Note: I think some samples of what the ai generated resumes look like would be good, specifically the parts it came up with like experience.
+
+ [big picture issue: chi square proves dependence but how do we establish what is advantageous? if at all possible]
+
+\subsection{General Output}
+
+Each prompt produced 5040 resumes, with each possible combination of variables generated once. All resumes were successfully categorized, with the distribution of categories shown in Figure~\ref{fig:combined_recommendation_distribution}. The basic prompt gives us a pretty balanced distribution of classifications, but tended to dismiss candidates in initial screening more often than classifying "weak candidate but pass." 
+
+\begin{figure}[htp]
+    \centering
+    \includegraphics[width=0.6\textwidth]{combined_recommendation_distribution.png}
+    \caption{The normal prompt was relatively balanced in its distribution but favored dismiss initial screening and good candidate most. The experience required prompt focused more on classifying candidates to dismiss and top candidates.}
+    \label{fig:combined_recommendation_distribution}
+\end{figure}
+\FloatBarrier
+
+\subsection{Methodology}
+To assess the relationship between variables, we primarily used the Chi-squared test of independence. This test is based on the contingency table of two categorical variables. It assumes a null hypothesis that the two variables are independent, with an alternative hypothesis of dependence. 
+
+
+In order to express the classifications numerically, we create a recommendation score. Recommendation score is simply converting the ordinal recommendation classes to a 0-3 scale. 0 maps to dismiss initial screening, 1 maps to weak candidate but pass, 2 to good candidate and 3 to top candidate. This was used to mostly for visualizations and for regression modeling, as is appropriate for ordinal classification. 
 
 
 \subsection{Analysis of Race Based Names}
-
-Our analysis concluded that when using Gemini 3 Flash Preview, neither sex nor race have a statistically significant effect on the resume evaluations for our prompts with an $\alpha$ of 0.05. In the case of the normal prompt without requiring experience, when doing a Chi-Square test of independence we got a p-value of 0.3728 when testing for sex and a p-value of 0.9681 when testing for race. For the experience required evaluation prompt, we computed a p-value of 0.8566 for sex and 0.933 for race. In every case, the p-values exceeded 0.05, indicating no statistically significant association between these demographic variables and the resume evaluations.
-
-(need to add a lot more)
+Our analysis concluded that when using Gemini 3 Flash Preview, neither sex nor race have a statistically significant effect on the resume evaluations for our prompts with an $\alpha$ of 0.05. In the case of the basic prompt without requiring experience, when doing a Chi-Square test of independence we got a p-value of 0.9681 when testing for race. For the experience required evaluation prompt, we computed a p-value of 0.933 for race. In every case, the p-values exceeded 0.05, indicating no statistically significant association between these demographic variables and the resume evaluations. This was also true for each specific job description. [may need to update for the regenerated resumes]. 
 
 \subsection{Analysis of Gender Based Names}
 
-\subsection{Comparison of Jobs}
+Our analysis of the effects of gender on resume evaluation also found that no statistically significant correlation. In the case of the basic prompt without requiring experience, when doing a Chi-Square test of independence we got a p-value of 0.373 when testing for race. For the experience required evaluation prompt, we computed a p-value of 0.811 for race. In every case, the p-values exceeded 0.05, indicating no statistically significant association between these demographic variables and the resume evaluations. This was also true for each specific job description.
 
 \subsection{Effects of Experience}
 
+We found that experience does have a significant impact on recommendation. Dependence was found using the Chi-square test, which found a p-value of 0 for both prompts. This result held across each specific job. The Chi-square value for the basic prompt was 3460.116, and for experience required it was 3676.928. 
+
+Further analysis
+
 \subsection{Effects of Education}
+
+For both institution and level of education(i.e none, bachelor's), we found dependence with recommendation with a p-value of 0. For the basic and experience required prompts, the Chi-square values of institution and recommendation were 48.151 and 57.328 respectively. For degree(none, bachelor's or master's) and recommendation, these values were 398.415 and 602.597. 
+
+Based on mean recommendation score, University of Washington(UW) graduates performed better than Seattle University(SU) graduates. In the basic prompt, UW grads had a mean of 1.508 compared to SU grad's 1.38. However, the gap becomes smaller in the experience required prompt, with means of 1.488 and 1.42 for UW and SU respectively. The full contingency tables can be seen below[label?].
+
+\begin{table}[h]
+\centering
+\caption{Contingency Table: Recommendation vs Institution (Normal Prompt)}
+\begin{tabular}{lcccc}
+\hline
+\textbf{Institution} & \textbf{Dismiss...} & \textbf{Weak Candidate..} & \textbf{Good Candidate} & \textbf{Top Candidate} \\
+\hline
+Seattle University & 659 & 271 & 746 & 340 \\
+University of Washington & 621 & 263 & 619 & 513 \\
+\hline
+\end{tabular}
+
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{Contingency Table: Recommendation vs Institution (Experience Required Prompt)}
+\begin{tabular}{lcccc}
+\hline
+\textbf{Institution} & \textbf{Dismiss...} & \textbf{Weak Candidate...} & \textbf{Good Candidate} & \textbf{Top Candidate} \\
+\hline
+Seattle University & 829 & 102 & 495 & 590 \\
+University of Washington & 815 & 139 & 325 & 737 \\
+\hline
+\end{tabular}
+\end{table}
+
+ However, there were varying results among each job. [big picture issue: chi square proves dependence but how do we establish what is advantageous? if at all possible]
+
+One specific area we wanted to study how well AI can account for the concept of over-qualification[touch on in intro/background?]. There is evidence that it can account for this nuance. For the job of retail salesperson, where over-qualification is a factor, bachelor's degree holders actually achieved the highest mean recommendation score of 1.389, compared to master's score of just 0.951 in the basic prompt. This gap reduced with the experience required prompt, but a Bachelor's degree was still slightly advantageous. [Statistical test?] Full comparisons can be seen in Figure \ref{fig:mean_score_by_job_and_degree}.
+
+\begin{figure}[htp]
+    \centering
+    \includegraphics[width=1\textwidth]{
+mean_score_by_job_and_degree.png}
+    \caption{Mean recommendation score by degree for all 5 jobs.}
+    \label{fig:mean_score_by_job_and_degree}
+\end{figure}
+
+
+[test none vs bachelors and bachelors vs masters individually]
+
+\FloatBarrier
 
 \subsection{Effects of Skills}
 
+
+\begin{figure}[htp]
+    \centering
+    \includegraphics[width=1\textwidth]{
+mean_score_by_skills_and_job.png}
+    \caption{Mean recommendation score by skill for all 5 jobs.}
+    \label{fig:mean_score_by_job_and_degree}
+\end{figure}
+
+
+
+\FloatBarrier
+
+\subsection{Comparison of Jobs}
+
+
+
+\begin{figure}[htp]
+    \centering
+    \includegraphics[width=0.6\textwidth]{
+mean_score_by_job_applied.png}
+    \caption{Recommendation Score is simply converting the ordinal recommendation classes to a 0-3 scale. The actuary job listing had the most positive recommendations, followed by software engineer.}
+    \label{fig:mean_score_by_job_applied}
+\end{figure}
+\FloatBarrier
+
+
 \subsection{Other Findings}
+ 
 
 % --------------------
 \section{Interpretation of Results}
@@ -204,7 +304,7 @@ View of Gender, Race, and Intersectional Bias in Resume Screening via Language M
 \bibitem{ref2}
 Hiring with AI doesn't have to be so inhumane. Here's how | World Economic Forum.
 
-https://www.sciencedirect.com/science/article/pii/S0267364924000335\#bib0034
+https://www.sciencedirect.com/science/article/pii/S0267364924000335#bib0034
 
 https://www.stlouisfed.org/on-the-economy/2025/aug/recent-college-grads-bear-brunt-labor-market-shifts
 
