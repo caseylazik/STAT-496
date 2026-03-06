@@ -25,6 +25,11 @@ df_normal["recommendation_score"] = df_normal["recommendation"].map(recommendati
 
 df_exp_req["recommendation_score"] = df_exp_req["recommendation"].map(recommendation_numeric_mapping)
 
+df_normal["degree"] = df_normal["degree"].replace("", "No Degree").fillna("No Degree")
+df_exp_req["degree"] = df_exp_req["degree"].replace("", "No Degree").fillna("No Degree")
+
+
+
 
 
 print("\nOriginal/Normal Prompt: \n")
@@ -106,6 +111,12 @@ df_exp_req["prompt_type"] = "experience_required"
 
 combined = pd.concat([df_normal, df_exp_req])
 
+combined["degree"] = pd.Categorical(
+    combined["degree"],
+    ["No Degree","Bachelor of Science","Master of Science"],
+    ordered=True
+)
+
 # so the names are shorter for the plots
 experience_mapping = {
     "No prior experience or research done for job field.": "None",
@@ -133,7 +144,7 @@ def combinedDistributionPlot(df):
     plt.title("Recommendation Distribution Comparison")
     plt.xticks(rotation=45)
     plt.tight_layout()
-    plt.savefig("Output/plots/combined_recommendation_distribution.png")
+    #plt.savefig("Output/plots/combined_recommendation_distribution.png")
     plt.close()
 
 combinedDistributionPlot(combined)
@@ -155,7 +166,7 @@ def meanScoreByExperience(df):
     plt.title("Mean Recommendation Score by Experience Level")
     plt.xticks(rotation=45)
     plt.tight_layout()
-    plt.savefig("Output/plots/mean_score_by_experience_level.png")
+    #plt.savefig("Output/plots/mean_score_by_experience_level.png")
     plt.close()
 
 
@@ -178,7 +189,7 @@ plt.title("Mean Score by Years of School")
 ax.legend(title="Prompt Type")
 plt.xticks(rotation=0)
 plt.tight_layout()
-plt.savefig("Output/plots/years_school_bar.png")
+#plt.savefig("Output/plots/years_school_bar.png")
 plt.close()
 
 
@@ -202,7 +213,7 @@ def meanScoreByJob(df):
     plt.title("Mean Recommendation Score by Job")
     plt.xticks(rotation=45)
     plt.tight_layout()
-    plt.savefig("Output/plots/mean_score_by_job_applied.png")
+    #plt.savefig("Output/plots/mean_score_by_job_applied.png")
     plt.close()
 
 
@@ -224,11 +235,96 @@ plt.ylabel("Mean Recommendation Score")
 plt.xlabel("Race")
 plt.title("Mean Recommendation Score by Race and Sex")
 plt.tight_layout()
-plt.savefig("Output/plots/pointplot_race_sex.png")
+#plt.savefig("Output/plots/pointplot_race_sex.png")
 plt.close()
 
 
+def meanScoreDegreeJobPrompt(df):
 
+    pivot = (
+        df.groupby(["degree", "job_applied", "prompt_type"])["recommendation_score"]
+        .mean()
+        .unstack()
+        .sort_index()
+    )
+
+    degrees = pivot.index.levels[0]
+    jobs = pivot.index.levels[1]
+
+    fig, axes = plt.subplots(1, len(jobs), figsize=(12,5), sharey=True)
+
+    if len(jobs) == 1:
+        axes = [axes]
+
+    for i, job in enumerate(jobs):
+
+        job_data = pivot.xs(job, level="job_applied")
+
+        job_data.plot(
+            kind="bar",
+            ax=axes[i],
+            color=["salmon", "#C5A775"]
+        )
+
+        axes[i].set_title(job)
+        axes[i].set_xlabel("Degree")
+        axes[i].set_ylabel("Mean Recommendation Score")
+        axes[i].tick_params(axis="x", rotation=45, labelsize=8)
+        axes[i].legend(title="Prompt Type", fontsize="small", loc="upper center")
+
+    plt.suptitle("Mean Recommendation Score by Degree, Job, and Prompt Type")
+    plt.tight_layout()
+    #plt.show()
+    plt.savefig("Output/plots/mean_score_by_job_and_degree.png")
+    plt.close()
+
+meanScoreDegreeJobPrompt(combined)
+
+
+
+
+
+
+def meanScoreSkillsJobPrompt(df):
+
+    pivot = (
+        df.groupby(["skills", "job_applied", "prompt_type"])["recommendation_score"]
+        .mean()
+        .unstack()
+        .sort_index()
+    )
+
+    degrees = pivot.index.levels[0]
+    jobs = pivot.index.levels[1]
+
+    fig, axes = plt.subplots(1, len(jobs), figsize=(12,5), sharey=True)
+
+    if len(jobs) == 1:
+        axes = [axes]
+
+    for i, job in enumerate(jobs):
+
+        job_data = pivot.xs(job, level="job_applied")
+
+        job_data.plot(
+            kind="bar",
+            ax=axes[i],
+            color=["salmon", "#C5A775"]
+        )
+
+        axes[i].set_title(job)
+        axes[i].set_xlabel("Skills")
+        axes[i].set_ylabel("Mean Recommendation Score")
+        axes[i].tick_params(axis="x", rotation=45, labelsize=8)
+        axes[i].legend(title="Prompt Type", fontsize="small", loc="upper center")
+
+    plt.suptitle("Mean Recommendation Score by Skills")
+    plt.tight_layout()
+    #plt.show()
+    plt.savefig("Output/plots/mean_score_by_skills_and_job.png")
+    plt.close()
+
+meanScoreSkillsJobPrompt(combined)
 # Numerical results from running this
 
 # Average recommendation score for both prompts was similar (1.315 experience req, 1.311 normal)
