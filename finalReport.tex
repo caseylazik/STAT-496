@@ -12,6 +12,7 @@
 \usepackage{enumitem}
 \usepackage[numbers]{natbib}
 \usepackage{hyperref}
+\usepackage{placeins}
 
 % --------------------
 % Spacing
@@ -144,6 +145,21 @@ To assess the relationship between variables, we primarily used the Chi-squared 
 In order to express the classifications numerically, we create a recommendation score. Recommendation score is simply converting the ordinal recommendation classes to a 0-3 scale. 0 maps to dismiss initial screening, 1 maps to weak candidate but pass, 2 to good candidate and 3 to top candidate. This was used to mostly for visualizations and for regression modeling, as is appropriate for ordinal classification. 
 
 
+\subsection{Comparison of Jobs}
+
+The basic prompt gave the highest mean recommendation score to the actuary candidates, followed by software engineer. The experience required prompt brought the means closer together, but those were still clearly the two with the highest scores. Although the experience required prompt stated that it was a more competitive position, it actually generated higher mean scores for the marketing and software engineer jobs.
+
+
+\begin{figure}[htp]
+    \centering
+    \includegraphics[width=0.6\textwidth]{
+mean_score_by_job_applied.png}
+    \caption{Recommendation Score is simply converting the ordinal recommendation classes to a 0-3 scale. The actuary job listing had the most positive recommendations, followed by software engineer.}
+    \label{fig:mean_score_by_job_applied}
+\end{figure}
+
+\FloatBarrier
+
 \subsection{Analysis of Race Based Names}
 Our analysis concluded that when using Gemini 3 Flash Preview, neither sex nor race have a statistically significant effect on the resume evaluations for our prompts with an $\alpha$ of 0.05. In the case of the basic prompt without requiring experience, when doing a Chi-Square test of independence we got a p-value of 0.9681 when testing for race. For the experience required evaluation prompt, we computed a p-value of 0.933 for race. In every case, the p-values exceeded 0.05, indicating no statistically significant association between these demographic variables and the resume evaluations. This was also true for each specific job description. [may need to update for the regenerated resumes]. 
 
@@ -190,8 +206,37 @@ University of Washington & 815 & 139 & 325 & 737 \\
 \end{tabular}
 \end{table}
 
- However, there were varying results among each job. [big picture issue: chi square proves dependence but how do we establish what is advantageous? if at all possible]
+ However, there were varying results among each job. The Chi-square tests were performed for each job and prompt, and all but two showed statistically significant evidence of dependence. Those two were the actuary job with the basic prompt and the retail salesperson role with experience required. [big picture issue: chi square proves dependence but how do we establish what is advantageous? if at all possible]
 
+ 
+\begin{table}[h]
+\centering
+\caption{Results of Chi-Squared Tests on Institution and Recommendation}
+\begin{tabular}{lccccc}
+\hline
+\textbf{Job} & \textbf{Actuary} & \textbf{Software Engineer} & \textbf{Retail} & \textbf{Marketing} & \textbf{H.S. Teacher}\\
+\hline
+Basic & 0.16 & 0 & 0 & 0 & 0 \\
+Experience Required & 0.001 & 0 & 0.102 & 0 & 0 \\
+\hline
+\end{tabular}
+\end{table}
+
+
+
+
+Figure \ref{fig:mean_score_by_job_and_college} shows the mean recommendation score by  institution for each job. University of Washington alumni scored better for all basic prompts, but in the experience required prompt, Seattle University scored for both actuaries and marketing roles. [further test?]
+
+\begin{figure}[htp]
+    \centering
+    \includegraphics[width=1\textwidth]{
+mean_score_by_job_and_college.png}
+    \caption{Mean recommendation score by college for all 5 jobs.}
+    \label{fig:mean_score_by_job_and_college}
+\end{figure}
+
+
+\FloatBarrier
 One specific area we wanted to study how well AI can account for the concept of over-qualification[touch on in intro/background?]. There is evidence that it can account for this nuance. For the job of retail salesperson, where over-qualification is a factor, bachelor's degree holders actually achieved the highest mean recommendation score of 1.389, compared to master's score of just 0.951 in the basic prompt. This gap reduced with the experience required prompt, but a Bachelor's degree was still slightly advantageous. [Statistical test?] Full comparisons can be seen in Figure \ref{fig:mean_score_by_job_and_degree}.
 
 \begin{figure}[htp]
@@ -209,6 +254,24 @@ mean_score_by_job_and_degree.png}
 
 \subsection{Effects of Skills}
 
+In order to evaluate the skills variable, we will focus on individual jobs as each job had its own set of skills. For each job, we conducted a Chi-square test of independence between skills and recommendation. Most jobs produced a p-value of 0, but there were exceptions. For the basic prompt, evidence of dependence was only significant with an $\alpha$ of 0.08. Retail salesperson also did not have significant evidence. All jobs except high school teacher showed significant evidence of dependence in the experience required prompt. These results are shown in table 4[label?]
+
+\begin{table}[h]
+\centering
+\caption{Results of Chi-Squared Tests on Skills and Recommendation}
+\begin{tabular}{lccccc}
+\hline
+\textbf{Job} & \textbf{Actuary} & \textbf{Software Engineer} & \textbf{Retail} & \textbf{Marketing} & \textbf{H.S. Teacher}\\
+\hline
+Basic & 0.079 & 0 & 0.121 & 0 & 0 \\
+Experience Required & 0 & 0 & 0 & 0 & 0.215 \\
+\hline
+\end{tabular}
+\end{table}
+
+All mean recommendation scores can be seen in Figure \ref{fig:mean_score_by_job_and_degree}. Some skills had different results over the different prompts. The most consistent result was microsoft office suite having the lowest mean for the marketing job. Product knowledge had the lowest mean for the retail salesperson job. Java and C++ had the highest mean in the software engineer job. [how much more analysis should we do?]
+
+Actuary skills contingency table was interesting
 
 \begin{figure}[htp]
     \centering
@@ -218,22 +281,8 @@ mean_score_by_skills_and_job.png}
     \label{fig:mean_score_by_job_and_degree}
 \end{figure}
 
-
-
 \FloatBarrier
 
-\subsection{Comparison of Jobs}
-
-
-
-\begin{figure}[htp]
-    \centering
-    \includegraphics[width=0.6\textwidth]{
-mean_score_by_job_applied.png}
-    \caption{Recommendation Score is simply converting the ordinal recommendation classes to a 0-3 scale. The actuary job listing had the most positive recommendations, followed by software engineer.}
-    \label{fig:mean_score_by_job_applied}
-\end{figure}
-\FloatBarrier
 
 
 \subsection{Other Findings}
