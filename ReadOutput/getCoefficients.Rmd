@@ -1,0 +1,234 @@
+---
+title: "Get Coefficients For Significant Features"
+author: "Casey Lazik, Harry Schuckman"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+ 
+```{r, message=F}
+
+library(MASS)        
+library(dplyr)       
+library(readr)       
+
+data <- read_csv("../Output/evaluations.csv")
+
+# Create an ordered factor for your recommendation
+ordered_levels <- c("Dismiss initial screening", 
+                    "weak candidate but pass", 
+                    "good candidate", 
+                    "top candidate")
+
+data$recommendation_cat <- factor(data$recommendation,
+                                  levels = ordered_levels,
+                                  ordered = TRUE)
+
+# fill missing institutions
+data$institution[data$institution == "" | tolower(data$institution) == "null" | is.na(data$institution)] <- "No Institution"
+
+# fill missing degree
+data$degree[data$degree == "" | tolower(data$degree) == "null" | is.na(data$degree)] <- "No Degree"
+ 
+
+# ordered logistic regression model
+model <- polr(recommendation_cat ~ experience_level + years_attended,  
+              data = data, Hess=T, )   # Need Hess=T
+
+ 
+summary(model)
+
+# calculate p-values
+ctable <- coef(summary(model))
+p <- pnorm(abs(ctable[, "t value"]), lower.tail = FALSE) * 2
+ctable <- cbind(ctable, "p value" = p)
+ctable
+
+
+# separate model for institution (univariate)
+model_institution <- polr(recommendation_cat ~ institution, data = data, Hess = TRUE)
+
+# summary(model_institution)
+
+# calculate p-values
+ctable_inst <- coef(summary(model_institution))
+p_inst <- pnorm(abs(ctable_inst[, "t value"]), lower.tail = FALSE) * 2
+ctable_inst <- cbind(ctable_inst, "p value" = p_inst)
+ctable_inst
+
+# separate model for degreee
+model_degree <- polr(recommendation_cat ~ degree, data = data, Hess = TRUE)
+
+
+# calculate p-values
+ctable_inst <- coef(summary(model_degree))
+p_inst <- pnorm(abs(ctable_inst[, "t value"]), lower.tail = FALSE) * 2
+ctable_inst <- cbind(ctable_inst, "p value" = p_inst)
+ctable_inst
+
+```
+
+Call:
+polr(formula = recommendation_cat ~ experience_level + years_attended, 
+    data = data, Hess = T)
+
+Coefficients:
+                                                                       Value Std. Error t value
+experience_levelPrior internship/job experience(s) in the job field.  5.7801    0.11167  51.762
+experience_levelRelevant research done for the job field.             3.7476    0.09587  39.089
+years_attended0                                                      -2.3467    0.09651 -24.316
+years_attended3-4                                                    -0.1944    0.06665  -2.917
+
+Intercepts:
+                                                  Value    Std. Error t value 
+Dismiss initial screening|weak candidate but pass   1.4622   0.0759    19.2662
+weak candidate but pass|good candidate              2.8590   0.0899    31.7966
+good candidate|top candidate                        5.6918   0.1087    52.3590
+
+Residual Deviance: 8490.902 
+AIC: 8504.902 
+                                                                         Value Std. Error    t value
+experience_levelPrior internship/job experience(s) in the job field.  5.780109 0.11166810  51.761509
+experience_levelRelevant research done for the job field.             3.747564 0.09587281  39.088912
+years_attended0                                                      -2.346718 0.09651078 -24.315601
+years_attended3-4                                                    -0.194428 0.06664798  -2.917237
+Dismiss initial screening|weak candidate but pass                     1.462249 0.07589702  19.266225
+weak candidate but pass|good candidate                                2.858965 0.08991428  31.796558
+good candidate|top candidate                                          5.691810 0.10870731  52.359031
+                                                                           p value
+experience_levelPrior internship/job experience(s) in the job field.  0.000000e+00
+experience_levelRelevant research done for the job field.             0.000000e+00
+years_attended0                                                      1.340780e-130
+years_attended3-4                                                     3.531473e-03
+Dismiss initial screening|weak candidate but pass                     1.031939e-82
+weak candidate but pass|good candidate                               7.222556e-222
+good candidate|top candidate                                          0.000000e+00
+                                                      Value Std. Error  t value       p value
+institutionSeattle University                     0.9947111 0.07275116 13.67279  1.476300e-42
+institutionUniversity of Washington               1.2150561 0.07366222 16.49497  3.987606e-61
+Dismiss initial screening|weak candidate but pass 0.3106788 0.06072629  5.11605  3.119996e-07
+weak candidate but pass|good candidate            0.8774184 0.06166692 14.22835  6.110757e-46
+good candidate|top candidate                      2.4707734 0.06917539 35.71752 2.113506e-279
+                                                        Value Std. Error    t value       p value
+degreeMaster of Science                            0.08846085 0.05745587   1.539631  1.236502e-01
+degreeNo Degree                                   -1.05956563 0.07243356 -14.628104  1.858948e-48
+Dismiss initial screening|weak candidate but pass -0.74856840 0.04259212 -17.575279  3.810101e-69
+weak candidate but pass|good candidate            -0.18222292 0.04112135  -4.431345  9.364694e-06
+good candidate|top candidate  
+
+
+
+
+```{r, message=F}
+
+library(MASS)        
+library(dplyr)       
+library(readr)       
+
+data <- read_csv("../Output/evaluationsExperienceRequired.csv")
+
+# Create an ordered factor for your recommendation
+ordered_levels <- c("Dismiss initial screening", 
+                    "weak candidate but pass", 
+                    "good candidate", 
+                    "top candidate")
+
+data$recommendation_cat <- factor(data$recommendation,
+                                  levels = ordered_levels,
+                                  ordered = TRUE)
+
+# fill missing institutions
+data$institution[data$institution == "" | tolower(data$institution) == "null" | is.na(data$institution)] <- "No Institution"
+
+# fill missing degree
+data$degree[data$degree == "" | tolower(data$degree) == "null" | is.na(data$degree)] <- "No Degree"
+ 
+ 
+
+# ordered logistic regression model
+model <- polr(recommendation_cat ~ experience_level + years_attended,  
+              data = data, Hess=T, )   
+
+ 
+summary(model)
+
+# calculate p-values
+ctable <- coef(summary(model))
+p <- pnorm(abs(ctable[, "t value"]), lower.tail = FALSE) * 2
+ctable <- cbind(ctable, "p value" = p)
+ctable
+
+
+# separate model for institution (univariate)
+model_institution <- polr(recommendation_cat ~ institution, data = data, Hess = TRUE)
+
+# summary(model_institution)
+
+# calculate p-values
+ctable_inst <- coef(summary(model_institution))
+p_inst <- pnorm(abs(ctable_inst[, "t value"]), lower.tail = FALSE) * 2
+ctable_inst <- cbind(ctable_inst, "p value" = p_inst)
+ctable_inst
+
+
+# separate model for degreee
+model_degree <- polr(recommendation_cat ~ degree, data = data, Hess = TRUE)
+
+
+# calculate p-values
+ctable_inst <- coef(summary(model_degree))
+p_inst <- pnorm(abs(ctable_inst[, "t value"]), lower.tail = FALSE) * 2
+ctable_inst <- cbind(ctable_inst, "p value" = p_inst)
+ctable_inst
+
+
+```
+
+
+Call:
+polr(formula = recommendation_cat ~ experience_level + years_attended, 
+    data = data, Hess = T)
+
+Coefficients:
+                                                                      Value Std. Error t value
+experience_levelPrior internship/job experience(s) in the job field.  7.613    0.20116   37.84
+experience_levelRelevant research done for the job field.             5.296    0.19098   27.73
+years_attended0                                                      -2.793    0.10510  -26.58
+years_attended3-4                                                    -1.115    0.08059  -13.84
+
+Intercepts:
+                                                  Value    Std. Error t value 
+Dismiss initial screening|weak candidate but pass   3.3308   0.1806    18.4405
+weak candidate but pass|good candidate              4.0096   0.1841    21.7738
+good candidate|top candidate                        5.9836   0.1903    31.4446
+
+Residual Deviance: 7057.30 
+AIC: 7071.30 
+                                                                         Value Std. Error   t value
+experience_levelPrior internship/job experience(s) in the job field.  7.612966 0.20116463  37.84445
+experience_levelRelevant research done for the job field.             5.296449 0.19098371  27.73247
+years_attended0                                                      -2.793245 0.10510270 -26.57634
+years_attended3-4                                                    -1.115444 0.08058978 -13.84101
+Dismiss initial screening|weak candidate but pass                     3.330771 0.18062254  18.44051
+weak candidate but pass|good candidate                                4.009596 0.18414774  21.77380
+good candidate|top candidate                                          5.983605 0.19029051  31.44458
+                                                                           p value
+experience_levelPrior internship/job experience(s) in the job field.  0.000000e+00
+experience_levelRelevant research done for the job field.            2.835948e-169
+years_attended0                                                      1.274404e-155
+years_attended3-4                                                     1.441628e-43
+Dismiss initial screening|weak candidate but pass                     6.215720e-76
+weak candidate but pass|good candidate                               4.111030e-105
+good candidate|top candidate                                         4.978545e-217
+                                                      Value Std. Error  t value       p value
+institutionSeattle University                     0.9842906 0.07488480 13.14406  1.840681e-39
+institutionUniversity of Washington               1.1189999 0.07549319 14.82253  1.047660e-49
+Dismiss initial screening|weak candidate but pass 0.6365964 0.06279998 10.13689  3.789773e-24
+weak candidate but pass|good candidate            0.8858990 0.06322491 14.01187  1.318939e-44
+good candidate|top candidate                      1.8197410 0.06680332 27.24028 2.166537e-163
+                                                        Value Std. Error    t value       p value
+degreeMaster of Science                            0.43230883 0.05875882   7.357344  1.876057e-13
+degreeNo Degree                                   -0.85533605 0.07424530 -11.520406  1.041189e-30
+Dismiss initial screening|weak candidate but pass -0.22023738 0.04136639  -5.324066  1.014728e-07
+weak candidate but pass|good candidate             0.02860215 0.04104893   0.696782  4.859393e-01
+good candidate|top candidate                       0.97411838 0.04384267  22.218499 2.275478e-109

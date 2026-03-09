@@ -5,8 +5,8 @@ from scipy.stats import chi2_contingency
 from statsmodels.miscmodels.ordinal_model import OrderedModel
 
 
-NORMAL_PATH = "Output/evaluations.csv"
-EXPERIENCE_REQ_PATH = "Output/evaluationsExperienceRequired.csv"
+NORMAL_PATH = "../Output/evaluations.csv"
+EXPERIENCE_REQ_PATH = "../Output/evaluationsExperienceRequired.csv"
 #NORMAL_PATH = "C://Users//harry//Downloads//evaluations.csv"
 #EXPERIENCE_REQ_PATH = "C://Users//harry//Downloads//evaluationsExperienceRequired.csv"
 
