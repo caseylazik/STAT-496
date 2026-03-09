@@ -325,6 +325,59 @@ def meanScoreSkillsJobPrompt(df):
     plt.close()
 
 meanScoreSkillsJobPrompt(combined)
+
+
+
+
+
+
+
+
+
+
+
+
+
+def meanScoreCollegeJobPrompt(df):
+
+    pivot = (
+        df.groupby(["institution", "job_applied", "prompt_type"])["recommendation_score"]
+        .mean()
+        .unstack()
+        .sort_index()
+    )
+
+    degrees = pivot.index.levels[0]
+    jobs = pivot.index.levels[1]
+
+    fig, axes = plt.subplots(1, len(jobs), figsize=(12,5), sharey=True)
+
+    if len(jobs) == 1:
+        axes = [axes]
+
+    for i, job in enumerate(jobs):
+
+        job_data = pivot.xs(job, level="job_applied")
+
+        job_data.plot(
+            kind="bar",
+            ax=axes[i],
+            color=["salmon", "#C5A775"]
+        )
+
+        axes[i].set_title(job)
+        axes[i].set_xlabel("Institution")
+        axes[i].set_ylabel("Mean Recommendation Score")
+        axes[i].tick_params(axis="x", rotation=45, labelsize=8)
+        axes[i].legend(title="Prompt Type", fontsize="small", loc="upper center")
+
+    plt.suptitle("Mean Recommendation Score by Institution")
+    plt.tight_layout()
+    #plt.show()
+    plt.savefig("Output/plots/college_job_prompt_scores.png")
+    plt.close()
+
+meanScoreCollegeJobPrompt(combined)
 # Numerical results from running this
 
 # Average recommendation score for both prompts was similar (1.315 experience req, 1.311 normal)
