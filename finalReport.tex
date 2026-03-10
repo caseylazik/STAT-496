@@ -286,7 +286,7 @@ mean_score_by_job_and_college.png}
 
 
 \FloatBarrier
-One specific area we wanted to study how well AI can account for the concept of over-qualification[touch on in intro/background?]. There is evidence that it can account for this nuance. For the job of retail salesperson, where over-qualification is a factor, bachelor's degree holders actually achieved the highest mean recommendation score of 1.389, compared to master's score of just 0.951 in the basic prompt. This gap reduced with the experience required prompt, but a Bachelor's degree was still slightly advantageous. [Statistical test?] Full comparisons can be seen in Figure \ref{fig:mean_score_by_job_and_degree}.
+One specific area we wanted to study how well AI can account for the concept of over-qualification[touch on in intro/background?]. There is evidence that it can account for this nuance. For the job of retail salesperson, where over-qualification is a factor, bachelor's degree holders actually achieved the highest mean recommendation score of 1.389, compared to master's score of just 0.951 in the basic prompt. This gap reduced with the experience required prompt, but a Bachelor's degree was still slightly advantageous. Mean scores can be seen in Figure \ref{fig:mean_score_by_job_and_degree}.
 
 \begin{figure}[htp]
     \centering
@@ -297,7 +297,7 @@ mean_score_by_job_and_degree.png}
 \end{figure}
 
 
-[test none vs bachelors and bachelors vs masters individually]
+We then wanted to individually test the three different degrees we had. Therefore, we ran an ordered logistic regression model to see which degree out of Master's, Bachelor's, or no degree, was most advantageous for both prompts. Doing so we found that for the base prompt, there was no evidence that a Master's was advantageous or disadvantageous for a candidates resume score with a p-value of 0.12. Unsurprisingly though, people with no degree had a highly reduced likelihood of being accepted with a near-zero p-value. They had about 65\% lower odds of being placed in a higher recommendation category compared to candidates with a Master's or Bachelor's. An interesting discovery we found was that for the experience required prompt, Master's degrees did have a significant edge over Bachelor's where they were about 54\% more likely to receive a higher recommendation category. Similar to the normal prompt, those without a degree had 57\% lower odds of getting a higher recommendation than those with a Bachelor's and 72\% lower odds compared to those with a Master's. The p-values for these were all well below the threshold of $\alpha=0.05$.
 
 \FloatBarrier
 
