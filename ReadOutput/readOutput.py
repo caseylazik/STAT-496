@@ -237,11 +237,11 @@ print(exp_req_res.summary())
 # Results from running this
 
 
-# P-val for normal prompt of recommendation and race: 0.968
-# P-val for experience required prompt of recommendation and race: 0.933 
+# P-val for normal prompt of recommendation and race: 0.971
+# P-val for experience required prompt of recommendation and race: 0.875
 
-# P-val for normal prompt of recommendation and sex: 0.373
-# P-val for experience required prompt of recommendation and sex: 0.857
+# P-val for normal prompt of recommendation and sex: 0.359
+# P-val for experience required prompt of recommendation and sex: 0.811
 
 # P-val for normal prompt of recommendation and experience level: 0
 # P-val for experience required prompt of recommendation and experience level: 0

@@ -20,7 +20,7 @@
 % For the resume example
 % --------------------
 \lstdefinelanguage{json}{
-    basicstyle=\ttfamily\small,
+    basicstyle=\ttfamily\footnotesize,
     numbersep=5pt,
     showstringspaces=false,
     breaklines=true,
@@ -136,7 +136,7 @@ We will refer to this prompt and its results as the experience required prompt o
 \section{Data Analysis}
 
 An example resume with generated experience from the LLM looks like this:
-
+\begin{singlespace}
 \begin{lstlisting}[language=json]
 {
   "resume": {
@@ -172,6 +172,7 @@ An example resume with generated experience from the LLM looks like this:
   }
 }
 \end{lstlisting}
+\end{singlespace}
 
 Where the "metadata" isn't seen by the LLM during evaluation.
 

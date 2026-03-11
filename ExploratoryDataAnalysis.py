@@ -380,17 +380,17 @@ def meanScoreCollegeJobPrompt(df):
 meanScoreCollegeJobPrompt(combined)
 # Numerical results from running this
 
-# Average recommendation score for both prompts was similar (1.315 experience req, 1.311 normal)
+# Average recommendation score for both prompts was similar (1.313 experience req, 1.311 normal)
 
 # Average recommendation score for normal prompt hase Asian names at 1.299,
-# black names at 1.330, hispanic names at 1.328, and white names at 1.286. Men had an
+# black names at 1.330, hispanic names at 1.329, and white names at 1.287. Men had an
 # average score of 1.291, whereas women had an average of 1.331. UW had an average score
-# of 1.508 compared to Seattle University's 1.380.
+# of 1.508 compared to Seattle University's 1.382.
 
-# Average recommendation score for experience required prompt hase Asian names at 1.294,
-# black names at 1.327, hispanic names at 1.337, and white names at 1.303. Men had an
-# average score of 1.305, whereas women had an average of 1.325. UW had an average score
-# of 1.493 compared to Seattle University's 1.420.
+# Average recommendation score for experience required prompt hase Asian names at 1.290,
+# black names at 1.325, hispanic names at 1.336, and white names at 1.302. Men had an
+# average score of 1.302, whereas women had an average of 1.324. UW had an average score
+# of 1.488 compared to Seattle University's 1.420.
 
 
 # Jobs did have differing resume scores on average, as well as changed for the experience required prompt,
