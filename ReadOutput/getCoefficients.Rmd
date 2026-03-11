@@ -232,3 +232,61 @@ degreeNo Degree                                   -0.85533605 0.07424530 -11.520
 Dismiss initial screening|weak candidate but pass -0.22023738 0.04136639  -5.324066  1.014728e-07
 weak candidate but pass|good candidate             0.02860215 0.04104893   0.696782  4.859393e-01
 good candidate|top candidate                       0.97411838 0.04384267  22.218499 2.275478e-109
+
+
+
+
+
+
+
+
+
+
+
+
+This is to test individual job and institution combinations
+
+
+
+```{r}
+
+subset_data <- data %>%
+  filter(job_applied == "High School Teacher" & 
+         institution %in% c("University of Washington", "Seattle University")) # Change job_applied to match one wanting to be tested
+
+ 
+
+model_pair <- polr(recommendation_cat ~ institution, data = subset_data,Hess = TRUE)
+ctable<- coef(summary(model_pair))
+
+(pnorm(abs(ctable[, "t value"]), lower.tail = FALSE) * 2)[1]
+
+```
+
+
+Only High School Teacher and SWE were found to be significant for varying institution.
+
+
+
+
+
+
+
+```{r}
+
+# Change job_appliedd to be either High School teacher or SWE, must also run one of the data/prompt above (normal or exp req)
+
+subset_data <- data %>%
+  filter(job_applied == "High School Teacher" & institution %in% c("Seattle University", "University of Washington"))
+
+ 
+model <-polr(recommendation_cat ~ institution, data =subset_data, Hess =TRUE)
+# summary(model)
+
+ctable <-coef(summary(model))
+beta <- ctable["institutionUniversity of Washington", "Value"]
+
+odds_ratio <- exp(beta)
+odds_ratio
+
+```

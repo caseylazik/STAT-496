@@ -177,7 +177,6 @@ An example resume with generated experience from the LLM looks like this:
 
 Where the "metadata" isn't seen by the LLM during evaluation.
 
- [big picture issue: chi square proves dependence but how do we establish what is advantageous? if at all possible]
 
 \subsection{General Output}
 
@@ -192,11 +191,13 @@ Each prompt produced 5040 resumes, with each possible combination of variables g
 \FloatBarrier
 
 \subsection{Methodology}
-To assess the relationship between variables, we primarily used the Chi-squared test of independence. This test is based on the contingency table of two categorical variables. It assumes a null hypothesis that the two variables are independent, with an alternative hypothesis of dependence. 
+To assess the relationship between variables, we primarily used the Chi-squared test of independence. This test is based on the contingency table of two categorical variables. It assumes a null hypothesis that the two variables are independent, with an alternative hypothesis of dependence.
 
 
 In order to express the classifications numerically, we create a recommendation score. Recommendation score is simply converting the ordinal recommendation classes to a 0-3 scale. 0 maps to dismiss initial screening, 1 maps to weak candidate but pass, 2 to good candidate and 3 to top candidate. This was used to mostly for visualizations and for regression modeling, as is appropriate for ordinal classification. 
 
+
+When we found a feature with a statistically significant association with recommendation score, we then applied an ordinal logistic regression model to further examine that relationship. This was done to identify whether these features were an advantage or disadvantage for recommendation score and to what extent.
 
 \subsection{Comparison of Jobs}
 
@@ -259,26 +260,38 @@ University of Washington & 815 & 139 & 325 & 737 \\
 \end{tabular}
 \end{table}
 
-However, there were varying results among each job. The Chi-square tests were performed for each job and prompt, and all but two showed statistically significant evidence of dependence. Those two were the actuary job with the basic prompt and the retail salesperson role with experience required. [big picture issue: chi square proves dependence but how do we establish what is advantageous? if at all possible]
+However, there were varying results among each job. Running ordinal logistic regression specifically for UW versus Seattle University and looking at the p-values for each job and prompt, only the High School Teacher and Software Engineer jobs showed statistically significant evidence of difference between institutions. 
+
+
+
 
  
 \begin{table}[h]
 \centering
-\caption{Results of Chi-Squared Tests on Institution and Recommendation}
+\caption{Results of P-Value Tests on Institution and Recommendation}
 \begin{tabular}{lccccc}
 \hline
 \textbf{Job} & \textbf{Actuary} & \textbf{Software Engineer} & \textbf{Retail} & \textbf{Marketing} & \textbf{H.S. Teacher}\\
 \hline
-Basic & 0.16 & 0 & 0 & 0 & 0 \\
-Experience Required & 0.001 & 0 & 0.102 & 0 & 0 \\
+Basic & 0.83 & 0.000078 & 0.3 & 0.3 & 0.0029 \\
+Experience Required & 0.31 & 0.0002 & 0.5 & 0.36 & 0.0007 \\
 \hline
 \end{tabular}
 \end{table}
 
 
+For the base prompt ordinal logistic regression:
+
+High School teacher candidates from UW had about 1.58 times better odds than Seattle University. Software engineer candidates from UW had about 1.66 times better odds than Seattle University
 
 
-Figure \ref{fig:mean_score_by_job_and_college} shows the mean recommendation score by  institution for each job. University of Washington alumni scored better for all basic prompts, but in the experience required prompt, Seattle University scored for both actuaries and marketing roles. [further test?]
+For the experience required prompt ordinal logistic regression:
+
+High School teacher candidates from UW had about 1.69 times better odds than Seattle University. Software engineer candidates from UW had about 1.59 times better odds than Seattle University
+
+
+
+Figure \ref{fig:mean_score_by_job_and_college} shows the mean recommendation score by  institution for each job. University of Washington alumni scored better for all basic prompts, but in the experience required prompt, Seattle University scored for both actuaries and marketing roles.
 
 \begin{figure}[htp]
     \centering
@@ -344,6 +357,13 @@ mean_score_by_skills_and_job.png}
 % --------------------
 \section{Interpretation of Results}
  
+With prior studies indicating the biases that come from race and sex within LLM use, especially in the sector of resume evaluations, our results might initially seem surprising. While biases will likely always be prsent within the data that these artificial intelligent models are trained on, there are ways to combat it. With how much scrutiny companies have been under thanks to people bringing these issues to light, these companies who make LLMs are incentivised to have innocuous models such that the idea of regulations or restrictions are put on the back foo. We think that because Gemini 3 is a newer model, and more developed than prior models studies have tested, obviouse biases are much fewer than before.
+
+
+\subsection{Future Work}
+
+We implore others to look for more subtle biases that could be lurking from these models.
+
 
 % --------------------
 \section{Appendix}
