@@ -304,7 +304,7 @@ mean_score_by_job_and_college.png}
 
 
 \FloatBarrier
-One specific area we wanted to study how well AI can account for the concept of over-qualification[touch on in intro/background?]. There is evidence that it can account for this nuance. For the job of retail salesperson, where over-qualification is a factor, bachelor's degree holders actually achieved the highest mean recommendation score of 1.389, compared to master's score of just 0.951 in the basic prompt. This gap reduced with the experience required prompt, but a Bachelor's degree was still slightly advantageous. Mean scores can be seen in Figure \ref{fig:mean_score_by_job_and_degree}.
+One specific area we wanted to study how well AI can account for the concept of over-qualification. There is evidence that it can account for this nuance. For the job of retail salesperson, where over-qualification is a factor, bachelor's degree holders actually achieved the highest mean recommendation score of 1.389, compared to master's score of just 0.951 in the basic prompt. This gap reduced with the experience required prompt, but a Bachelor's degree was still slightly advantageous. Mean scores can be seen in Figure \ref{fig:mean_score_by_job_and_degree}.
 
 \begin{figure}[htp]
     \centering
@@ -321,7 +321,7 @@ We then wanted to individually test the three different degrees we had. Therefor
 
 \subsection{Effects of Skills}
 
-In order to evaluate the skills variable, we will focus on individual jobs as each job had its own set of skills. For each job, we conducted a Chi-square test of independence between skills and recommendation. Most jobs produced a p-value of 0, but there were exceptions. For the basic prompt, evidence of dependence was only significant with an $\alpha$ of 0.08. Retail salesperson also did not have significant evidence. All jobs except high school teacher showed significant evidence of dependence in the experience required prompt. These results are shown in table 4[label?]
+In order to evaluate the skills variable, we will focus on individual jobs as each job had its own set of skills. For each job, we conducted a Chi-square test of independence between skills and recommendation. Most jobs produced a p-value of 0, but there were exceptions. For the basic prompt, evidence of dependence was only significant with an $\alpha$ of 0.08. Retail salesperson also did not have significant evidence. All jobs except high school teacher showed significant evidence of dependence in the experience required prompt. These results are shown in table 4
 
 \begin{table}[h]
 \centering
@@ -373,7 +373,7 @@ The skills section is another area that could be expanded upon in future studies
 
 \subsection{Future Work}
 
-We implore others to look for more subtle biases that could be lurking from these models.
+We implore others to look for more subtle biases that could be lurking within these models. While our results did not reveal statistically significant bias based on race or gender indicated by name, this does not necessarily imply that these biases are absent. Future studies could specifically analyze intersectional effects, where multiple demographic indicators interact with each other. Although we removed bias in resume creation by using placeholder names, perhaps this lost us the ability to analyze feature correlation of the resumes. Furthermore, using real resumes could reveal certain biases not seen in our study, like certain writing styles. Additionally, we'd like to see this research be expanded to new levels. Testing rolling admission scenarios and cases where additional information needs to be provided (e.g. a cover letter) could help highlight biases that went under the radar for us. The main thing we ask for is continued studies of this topic. As LLMs are still relatively new and models are constantly being updated, it is of the utmost importance that we keep up to date with our knowledge in how they may perpetuate societal injustice.
 
 
 
