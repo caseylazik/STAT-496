@@ -15,6 +15,7 @@
 \usepackage{hyperref}
 \usepackage{placeins}
 \usepackage{listings}
+\usepackage{booktabs}
 
 % --------------------
 % For the resume example
@@ -192,7 +193,7 @@ Each prompt produced 5040 resumes, with each possible combination of variables g
 \FloatBarrier
 
 \subsection{Methodology}
-To assess the relationship between variables, we primarily used the Chi-squared test of independence. This test is based on the contingency table of two categorical variables. It assumes a null hypothesis that the two variables are independent, with an alternative hypothesis of dependence.
+To assess the relationship between variables, we primarily used the Chi-square test of independence. This test is based on the contingency table of two categorical variables. It assumes a null hypothesis that the two variables are independent, with an alternative hypothesis of dependence.
 
 
 In order to express the classifications numerically, we create a recommendation score. Recommendation score is simply converting the ordinal recommendation classes to a 0-3 scale. 0 maps to dismiss initial screening, 1 maps to weak candidate but pass, 2 to good candidate and 3 to top candidate. This was used to mostly for visualizations and for regression modeling, as is appropriate for ordinal classification. 
@@ -232,7 +233,7 @@ In our ordered logistic regression model of recommendation scores based on exper
 
 For both institution and level of education(i.e none, bachelor's), we found dependence with recommendation with a p-value of 0. For the basic and experience required prompts, the Chi-square values of institution and recommendation were 48.246 and 57.328 respectively. For degree(none, bachelor's or master's) and recommendation, these values were 400.29 and 602.597. 
 
-Based on mean recommendation score, University of Washington(UW) graduates performed better than Seattle University(SU) graduates. In the basic prompt, UW grads had a mean of 1.508 compared to SU grad's 1.382. However, the gap becomes smaller in the experience required prompt, with means of 1.488 and 1.42 for UW and SU respectively. The full contingency tables can be seen below[label?].
+Based on mean recommendation score, University of Washington(UW) graduates performed better than Seattle University(SU) graduates. In the basic prompt, UW grads had a mean of 1.508 compared to SU grad's 1.382. However, the gap becomes smaller in the experience required prompt, with means of 1.488 and 1.42 for UW and SU respectively. The full contingency tables can be seen below.
 
 \begin{table}[h]
 \centering
@@ -281,14 +282,10 @@ Experience Required & 0.31 & 0.0002 & 0.5 & 0.36 & 0.0007 \\
 \end{table}
 
 
-For the base prompt ordinal logistic regression:
-
-High School teacher candidates from UW had about 1.58 times better odds than Seattle University. Software engineer candidates from UW had about 1.66 times better odds than Seattle University
+For the base prompt ordinal logistic regression, high School teacher candidates from UW had about 1.58 times better odds than Seattle University. Software engineer candidates from UW had about 1.66 times better odds than Seattle University
 
 
-For the experience required prompt ordinal logistic regression:
-
-High School teacher candidates from UW had about 1.69 times better odds than Seattle University. Software engineer candidates from UW had about 1.59 times better odds than Seattle University
+For the experience required prompt ordinal logistic regression, high School teacher candidates from UW had about 1.69 times better odds than Seattle University. Software engineer candidates from UW had about 1.59 times better odds than Seattle University
 
 
 
@@ -325,7 +322,7 @@ In order to evaluate the skills variable, we will focus on individual jobs as ea
 
 \begin{table}[h]
 \centering
-\caption{Results of Chi-Squared Tests on Skills and Recommendation}
+\caption{Results of Chi-Square Tests on Skills and Recommendation}
 \begin{tabular}{lccccc}
 \hline
 \textbf{Job} & \textbf{Actuary} & \textbf{Software Engineer} & \textbf{Retail} & \textbf{Marketing} & \textbf{H.S. Teacher}\\
@@ -336,9 +333,7 @@ Experience Required & 0 & 0 & 0 & 0 & 0.215 \\
 \end{tabular}
 \end{table}
 
-All mean recommendation scores can be seen in Figure \ref{fig:mean_score_by_job_and_degree}. Some skills had different results over the different prompts. The most consistent result was microsoft office suite having the lowest mean for the marketing job. Product knowledge had the lowest mean for the retail salesperson job. Java and C++ had the highest mean in the software engineer job. [how much more analysis should we do?]
-
-Actuary skills contingency table was interesting
+All mean recommendation scores can be seen in Figure \ref{fig:mean_score_by_job_and_degree}. Some skills had different results over the different prompts. The most consistent result was microsoft office suite having the lowest mean for the marketing job. Product knowledge had the lowest mean for the retail salesperson job. Java and C++ had the highest mean in the software engineer job.
 
 \begin{figure}[htp]
     \centering
@@ -423,7 +418,182 @@ We implore others to look for more subtle biases that could be lurking within th
     \item Microsoft Office Suite
 \end{itemize}
 
+\subsubsection{Contingency Tables for Main Chi-Square Tests}
 
+\begin{table}[h]
+\centering
+\caption{Race vs Recommendation (Normal Prompt)}
+\begin{tabular}{lcccc}
+\toprule
+Race & Dismiss Initial Screening & Weak Candidate but Pass & Good Candidate & Top Candidate \\
+\midrule
+Asian    & 463 & 173 & 408 & 216 \\
+Black    & 458 & 158 & 414 & 230 \\
+Hispanic & 453 & 172 & 402 & 233 \\
+White    & 474 & 165 & 407 & 214 \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.3cm}
+$\chi^2 = 2.825$, $p = 0.971$
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{Race vs Recommendation (Experience Required Prompt)}
+\begin{tabular}{lcccc}
+\toprule
+Race & Dismiss Initial Screening & Weak Candidate but Pass & Good Candidate & Top Candidate \\
+\midrule
+Asian    & 577 & 87 & 250 & 346 \\
+Black    & 567 & 70 & 269 & 354 \\
+Hispanic & 564 & 68 & 269 & 359 \\
+White    & 573 & 79 & 263 & 345 \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.3cm}
+$\chi^2 = 4.505$, $p = 0.875$
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{Sex vs Recommendation (Normal Prompt)}
+\begin{tabular}{lcccc}
+\toprule
+Sex & Dismiss Initial Screening & Weak Candidate but Pass & Good Candidate & Top Candidate \\
+\midrule
+Female & 916 & 319 & 819 & 466  \\
+Male   & 932 & 349 & 812 & 427  \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.3cm}
+$\chi^2 = 3.219$, $p = 0.359$
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{Sex vs Recommendation (Experience Required Prompt)}
+\begin{tabular}{lcccc}
+\toprule
+Sex & Dismiss Initial Screening & Weak Candidate but Pass & Good Candidate & Top Candidate \\
+\midrule
+Female & 1135 & 150 & 518 & 717 \\
+Male   & 1146 & 154 & 533 & 687  \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.3cm}
+$\chi^2 = 0.961$, $p = 0.811$
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{Experience vs Recommendation (Normal Prompt)}
+\begin{tabular}{lcccc}
+\toprule
+Experience Level & Dismiss... & Weak Candidate... & Good Candidate & Top Candidate \\
+\midrule
+No prior experience... & 1427 & 249 & 4 & 0 \\
+Prior internship/job... & 50 & 65 & 905 & 660 \\
+Relevant research... & 371 & 354 & 722 & 233 \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.3cm}
+$\chi^2 = 3464.556$, $p < 0.001$
+\end{table}
+
+ 
+\begin{table}[h]
+\centering
+\caption{Experience vs Recommendation (Experience Required Prompt)}
+\begin{tabular}{lcccc}
+\toprule
+Experience Level & Dismiss... & Weak Candidate... & Good Candidate & Top Candidate \\
+\midrule
+No prior experience... & 1648 & 32 & 0 & 0 \\
+Prior internship/job... & 72 & 45 & 518 & 1045 \\
+Relevant research... & 561 & 227 & 533 & 359 \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.3cm}
+$\chi^2 = 3676.928$, $p < 0.001$
+\end{table}
+
+
+\begin{table}[h]
+\centering
+\caption{Institution vs Recommendation (Normal Prompt)}
+\begin{tabular}{lcccc}
+\toprule
+Institution & Dismiss... & Weak Candidate... & Good Candidate & Top Candidate \\
+\midrule
+Seattle University & 657 & 272 & 747 & 340 \\
+University of Washington & 621 & 263 & 619 & 513 \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.3cm}
+$\chi^2 = 48.246$, $p < 0.001$
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{Institution vs Recommendation (Experience Required Prompt)}
+\begin{tabular}{lcccc}
+\toprule
+Institution & Dismiss... & Weak Candidate... & Good Candidate & Top Candidate  \\
+\midrule
+Seattle University & 829 & 102 & 495 & 590 \\
+University of Washington & 815 & 139 & 325 & 737 \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.3cm}
+$\chi^2 = 57.328$, $p < 0.001$
+\end{table}
+
+
+
+\begin{table}[t!]
+\centering
+\caption{Degree vs Recommendation (Normal Prompt)}
+\begin{tabular}{lcccc}
+\toprule
+Degree & Dismiss Initial Screening & Weak Candidate but Pass & Good Candidate & Top Candidate \\
+\midrule
+Bachelor's & 574 & 354 & 743 & 345 \\
+Master's  & 704 & 181 & 623 & 508 \\
+No Degree           & 570 & 133 & 265 & 40 \\
+\bottomrule
+\end{tabular}
+
+$\chi^2 = 400.29$, $p < 0.001$
+\end{table}
+
+
+\begin{table}[t!]
+\centering
+\caption{Recommendation by Degree (Experience Required Prompt)}
+\begin{tabular}{lcccc}
+\toprule
+Degree & Dismiss Initial Screening & Weak Candidate but Pass & Good Candidate & Top Candidate \\
+\midrule
+Bachelor's & 818 & 175 & 569 & 454 \\
+Master's & 826 & 66 & 251 & 873 \\
+No Degree           & 637 & 63 & 231 & 77 \\
+\bottomrule
+\end{tabular}
+
+$\chi^2 = 602.597$, $p < 0.001$
+\end{table}
+
+
+
+\FloatBarrier
 \newpage
  
 \begin{thebibliography}{99}
