@@ -36,7 +36,7 @@
 % --------------------
 % Title
 % --------------------
-\title{\textbf{Analyzing Resume Features}}
+\title{\textbf{Evaluating Resume Screening by Large Language Models: A Statistical Analysis of Bias and Resume Features}}
 \author{
 Harry Schuckman,
 Casey Lazik
@@ -55,7 +55,7 @@ Casey Lazik
 \section{Introduction}
 
 \par
-One of the applications that AI is being used most in right now is the hiring process. When you apply for a job, chances are that AI will handle that application in at least some form. Nearly 90\% of companies are using some form of AI in their hiring process, according to the World Economic Forum(Amitabh and Ansari)\cite{wef}. They cite the motivation in part for the increase in the volume of job applications. This isn’t likely to go away either; the same source found that using AI in this manner has dramatically reduced hiring costs. The motivation is understandable; integration of AI saves time, cost, and effort. One common example is the use of AI to screen massive pools of candidates in order to bring the best candidates to the desk of a human in the hiring process(Rigotti and Fosch-Villaronga) \cite{rfv}. Large application volume will probably continue particularly in entry-level jobs based on large rises in unemployment among recent college graduates(Ozkan and Sullivan) \cite{fed_res}.
+One of the applications that AI is being used most in right now is the hiring process. When you apply for a job, chances are that AI will handle that application in at least some form. Nearly 90\% of companies are using some form of AI in their hiring process, according to the World Economic Forum \cite{wef}. They cite the motivation in part for the increase in the volume of job applications. This isn’t likely to go away either; the same source found that using AI in this manner has dramatically reduced hiring costs. The motivation is understandable; integration of AI saves time, cost, and effort. One common example is the use of AI to screen massive pools of candidates in order to bring the best candidates to the desk of a human in the hiring process \cite{rfv}. Large application volume will probably continue particularly in entry-level jobs based on large rises in unemployment among recent college graduates \cite{fed_res}. With the use of LLM screening for jobs, people naturally have considered using them to generate their own resumes. This reduced amount of effort for generating resumes and submitting a job application is another factor in the increase of applicants. An arms race between employers who rely on LLM screening and applicants who are beginning to rely on LLM-generated resumes has developed.
 
 With this new shift in how companies choose to move forward with hiring job applicants, it is important to do further studies on important issues raised in a work by Wilson and Caliskan \cite{caliskan}. That work used real resumes, but edited names to use the most likely names for white and Black men and women, as well as a common, racially ambigous name. Using a minimum of 160 resumes per job from a total pool of approximately 500, they found that LLMs “reinforce societal ‘defaults’” by preferencing white and male applicants. 
 
@@ -68,7 +68,7 @@ We aim to to update these results with a larger pool of resumes as well as expan
 
 We generated 5040 resumes using Gemini 3 Flash Preview, which will encompass the variables we plan to test (name, experience, education, etc). Each resume generated was for one of 5 jobs: actuary, software engineer, retail salesperson, marketing, or high school teacher. This means there are 1008 resumes for each job. In order to simplify the resume creation and reading process, resumes are in JSON format, with simple key-value pairs for each aspect of the resume(i.e name, education, skills). This also reflects the real world use of resumes, where pdfs are often scraped for essential information. 
 
-We used the LLM to create the resumes in JSON format, giving it strict instructions to use given values for each key. For education, we varied institution and years of college. Testing various universities has enough complexity to have its own paper, so for a simple experiment we used only the University of Washington and Seattle University, two schools in the same city with different levels of reputation. For years of college we used 3 possible values: 0, 3-4, and more than 4. Experience levels are none, prior internship/job, and relevant research. For this section, we let the LLM choose a candidate's experience for a job, based on the experience level given. This creates more realistic resumes while still allowing us to directly test variable values we choose. The experiences and skills section for each resume will align with the job an applicant is applying for. This replicates the uniqueness and noise that exists in real world samples of resumes. For full lists of experience and skills inputs, see the Appendix \ref{app:appendix}. Using the Harvard database \cite{harvard_dataset} of probabilities for race associated with first and last names in combination with a UC Irvine database\cite{gender_data} of gender by name, we were able to create names highly associated with the white, Black, Asian, and Hispanic races, as well as male and female identifying names within each race. We created a pool of names with a likelihood of representing each group, and then selected randomly from each pool to replicate real world conditions. Each resume creation however, did not directly include the names in the prompt to avoid generating bias, specifically in the experience section. Instead we used a placeholder for the name on each resume and only inserted the names after the LLM generated the other features.
+We used the LLM to create the resumes in JSON format, giving it strict instructions to use given values for each key. For education, we varied institution and years of college. Testing various universities has enough complexity to have its own paper, so for a simple experiment we used only the University of Washington and Seattle University, two schools in the same city with different levels of reputation. For years of college we used 3 possible values: 0, 3-4, and more than 4. Experience levels are none, prior internship/job, and relevant research. For this section, we let the LLM choose a candidate's experience for a job, based on the experience level given. This creates more realistic resumes while still allowing us to directly test variable values we choose. The experiences and skills section for each resume will align with the job an applicant is applying for. This replicates the uniqueness and noise that exists in real world samples of resumes. For full lists of experience and skills inputs, see the Appendix \ref{app:appendix}. Using the Harvard database \cite{harvard_dataset} of probabilities for race associated with first and last names in combination with a UC Irvine database \cite{gender_data} of gender by name, we were able to create names highly associated with the white, Black, Asian, and Hispanic races, as well as male and female identifying names within each race. We created a pool of names with a likelihood of representing each group, and then selected randomly from each pool to replicate real world conditions. Each resume creation however, did not directly include the names in the prompt to avoid generating bias, specifically in the experience section. Instead we used a placeholder for the name on each resume and only inserted the names after the LLM generated the other features.
 
 
 
@@ -137,6 +137,8 @@ We will refer to this prompt and its results as the experience required prompt o
  
 % --------------------
 \section{Data Analysis}
+
+This section presents our findings for the LLM's evaluations of the generated resumes. We will first give an example of the input by showing one of the 5040 resumes generated. Afterwards, we will discuss the output structure and decisions we made for our analysis. Then we analyze how different resume features (experience, education, skills, etc.) affect the recommendation outcomes returned by Gemini 3, and give our results.
 
 An example resume with generated experience from the LLM looks like this:
 \begin{singlespace}
@@ -217,21 +219,23 @@ mean_score_by_job_applied.png}
 \FloatBarrier
 
 \subsection{Analysis of Race Based Names}
-Our analysis concluded that when using Gemini 3 Flash Preview, race did not have a statistically significant effect on the resume evaluations for our prompts with an $\alpha$ of 0.05. In the case of the basic prompt without requiring experience, when doing a Chi-Square test of independence we got a p-value of 0.971 when testing for race. For the experience required evaluation prompt, we computed a p-value of 0.875 for race. In every case, the p-values exceeded 0.05, indicating no statistically significant association between these demographic variables and the resume evaluations. This was also true for each specific job description.
+Our analysis concluded that when using Gemini 3 Flash Preview, race did not have a statistically significant effect on the resume evaluations for our prompts with an $\alpha$ of 0.05. In the case of the basic prompt without requiring experience, when doing a Chi-Square test of independence we got a p-value of 0.971 when testing for race. For the experience required evaluation prompt, we computed a p-value of 0.875 for race. In both cases, the p-values exceeded 0.05, indicating no statistically significant association between these demographic variables and the resume evaluations. This was also true for each specific job description (see Table 15 in the Appendix).
 
 \subsection{Analysis of Gender Based Names}
 
-Our analysis of the effects of gender on resume evaluation also found that no statistically significant correlation. In the case of the basic prompt without requiring experience, when doing a Chi-Square test of independence we got a p-value of 0.359 when testing for sex. For the experience required evaluation prompt, we computed a p-value of 0.811 for sex. In every case, the p-values exceeded 0.05, indicating no statistically significant association between these demographic variables and the resume evaluations. This was also true for each specific job description.
+Our analysis of the effects of gender on resume evaluation also found that no statistically significant correlation. In the case of the basic prompt without requiring experience, when doing a Chi-Square test of independence we got a p-value of 0.359 when testing for sex. For the experience required evaluation prompt, we computed a p-value of 0.811 for sex. In both cases, the p-values exceeded 0.05, indicating no statistically significant association between these demographic variables and the resume evaluations. This was also true for each specific job description (see Table 16 in the Appendix).
 
 \subsection{Effects of Experience}
 
-We found that experience does have a significant impact on recommendation. Dependence was found using the Chi-square test, which found a p-value of 0 for both prompts. This result held across each specific job. The Chi-square value for the basic prompt was 3464.556, and for experience required it was 3676.928. 
+We found that experience does have a significant impact on recommendation. Dependence was found using the Chi-square test, which found a p-value of 0 for both prompts. This result held across each specific job.
 
-In our ordered logistic regression model of recommendation scores based on experience level and years attended at an institution (which are independent), both models for each prompt showed an enormous preference for candidates with past internships/jobs or research. In the experience required prompt, with significant p-values, candidates with prior internship/job experiences had over 2000 times the odds of a higher resume ranking than those without any relevant experience. Those with research experience were over 200 times more likely to get a better ranking than those without any experience. With statistical significance, resumes with internship/job experience had about 10 times the odds of receiving a better ranking than those with research experience. As expected, these values were smaller in the base prompt where experience wasn't emphasized. These values were still significant though and we found that for the base prompt, people with relevant internship/job experience had about 324 times the odds of ranking better than those without any experience. Additionally, those with relevant research had 42 times the odds than those without any experience. The difference between having relevant job experience versus relevant research experience was also significant for the base prompt, where candidates with internship/job experience had about 7.6 times the odds of a better evaluation.
+In our ordered logistic regression model of recommendation scores based on experience level and years attended at an institution (which are independent), both models for each prompt showed an enormous preference for candidates with past internships/jobs or research. In the experience required prompt, with significant p-values, candidates with prior internship/job experiences had over 2000 times the odds of a higher resume ranking than those without any relevant experience. Those with research experience were over 200 times more likely to get a better ranking than those without any experience. With statistical significance, resumes with internship/job experience had about 10 times the odds of receiving a better ranking than those with research experience. As expected, these values were smaller in the base prompt where experience wasn't emphasized. This indicates that the model is working and can make meaningful distinctions between candidates. So the lack of statistical significance for demographic features is reflective of race/sex not being important to the LLM.
+ 
+These values for the normal prompt were still significant though and we found that for the base prompt, people with relevant internship/job experience had about 324 times the odds of ranking better than those without any experience. Additionally, those with relevant research had 42 times the odds than those without any experience. The difference between having relevant job experience versus relevant research experience was also significant for the base prompt, where candidates with internship/job experience had about 7.6 times the odds of a better evaluation.
 
 \subsection{Effects of Education}
 
-For both institution and level of education(i.e none, bachelor's), we found dependence with recommendation with a p-value of 0. For the basic and experience required prompts, the Chi-square values of institution and recommendation were 48.246 and 57.328 respectively. For degree(none, bachelor's or master's) and recommendation, these values were 400.29 and 602.597. 
+For both institution and level of education(i.e none, bachelor's), we found dependence with recommendation with a p-value of 0.
 
 Based on mean recommendation score, University of Washington(UW) graduates performed better than Seattle University(SU) graduates. In the basic prompt, UW grads had a mean of 1.508 compared to SU grad's 1.382. However, the gap becomes smaller in the experience required prompt, with means of 1.488 and 1.42 for UW and SU respectively. The full contingency tables can be seen below.
 
@@ -262,7 +266,7 @@ University of Washington & 815 & 139 & 325 & 737 \\
 \end{tabular}
 \end{table}
 
-However, there were varying results among each job. Running ordinal logistic regression specifically for UW versus Seattle University and looking at the p-values for each job and prompt, only the High School Teacher and Software Engineer jobs showed statistically significant evidence of difference between institutions. 
+However, there were varying results among each job. Running ordinal logistic regression specifically for UW versus Seattle University and looking at the p-values for each job and prompt, only the High School Teacher and Software Engineer jobs showed statistically significant evidence of difference between institutions (as seen below in Table 3). 
 
 
 
@@ -282,10 +286,10 @@ Experience Required & 0.31 & 0.0002 & 0.5 & 0.36 & 0.0007 \\
 \end{table}
 
 
-For the base prompt ordinal logistic regression, high School teacher candidates from UW had about 1.58 times better odds than Seattle University. Software engineer candidates from UW had about 1.66 times better odds than Seattle University
+For the base prompt ordinal logistic regression, high School teacher candidates from UW had about 1.58 times better odds than Seattle University. Software engineer candidates from UW had about 1.66 times better odds than Seattle University, reflecting the strong reputation of the Paul G. Allen School of Computer Science & Engineering at UW.
 
 
-For the experience required prompt ordinal logistic regression, high School teacher candidates from UW had about 1.69 times better odds than Seattle University. Software engineer candidates from UW had about 1.59 times better odds than Seattle University
+For the experience required prompt ordinal logistic regression, high School teacher candidates from UW had about 1.69 times better odds than Seattle University. Software engineer candidates from UW had about 1.59 times better odds than Seattle University.
 
 
 
@@ -301,7 +305,7 @@ mean_score_by_job_and_college.png}
 
 
 \FloatBarrier
-One specific area we wanted to study how well AI can account for the concept of over-qualification. There is evidence that it can account for this nuance. For the job of retail salesperson, where over-qualification is a factor, bachelor's degree holders actually achieved the highest mean recommendation score of 1.389, compared to master's score of just 0.951 in the basic prompt. This gap reduced with the experience required prompt, but a Bachelor's degree was still slightly advantageous. Mean scores can be seen in Figure \ref{fig:mean_score_by_job_and_degree}.
+One specific area we wanted to study was how well LLMs could account for the concept of over-qualification. There is evidence that it can account for this nuance. For the job of retail salesperson, where over-qualification is a factor, bachelor's degree holders actually achieved the highest mean recommendation score of 1.389, compared to master's score of just 0.951 in the basic prompt. This gap reduced with the experience required prompt, but a Bachelor's degree was still slightly advantageous. Mean scores can be seen in Figure \ref{fig:mean_score_by_job_and_degree}.
 
 \begin{figure}[htp]
     \centering
@@ -318,7 +322,7 @@ We then wanted to individually test the three different degrees we had. Therefor
 
 \subsection{Effects of Skills}
 
-In order to evaluate the skills variable, we will focus on individual jobs as each job had its own set of skills. For each job, we conducted a Chi-square test of independence between skills and recommendation. Most jobs produced a p-value of 0, but there were exceptions. For the basic prompt, evidence of dependence was only significant with an $\alpha$ of 0.08. Retail salesperson also did not have significant evidence. All jobs except high school teacher showed significant evidence of dependence in the experience required prompt. These results are shown in table 4
+In order to evaluate the skills variable, we will focus on individual jobs as each job had its own set of skills. For each job, we conducted a Chi-square test of independence between skills and recommendation. Most jobs produced a p-value of 0, but there were exceptions. All jobs except actuary and retail showed significant evidence of dependence in the base prompt. All jobs except high school teacher showed significant evidence of dependence in the experience required prompt. These results are seen below:
 
 \begin{table}[h]
 \centering
@@ -353,20 +357,64 @@ mean_score_by_skills_and_job.png}
 
 Importantly, our analysis found that race and gender indicated by name was not a significant factor in resume evaluation. Instead, experience, education institution, level of education, and skills were most influential on resume score. Experience seemed to be the most important factor, with internship/job experience the most favorable, followed by research experience. This was true for both prompts we tested, so it goes without saying that the experience required prompt performed as expected. Still, experience was even more important for that prompt, so Gemini was able to understand and apply this instruction.
  
-With prior studies indicating the biases that come from race and sex within LLM use, especially in the sector of resume evaluations, our results might initially seem surprising. While biases will likely always be present within the data that these artificial intelligent models are trained on, there are ways to combat it. With how much scrutiny companies have been under thanks to people bringing these issues to light, these companies who make LLMs are incentivized to have innocuous models such that the idea of regulations or restrictions are put on the back foo. We think that because Gemini 3 is a newer model, and more developed than prior models studies have tested, obvious biases are much fewer than before.
+With prior studies indicating the biases that come from race and sex within LLM use, especially in the sector of resume evaluations, our results might initially seem surprising. While biases will likely always be present within the data that these artificial intelligent models are trained on, there are ways to combat it. With how much scrutiny companies have been under thanks to people bringing these issues to light, these companies who make LLMs are incentivized to have innocuous models such that the idea of regulations or restrictions are put on the back foot. We think that because Gemini 3 is a newer model, and more developed than prior models studies have tested, obvious biases are much fewer than before.
 
-For educational factors, college attended and degree obtained, were significant factors, although degree seemed to be a bigger factor. Based on the contingency tables of institution vs recommendation, institution attended(Washington vs Seattle U.) seemed to mostly be used to differentiate between good candidates and top candidates. In the basic prompt output, Gemini mentioned Washington alums having a degree from a "reputable" or "top"\cite{gemini} institution in its reasoning, with no mention of institution for Seattle U. candidates. Attending a top university helps, but it's more the cherry on top than the deciding factor. It's also worth noting that for the experience required prompt with the actuary job, we found significant evidence of Seattle U. graduates actually having higher mean recommendation scores than Washington graduates. This illustrates the element of randomness that exists with these tools, where changes to a prompt or other context can create unexpected consequences. For only this prompt, Gemini began to describe Seattle U. as "reputable" as well, although not as frequently as Washington. We don't know what causes an LLM to prefer one school to another or what elements of the prompt change how schools are viewed.  
+For educational factors, college attended and degree obtained, were significant factors, although degree seemed to be a bigger factor. Based on the contingency tables of institution vs recommendation, institution attended (Washington vs Seattle U.) seemed to mostly be used to differentiate between good candidates and top candidates. In the basic prompt output, Gemini mentioned Washington alums having a degree from a ``reputable'' or ``top'' \cite{gemini} institution in its reasoning, with no mention of institution for Seattle U. candidates. Attending a top university helps, but it's more the cherry on top than the deciding factor. It's also worth noting that for the experience required prompt with the actuary job, we found significant evidence of Seattle U. graduates actually having higher mean recommendation scores than Washington graduates. This illustrates the element of randomness that exists with these tools, where changes to a prompt or other context can create unexpected consequences. For only this prompt, Gemini began to describe Seattle U. as "reputable" as well, although not as frequently as Washington. We don't know what causes an LLM to prefer one school to another or what elements of the prompt change how schools are viewed.  
 
-Degree was an important factor, with clear evidence of a significant relationship between degree and recommendation. However, no degree was the category that had the most impact, obviously significantly lowering the odds of getting a recommendation. In fact, the difference between a bachelor's and master's degree was only significant in the experience required prompt, which seemed to value a master's more. However, this varied by job description. Gemini was able to account for candidates being over-qualified, an important tool for wide spread use. We included the retail salesperson job because we wanted to have a job that typically does not require a college degree, and the LLM noticed this. It preferred a bachelor's degree to a master's degree and no degrees under the normal prompt. This preference is is due to an avoidance of overqualified applicants. The reason given by Gemini for one of the retail applications with a master's was "The candidate lacks professional work experience and appears overqualified for an entry-level retail role with a Master's degree."\cite{gemini} 
+Degree was an important factor, with clear evidence of a significant relationship between degree and recommendation. However, no degree was the category that had the most impact, obviously significantly lowering the odds of getting a recommendation. In fact, the difference between a bachelor's and master's degree was only significant in the experience required prompt, which seemed to value a master's more. However, this varied by job description. Gemini was able to account for candidates being over-qualified, an important tool for wide spread use. We included the retail salesperson job because we wanted to have a job that typically does not require a college degree, and the LLM's output reflected this. It preferred a bachelor's degree to a master's degree and no degrees under the normal prompt. This preference is is due to an avoidance of overqualified applicants. The reason given by Gemini for one of the retail applications with a master's was ``The candidate lacks professional work experience and appears overqualified for an entry-level retail role with a Master's degree.'' \cite{gemini} 
 
 The skills section was also an important factor, although for 3 of 5 job descriptions the Chi-square test results were insignificant at the 0.05 level for at least one prompt. This is another variable in which the results were mixed, with preferences changing for different prompts for some jobs. Based on the reasoning in the output, Gemini could differentiate between hard skills and soft skills and seemed to prefer hard, technical skills. However, our experimental design was not built to test this specifically, so we don't have significant evidence. 
 
-The skills section is another area that could be expanded upon in future studies. We were limited with the number of resumes we could use to do computational limits and fully exploring the skills section would create countless varieties of resumes. One significant short coming of our design was that each candidate had one skill on their resume. This seemed to be unimpressive to Gemini, with one reason output being "the candidate has no listed work experience and provides only one general skill, making them a high-risk hire despite their college degree."\cite{gemini} Perhaps listing several skills would give a resume a massive advantage, but this a question for a future experiment.
+The skills section is another area that could be expanded upon in future studies. We were limited with the number of resumes we could use to do computational limits and fully exploring the skills section would create countless varieties of resumes. One significant short coming of our design was that each candidate had one skill on their resume. This seemed to be unimpressive to Gemini, with one reason output being ``the candidate has no listed work experience and provides only one general skill, making them a high-risk hire despite their college degree.'' \cite{gemini} Perhaps listing several skills would give a resume a massive advantage, but this a question for a future experiment.
 
 
 \subsection{Future Work}
 
 We implore others to look for more subtle biases that could be lurking within these models. While our results did not reveal statistically significant bias based on race or gender indicated by name, this does not necessarily imply that these biases are absent. Future studies could specifically analyze intersectional effects, where multiple demographic indicators interact with each other. Although we removed bias in resume creation by using placeholder names, perhaps this lost us the ability to analyze feature correlation of the resumes. Furthermore, using real resumes could reveal certain biases not seen in our study, like certain writing styles. Additionally, we'd like to see this research be expanded to new levels. Testing rolling admission scenarios and cases where additional information needs to be provided (e.g. a cover letter) could help highlight biases that went under the radar for us. The main thing we ask for is continued studies of this topic. As LLMs are still relatively new and models are constantly being updated, it is of the utmost importance that we keep up to date with our knowledge in how they may perpetuate societal injustice.
+
+
+
+
+
+
+\newpage
+ 
+\begin{thebibliography}{99}
+
+
+
+\bibitem{wef}
+Amitabh, Utkarsh, and Ali Ansari. “Hiring with AI Doesn’t Have to Be so Inhumane. Here’s How.” \textit{World Economic Forum}, 28 Mar. 2025, www.weforum.org/stories/2025/03/ai-hiring-human-touch-recruitment/. 
+
+\bibitem{gender_data}
+
+\textit{"Gender by Name."} UCI Machine Learning Repository, 2020, https://doi.org/10.24432/C55G7X.
+
+\bibitem{gemini}
+Google Deepmind. \textit{Gemini 3 Flash}. Google AI for Developers, 2025, https://aistudio.google.com/models/gemini-3
+
+\bibitem{fed_res}
+Ozkan, Serdar, and Nicholas Sullivan. “Recent College Grads Bear Brunt of Labor Market Shifts.”\textit{Federal Reserve Bank of St. Louis}, 22 Aug. 2025, www.stlouisfed.org/on-the-economy/2025/aug/recent-college-grads-bear-brunt-labor-market-shifts. 
+
+\bibitem{rfv}
+Rigotti, Carlotta, and Eduard Fosch-Villaronga. “Fairness, AI \& Recruitment.” \textit{Computer Law \& Security Review} , vol. 53, 2024, p. 105966. https://doi.org/10.1016/j.clsr.2024.105966
+.
+
+\bibitem{harvard_dataset}
+Rosenman, Evan, et al. \textit{Race and Ethnicity Data for First, Middle, and Last Names}. V9, Harvard Dataverse, 2022, doi:10.7910/DVN/SGKW0K.
+ 
+
+\bibitem{caliskan}
+Wilson, Kyra, and Aylin Caliskan. “Gender, Race, and Intersectional Bias in Resume Screening via Language Model Retrieval.” \textit{arXiv}, 2024, https://arxiv.org/abs/2407.20371 .
+
+
+
+
+\end{thebibliography}
+
+
+
+\newpage
 
 
 
@@ -593,42 +641,39 @@ No Degree & 637 & 63 & 231 & 77 \\
 $\chi^2 = 602.597$, $p < 0.001$
 \end{table}
 
+\begin{table}[h]
+\centering
+\caption{P-values for Statistical Significance of Race by Job and Prompt}
+\begin{tabular}{lcc}
+\hline
+\textbf{Job} & \textbf{Basic Prompt} & \textbf{Experience Required Prompt} \\
+\hline
+Actuary & 0.935  & 0.963 \\
+Software Engineer & 0.865  & 0.356 \\
+High School Teacher & 1  & 0.861  \\
+Marketing & 0.963  & 0.883 \\
+Retail Salesperson & 0.957  & 0.933  \\
+\hline
+\end{tabular}
+\label{tab:pvalues_by_job}
+\end{table}
 
-
-\newpage
- 
-\begin{thebibliography}{99}
-
-
-
-\bibitem{wef}
-Amitabh, Utkarsh, and Ali Ansari. “Hiring with AI Doesn’t Have to Be so Inhumane. Here’s How.” \textit{World Economic Forum}, 28 Mar. 2025, www.weforum.org/stories/2025/03/ai-hiring-human-touch-recruitment/. 
-
-\bibitem{gender_data}
-
-\textit{"Gender by Name."} UCI Machine Learning Repository, 2020, https://doi.org/10.24432/C55G7X.
-
-\bibitem{gemini}
-Google Deepmind. \textit{Gemini 3 Flash}. Google AI for Developers, 2025, https://aistudio.google.com/models/gemini-3
-
-\bibitem{fed_res}
-Ozkan, Serdar, and Nicholas Sullivan. “Recent College Grads Bear Brunt of Labor Market Shifts.”\textit{Federal Reserve Bank of St. Louis}, 22 Aug. 2025, www.stlouisfed.org/on-the-economy/2025/aug/recent-college-grads-bear-brunt-labor-market-shifts. 
-
-\bibitem{rfv}
-Rigotti, Carlotta, and Eduard Fosch-Villaronga. “Fairness, AI \& Recruitment.” \textit{Computer Law \& Security Review} , vol. 53, 2024, p. 105966. https://doi.org/10.1016/j.clsr.2024.105966
-.
-
-\bibitem{harvard_dataset}
-Rosenman, Evan, et al. \textit{Race and Ethnicity Data for First, Middle, and Last Names}. V9, Harvard Dataverse, 2022, doi:10.7910/DVN/SGKW0K.
- 
-
-\bibitem{caliskan}
-Wilson, Kyra, and Aylin Caliskan. “Gender, Race, and Intersectional Bias in Resume Screening via Language Model Retrieval.” \textit{arXiv}, 2024, https://arxiv.org/abs/2407.20371 .
-
-
-
-
-\end{thebibliography}
+\begin{table}[h]
+\centering
+\caption{P-values for Statistical Significance of Sex by Job and Prompt}
+\begin{tabular}{lcc}
+\hline
+\textbf{Job} & \textbf{Basic Prompt} & \textbf{Experience Required Prompt} \\
+\hline
+Actuary & 0.846  & 0.968 \\
+Software Engineer & 0.781  & 0.46 \\
+High School Teacher & 0.985  & 0.691  \\
+Marketing & 0.201  & 0.914  \\
+Retail Salesperson & 0.869  & 0.725  \\
+\hline
+\end{tabular}
+\label{tab:pvalues_by_job}
+\end{table}
 
 
 \end{document}
