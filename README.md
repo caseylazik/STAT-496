@@ -1,4 +1,4 @@
-STAT 496 Project
+Analyzing-LLM-Resume-Rankings
 
 Authors - Casey Lazik, Harry Schuckman
 
